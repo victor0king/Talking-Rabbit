@@ -94,3 +94,4 @@ Open **http://localhost:8000**
 Frontend: HTML5, CSS3, vanilla JS, Chart.js, Web Speech API
 Backend: FastAPI, SQLAlchemy, MySQL, Pandas, NumPy, scikit-learn
 AI: Anthropic API (Claude) with tool-calling for grounded conversational analytics
+# Talking-Rabbit
