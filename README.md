@@ -1,98 +1,170 @@
 # Talking Rabbitt — AI-Powered Business Intelligence Dashboard
 
+> **Research-grade schema degradation benchmarking platform** with conversational AI analytics,
+> unsupervised ML clustering, time-series forecasting, and auto-generated executive reports.
+
 An AI-powered "talking dashboard" that ingests business spreadsheets, automatically
 analyzes them, and lets users converse with the data in natural language — by text
 or voice — instead of reading static charts.
 
-## What it does
+---
 
-1. **Upload** a CSV/Excel file — it's cleaned (nulls filled, duplicates dropped,
-   dates parsed) and its columns are automatically classified.
-2. **Dashboard** — KPI cards, trend charts, top/worst performers, and anomaly
-   detection are generated automatically, no configuration needed.
-3. **Ask Rabbitt** — a chat assistant (text or voice) that calls real analytics
-   functions as LLM tools, so every answer is grounded in your actual data.
-4. **Forecast** — projects any numeric metric forward using scikit-learn
-   linear regression on the historical trend.
-5. **Executive report** — an auto-generated business health summary with
-   risks, strengths, weaknesses, and prioritized recommendations.
+## ✨ Features
 
-## Architecture
+### Core Analytics
+- **CSV/Excel Upload** — drag-and-drop with auto-cleaning (null imputation, deduplication, date parsing, column type classification)
+- **KPI Dashboard** — auto-generated cards, trend charts, top/worst performers, and anomaly detection
+- **Ask Rabbitt** — conversational AI chat (text or voice) with LLM tool-calling grounded in your actual data
+- **Forecast** — Prophet-style seasonality + trend and Linear Regression baselines with uncertainty bands
+- **Executive Report** — auto-generated business health summary with risks, strengths, and prioritized recommendations
+
+### Advanced ML & Analytics
+- **DBSCAN Clustering** — unsupervised density-based clustering with PCA 2D projections, Silhouette scoring, and segment profiling
+- **Isolation Forest** — anomaly detection with contamination controls and outlier scoring
+- **Correlation Matrix** — Pearson correlation heatmaps with strong-correlation flagging
+- **Z-Score Analysis** — statistical outlier detection across numeric columns
+
+### Research & Benchmarking
+- **Schema Degradation Benchmarking** — 750-trial suite across 5 SME datasets (Sales, Inventory, Finance, Customer, Operations)
+- **D0–D4 Degradation Pipeline** — progressive schema corruption: abbreviations, type noise, decoy columns, cryptic encoding
+- **Statistical Analysis** — Wilson score confidence intervals, Cochran-Armitage trend tests, Cohen's kappa inter-run stability
+- **Research Demo Page** — interactive visualization of degradation architecture and degraded schema previews
+- **CSV Export** — download full benchmark results for external analysis
+
+---
+
+## 🏗 Architecture
 
 ```
-frontend/          HTML5 + CSS3 + vanilla JS (no framework, no build step)
+frontend/            HTML5 + CSS3 + vanilla JS (no framework, no build step)
+├── css/             Stylesheets with dark glassmorphism theme
+├── js/              Per-page scripts (dashboard, chat, forecast, benchmark, clustering, etc.)
+└── *.html           11 pages (home, dashboard, chat, upload, forecast, report, benchmark,
+                     research, clustering, login, sign_up)
+
 backend/
-  main.py          FastAPI app entrypoint
-  config.py        Environment configuration
-  database.py      SQLAlchemy engine/session (MySQL)
-  models.py        ORM models (datasets, chat_history, reports, recommendations, forecasts)
-  schemas.py       Pydantic request/response contracts
-  crud.py          All DB reads/writes
-  routes/          One file per feature area (upload, analytics, chat, forecast, recommendation, voice)
-  services/        Business logic — zero HTTP/DB knowledge, pure functions
-    pandas_processor.py     cleaning, typing, KPIs — pure pandas
-    analytics_engine.py     trends, anomalies, comparisons, risk detection
-    forecast_engine.py      scikit-learn regression forecasting
-    recommendation_engine.py rule-based recommendations grounded in analytics
-    report_engine.py        executive summary assembly
-    chat_engine.py          LLM tool-calling orchestration (Anthropic API)
-    visualization_engine.py shapes analytics output into Chart.js-ready specs
-    dataset_cache.py        in-memory + parquet cache of cleaned dataframes
-  utils/           logger, validators, generic helpers
-database/schema.sql MySQL DDL (matches models.py)
+├── main.py          FastAPI app entrypoint with CORS, static file serving
+├── config.py        Environment configuration (Settings class)
+├── database.py      SQLAlchemy engine with MySQL→SQLite auto-fallback
+├── models.py        ORM models (Dataset, ChatHistory, Report, Forecast, User, BenchmarkResult)
+├── schemas.py       Pydantic request/response contracts
+├── crud.py          All DB reads/writes
+├── routes/          One file per feature area
+│   ├── upload.py    File upload + cleaning pipeline
+│   ├── analytics.py KPI dashboard data
+│   ├── chat.py      Conversational AI endpoint
+│   ├── forecast.py  Time-series forecasting
+│   ├── clustering.py DBSCAN + anomaly detection
+│   ├── benchmark.py Schema degradation benchmark runner + export
+│   └── ...
+├── services/        Business logic (pure functions, no HTTP/DB knowledge)
+│   ├── pandas_processor.py     Data cleaning, typing, KPIs
+│   ├── analytics_engine.py     Trends, anomalies, comparisons, risk detection
+│   ├── forecast_engine.py      Prophet-style + linear regression forecasting
+│   ├── benchmark_runner.py     750-trial benchmark execution engine
+│   ├── benchmark_scorer.py     Classification scoring (CBW, hedging, tolerance)
+│   ├── statistics_engine.py    Wilson CI, trend tests, kappa
+│   ├── schema_degrader.py      D0–D4 degradation pipeline
+│   ├── clustering_engine.py    DBSCAN + PCA + Silhouette
+│   ├── anomaly_engine.py       Z-score + Isolation Forest
+│   ├── correlation_engine.py   Pearson correlation matrix
+│   ├── chat_engine.py          LLM tool-calling orchestration
+│   └── ...
+└── utils/           Logger, validators, helpers
+
+benchmark/
+├── datasets/        30 CSV files (5 domains × 6 levels: clean + D0–D4)
+├── questions.json   30 benchmark questions + 15 ambiguous probes
+├── ground_truth.json Ground truth values for scoring
+├── demo_results.json Pre-generated 750-trial results
+└── generate_sme_benchmark.py  Dataset + degradation generator
+
+storage/             SQLite DB + parquet cache (auto-created)
 ```
 
-**Key design decision:** MySQL stores only *metadata* — dataset info, chat
-history, reports, recommendations, forecasts. The actual cleaned dataframe
-lives in memory and as a parquet cache file, keyed by `dataset_id`. This
-keeps every analytics/chat request fast without hammering the database.
+**Key design:** The database stores only *metadata* — dataset info, chat history, reports, forecasts, benchmark results. The actual cleaned dataframes live in-memory and as parquet caches, keeping analytics fast.
 
-## How the conversational AI works
+---
 
-The chat engine exposes the analytics functions (`get_trend`, `detect_anomalies`,
-`compare_dimension`, `top_bottom_performers`, `forecast_metric`) to the LLM as
-tools. When a user asks "why did sales drop?", the model decides which tool(s)
-to call, the backend executes them against the real dataframe, and the results
-are fed back to the LLM to produce a grounded natural-language answer plus a
-matching chart. If no `ANTHROPIC_API_KEY` is set, the app still runs — chat
-falls back to a clear message and the Dashboard/Forecast/Report pages work
-independently.
+## 🚀 Quick Start
 
-## Setup
-
-### 1. Install dependencies
+### 1. Clone & install
 ```bash
+git clone https://github.com/victor0king/Talking-Rabbit.git
+cd Talking-Rabbit
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Set up MySQL
-```bash
-mysql -u root -p < database/schema.sql
-```
-Or let the app create tables automatically on first run (it calls
-`Base.metadata.create_all()` on startup) — just make sure the
-`talking_rabbitt` database itself exists first:
-```sql
-CREATE DATABASE talking_rabbitt;
-```
-
-### 3. Configure environment
+### 2. Configure (optional)
 ```bash
 cp .env.example .env
-# edit .env with your MySQL credentials and ANTHROPIC_API_KEY
+# Edit .env with your MySQL credentials and API keys
+# If no MySQL is available, SQLite is used automatically
 ```
 
-### 4. Run
+### 3. Run
 ```bash
 cd backend
 uvicorn main:app --reload --port 8000
 ```
+
 Open **http://localhost:8000**
 
-## Tech stack
+> **No MySQL?** No problem — the app auto-falls back to SQLite at `storage/talking_rabbitt.db`.
+> **No API key?** Chat falls back gracefully; Dashboard, Forecast, Report, Benchmark, and Clustering all work independently.
 
-Frontend: HTML5, CSS3, vanilla JS, Chart.js, Web Speech API
-Backend: FastAPI, SQLAlchemy, MySQL, Pandas, NumPy, scikit-learn
-AI: Anthropic API (Claude) with tool-calling for grounded conversational analytics
-# Talking-Rabbit
-# Talking-Rabbit
+---
+
+## 📊 Schema Degradation Benchmark
+
+The benchmark evaluates LLM resilience to progressively degraded data schemas:
+
+| Level | Description | Example |
+|-------|-------------|---------|
+| **D0** | Ambiguous questions on clean data | "What's the total revenue?" (multiple revenue columns) |
+| **D1** | Column name abbreviations | `revenue` → `rev`, `quantity` → `qty` |
+| **D2** | Type noise + format corruption | Dates as epoch, currency as text ("$2,400") |
+| **D3** | Decoy columns injected | Plausible-sounding fake columns added |
+| **D4** | Cryptic encoding | Column names replaced with codes (`COL_A1`, `FLD_X9`) |
+
+**750 trials** across 5 SME domains with Wilson score confidence intervals and Cochran-Armitage trend analysis.
+
+---
+
+## 🧪 API Endpoints
+
+| Method | Path | Description |
+|--------|------|-------------|
+| `GET` | `/health` | Health check |
+| `POST` | `/api/upload` | Upload CSV/Excel |
+| `GET` | `/api/analytics/dashboard/{id}` | Dashboard KPIs |
+| `POST` | `/api/chat` | Chat with data |
+| `POST` | `/api/forecast/run` | Run forecast |
+| `POST` | `/api/clustering/run` | DBSCAN clustering |
+| `GET` | `/api/benchmark/results` | Benchmark results |
+| `POST` | `/api/benchmark/run-single` | Run single probe |
+| `GET` | `/api/benchmark/export-csv` | Export results CSV |
+| `GET` | `/api/research/architecture` | Degradation architecture |
+| `GET` | `/api/research/preview-degraded` | Preview degraded data |
+
+---
+
+## 🛠 Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Frontend | HTML5, CSS3, vanilla JS, Chart.js, Web Speech API |
+| Backend | FastAPI, SQLAlchemy, Uvicorn |
+| Database | MySQL (primary) / SQLite (auto-fallback) |
+| Analytics | Pandas, NumPy, scikit-learn, SciPy |
+| ML | DBSCAN, Isolation Forest, PCA, Linear Regression, Fourier decomposition |
+| AI | Anthropic API (Claude) with tool-calling |
+| Fonts | Space Grotesk, Inter, JetBrains Mono |
+
+---
+
+## 📄 License
+
+MIT

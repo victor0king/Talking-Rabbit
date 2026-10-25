@@ -100,3 +100,24 @@ class User(Base):
     email = Column(String(255), unique=True, nullable=False, index=True)
     password = Column(String(255), nullable=False)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
+
+
+class BenchmarkResult(Base):
+    __tablename__ = "benchmark_results"
+
+    id = Column(Integer, primary_key=True, index=True)
+    trial_id = Column(String(100), nullable=False, index=True)
+    run_id = Column(Integer, default=1)
+    dataset = Column(String(50), nullable=False)
+    level = Column(String(10), nullable=False)
+    question_id = Column(String(100), nullable=False)
+    question_text = Column(Text, nullable=False)
+    question_type = Column(String(50), nullable=True)
+    ground_truth_value = Column(String(500), nullable=True)
+    system_answer = Column(Text, nullable=True)
+    classification = Column(String(50), nullable=False)   # correct, cbw, hedged_incorrect, explicit_failure
+    is_correct = Column(Integer, default=0)                # 0 or 1
+    is_cbw = Column(Integer, default=0)
+    latency_ms = Column(Integer, default=0)
+    created_at = Column(DateTime(timezone=True), server_default=func.now())
+

@@ -5,9 +5,13 @@ FastAPI router for Schema Degradation Benchmark endpoints:
   - GET  /api/benchmark/results
   - POST /api/benchmark/run-single
   - POST /api/benchmark/run
+  - GET  /api/benchmark/export-csv
 """
+import csv
+import io
 from typing import Optional
 from fastapi import APIRouter, Query, HTTPException
+from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 from services.benchmark_runner import benchmark_runner
@@ -79,3 +83,35 @@ def trigger_benchmark_run(payload: RunAllRequest):
         "message": f"Benchmark suite executed successfully for dataset '{payload.dataset}' across {payload.runs} runs.",
         "data": res,
     }
+
+
+@router.get("/export-csv")
+def export_benchmark_csv(
+    dataset: Optional[str] = Query("all", description="Filter by dataset"),
+    level: Optional[str] = Query("all", description="Filter by degradation level"),
+):
+    """
+    Exports benchmark trial results as a downloadable CSV file for research reproducibility.
+    """
+    res = benchmark_runner.get_results(filter_dataset=dataset, filter_level=level)
+    if "error" in res:
+        raise HTTPException(status_code=404, detail=res["error"])
+
+    trials = res.get("trials_sample", [])
+
+    output = io.StringIO()
+    if trials:
+        fieldnames = list(trials[0].keys())
+        writer = csv.DictWriter(output, fieldnames=fieldnames)
+        writer.writeheader()
+        for trial in trials:
+            writer.writerow(trial)
+
+    output.seek(0)
+    filename = f"talking_rabbitt_benchmark_{dataset}_{level}.csv"
+    return StreamingResponse(
+        iter([output.getvalue()]),
+        media_type="text/csv",
+        headers={"Content-Disposition": f"attachment; filename={filename}"},
+    )
+
