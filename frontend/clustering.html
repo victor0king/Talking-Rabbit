@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clustering &amp; ML — Talking Rabbitt</title>
+<meta name="description" content="Unsupervised DBSCAN clustering, PCA 2D projections, Silhouette analysis, and Isolation Forest anomaly scoring.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css?v=1.2.0">
+<link rel="stylesheet" href="/css/benchmark.css?v=1.2.0">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="app-shell">
+  <div id="sidebar-mount"></div>
+
+  <div class="main">
+    <div class="topbar">
+      <div>
+        <div class="topbar-title">Clustering &amp; Machine Learning Analysis</div>
+        <div class="topbar-sub">Unsupervised DBSCAN grouping, PCA 2D projections, and density cluster profiling</div>
+      </div>
+      <div style="display:flex; align-items:center; gap:12px;">
+        <div class="dataset-pill" data-dataset-pill></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <!-- Control & Parameter Card -->
+      <div class="bench-filters-bar" style="margin-bottom:24px;">
+        <div class="filter-group">
+          <span class="filter-label"><i class="ti ti-database"></i> Source Data:</span>
+          <select id="clusterSource" class="filter-select">
+            <option value="active">Active Selected Dataset</option>
+            <option value="sales">Sales SME Benchmark</option>
+            <option value="customer">Customer SME Benchmark</option>
+            <option value="inventory">Inventory SME Benchmark</option>
+            <option value="finance">Finance SME Benchmark</option>
+            <option value="operations">Operations SME Benchmark</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Epsilon (ε):</span>
+          <input type="range" id="epsRange" min="0.2" max="2.0" step="0.1" value="0.6" style="cursor:pointer;">
+          <span id="epsValue" class="mono" style="font-size:13px; color:var(--signal); width:32px;">0.6</span>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Min Samples:</span>
+          <input type="number" id="minSamplesInput" min="2" max="30" value="5" class="filter-select" style="width:70px;">
+        </div>
+
+        <button id="btnRunClustering" class="btn btn-primary" style="height:34px;">
+          <i class="ti ti-refresh"></i> Run DBSCAN
+        </button>
+      </div>
+
+      <!-- KPI Summary Cards -->
+      <div class="grid grid-4" style="margin-bottom:24px;">
+        <div class="card kpi-card">
+          <div class="card-title"><i class="ti ti-circles"></i> Clusters Discovered</div>
+          <div class="kpi-value" id="kpiClusters" style="color:var(--signal);">--</div>
+          <div class="stat-tag">Density-Connected Partitions</div>
+        </div>
+
+        <div class="card kpi-card">
+          <div class="card-title"><i class="ti ti-sparkles"></i> Silhouette Score</div>
+          <div class="kpi-value" id="kpiSilhouette">--</div>
+          <div class="stat-tag">Separation Quality [-1 to +1]</div>
+        </div>
+
+        <div class="card kpi-card">
+          <div class="card-title"><i class="ti ti-antenna"></i> Outliers / Noise Points</div>
+          <div class="kpi-value" id="kpiNoise" style="color:var(--danger);">--</div>
+          <div class="stat-tag" id="kpiNoiseRate">--% of total points</div>
+        </div>
+
+        <div class="card kpi-card">
+          <div class="card-title"><i class="ti ti-dimensions"></i> PCA Variance Explained</div>
+          <div class="kpi-value" id="kpiPcaVariance" style="font-size:22px;">--%</div>
+          <div class="stat-tag">Principal Components 1 &amp; 2</div>
+        </div>
+      </div>
+
+      <!-- Main Visualizations Grid -->
+      <div class="grid grid-2" style="margin-bottom:24px;">
+        <!-- 2D PCA Scatter Plot -->
+        <div class="card">
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+            <div>
+              <div class="card-title"><i class="ti ti-chart-dots"></i> DBSCAN 2D PCA Dimensionality Projection</div>
+              <div style="font-size:12px; color:var(--text-muted);">Points colored by cluster assignment; noise points rendered in grey/red</div>
+            </div>
+            <span class="bench-badge correct">Unsupervised</span>
+          </div>
+          <div style="height:340px; position:relative;">
+            <canvas id="pcaScatterChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Cluster Sizes Bar Chart -->
+        <div class="card">
+          <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+            <div>
+              <div class="card-title"><i class="ti ti-chart-bar"></i> Cluster Membership Distribution</div>
+              <div style="font-size:12px; color:var(--text-muted);">Relative volume of records categorized into each spatial group</div>
+            </div>
+          </div>
+          <div style="height:340px; position:relative;">
+            <canvas id="clusterSizesChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cluster Profiles Table -->
+      <div class="card">
+        <div class="card-title" style="font-size:15px; font-weight:600; margin-bottom:6px;"><i class="ti ti-list-details"></i> Cluster Centroid &amp; Segment Profiles</div>
+        <div style="font-size:12px; color:var(--text-muted); margin-bottom:16px;">
+          Mean feature signatures characterizing each customer or operational cohort
+        </div>
+
+        <div class="bench-table-wrap">
+          <table class="bench-table">
+            <thead>
+              <tr id="clusterProfilesHeader">
+                <th>Cluster Segment</th>
+                <th>Record Count</th>
+                <th>Proportion</th>
+                <!-- Dynamically populated feature columns -->
+              </tr>
+            </thead>
+            <tbody id="clusterProfilesBody">
+              <!-- Dynamically populated via clustering.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/js/app.js"></script>
+<script src="/js/clustering.js"></script>
+</body>
+</html>

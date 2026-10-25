@@ -1,0 +1,751 @@
+c10,amt_code_2,c11,fld_09x,c12,asgn_user,c13,DUR_HRS,c14,dt,c15
+100.0,Completed,Engineering,15.6h,High,Taylor Swift,20.5%,4.20,TSK-50000,01/01/2024,FLAGGED
+100.0,Completed,Finance,38.1h,High,Morgan Riley,94.6%,12.7,TSK-50001,01-01-2024,VERIFIED
+100.0,In Progress,Finance,29.5h,High,Taylor Swift,66.5%,5,TSK-50002,2024-01-01,VERIFIED
+100.0,In Progress,Engineering,24.3h,High,Alex Mercer,40.1%,15.50,TSK-50003,01/02/2024,FLAGGED
+100.0,In Progress,Finance,7.1h,Low,Alex Mercer,22.5%,42.10,TSK-50004,01/02/2024,OK
+100.0,In Progress,Finance,7.1h,Critical,Sam Chen,81.5%,17.0,TSK-50005,01-03-2024,OK
+100.0,Completed,Finance,3.3h,High,Morgan Riley,65.8%,27.2,TSK-50006,2024-01-03,VERIFIED
+87.8%,Completed,Operations,34.8h,High,Dana White,58.0%,21.1,TSK-50007,2024-01-04,OK
+37.3,Completed,HR,24.4h,Medium,Taylor Swift,90.5%,22.3,TSK-50008,01/04/2024,FLAGGED
+79.7,Completed,Finance,28.6h,High,Alex Mercer,81.0%,46.6,TSK-50009,05/01/2024,OK
+100.0%,In Progress,HR,1.8h,High,Dana White,23.7%,14.60,TSK-50010,01/05/2024,VERIFIED
+10.8,Completed,HR,38.8h,Critical,Jordan Lee,38.1%,30.30,TSK-50011,01/06/2024,FLAGGED
+100.0%,Review,Operations,33.5h,High,Dana White,32.4%,20.5,TSK-50012,01/06/2024,OK
+100.0%,In Progress,HR,9.3h,Critical,Taylor Swift,77.0%,3.4,TSK-50013,01/07/2024,PENDING
+100.0,Blocked,Sales,8.1h,Medium,Morgan Riley,13.0%,23.7,TSK-50014,01-07-2024,FLAGGED
+100.0%,Review,Marketing,8.2h,Critical,Sam Chen,61.3%,39.1,TSK-50015,2024-01-08,FLAGGED
+100.0,Completed,Operations,12.9h,Medium,Taylor Swift,78.6%,5.20,TSK-50016,01-08-2024,PENDING
+10.3,In Progress,Marketing,21.5h,Medium,Morgan Riley,88.9%,3.8,TSK-50017,01-09-2024,PENDING
+100.0,Completed,Sales,17.8h,Medium,Alex Mercer,40.8%,7.80,TSK-50018,01-09-2024,FLAGGED
+100.0%,Completed,Engineering,12.4h,High,Alex Mercer,83.9%,36.8,TSK-50019,01/10/2024,PENDING
+100.0%,In Progress,Engineering,24.9h,High,Dana White,20.0%,34.9,TSK-50020,10/01/2024,VERIFIED
+100.0,Completed,Finance,6.4h,Critical,Taylor Swift,86.2%,27.3,TSK-50021,2024-01-11,VERIFIED
+100.0,Review,Engineering,12.4h,Medium,Alex Mercer,21.5%,22.7,TSK-50022,11/01/2024,VERIFIED
+100.0,In Progress,Operations,15.3h,Medium,Jordan Lee,45.8%,42.7,TSK-50023,01-12-2024,FLAGGED
+74.6%,In Progress,Engineering,18.8h,High,Jordan Lee,81.8%,36.90,TSK-50024,01-12-2024,PENDING
+100.0,Completed,Operations,31.6h,Medium,Sam Chen,23.5%,39.1,TSK-50025,13/01/2024,PENDING
+100.0,In Progress,Operations,8.8h,Medium,Dana White,30.6%,39.1,TSK-50026,13/01/2024,OK
+74.7,Completed,Marketing,21.1h,Medium,Alex Mercer,75.0%,31.0,TSK-50027,14/01/2024,OK
+77.1%,In Progress,Engineering,24.1h,Critical,Sam Chen,74.8%,22.30,TSK-50028,01-14-2024,PENDING
+89.1,Completed,HR,2.8h,Medium,Jordan Lee,67.7%,41.6,TSK-50029,01-15-2024,PENDING
+100.0,In Progress,Engineering,24.7h,Critical,Sam Chen,72.5%,44.50,TSK-50030,2024-01-15,PENDING
+100.0,Completed,Engineering,7.7h,Medium,Sam Chen,58.8%,1.60,TSK-50031,2024-01-16,FLAGGED
+100.0%,Completed,Engineering,3.5h,High,Alex Mercer,32.7%,2.9,TSK-50032,01-16-2024,PENDING
+20.0,Completed,Finance,38.0h,Critical,Alex Mercer,41.1%,46,TSK-50033,17/01/2024,OK
+29.7,Completed,HR,38.7h,Low,Alex Mercer,26.3%,13.7,TSK-50034,17/01/2024,FLAGGED
+100.0%,In Progress,HR,32.5h,Medium,Dana White,91.8%,42.0,TSK-50035,2024-01-18,PENDING
+100.0,Completed,Operations,12.9h,High,Sam Chen,62.5%,19.0,TSK-50036,01-18-2024,OK
+86.8,Completed,HR,4.8h,Critical,Sam Chen,46.1%,6.2,TSK-50037,2024-01-19,FLAGGED
+100.0%,Completed,Operations,27.7h,Medium,Dana White,51.6%,4.3,TSK-50038,2024-01-19,PENDING
+100.0%,Completed,Marketing,18.2h,Low,Jordan Lee,95.3%,7.90,TSK-50039,01/20/2024,PENDING
+100.0,Completed,Operations,5.8h,Medium,Taylor Swift,23.8%,12.40,TSK-50040,01/20/2024,PENDING
+100.0%,In Progress,Engineering,20.3h,Low,Jordan Lee,62.8%,23.7,TSK-50041,01/20/2024,FLAGGED
+25.1,Completed,Sales,2.3h,Critical,Dana White,55.5%,33.8,TSK-50042,21/01/2024,OK
+100.0%,Completed,Sales,36.5h,Medium,Sam Chen,65.0%,47.4,TSK-50043,01-21-2024,OK
+100.0,Completed,Finance,11.1h,Medium,Sam Chen,11.6%,21.5,TSK-50044,01-22-2024,VERIFIED
+100.0%,Completed,Engineering,26.8h,Medium,Alex Mercer,88.5%,25.10,TSK-50045,01-22-2024,PENDING
+100.0,Completed,Operations,13.2h,Critical,Alex Mercer,93.9%,25.3,TSK-50046,01-23-2024,VERIFIED
+100.0,Completed,Engineering,21.3h,Medium,Sam Chen,60.9%,26.10,TSK-50047,01/23/2024,VERIFIED
+100.0,In Progress,Finance,22.3h,Medium,Sam Chen,72.7%,25.1,TSK-50048,24/01/2024,OK
+100.0,Completed,HR,8.2h,Medium,Morgan Riley,93.0%,0.9,TSK-50049,24/01/2024,FLAGGED
+68.0%,Completed,Operations,38.8h,Medium,Alex Mercer,73.7%,0.6,TSK-50050,01/25/2024,FLAGGED
+55.1,Completed,Engineering,31.2h,Medium,Alex Mercer,23.7%,5.10,TSK-50051,25/01/2024,OK
+100.0%,Completed,HR,37.6h,Medium,Jordan Lee,61.9%,5.30,TSK-50052,01/26/2024,FLAGGED
+100.0%,Review,Finance,35.9h,High,Sam Chen,64.6%,34,TSK-50053,01-26-2024,VERIFIED
+17.1%,Completed,HR,24.3h,High,Sam Chen,48.2%,10.2,TSK-50054,01/27/2024,PENDING
+100.0,Review,Operations,37.0h,Medium,Dana White,76.3%,43 units,TSK-50055,01-27-2024,OK
+34.2,Completed,Finance,4.5h,Low,Jordan Lee,94.1%,44.6,TSK-50056,01-28-2024,PENDING
+100.0,Completed,Finance,8.6h,Critical,Taylor Swift,93.3%,46.90,TSK-50057,2024-01-28,FLAGGED
+54.2,Completed,Finance,2.8h,Medium,Taylor Swift,50.6%,45.1,TSK-50058,01/29/2024,PENDING
+82.4%,Completed,Marketing,13.7h,High,Taylor Swift,20.2%,13.4,TSK-50059,2024-01-29,FLAGGED
+70.1,Completed,Finance,16.2h,High,Morgan Riley,98.6%,24.70,TSK-50060,01/30/2024,FLAGGED
+62.9,Completed,Marketing,11.6h,Medium,Alex Mercer,85.5%,8.80,TSK-50061,01/30/2024,VERIFIED
+52.2,Completed,HR,33.3h,Medium,Taylor Swift,21.2%,38.8,TSK-50062,2024-01-31,FLAGGED
+100.0%,Completed,Marketing,14.9h,Critical,Dana White,92.9%,42.70,TSK-50063,2024-01-31,VERIFIED
+100.0,Completed,HR,12.0h,Medium,Alex Mercer,88.3%,40.90,TSK-50064,02/01/2024,VERIFIED
+100.0,Completed,Marketing,22.2h,Medium,Alex Mercer,56.7%,21.1,TSK-50065,01/02/2024,VERIFIED
+35.4%,Blocked,HR,6.5h,Low,Taylor Swift,63.2%,36.5,TSK-50066,02-02-2024,OK
+20.1%,Completed,HR,32.3h,High,Alex Mercer,45.9%,5.1,TSK-50067,2024-02-02,OK
+100.0,In Progress,Finance,3.9h,Medium,Jordan Lee,14.9%,2.4,TSK-50068,02-03-2024,FLAGGED
+100.0,Completed,Finance,39.5h,High,Jordan Lee,40.2%,36.30,TSK-50069,03/02/2024,VERIFIED
+44.8%,Completed,HR,31.1h,High,Taylor Swift,82.3%,20.70,TSK-50070,04/02/2024,OK
+100.0,Completed,Finance,8.7h,Medium,Dana White,10.4%,47.8,TSK-50071,04/02/2024,VERIFIED
+100.0%,Completed,HR,1.2h,Medium,Alex Mercer,40.0%,5.1,TSK-50072,2024-02-05,PENDING
+12.4,Completed,Finance,32.8h,Critical,Sam Chen,45.8%,41.1,TSK-50073,05/02/2024,PENDING
+100.0,Completed,Sales,28.6h,Low,Taylor Swift,58.4%,23.3,TSK-50074,2024-02-06,PENDING
+100.0,Completed,Marketing,29.4h,Medium,Morgan Riley,92.8%,39.80,TSK-50075,06/02/2024,FLAGGED
+100.0,Completed,HR,31.1h,Medium,Alex Mercer,41.2%,39.3,TSK-50076,02-07-2024,VERIFIED
+100.0%,Blocked,Engineering,3.9h,Medium,Taylor Swift,41.2%,44,TSK-50077,02-07-2024,PENDING
+100.0%,Completed,Finance,15.0h,High,Taylor Swift,76.4%,14.60,TSK-50078,02/08/2024,OK
+100.0,Completed,Finance,5.5h,Medium,Dana White,50.7%,45.60,TSK-50079,02-08-2024,PENDING
+100.0,Completed,Operations,34.7h,High,Sam Chen,30.2%,7.70,TSK-50080,02/08/2024,PENDING
+100.0,Blocked,Engineering,25.3h,Low,Alex Mercer,50.7%,4.4,TSK-50081,02-09-2024,PENDING
+100.0%,Completed,Engineering,13.9h,High,Taylor Swift,22.7%,21.0,TSK-50082,2024-02-09,FLAGGED
+100.0%,Completed,Sales,3.5h,High,Taylor Swift,25.9%,39.8,TSK-50083,02-10-2024,OK
+27.9%,Review,Marketing,13.1h,Medium,Alex Mercer,54.9%,23.0,TSK-50084,02/10/2024,VERIFIED
+100.0,In Progress,Sales,13.7h,High,Taylor Swift,47.7%,39.90,TSK-50085,02/11/2024,OK
+46.8%,Completed,Marketing,29.5h,High,Taylor Swift,92.3%,35.20,TSK-50086,11/02/2024,VERIFIED
+45.6,Completed,HR,25.9h,High,Taylor Swift,42.6%,10.4,TSK-50087,2024-02-12,FLAGGED
+100.0,In Progress,Sales,35.6h,Low,Jordan Lee,62.3%,45.60,TSK-50088,02-12-2024,FLAGGED
+13.8,In Progress,Operations,19.4h,Medium,Jordan Lee,66.9%,3.4,TSK-50089,13/02/2024,FLAGGED
+100.0%,Completed,Marketing,5.7h,High,Sam Chen,11.2%,43.20,TSK-50090,02-13-2024,FLAGGED
+60.1,Completed,Sales,28.8h,High,Dana White,69.7%,15.0,TSK-50091,02-14-2024,VERIFIED
+100.0,Completed,Operations,30.7h,High,Alex Mercer,26.0%,24.30,TSK-50092,14/02/2024,PENDING
+56.7,Completed,Engineering,22.9h,Medium,Dana White,96.5%,20.6,TSK-50093,15/02/2024,VERIFIED
+100.0,In Progress,Finance,31.1h,Medium,Dana White,23.4%,8.7,TSK-50094,15/02/2024,OK
+16.6,Completed,HR,20.3h,Critical,Jordan Lee,47.3%,17.5,TSK-50095,16/02/2024,FLAGGED
+100.0,Review,HR,21.4h,High,Sam Chen,17.7%,9.70,TSK-50096,16/02/2024,FLAGGED
+90.2%,In Progress,Engineering,17.7h,High,Dana White,99.7%,10.2,TSK-50097,02-17-2024,OK
+100.0%,Completed,Sales,2.0h,High,Dana White,55.2%,9.4,TSK-50098,17/02/2024,VERIFIED
+18.4,Completed,Finance,5.2h,High,Taylor Swift,63.6%,23.7,TSK-50099,2024-02-18,PENDING
+100.0,Completed,Engineering,2.2h,Medium,Alex Mercer,16.0%,38.4,TSK-50100,02/18/2024,PENDING
+100.0,Completed,Operations,25.8h,High,Sam Chen,77.5%,27.5,TSK-50101,19/02/2024,OK
+100.0,In Progress,Finance,13.3h,Medium,Alex Mercer,28.9%,42.9,TSK-50102,19/02/2024,PENDING
+82.7%,Completed,Marketing,20.8h,Medium,Jordan Lee,90.8%,30.7,TSK-50103,02-20-2024,VERIFIED
+100.0%,Completed,Sales,36.4h,High,Dana White,28.5%,33.2,TSK-50104,20/02/2024,VERIFIED
+10.0,Completed,Finance,10.7h,Medium,Dana White,27.2%,32.2,TSK-50105,21/02/2024,OK
+100.0,In Progress,Marketing,17.0h,Medium,Morgan Riley,13.3%,21.80,TSK-50106,21/02/2024,VERIFIED
+85.0%,Completed,Engineering,30.5h,High,Alex Mercer,52.5%,33.20,TSK-50107,02-22-2024,FLAGGED
+100.0,Completed,HR,9.9h,Medium,Jordan Lee,60.8%,3.8,TSK-50108,22/02/2024,OK
+100.0%,In Progress,Finance,4.0h,High,Morgan Riley,15.9%,41.3,TSK-50109,02/23/2024,VERIFIED
+11.7,Completed,Finance,12.3h,Low,Morgan Riley,79.8%,37.4,TSK-50110,02-23-2024,OK
+100.0%,In Progress,Marketing,7.3h,Medium,Taylor Swift,50.8%,12.1,TSK-50111,02/24/2024,PENDING
+100.0,Completed,Marketing,37.3h,Medium,Morgan Riley,57.2%,37 units,TSK-50112,02-24-2024,VERIFIED
+100.0%,Review,HR,32.5h,Low,Morgan Riley,49.7%,1.1,TSK-50113,25/02/2024,FLAGGED
+100.0,Completed,Marketing,25.7h,Medium,Taylor Swift,46.1%,10.80,TSK-50114,02/25/2024,VERIFIED
+100.0%,Completed,Marketing,35.0h,Medium,Dana White,60.4%,3.6,TSK-50115,02-26-2024,OK
+74.4%,Completed,Finance,32.3h,Medium,Dana White,24.0%,37.60,TSK-50116,2024-02-26,OK
+100.0%,Completed,HR,8.3h,High,Sam Chen,26.4%,36.4,TSK-50117,27/02/2024,VERIFIED
+100.0,Completed,HR,35.8h,Medium,Morgan Riley,87.6%,39.1,TSK-50118,02-27-2024,FLAGGED
+100.0,Completed,Finance,22.0h,Critical,Alex Mercer,95.2%,0.7,TSK-50119,2024-02-27,FLAGGED
+100.0%,Review,Engineering,32.5h,Critical,Dana White,43.6%,24.3,TSK-50120,02-28-2024,FLAGGED
+100.0,Review,Engineering,35.9h,Medium,Jordan Lee,34.4%,34,TSK-50121,2024-02-28,OK
+40.7,Completed,Finance,13.4h,Critical,Alex Mercer,68.0%,7.9,TSK-50122,29/02/2024,VERIFIED
+72.7,Completed,Marketing,5.3h,High,Sam Chen,46.8%,31.40,TSK-50123,02/29/2024,PENDING
+100.0%,Completed,Sales,9.9h,Medium,Morgan Riley,12.3%,4.5,TSK-50124,2024-03-01,OK
+44.1,In Progress,Engineering,17.7h,Critical,Taylor Swift,24.1%,9.1,TSK-50125,03-01-2024,FLAGGED
+100.0%,Completed,Engineering,32.9h,High,Sam Chen,74.4%,23.1,TSK-50126,02/03/2024,VERIFIED
+16.0%,Completed,Finance,34.6h,Medium,Alex Mercer,69.3%,31.5,TSK-50127,2024-03-02,FLAGGED
+100.0,In Progress,Finance,1.3h,Medium,Taylor Swift,12.4%,7.4,TSK-50128,03-03-2024,PENDING
+75.2%,In Progress,Sales,20.9h,Medium,Jordan Lee,30.0%,9.3,TSK-50129,03-03-2024,FLAGGED
+100.0,Completed,Sales,17.3h,Medium,Taylor Swift,30.8%,10.2,TSK-50130,03-04-2024,FLAGGED
+100.0,Review,HR,9.7h,Medium,Taylor Swift,70.5%,11.8,TSK-50131,2024-03-04,PENDING
+100.0,Review,Finance,5.7h,Medium,Jordan Lee,11.8%,11.30,TSK-50132,2024-03-05,VERIFIED
+100.0,Completed,Engineering,14.2h,High,Dana White,19.4%,19.30,TSK-50133,2024-03-05,OK
+100.0%,Completed,Operations,37.8h,Medium,Dana White,82.0%,31.60,TSK-50134,03/06/2024,VERIFIED
+100.0%,Review,Operations,13.6h,Low,Taylor Swift,26.1%,21.3,TSK-50135,2024-03-06,PENDING
+100.0,Completed,Marketing,21.2h,High,Taylor Swift,68.7%,37.4,TSK-50136,2024-03-07,FLAGGED
+16.1%,Completed,Engineering,28.4h,High,Sam Chen,31.4%,34.70,TSK-50137,2024-03-07,VERIFIED
+100.0%,Completed,Operations,15.2h,Critical,Dana White,18.9%,6.5,TSK-50138,03/08/2024,OK
+100.0%,Blocked,Engineering,38.9h,Medium,Jordan Lee,31.9%,2.80,TSK-50139,2024-03-08,PENDING
+100.0%,In Progress,Finance,38.5h,Critical,Morgan Riley,75.0%,42.2,TSK-50140,03-09-2024,VERIFIED
+88.4%,Completed,Engineering,10.8h,Medium,Morgan Riley,87.0%,4.3,TSK-50141,2024-03-09,OK
+14.3%,Review,Operations,20.4h,Medium,Taylor Swift,84.7%,7.5,TSK-50142,03-10-2024,PENDING
+100.0,In Progress,Engineering,12.7h,Medium,Taylor Swift,45.7%,1.6,TSK-50143,03-10-2024,OK
+100.0,Blocked,Sales,12.1h,High,Morgan Riley,70.1%,30.3,TSK-50144,03-11-2024,PENDING
+100.0,Completed,Marketing,2.4h,Medium,Sam Chen,28.4%,28.20,TSK-50145,03/11/2024,FLAGGED
+50.7%,Completed,HR,24.8h,High,Sam Chen,36.4%,47.40,TSK-50146,03/12/2024,VERIFIED
+100.0%,In Progress,Operations,20.6h,Medium,Sam Chen,90.7%,42.6,TSK-50147,03/12/2024,OK
+100.0%,Completed,Finance,3.0h,Medium,Alex Mercer,11.2%,20.0,TSK-50148,2024-03-13,PENDING
+100.0,In Progress,HR,11.9h,High,Jordan Lee,17.7%,18.2,TSK-50149,03-13-2024,OK
+100.0,In Progress,Marketing,36.4h,Low,Alex Mercer,28.7%,14.6,TSK-50150,03/14/2024,OK
+100.0%,Completed,Sales,10.3h,High,Taylor Swift,12.4%,7.7,TSK-50151,03/14/2024,VERIFIED
+71.5,In Progress,Sales,6.7h,Low,Sam Chen,26.3%,7.1,TSK-50152,2024-03-15,FLAGGED
+100.0%,Completed,Sales,20.1h,Critical,Sam Chen,62.5%,6.8,TSK-50153,03/15/2024,OK
+100.0,Completed,Sales,39.4h,High,Morgan Riley,47.9%,5.9,TSK-50154,2024-03-16,PENDING
+100.0,Completed,Operations,10.4h,High,Morgan Riley,90.3%,11.90,TSK-50155,16/03/2024,PENDING
+100.0,Completed,Operations,27.2h,Critical,Sam Chen,83.6%,15.1,TSK-50156,03/17/2024,FLAGGED
+100.0,Completed,Engineering,30.7h,Medium,Dana White,40.8%,46.20,TSK-50157,17/03/2024,PENDING
+43.4,In Progress,Finance,10.3h,Medium,Morgan Riley,33.3%,28.0,TSK-50158,2024-03-17,FLAGGED
+100.0%,In Progress,Engineering,29.4h,Medium,Jordan Lee,44.2%,47.4,TSK-50159,03-18-2024,PENDING
+100.0,Completed,Finance,15.3h,High,Alex Mercer,63.1%,18.20,TSK-50160,03/18/2024,VERIFIED
+100.0%,In Progress,Marketing,25.7h,High,Jordan Lee,34.1%,22.2,TSK-50161,2024-03-19,OK
+100.0,Completed,Engineering,25.7h,Medium,Morgan Riley,66.2%,15.9,TSK-50162,03-19-2024,VERIFIED
+100.0,Completed,Marketing,21.9h,High,Sam Chen,46.8%,9.20,TSK-50163,03-20-2024,OK
+100.0,Completed,Marketing,4.5h,Medium,Taylor Swift,59.7%,7.30,TSK-50164,20/03/2024,OK
+100.0,Completed,Marketing,33.6h,Medium,Dana White,49.3%,45.4,TSK-50165,2024-03-21,OK
+100.0,In Progress,Sales,13.5h,Critical,Morgan Riley,36.5%,47.4,TSK-50166,03-21-2024,VERIFIED
+100.0,Completed,HR,8.3h,Medium,Jordan Lee,95.4%,2.6,TSK-50167,03/22/2024,OK
+100.0,In Progress,HR,2.6h,Medium,Taylor Swift,78.7%,7.6,TSK-50168,03/22/2024,VERIFIED
+100.0%,In Progress,Operations,24.0h,Medium,Morgan Riley,22.6%,20.6,TSK-50169,23/03/2024,FLAGGED
+28.5%,Review,Marketing,27.4h,High,Sam Chen,88.2%,9.4,TSK-50170,03-23-2024,PENDING
+100.0%,Completed,Sales,1.6h,High,Sam Chen,53.9%,17.8,TSK-50171,2024-03-24,PENDING
+100.0%,Completed,Engineering,21.0h,High,Sam Chen,90.5%,6.6,TSK-50172,03/24/2024,OK
+100.0,Completed,Engineering,9.8h,High,Sam Chen,82.0%,22.2,TSK-50173,03-25-2024,VERIFIED
+100.0%,Review,Operations,26.2h,High,Morgan Riley,48.3%,13.40,TSK-50174,03-25-2024,PENDING
+100.0,Completed,Operations,7.8h,Medium,Dana White,12.0%,17.20,TSK-50175,26/03/2024,VERIFIED
+74.5%,Completed,Marketing,27.9h,Medium,Dana White,34.2%,5.0,TSK-50176,03/26/2024,VERIFIED
+76.7%,Completed,Marketing,16.1h,Medium,Jordan Lee,58.7%,20.8,TSK-50177,03/27/2024,OK
+100.0,Completed,Engineering,37.5h,High,Morgan Riley,67.0%,47.2,TSK-50178,2024-03-27,PENDING
+100.0,Completed,Engineering,6.4h,Low,Sam Chen,33.2%,16.10,TSK-50179,03/28/2024,OK
+100.0,Completed,Engineering,14.3h,High,Dana White,22.5%,42.10,TSK-50180,2024-03-28,OK
+100.0,Completed,Engineering,5.4h,Medium,Morgan Riley,85.1%,40.60,TSK-50181,03/29/2024,PENDING
+88.4,Completed,HR,37.1h,Low,Taylor Swift,98.6%,45.70,TSK-50182,29/03/2024,PENDING
+42.0%,Completed,Marketing,35.2h,Medium,Dana White,57.3%,38.0,TSK-50183,03/30/2024,FLAGGED
+53.0,Completed,Marketing,11.1h,Low,Dana White,25.5%,31.80,TSK-50184,2024-03-30,FLAGGED
+100.0,Completed,Engineering,26.7h,Medium,Jordan Lee,34.5%,41.2,TSK-50185,2024-03-31,VERIFIED
+100.0,Review,Sales,32.9h,High,Dana White,11.7%,4.1,TSK-50186,31/03/2024,PENDING
+40.9%,Completed,Engineering,22.7h,High,Taylor Swift,92.3%,22.50,TSK-50187,04/01/2024,FLAGGED
+31.9,In Progress,Finance,21.7h,High,Sam Chen,20.6%,47.5,TSK-50188,04/01/2024,VERIFIED
+73.8%,Completed,Operations,10.4h,Critical,Alex Mercer,61.9%,37.1,TSK-50189,02/04/2024,VERIFIED
+100.0%,Review,Finance,4.6h,Medium,Jordan Lee,34.7%,46.20,TSK-50190,04/02/2024,VERIFIED
+100.0%,Completed,Sales,36.0h,High,Taylor Swift,59.9%,37.5,TSK-50191,04/03/2024,FLAGGED
+100.0,Completed,Operations,36.1h,Medium,Jordan Lee,68.6%,42.1,TSK-50192,2024-04-03,PENDING
+100.0,Completed,Sales,25.7h,High,Morgan Riley,84.7%,34.1,TSK-50193,04/04/2024,OK
+100.0,In Progress,Operations,14.2h,High,Sam Chen,28.6%,36.60,TSK-50194,04/04/2024,VERIFIED
+100.0,Completed,Engineering,14.6h,Low,Dana White,11.0%,25.4,TSK-50195,05/04/2024,FLAGGED
+100.0,Completed,Engineering,29.3h,High,Morgan Riley,22.3%,44.4,TSK-50196,05/04/2024,FLAGGED
+100.0%,Completed,Sales,36.0h,Medium,Dana White,91.0%,39.70,TSK-50197,04-06-2024,OK
+100.0%,Completed,Operations,35.6h,Medium,Taylor Swift,88.7%,40.6,TSK-50198,2024-04-06,OK
+100.0,Completed,HR,31.4h,High,Sam Chen,63.8%,32.5,TSK-50199,04/06/2024,FLAGGED
+38.9%,Completed,Sales,26.0h,Medium,Alex Mercer,64.0%,15.0,TSK-50200,04/07/2024,PENDING
+100.0,Completed,Sales,4.3h,High,Alex Mercer,69.9%,2.20,TSK-50201,04-07-2024,OK
+100.0,Completed,Finance,7.3h,Medium,Dana White,25.8%,44.9,TSK-50202,04/08/2024,FLAGGED
+46.4,In Progress,Marketing,36.0h,Medium,Morgan Riley,92.3%,28.30,TSK-50203,2024-04-08,OK
+44.3,Completed,Sales,24.7h,High,Sam Chen,47.7%,14.70,TSK-50204,04-09-2024,PENDING
+100.0,Completed,HR,1.4h,Medium,Sam Chen,44.5%,7.60,TSK-50205,2024-04-09,VERIFIED
+70.6,In Progress,Engineering,5.0h,High,Taylor Swift,56.7%,39.90,TSK-50206,04-10-2024,OK
+100.0,Completed,Operations,26.9h,Medium,Morgan Riley,14.2%,40.20,TSK-50207,04-10-2024,PENDING
+100.0,Completed,Marketing,1.2h,Low,Alex Mercer,25.0%,39.20,TSK-50208,11/04/2024,FLAGGED
+100.0%,In Progress,Operations,7.3h,Low,Taylor Swift,76.4%,31.1,TSK-50209,2024-04-11,OK
+100.0,Completed,Engineering,22.4h,Medium,Jordan Lee,17.5%,17.90,TSK-50210,04/12/2024,OK
+88.0,Completed,Sales,28.0h,High,Sam Chen,64.3%,14.90,TSK-50211,04/12/2024,FLAGGED
+66.7%,Review,Finance,26.4h,Low,Alex Mercer,32.1%,0.9,TSK-50212,2024-04-13,VERIFIED
+50.1,Review,HR,9.7h,High,Taylor Swift,45.0%,40.1,TSK-50213,04/13/2024,FLAGGED
+76.2,Completed,Marketing,28.8h,Medium,Dana White,36.0%,4.7,TSK-50214,04/14/2024,OK
+100.0,Completed,HR,10.3h,High,Jordan Lee,42.0%,30.50,TSK-50215,2024-04-14,FLAGGED
+64.5%,Completed,HR,13.7h,Low,Taylor Swift,74.7%,24.40,TSK-50216,04-15-2024,PENDING
+15.2,Completed,HR,30.1h,Medium,Dana White,36.7%,25.50,TSK-50217,2024-04-15,FLAGGED
+18.1,Completed,HR,26.3h,Medium,Alex Mercer,61.0%,44.50,TSK-50218,04-16-2024,OK
+13.2%,Completed,Engineering,34.1h,Critical,Alex Mercer,52.8%,2 units,TSK-50219,04/16/2024,FLAGGED
+48.8%,Review,HR,26.6h,Medium,Jordan Lee,69.7%,37.20,TSK-50220,04/17/2024,VERIFIED
+100.0,Blocked,Finance,23.2h,Medium,Dana White,94.3%,3,TSK-50221,04/17/2024,FLAGGED
+80.2%,Completed,HR,4.7h,Medium,Sam Chen,75.9%,2.30,TSK-50222,18/04/2024,VERIFIED
+36.6,Completed,Engineering,15.3h,High,Alex Mercer,29.3%,20.90,TSK-50223,04-18-2024,PENDING
+42.7,Completed,Operations,11.3h,High,Morgan Riley,12.8%,3.5,TSK-50224,19/04/2024,VERIFIED
+100.0%,Completed,Engineering,10.5h,Critical,Sam Chen,33.6%,38.0,TSK-50225,19/04/2024,FLAGGED
+100.0,Completed,Finance,38.9h,High,Sam Chen,63.6%,25.70,TSK-50226,2024-04-20,OK
+87.3,In Progress,Finance,16.3h,High,Taylor Swift,14.6%,1.9,TSK-50227,20/04/2024,VERIFIED
+100.0,Completed,Sales,35.8h,High,Taylor Swift,54.7%,2.4,TSK-50228,2024-04-21,PENDING
+100.0%,Blocked,Engineering,25.6h,High,Alex Mercer,63.7%,29.60,TSK-50229,2024-04-21,VERIFIED
+100.0,Completed,Operations,32.0h,High,Sam Chen,40.1%,38.8,TSK-50230,22/04/2024,VERIFIED
+100.0%,Completed,Sales,20.6h,Critical,Taylor Swift,79.4%,21.3,TSK-50231,04-22-2024,VERIFIED
+100.0%,Completed,Sales,23.5h,Low,Dana White,19.6%,26.80,TSK-50232,04-23-2024,PENDING
+100.0,Completed,Marketing,20.2h,Medium,Dana White,16.8%,38.50,TSK-50233,04-23-2024,FLAGGED
+100.0%,Review,HR,8.6h,High,Dana White,75.5%,29.5,TSK-50234,04-24-2024,VERIFIED
+100.0,In Progress,Sales,29.2h,Medium,Dana White,54.6%,11.2,TSK-50235,04-24-2024,VERIFIED
+100.0%,Completed,Sales,12.0h,Medium,Sam Chen,72.0%,29.60,TSK-50236,25/04/2024,OK
+100.0,Completed,Finance,1.9h,Low,Dana White,49.1%,30.30,TSK-50237,25/04/2024,PENDING
+100.0%,Completed,Operations,26.2h,High,Sam Chen,32.2%,35.40,TSK-50238,04/25/2024,VERIFIED
+100.0,Review,Sales,7.9h,High,Alex Mercer,83.7%,30.0,TSK-50239,04-26-2024,PENDING
+100.0,In Progress,Operations,37.7h,Low,Alex Mercer,81.9%,46.5,TSK-50240,26/04/2024,VERIFIED
+81.1%,Completed,HR,38.2h,High,Dana White,72.5%,9.90,TSK-50241,04/27/2024,FLAGGED
+100.0%,Completed,Finance,36.7h,Critical,Dana White,34.5%,45.7,TSK-50242,04-27-2024,FLAGGED
+100.0%,Completed,Marketing,15.4h,Critical,Dana White,63.1%,26.1,TSK-50243,2024-04-28,VERIFIED
+66.5,Completed,Marketing,1.6h,Critical,Alex Mercer,42.5%,32.40,TSK-50244,04/28/2024,FLAGGED
+100.0%,Completed,HR,37.2h,Low,Taylor Swift,18.2%,5.20,TSK-50245,29/04/2024,VERIFIED
+32.7,Completed,HR,17.7h,High,Alex Mercer,92.6%,18.6,TSK-50246,2024-04-29,FLAGGED
+19.9,Review,Finance,38.7h,Low,Dana White,22.3%,37.0,TSK-50247,2024-04-30,OK
+100.0%,Completed,Finance,38.6h,Low,Taylor Swift,95.5%,34.1,TSK-50248,2024-04-30,OK
+100.0,Completed,Engineering,34.3h,Medium,Taylor Swift,50.1%,2.4,TSK-50249,05/01/2024,OK
+100.0,Blocked,Sales,12.5h,Critical,Jordan Lee,26.7%,26.50,TSK-50250,01/05/2024,PENDING
+100.0%,Completed,Sales,16.0h,Critical,Sam Chen,58.8%,4.7,TSK-50251,2024-05-02,PENDING
+100.0%,Completed,Sales,34.2h,High,Dana White,88.6%,47.8,TSK-50252,05-02-2024,OK
+100.0%,Completed,Operations,13.4h,High,Sam Chen,75.9%,43.10,TSK-50253,2024-05-03,PENDING
+11.4,Completed,Engineering,7.6h,Medium,Jordan Lee,82.6%,1.50,TSK-50254,2024-05-03,FLAGGED
+100.0,Completed,Sales,22.7h,High,Sam Chen,69.3%,41.30,TSK-50255,05/04/2024,VERIFIED
+100.0,Completed,Operations,37.5h,Low,Dana White,72.3%,44.20,TSK-50256,05/04/2024,VERIFIED
+19.1,In Progress,Operations,28.1h,Medium,Jordan Lee,86.4%,17.30,TSK-50257,05/05/2024,VERIFIED
+100.0,Completed,Marketing,23.2h,Medium,Sam Chen,32.5%,34.70,TSK-50258,05-05-2024,OK
+100.0,In Progress,Operations,4.8h,Low,Alex Mercer,54.0%,21.50,TSK-50259,05/06/2024,PENDING
+100.0,Completed,HR,25.0h,Critical,Taylor Swift,29.9%,31.60,TSK-50260,2024-05-06,FLAGGED
+100.0%,In Progress,Finance,39.6h,High,Jordan Lee,98.9%,16.7,TSK-50261,07/05/2024,FLAGGED
+34.9%,In Progress,Operations,6.5h,Critical,Alex Mercer,95.0%,15.8,TSK-50262,2024-05-07,OK
+100.0%,In Progress,HR,21.2h,Critical,Dana White,13.5%,20.7,TSK-50263,2024-05-08,FLAGGED
+100.0%,Completed,HR,35.2h,Medium,Taylor Swift,73.5%,7.4,TSK-50264,05/08/2024,FLAGGED
+100.0,In Progress,Marketing,29.9h,High,Jordan Lee,93.3%,40.0,TSK-50265,09/05/2024,FLAGGED
+100.0,Completed,Marketing,28.2h,High,Taylor Swift,26.3%,17.10,TSK-50266,05-09-2024,FLAGGED
+100.0%,Blocked,Operations,28.4h,Low,Morgan Riley,61.1%,19.5,TSK-50267,05-10-2024,PENDING
+56.9%,Completed,Marketing,15.0h,High,Morgan Riley,92.4%,43.0,TSK-50268,05/10/2024,FLAGGED
+15.4,Completed,Marketing,12.5h,Medium,Jordan Lee,13.1%,24.1,TSK-50269,05/11/2024,VERIFIED
+100.0,Completed,Finance,32.6h,Critical,Jordan Lee,72.8%,26.4,TSK-50270,11/05/2024,OK
+100.0%,In Progress,Sales,32.6h,High,Sam Chen,36.8%,45.90,TSK-50271,05-12-2024,PENDING
+100.0,Completed,Operations,34.8h,Medium,Taylor Swift,93.2%,42.60,TSK-50272,05-12-2024,FLAGGED
+100.0%,Review,Operations,36.6h,Low,Morgan Riley,97.4%,8.50,TSK-50273,05-13-2024,PENDING
+100.0%,Review,Operations,20.9h,High,Morgan Riley,95.0%,23.0,TSK-50274,2024-05-13,FLAGGED
+100.0,Completed,Marketing,20.6h,Critical,Taylor Swift,52.7%,46.6,TSK-50275,05-14-2024,VERIFIED
+100.0,Completed,Finance,32.1h,High,Morgan Riley,87.6%,18.20,TSK-50276,2024-05-14,OK
+100.0%,In Progress,Marketing,26.3h,Critical,Alex Mercer,86.0%,18.1,TSK-50277,14/05/2024,FLAGGED
+21.6,Completed,HR,28.4h,High,Morgan Riley,38.7%,9.8,TSK-50278,2024-05-15,FLAGGED
+25.4,Completed,Engineering,32.0h,Medium,Morgan Riley,84.6%,5.90,TSK-50279,15/05/2024,FLAGGED
+100.0,Review,Engineering,35.7h,Critical,Dana White,13.3%,35.70,TSK-50280,05-16-2024,FLAGGED
+100.0,Review,Engineering,14.2h,High,Alex Mercer,63.7%,37.10,TSK-50281,05-16-2024,OK
+63.7,Review,Sales,15.6h,Medium,Sam Chen,30.7%,46.50,TSK-50282,17/05/2024,OK
+100.0,Completed,Marketing,4.7h,High,Jordan Lee,20.9%,37.20,TSK-50283,05/17/2024,VERIFIED
+62.3,Completed,HR,23.6h,Critical,Morgan Riley,16.9%,12.10,TSK-50284,18/05/2024,OK
+100.0%,Completed,HR,2.4h,Low,Sam Chen,72.7%,2.40,TSK-50285,05/18/2024,FLAGGED
+100.0%,Completed,Engineering,19.2h,High,Sam Chen,40.6%,47.30,TSK-50286,2024-05-19,VERIFIED
+100.0%,Completed,Finance,22.2h,Medium,Alex Mercer,75.2%,16.7,TSK-50287,2024-05-19,VERIFIED
+56.8,Completed,Sales,12.2h,High,Jordan Lee,15.9%,15.30,TSK-50288,2024-05-20,VERIFIED
+100.0%,Completed,Sales,24.0h,High,Dana White,38.4%,43.5,TSK-50289,05-20-2024,FLAGGED
+100.0,In Progress,Engineering,2.2h,High,Sam Chen,58.6%,28.3,TSK-50290,2024-05-21,PENDING
+100.0,In Progress,Engineering,2.5h,High,Dana White,81.2%,10.7,TSK-50291,05/21/2024,FLAGGED
+31.3%,In Progress,Marketing,33.1h,Critical,Jordan Lee,38.7%,42.70,TSK-50292,2024-05-22,OK
+41.5,Completed,Finance,15.0h,High,Jordan Lee,66.3%,47.70,TSK-50293,22/05/2024,OK
+18.2,Completed,Sales,6.0h,Low,Alex Mercer,89.7%,4.6,TSK-50294,23/05/2024,FLAGGED
+29.2,In Progress,HR,21.4h,Medium,Taylor Swift,65.4%,41.5,TSK-50295,05-23-2024,FLAGGED
+100.0%,Completed,Engineering,31.0h,Critical,Morgan Riley,31.0%,19.0,TSK-50296,24/05/2024,VERIFIED
+100.0,Completed,Marketing,9.4h,Medium,Alex Mercer,12.2%,25.40,TSK-50297,05/24/2024,FLAGGED
+100.0,Completed,HR,25.3h,Low,Dana White,88.3%,44,TSK-50298,2024-05-25,VERIFIED
+100.0,Completed,Sales,4.3h,Medium,Alex Mercer,11.9%,46.7,TSK-50299,05-25-2024,OK
+86.3,Completed,Engineering,3.0h,Critical,Jordan Lee,88.7%,13.0,TSK-50300,2024-05-26,VERIFIED
+93.3,Blocked,Finance,21.7h,Low,Sam Chen,57.6%,10.6,TSK-50301,2024-05-26,FLAGGED
+100.0,Review,Engineering,22.1h,High,Morgan Riley,94.5%,4.30,TSK-50302,05/27/2024,OK
+100.0,Completed,Finance,25.9h,High,Morgan Riley,81.9%,27.2,TSK-50303,27/05/2024,PENDING
+65.1,Completed,Marketing,29.3h,Medium,Taylor Swift,99.8%,1.10,TSK-50304,28/05/2024,VERIFIED
+100.0%,In Progress,Marketing,39.1h,Low,Jordan Lee,41.6%,20.10,TSK-50305,2024-05-28,OK
+100.0,Completed,Sales,21.1h,Low,Morgan Riley,79.0%,4.0,TSK-50306,05-29-2024,VERIFIED
+100.0,Completed,Finance,13.6h,Low,Morgan Riley,46.2%,19.7,TSK-50307,29/05/2024,OK
+100.0,Review,Engineering,32.0h,Critical,Sam Chen,53.2%,2.40,TSK-50308,05-30-2024,OK
+100.0%,In Progress,Marketing,11.6h,Low,Dana White,66.5%,40.20,TSK-50309,30/05/2024,VERIFIED
+100.0,Review,Engineering,18.1h,Critical,Dana White,88.6%,10.5,TSK-50310,05-31-2024,PENDING
+100.0%,Completed,Sales,4.1h,High,Dana White,98.6%,16.10,TSK-50311,05/31/2024,OK
+87.9,Completed,Finance,2.0h,Medium,Alex Mercer,79.1%,41.8,TSK-50312,06-01-2024,OK
+100.0%,In Progress,Engineering,38.5h,High,Dana White,47.6%,35.90,TSK-50313,06/01/2024,OK
+100.0,Completed,HR,33.6h,Medium,Dana White,47.9%,10.9,TSK-50314,06/02/2024,PENDING
+64.6,In Progress,Engineering,28.1h,High,Alex Mercer,76.4%,3.9,TSK-50315,06-02-2024,PENDING
+100.0%,Completed,Operations,16.9h,Low,Sam Chen,31.5%,34.50,TSK-50316,06/02/2024,FLAGGED
+100.0,In Progress,Operations,7.8h,High,Jordan Lee,19.9%,19.10,TSK-50317,2024-06-03,VERIFIED
+12.8,Completed,Sales,7.1h,High,Morgan Riley,41.9%,36.90,TSK-50318,06/03/2024,PENDING
+100.0,Completed,Sales,10.8h,Low,Taylor Swift,35.9%,21.70,TSK-50319,04/06/2024,VERIFIED
+94.7,Completed,Sales,22.4h,Critical,Morgan Riley,36.7%,16.9,TSK-50320,06-04-2024,FLAGGED
+100.0,In Progress,HR,28.9h,Medium,Dana White,31.0%,21.90,TSK-50321,2024-06-05,VERIFIED
+100.0,Completed,Finance,26.7h,Medium,Dana White,13.8%,36.1,TSK-50322,06-05-2024,PENDING
+100.0,Completed,HR,11.9h,Medium,Morgan Riley,11.6%,43.40,TSK-50323,06/06/2024,VERIFIED
+100.0,Blocked,Engineering,38.2h,Medium,Morgan Riley,98.9%,2.9,TSK-50324,06/06/2024,PENDING
+18.4%,Completed,Marketing,29.8h,High,Dana White,48.5%,25.4,TSK-50325,07/06/2024,VERIFIED
+100.0,Completed,Finance,22.6h,Low,Alex Mercer,44.6%,2.1,TSK-50326,06/07/2024,PENDING
+68.0,Completed,Operations,24.9h,Critical,Alex Mercer,71.2%,22.7,TSK-50327,06/08/2024,PENDING
+31.5,Review,Operations,17.4h,High,Alex Mercer,29.6%,42.6,TSK-50328,06-08-2024,VERIFIED
+100.0,Completed,Operations,10.7h,Critical,Taylor Swift,95.5%,17.70,TSK-50329,06-09-2024,FLAGGED
+43.3,Completed,Engineering,14.9h,Medium,Jordan Lee,80.8%,44.8,TSK-50330,2024-06-09,OK
+100.0,In Progress,Engineering,30.6h,Medium,Dana White,18.0%,30.5,TSK-50331,2024-06-10,FLAGGED
+64.9%,Completed,Sales,1.6h,Low,Sam Chen,47.6%,44.9,TSK-50332,06-10-2024,VERIFIED
+47.1,Completed,Marketing,5.5h,Medium,Morgan Riley,89.1%,36.50,TSK-50333,06/11/2024,FLAGGED
+100.0%,Completed,Sales,2.8h,Medium,Morgan Riley,95.0%,5.4,TSK-50334,11/06/2024,PENDING
+100.0%,In Progress,Engineering,2.6h,Low,Dana White,52.1%,11.5,TSK-50335,06-12-2024,OK
+100.0%,Completed,HR,34.4h,High,Dana White,65.2%,19.20,TSK-50336,2024-06-12,VERIFIED
+100.0%,Blocked,Sales,28.4h,Medium,Dana White,25.0%,8.60,TSK-50337,06/13/2024,VERIFIED
+100.0,Blocked,Finance,19.5h,Medium,Morgan Riley,99.2%,24.0,TSK-50338,06-13-2024,VERIFIED
+100.0%,Completed,Engineering,4.8h,High,Dana White,30.9%,22.9,TSK-50339,06-14-2024,OK
+100.0,In Progress,Engineering,20.2h,Medium,Morgan Riley,94.8%,45.9,TSK-50340,06/14/2024,PENDING
+100.0%,Completed,HR,19.5h,High,Jordan Lee,68.5%,21.10,TSK-50341,06-15-2024,VERIFIED
+100.0%,Completed,HR,7.8h,Medium,Sam Chen,64.7%,37.8,TSK-50342,06/15/2024,FLAGGED
+100.0%,Completed,HR,17.9h,Medium,Alex Mercer,56.1%,45.20,TSK-50343,16/06/2024,VERIFIED
+100.0%,Review,Marketing,16.5h,Low,Sam Chen,30.8%,42.20,TSK-50344,06/16/2024,VERIFIED
+31.3,Completed,Finance,25.0h,Low,Dana White,25.9%,10.40,TSK-50345,06/17/2024,VERIFIED
+100.0,Completed,Engineering,25.8h,Medium,Sam Chen,29.8%,24.1,TSK-50346,06/17/2024,VERIFIED
+100.0,Completed,HR,2.8h,Medium,Dana White,26.8%,17.0,TSK-50347,06-18-2024,PENDING
+100.0,Completed,Marketing,15.6h,High,Sam Chen,80.2%,19.5,TSK-50348,06-18-2024,FLAGGED
+38.4%,Completed,Operations,25.4h,High,Taylor Swift,41.5%,17.60,TSK-50349,06/19/2024,PENDING
+100.0,Completed,Finance,20.6h,Low,Sam Chen,15.2%,39.8,TSK-50350,06-19-2024,FLAGGED
+39.0,Completed,Operations,34.4h,Low,Alex Mercer,97.2%,22,TSK-50351,2024-06-20,VERIFIED
+91.5,Completed,Operations,26.7h,Low,Alex Mercer,89.5%,25.4,TSK-50352,2024-06-20,OK
+77.9%,Completed,Engineering,7.4h,Critical,Sam Chen,93.5%,47.20,TSK-50353,06-21-2024,PENDING
+49.0%,Completed,Marketing,3.8h,Low,Morgan Riley,99.5%,3.3,TSK-50354,06-21-2024,OK
+100.0%,Blocked,Marketing,26.1h,Low,Morgan Riley,25.7%,23.70,TSK-50355,06/21/2024,PENDING
+100.0%,Review,Operations,2.0h,High,Morgan Riley,45.7%,37.3,TSK-50356,22/06/2024,VERIFIED
+27.0,Completed,Finance,23.8h,Medium,Sam Chen,78.2%,7.7,TSK-50357,06-22-2024,PENDING
+78.9,Completed,Sales,37.7h,Medium,Morgan Riley,72.6%,29.50,TSK-50358,2024-06-23,VERIFIED
+23.4,Review,Operations,23.4h,Medium,Jordan Lee,23.9%,11.9,TSK-50359,06/23/2024,PENDING
+27.9,In Progress,Engineering,16.1h,Low,Sam Chen,83.4%,41.70,TSK-50360,06-24-2024,VERIFIED
+41.1,Completed,Operations,26.1h,High,Alex Mercer,30.2%,16.0,TSK-50361,2024-06-24,VERIFIED
+100.0,Completed,Finance,18.9h,Medium,Morgan Riley,30.1%,16.1,TSK-50362,2024-06-25,FLAGGED
+84.8,Completed,Finance,22.3h,Medium,Taylor Swift,58.3%,28.9,TSK-50363,25/06/2024,VERIFIED
+21.2%,Completed,Operations,37.7h,High,Morgan Riley,63.4%,9.20,TSK-50364,06/26/2024,FLAGGED
+20.4%,Completed,Marketing,16.1h,Low,Alex Mercer,62.2%,14.0,TSK-50365,06/26/2024,VERIFIED
+100.0%,Review,Operations,38.5h,Medium,Jordan Lee,18.2%,20.3,TSK-50366,27/06/2024,OK
+52.0,Completed,HR,36.3h,High,Sam Chen,89.0%,17.30,TSK-50367,27/06/2024,VERIFIED
+33.5,In Progress,HR,8.6h,Critical,Morgan Riley,33.9%,25.40,TSK-50368,06/28/2024,OK
+100.0%,In Progress,Sales,3.7h,High,Taylor Swift,21.7%,29.0,TSK-50369,06/28/2024,OK
+100.0,In Progress,Engineering,4.9h,Medium,Alex Mercer,90.0%,27.4,TSK-50370,06-29-2024,VERIFIED
+100.0%,Blocked,Engineering,1.7h,Low,Taylor Swift,96.0%,31.6,TSK-50371,06-29-2024,OK
+58.3,Review,Marketing,4.7h,High,Dana White,87.6%,15.1,TSK-50372,30/06/2024,FLAGGED
+100.0%,Completed,Engineering,27.6h,High,Alex Mercer,82.9%,6.5,TSK-50373,06-30-2024,PENDING
+100.0%,Review,Sales,3.8h,High,Dana White,69.0%,36.60,TSK-50374,2024-07-01,VERIFIED
+100.0,In Progress,HR,13.4h,Medium,Taylor Swift,59.6%,40.90,TSK-50375,07-01-2024,OK
+48.4%,Completed,Marketing,34.0h,Low,Sam Chen,17.8%,12.70,TSK-50376,07-02-2024,VERIFIED
+100.0%,In Progress,Finance,1.9h,Medium,Sam Chen,46.8%,19.8,TSK-50377,2024-07-02,FLAGGED
+100.0%,In Progress,HR,32.8h,Medium,Sam Chen,43.5%,24.20,TSK-50378,03/07/2024,VERIFIED
+47.0,Review,Sales,12.0h,Medium,Dana White,33.4%,25.8,TSK-50379,2024-07-03,VERIFIED
+19.5,Completed,Marketing,5.6h,Critical,Sam Chen,75.1%,31.8,TSK-50380,07-04-2024,OK
+100.0%,Completed,Operations,28.2h,Medium,Jordan Lee,54.6%,2.5,TSK-50381,04/07/2024,FLAGGED
+22.0,Completed,Engineering,25.5h,Medium,Alex Mercer,17.3%,34.80,TSK-50382,07-05-2024,PENDING
+79.8,Completed,Sales,35.2h,Medium,Alex Mercer,29.8%,3.4,TSK-50383,2024-07-05,PENDING
+100.0%,Completed,Marketing,29.7h,Low,Taylor Swift,71.5%,22.70,TSK-50384,2024-07-06,OK
+100.0,Completed,HR,32.3h,Medium,Morgan Riley,16.9%,39.8,TSK-50385,07-06-2024,VERIFIED
+100.0%,In Progress,Marketing,12.0h,Medium,Dana White,86.6%,21.90,TSK-50386,07/07/2024,OK
+85.3%,Completed,Operations,7.9h,Low,Alex Mercer,54.6%,7.60,TSK-50387,07/07/2024,OK
+100.0,Completed,Sales,30.3h,Low,Dana White,53.3%,47.3,TSK-50388,2024-07-08,OK
+100.0%,Completed,Marketing,32.5h,Medium,Taylor Swift,63.3%,42.70,TSK-50389,2024-07-08,VERIFIED
+29.9,Completed,Finance,39.6h,Critical,Sam Chen,84.2%,37.10,TSK-50390,07/09/2024,FLAGGED
+100.0,Completed,Sales,17.1h,High,Morgan Riley,41.3%,20.0,TSK-50391,07/09/2024,OK
+19.6%,Completed,Sales,15.5h,Medium,Taylor Swift,71.0%,9.2,TSK-50392,07-10-2024,VERIFIED
+14.5,Completed,HR,31.3h,Critical,Jordan Lee,60.9%,45.2,TSK-50393,07-10-2024,FLAGGED
+100.0%,Completed,Engineering,14.3h,Critical,Sam Chen,34.0%,25.8,TSK-50394,07/11/2024,OK
+61.7,Completed,Finance,37.3h,Critical,Sam Chen,89.1%,41.0,TSK-50395,07-11-2024,PENDING
+100.0,Completed,Operations,34.5h,Medium,Sam Chen,81.8%,16.70,TSK-50396,07-11-2024,FLAGGED
+100.0,Completed,Marketing,17.7h,Medium,Taylor Swift,69.3%,16.40,TSK-50397,12/07/2024,OK
+100.0,Completed,Engineering,30.3h,High,Jordan Lee,86.6%,47.30,TSK-50398,07-12-2024,FLAGGED
+100.0%,Completed,HR,30.4h,Critical,Morgan Riley,88.1%,25.3,TSK-50399,2024-07-13,FLAGGED
+70.8,In Progress,Engineering,5.0h,Medium,Dana White,73.8%,7.2,TSK-50400,07-13-2024,FLAGGED
+100.0,In Progress,Sales,36.2h,High,Taylor Swift,85.3%,10.9,TSK-50401,07-14-2024,FLAGGED
+100.0,Completed,Sales,20.7h,High,Alex Mercer,72.8%,23.4,TSK-50402,07/14/2024,FLAGGED
+41.7,Completed,Operations,33.2h,Medium,Alex Mercer,71.2%,2.5,TSK-50403,2024-07-15,FLAGGED
+100.0,In Progress,Finance,13.5h,Medium,Taylor Swift,65.7%,22.50,TSK-50404,07-15-2024,OK
+67.8%,Completed,Marketing,35.9h,High,Dana White,77.7%,20.4,TSK-50405,07-16-2024,PENDING
+100.0%,Blocked,Marketing,16.2h,Medium,Alex Mercer,24.3%,37.5,TSK-50406,16/07/2024,VERIFIED
+70.6,Review,HR,1.4h,High,Dana White,89.3%,17.4,TSK-50407,07-17-2024,FLAGGED
+100.0,Blocked,Operations,36.3h,Medium,Sam Chen,88.5%,47.20,TSK-50408,07-17-2024,VERIFIED
+100.0,In Progress,Marketing,4.6h,High,Taylor Swift,12.6%,9.1,TSK-50409,18/07/2024,OK
+100.0,In Progress,Finance,13.5h,High,Sam Chen,84.3%,28.6,TSK-50410,07/18/2024,FLAGGED
+100.0%,Completed,Sales,38.1h,Medium,Alex Mercer,21.6%,4.8,TSK-50411,07-19-2024,PENDING
+89.5%,In Progress,Operations,38.1h,Medium,Dana White,40.2%,35.4,TSK-50412,19/07/2024,VERIFIED
+100.0,In Progress,Engineering,23.4h,High,Sam Chen,76.9%,47.8,TSK-50413,2024-07-20,FLAGGED
+100.0%,In Progress,Operations,25.6h,Critical,Alex Mercer,24.5%,39.4,TSK-50414,07/20/2024,OK
+100.0,Completed,Operations,18.5h,Medium,Jordan Lee,83.6%,26.90,TSK-50415,2024-07-21,PENDING
+15.5,Completed,Finance,12.4h,Medium,Sam Chen,84.9%,23.5,TSK-50416,2024-07-21,VERIFIED
+26.3,Blocked,Finance,13.8h,High,Jordan Lee,55.7%,40.2,TSK-50417,22/07/2024,VERIFIED
+100.0%,Completed,Marketing,27.2h,Medium,Jordan Lee,10.6%,45.0,TSK-50418,07-22-2024,FLAGGED
+100.0,In Progress,HR,30.3h,Critical,Morgan Riley,35.8%,47.5,TSK-50419,23/07/2024,PENDING
+100.0,Review,HR,31.9h,Medium,Alex Mercer,65.5%,19.3,TSK-50420,23/07/2024,PENDING
+100.0,In Progress,Finance,31.8h,Critical,Taylor Swift,98.3%,47.6,TSK-50421,24/07/2024,PENDING
+100.0%,Review,Marketing,4.6h,High,Dana White,66.9%,7.9,TSK-50422,24/07/2024,PENDING
+100.0,In Progress,Marketing,20.3h,Critical,Alex Mercer,33.4%,12.50,TSK-50423,07/25/2024,OK
+100.0,Completed,Marketing,3.2h,High,Morgan Riley,67.1%,4.7,TSK-50424,07-25-2024,PENDING
+15.8%,In Progress,Finance,22.4h,High,Morgan Riley,58.6%,13.4,TSK-50425,2024-07-26,VERIFIED
+100.0%,Completed,HR,18.2h,High,Sam Chen,80.2%,37,TSK-50426,2024-07-26,VERIFIED
+83.8%,Completed,Marketing,35.6h,Critical,Dana White,19.6%,41.0,TSK-50427,07-27-2024,OK
+100.0,Completed,Finance,14.7h,High,Morgan Riley,78.5%,37.5,TSK-50428,2024-07-27,VERIFIED
+77.4,Completed,Engineering,5.6h,Medium,Taylor Swift,58.7%,30.5,TSK-50429,07-28-2024,VERIFIED
+100.0,Completed,Engineering,6.6h,High,Alex Mercer,96.7%,24.90,TSK-50430,2024-07-28,PENDING
+100.0%,Completed,Sales,30.7h,Medium,Taylor Swift,40.8%,34.20,TSK-50431,29/07/2024,VERIFIED
+58.8%,Completed,Engineering,25.1h,High,Sam Chen,66.9%,19.10,TSK-50432,2024-07-29,OK
+100.0,In Progress,Operations,4.9h,High,Alex Mercer,93.9%,40.5,TSK-50433,07-30-2024,PENDING
+100.0,Completed,Sales,4.3h,Medium,Sam Chen,19.2%,32.70,TSK-50434,07-30-2024,FLAGGED
+100.0,Completed,Engineering,28.3h,Low,Dana White,94.4%,33.60,TSK-50435,07-30-2024,PENDING
+17.1%,In Progress,Operations,3.8h,Critical,Dana White,71.9%,26,TSK-50436,07-31-2024,OK
+100.0,In Progress,Engineering,33.1h,Critical,Taylor Swift,16.1%,42.5,TSK-50437,07-31-2024,PENDING
+33.2,Review,Finance,28.5h,Medium,Taylor Swift,37.1%,12.50,TSK-50438,08/01/2024,PENDING
+100.0,Completed,Operations,4.2h,Low,Dana White,73.7%,18.60,TSK-50439,08/01/2024,OK
+100.0,Blocked,Marketing,4.3h,Low,Jordan Lee,16.1%,37.4,TSK-50440,2024-08-02,PENDING
+100.0,Completed,Finance,39.5h,High,Dana White,62.4%,23.9,TSK-50441,08-02-2024,OK
+100.0,Completed,Operations,15.6h,High,Alex Mercer,41.1%,42.70,TSK-50442,2024-08-03,OK
+100.0%,Completed,Finance,15.5h,Medium,Sam Chen,65.9%,17.0,TSK-50443,08-03-2024,FLAGGED
+35.3%,Completed,Marketing,32.7h,Medium,Dana White,14.1%,18 units,TSK-50444,08-04-2024,VERIFIED
+100.0,Completed,Operations,37.9h,Medium,Dana White,88.4%,42.7,TSK-50445,08/04/2024,VERIFIED
+100.0,Completed,Operations,39.5h,Low,Morgan Riley,97.6%,22.6,TSK-50446,08/05/2024,PENDING
+57.7%,Completed,Finance,30.4h,Medium,Sam Chen,97.2%,25.0,TSK-50447,05/08/2024,PENDING
+31.9%,In Progress,Engineering,15.7h,High,Morgan Riley,77.5%,16.30,TSK-50448,08/06/2024,FLAGGED
+16.2%,In Progress,Operations,4.3h,High,Sam Chen,21.7%,13.6,TSK-50449,06/08/2024,FLAGGED
+72.1,Completed,Engineering,31.3h,Medium,Alex Mercer,78.2%,31.7,TSK-50450,07/08/2024,FLAGGED
+100.0%,Completed,Operations,22.8h,High,Sam Chen,12.2%,6.20,TSK-50451,07/08/2024,OK
+35.4%,Completed,HR,17.5h,High,Taylor Swift,12.0%,42.3,TSK-50452,08/08/2024,FLAGGED
+100.0%,Review,Sales,36.3h,Critical,Dana White,39.1%,37.50,TSK-50453,08/08/2024,FLAGGED
+100.0%,Completed,Engineering,5.3h,High,Sam Chen,54.0%,9.6,TSK-50454,2024-08-09,PENDING
+48.5%,Completed,Engineering,20.2h,High,Alex Mercer,79.3%,33.50,TSK-50455,08/09/2024,FLAGGED
+20.9,Completed,Marketing,1.4h,Medium,Sam Chen,71.5%,29.1,TSK-50456,10/08/2024,OK
+78.2%,Completed,HR,19.3h,High,Dana White,50.1%,9.30,TSK-50457,08-10-2024,OK
+100.0,Completed,Marketing,3.2h,Medium,Jordan Lee,34.6%,13.5,TSK-50458,08/11/2024,PENDING
+100.0%,Completed,HR,5.6h,High,Sam Chen,99.7%,19.9,TSK-50459,08/11/2024,FLAGGED
+100.0,In Progress,HR,5.6h,Critical,Taylor Swift,48.4%,33.7,TSK-50460,12/08/2024,FLAGGED
+58.1,In Progress,Finance,26.3h,Low,Dana White,50.6%,30.80,TSK-50461,2024-08-12,OK
+100.0,In Progress,Finance,30.1h,Low,Alex Mercer,24.7%,25.8,TSK-50462,13/08/2024,FLAGGED
+86.6,Completed,Finance,23.8h,Critical,Dana White,81.5%,37,TSK-50463,2024-08-13,FLAGGED
+100.0%,Completed,Operations,38.5h,Medium,Morgan Riley,72.4%,36.50,TSK-50464,08-14-2024,FLAGGED
+52.1%,Review,Marketing,15.6h,High,Jordan Lee,29.9%,29.80,TSK-50465,08/14/2024,VERIFIED
+90.0,Blocked,Sales,12.1h,Low,Alex Mercer,17.4%,37.90,TSK-50466,08-15-2024,PENDING
+100.0,Completed,HR,34.9h,High,Jordan Lee,71.2%,16.4,TSK-50467,2024-08-15,VERIFIED
+100.0,Completed,HR,9.7h,High,Jordan Lee,68.9%,42.4,TSK-50468,2024-08-16,PENDING
+85.8,Completed,Engineering,38.6h,Medium,Taylor Swift,34.6%,29.70,TSK-50469,08-16-2024,OK
+100.0,Completed,Operations,1.5h,Medium,Sam Chen,95.6%,39.6,TSK-50470,2024-08-17,FLAGGED
+59.0,In Progress,Sales,38.8h,High,Taylor Swift,23.6%,26.4,TSK-50471,08-17-2024,PENDING
+100.0%,Review,Finance,2.7h,Medium,Taylor Swift,48.9%,10.9,TSK-50472,08/18/2024,VERIFIED
+100.0,Completed,HR,35.8h,Critical,Morgan Riley,94.9%,26.3,TSK-50473,08-18-2024,FLAGGED
+89.4,Completed,Engineering,21.6h,Low,Taylor Swift,47.8%,18.1,TSK-50474,08/18/2024,OK
+100.0%,Blocked,Marketing,39.7h,Critical,Alex Mercer,67.5%,33.6,TSK-50475,08-19-2024,PENDING
+37.5,Completed,HR,3.9h,Low,Sam Chen,45.8%,23.10,TSK-50476,2024-08-19,PENDING
+100.0%,Review,Engineering,22.6h,High,Sam Chen,34.7%,40.20,TSK-50477,08-20-2024,PENDING
+41.1,In Progress,Marketing,38.8h,High,Alex Mercer,98.6%,32.7,TSK-50478,2024-08-20,FLAGGED
+100.0%,Review,Operations,21.4h,Low,Taylor Swift,46.8%,33.0,TSK-50479,08-21-2024,VERIFIED
+100.0,Completed,Finance,25.5h,Low,Taylor Swift,90.5%,10.80,TSK-50480,08-21-2024,VERIFIED
+100.0,Completed,Marketing,28.1h,Medium,Jordan Lee,30.7%,47.30,TSK-50481,22/08/2024,PENDING
+13.9%,Completed,HR,18.7h,Critical,Jordan Lee,29.2%,40.5,TSK-50482,2024-08-22,OK
+100.0,Completed,Sales,25.5h,Medium,Morgan Riley,12.8%,38.0,TSK-50483,23/08/2024,OK
+60.1,Completed,Marketing,23.8h,Medium,Dana White,68.7%,16.20,TSK-50484,2024-08-23,VERIFIED
+100.0,Review,Sales,36.1h,Medium,Jordan Lee,43.2%,25.90,TSK-50485,24/08/2024,OK
+71.4%,In Progress,Sales,2.8h,Medium,Sam Chen,87.8%,7.0,TSK-50486,08/24/2024,VERIFIED
+75.7%,In Progress,Marketing,12.0h,Critical,Alex Mercer,52.6%,26.1,TSK-50487,08-25-2024,PENDING
+100.0%,Completed,Operations,38.1h,Medium,Taylor Swift,97.1%,7.40,TSK-50488,2024-08-25,VERIFIED
+100.0,In Progress,Marketing,35.7h,Medium,Dana White,26.7%,26.80,TSK-50489,2024-08-26,VERIFIED
+100.0,In Progress,Engineering,18.8h,Critical,Jordan Lee,88.2%,31.30,TSK-50490,08-26-2024,PENDING
+100.0,Completed,Finance,25.2h,Medium,Dana White,79.9%,19.0,TSK-50491,2024-08-27,OK
+100.0,Review,Sales,11.8h,Medium,Alex Mercer,79.4%,24.20,TSK-50492,2024-08-27,VERIFIED
+22.7,Completed,Finance,8.3h,Medium,Alex Mercer,86.0%,42.10,TSK-50493,28/08/2024,VERIFIED
+100.0,Completed,HR,19.1h,Critical,Dana White,78.5%,5.7,TSK-50494,2024-08-28,PENDING
+47.8%,Completed,Sales,14.8h,Medium,Dana White,66.4%,38.10,TSK-50495,08/29/2024,OK
+25.0,In Progress,HR,23.8h,High,Morgan Riley,21.8%,8.6,TSK-50496,08/29/2024,VERIFIED
+100.0%,Completed,Engineering,4.0h,Medium,Dana White,12.9%,2.20,TSK-50497,08-30-2024,PENDING
+100.0,Completed,Engineering,39.0h,Medium,Taylor Swift,92.9%,9.30,TSK-50498,2024-08-30,VERIFIED
+100.0,Completed,Finance,39.5h,Medium,Sam Chen,65.5%,36.80,TSK-50499,08-31-2024,FLAGGED
+66.3,Completed,Engineering,28.2h,Critical,Jordan Lee,81.7%,19.7,TSK-50500,08/31/2024,PENDING
+100.0%,Completed,Marketing,21.9h,Medium,Jordan Lee,53.3%,41.9,TSK-50501,2024-09-01,OK
+100.0%,Completed,Sales,13.1h,Low,Jordan Lee,20.6%,25.4,TSK-50502,2024-09-01,OK
+23.4%,Completed,HR,32.7h,High,Dana White,21.3%,1.60,TSK-50503,09-02-2024,OK
+100.0%,Completed,Finance,27.7h,Low,Dana White,71.7%,34.5,TSK-50504,09/02/2024,OK
+86.9%,Blocked,Finance,7.3h,Medium,Morgan Riley,48.7%,5.70,TSK-50505,2024-09-03,VERIFIED
+100.0,Completed,Engineering,36.5h,Medium,Dana White,28.0%,38,TSK-50506,09-03-2024,VERIFIED
+100.0,In Progress,Engineering,33.1h,High,Morgan Riley,54.2%,8.50,TSK-50507,09/04/2024,OK
+29.6%,Completed,HR,38.0h,High,Morgan Riley,15.8%,16.90,TSK-50508,09-04-2024,OK
+100.0%,Completed,Sales,29.3h,Low,Taylor Swift,62.4%,36.70,TSK-50509,05/09/2024,OK
+34.8,Completed,Sales,24.9h,High,Taylor Swift,34.2%,45.80,TSK-50510,2024-09-05,VERIFIED
+100.0,Completed,Finance,17.3h,Critical,Taylor Swift,81.8%,18.10,TSK-50511,06/09/2024,OK
+82.3,Completed,HR,37.4h,Medium,Taylor Swift,37.9%,39.9,TSK-50512,09/06/2024,OK
+100.0,Blocked,Finance,34.8h,Critical,Alex Mercer,51.0%,9.6,TSK-50513,06/09/2024,FLAGGED
+100.0,Review,Operations,2.8h,Medium,Taylor Swift,11.0%,38.8,TSK-50514,07/09/2024,FLAGGED
+100.0,Completed,Sales,2.0h,Medium,Taylor Swift,16.5%,31.7,TSK-50515,09/07/2024,OK
+100.0,Completed,HR,15.7h,Low,Taylor Swift,45.3%,9.70,TSK-50516,09-08-2024,PENDING
+100.0%,Review,HR,32.6h,Medium,Morgan Riley,53.2%,14.90,TSK-50517,08/09/2024,OK
+100.0,Completed,Finance,39.5h,Critical,Jordan Lee,64.0%,6.80,TSK-50518,09-09-2024,FLAGGED
+100.0%,Completed,Engineering,6.9h,High,Jordan Lee,36.2%,18.7,TSK-50519,09/09/2024,PENDING
+100.0,Review,HR,24.2h,Medium,Jordan Lee,72.5%,10.20,TSK-50520,09-10-2024,PENDING
+100.0%,Review,Finance,15.9h,High,Sam Chen,87.4%,31.1,TSK-50521,09/10/2024,OK
+100.0,Completed,Marketing,38.8h,Low,Alex Mercer,80.2%,47.7,TSK-50522,11/09/2024,FLAGGED
+100.0,Completed,Engineering,33.8h,Medium,Morgan Riley,13.6%,1.1,TSK-50523,09/11/2024,FLAGGED
+49.0,Completed,Engineering,33.7h,Critical,Dana White,53.2%,26.2,TSK-50524,12/09/2024,PENDING
+100.0,Blocked,Sales,19.3h,Low,Morgan Riley,19.4%,27.70,TSK-50525,09/12/2024,OK
+100.0%,Review,Operations,17.2h,Critical,Taylor Swift,31.8%,43.9,TSK-50526,09/13/2024,VERIFIED
+100.0%,Completed,Sales,11.7h,Critical,Jordan Lee,98.8%,24.5,TSK-50527,13/09/2024,VERIFIED
+12.0,In Progress,Marketing,3.2h,Medium,Morgan Riley,22.8%,26.30,TSK-50528,14/09/2024,FLAGGED
+100.0%,In Progress,Finance,34.7h,Low,Alex Mercer,54.9%,22.9,TSK-50529,14/09/2024,VERIFIED
+52.0,In Progress,Engineering,32.7h,Medium,Taylor Swift,65.6%,13.3,TSK-50530,2024-09-15,FLAGGED
+100.0%,In Progress,Engineering,40.0h,High,Sam Chen,73.2%,3.2,TSK-50531,09-15-2024,FLAGGED
+100.0,In Progress,HR,39.9h,High,Dana White,60.4%,19.9,TSK-50532,2024-09-16,FLAGGED
+17.2,Completed,Operations,22.7h,High,Taylor Swift,10.9%,3.0,TSK-50533,2024-09-16,VERIFIED
+100.0,Completed,Operations,31.0h,High,Dana White,39.4%,26.60,TSK-50534,09/17/2024,FLAGGED
+100.0%,In Progress,HR,37.8h,High,Morgan Riley,56.6%,15.10,TSK-50535,17/09/2024,PENDING
+93.8,Completed,Marketing,34.1h,Medium,Taylor Swift,17.9%,25.8,TSK-50536,09-18-2024,OK
+100.0,Completed,Operations,10.6h,Low,Sam Chen,41.6%,6.9,TSK-50537,09/18/2024,OK
+60.0,In Progress,Engineering,18.6h,High,Morgan Riley,13.0%,44.80,TSK-50538,2024-09-19,FLAGGED
+100.0,In Progress,Marketing,6.0h,High,Alex Mercer,17.1%,43,TSK-50539,19/09/2024,OK
+31.8,Review,Sales,38.2h,Medium,Dana White,45.7%,9.5,TSK-50540,09/20/2024,VERIFIED
+57.9%,Completed,Sales,24.6h,Medium,Dana White,21.9%,16.8,TSK-50541,20/09/2024,VERIFIED
+100.0,Completed,Marketing,9.9h,Low,Alex Mercer,61.1%,29.60,TSK-50542,09/21/2024,OK
+16.5%,Completed,Engineering,27.2h,High,Dana White,72.1%,5 units,TSK-50543,21/09/2024,VERIFIED
+100.0%,Review,Sales,25.1h,Critical,Morgan Riley,82.1%,17.3,TSK-50544,2024-09-22,OK
+100.0%,Completed,Finance,15.0h,Medium,Jordan Lee,28.0%,12.40,TSK-50545,09-22-2024,OK
+100.0%,In Progress,Engineering,5.4h,Medium,Alex Mercer,25.1%,44.0,TSK-50546,2024-09-23,OK
+100.0%,In Progress,HR,27.2h,High,Sam Chen,19.4%,41,TSK-50547,09-23-2024,FLAGGED
+78.0%,Completed,Operations,21.3h,Medium,Taylor Swift,67.3%,28.0,TSK-50548,24/09/2024,OK
+100.0,Review,Marketing,31.1h,High,Taylor Swift,73.6%,25.2,TSK-50549,09/24/2024,FLAGGED
+88.7,Blocked,Operations,21.3h,High,Alex Mercer,12.8%,44.70,TSK-50550,2024-09-25,OK
+100.0,Completed,HR,34.2h,Medium,Jordan Lee,94.3%,44.80,TSK-50551,09-25-2024,OK
+100.0,Completed,Sales,22.5h,High,Morgan Riley,14.7%,46.50,TSK-50552,2024-09-25,OK
+100.0%,Completed,Finance,22.9h,Medium,Sam Chen,58.7%,6.5,TSK-50553,09-26-2024,VERIFIED
+100.0,Completed,Engineering,35.2h,High,Taylor Swift,73.8%,8.1,TSK-50554,2024-09-26,FLAGGED
+84.3,Blocked,Engineering,16.7h,High,Taylor Swift,88.4%,32.6,TSK-50555,09-27-2024,FLAGGED
+39.0%,Review,HR,6.2h,High,Morgan Riley,74.3%,26.2,TSK-50556,09-27-2024,OK
+37.7,Completed,Marketing,2.1h,High,Jordan Lee,82.2%,1.4,TSK-50557,28/09/2024,OK
+13.0%,Completed,Operations,30.5h,Critical,Dana White,40.6%,3.40,TSK-50558,09-28-2024,VERIFIED
+100.0,Completed,Finance,25.2h,Medium,Alex Mercer,83.3%,42.7,TSK-50559,29/09/2024,VERIFIED
+100.0,Completed,Sales,28.5h,Medium,Jordan Lee,17.2%,41.8,TSK-50560,09-29-2024,VERIFIED
+65.4%,Completed,Marketing,9.3h,High,Jordan Lee,90.5%,17.50,TSK-50561,09/30/2024,FLAGGED
+100.0%,Completed,Finance,6.3h,Critical,Jordan Lee,59.3%,42.8,TSK-50562,09/30/2024,FLAGGED
+100.0,Completed,Finance,1.6h,Low,Jordan Lee,83.6%,28.70,TSK-50563,10/01/2024,FLAGGED
+100.0,In Progress,HR,14.7h,High,Dana White,50.7%,38.80,TSK-50564,10-01-2024,OK
+100.0%,In Progress,HR,24.0h,Critical,Morgan Riley,67.9%,20.8,TSK-50565,02/10/2024,FLAGGED
+100.0,Completed,Engineering,16.3h,High,Sam Chen,57.4%,5.90,TSK-50566,02/10/2024,PENDING
+55.5%,In Progress,Sales,18.1h,Medium,Jordan Lee,75.8%,21.1,TSK-50567,10-03-2024,PENDING
+100.0,In Progress,Marketing,36.3h,High,Jordan Lee,17.3%,22.20,TSK-50568,10/03/2024,VERIFIED
+100.0,Blocked,Engineering,14.6h,Medium,Alex Mercer,15.4%,26.70,TSK-50569,10/04/2024,FLAGGED
+100.0%,Completed,Sales,21.0h,High,Taylor Swift,32.2%,5.50,TSK-50570,04/10/2024,PENDING
+49.0%,Blocked,Operations,31.6h,Critical,Dana White,24.4%,47.60,TSK-50571,10/05/2024,VERIFIED
+87.1%,Blocked,Operations,16.5h,High,Jordan Lee,88.5%,12.1,TSK-50572,2024-10-05,FLAGGED
+24.3%,Completed,Engineering,25.3h,Medium,Sam Chen,29.7%,9.90,TSK-50573,06/10/2024,OK
+100.0%,Completed,Marketing,34.6h,Medium,Sam Chen,97.8%,25.5,TSK-50574,10/06/2024,PENDING
+10.8,Review,Sales,38.0h,Critical,Sam Chen,40.3%,26.0,TSK-50575,07/10/2024,OK
+16.2%,In Progress,Operations,6.7h,High,Alex Mercer,26.4%,21.4,TSK-50576,2024-10-07,FLAGGED
+29.0,Review,Operations,37.1h,Medium,Sam Chen,81.1%,37.2,TSK-50577,08/10/2024,PENDING
+12.8,In Progress,Marketing,20.2h,Medium,Morgan Riley,69.3%,25.0,TSK-50578,08/10/2024,FLAGGED
+100.0,Completed,Engineering,11.1h,High,Alex Mercer,54.8%,29.50,TSK-50579,09/10/2024,OK
+100.0,Completed,HR,18.9h,Medium,Dana White,60.0%,34.90,TSK-50580,09/10/2024,PENDING
+100.0%,Completed,Finance,39.2h,High,Sam Chen,74.7%,1.70,TSK-50581,2024-10-10,OK
+100.0,Review,Sales,20.2h,High,Taylor Swift,30.6%,27.6,TSK-50582,10-10-2024,FLAGGED
+52.7,Completed,Operations,13.8h,Critical,Jordan Lee,99.7%,42.50,TSK-50583,11/10/2024,FLAGGED
+36.7,Completed,Finance,25.7h,Medium,Dana White,97.7%,1.3,TSK-50584,11/10/2024,OK
+25.3%,In Progress,Finance,10.4h,High,Morgan Riley,68.5%,19.7,TSK-50585,10/12/2024,PENDING
+100.0,In Progress,HR,4.0h,Medium,Taylor Swift,28.0%,44.50,TSK-50586,12/10/2024,OK
+100.0,Completed,Finance,6.0h,Medium,Dana White,71.2%,17.3,TSK-50587,10/13/2024,FLAGGED
+100.0%,Completed,Marketing,6.0h,Medium,Morgan Riley,16.5%,22.30,TSK-50588,10-13-2024,OK
+100.0%,Completed,Engineering,6.9h,High,Sam Chen,12.8%,47.10,TSK-50589,2024-10-14,FLAGGED
+100.0,Completed,Sales,6.4h,High,Dana White,33.2%,10.0,TSK-50590,2024-10-14,OK
+100.0,In Progress,Marketing,26.0h,Low,Dana White,51.6%,3.6,TSK-50591,10-15-2024,PENDING
+100.0,Completed,Engineering,8.1h,Medium,Dana White,88.1%,41.3,TSK-50592,2024-10-15,PENDING
+73.8,Blocked,Marketing,14.5h,Medium,Alex Mercer,75.4%,41.8,TSK-50593,10-15-2024,OK
+100.0%,In Progress,Operations,36.0h,Critical,Taylor Swift,76.8%,22.90,TSK-50594,10-16-2024,OK
+27.4,In Progress,Operations,19.5h,High,Morgan Riley,48.3%,24.9,TSK-50595,10-16-2024,PENDING
+100.0,Completed,HR,27.0h,Medium,Sam Chen,41.1%,40.2,TSK-50596,2024-10-17,FLAGGED
+100.0%,Completed,Marketing,7.7h,Critical,Jordan Lee,43.4%,35.6,TSK-50597,10/17/2024,PENDING
+68.4%,Completed,Finance,8.5h,Medium,Sam Chen,98.9%,13.10,TSK-50598,10-18-2024,FLAGGED
+39.7,Completed,Operations,2.6h,High,Sam Chen,13.6%,1.3,TSK-50599,18/10/2024,OK
+100.0%,In Progress,Engineering,7.6h,Critical,Alex Mercer,88.0%,23.30,TSK-50600,2024-10-19,OK
+100.0,Completed,HR,11.9h,High,Alex Mercer,62.1%,41.30,TSK-50601,10-19-2024,FLAGGED
+100.0%,In Progress,Finance,7.9h,High,Dana White,49.5%,43.1,TSK-50602,10-20-2024,OK
+53.5%,Completed,Sales,4.5h,Critical,Sam Chen,75.3%,45.90,TSK-50603,20/10/2024,FLAGGED
+89.4%,Completed,Marketing,5.7h,Medium,Taylor Swift,53.8%,42.3,TSK-50604,10/21/2024,VERIFIED
+100.0,Review,Operations,19.0h,High,Alex Mercer,88.6%,28.1,TSK-50605,10/21/2024,PENDING
+100.0,Completed,Finance,9.0h,High,Morgan Riley,91.1%,21.60,TSK-50606,10/22/2024,VERIFIED
+13.2,Completed,Engineering,15.2h,Low,Alex Mercer,48.0%,37.3,TSK-50607,10-22-2024,FLAGGED
+100.0,Completed,Marketing,20.6h,High,Taylor Swift,34.9%,35.6,TSK-50608,10-23-2024,PENDING
+52.5%,Completed,Engineering,27.9h,High,Alex Mercer,63.3%,26.1,TSK-50609,10-23-2024,FLAGGED
+100.0,In Progress,HR,2.5h,Medium,Taylor Swift,92.1%,4.6,TSK-50610,2024-10-24,PENDING
+100.0,Completed,Operations,32.2h,Low,Jordan Lee,29.0%,44.5,TSK-50611,24/10/2024,PENDING
+100.0,Completed,Operations,25.5h,Critical,Taylor Swift,66.1%,22.1,TSK-50612,10-25-2024,PENDING
+100.0%,Completed,HR,4.2h,High,Jordan Lee,66.8%,17.8,TSK-50613,25/10/2024,PENDING
+100.0,Review,Engineering,35.1h,Medium,Morgan Riley,76.0%,30.40,TSK-50614,26/10/2024,FLAGGED
+82.6%,Completed,Marketing,36.9h,High,Dana White,21.8%,32.5,TSK-50615,10/26/2024,PENDING
+60.0%,Completed,Engineering,3.4h,Medium,Dana White,74.4%,10.50,TSK-50616,2024-10-27,PENDING
+33.5,Completed,Marketing,11.8h,Low,Alex Mercer,91.8%,40.3,TSK-50617,10-27-2024,VERIFIED
+100.0,Completed,Finance,32.4h,Low,Taylor Swift,26.2%,14.3,TSK-50618,10/28/2024,OK
+100.0%,Completed,HR,30.2h,High,Alex Mercer,31.4%,9.40,TSK-50619,10/28/2024,OK
+100.0%,Completed,Sales,8.2h,High,Taylor Swift,97.4%,19.8,TSK-50620,10-29-2024,VERIFIED
+43.8,Completed,Marketing,9.2h,Low,Alex Mercer,26.3%,35.2,TSK-50621,29/10/2024,VERIFIED
+100.0,Completed,Operations,15.4h,High,Dana White,86.9%,46.40,TSK-50622,10/30/2024,FLAGGED
+100.0,Completed,Finance,19.9h,High,Morgan Riley,54.3%,38.9,TSK-50623,30/10/2024,FLAGGED
+100.0,Review,Operations,25.1h,Medium,Dana White,32.3%,45.2,TSK-50624,2024-10-31,FLAGGED
+100.0,In Progress,Finance,15.4h,High,Alex Mercer,88.4%,7.20,TSK-50625,31/10/2024,VERIFIED
+100.0%,Completed,Operations,19.0h,High,Taylor Swift,50.1%,3.9,TSK-50626,2024-11-01,VERIFIED
+67.8,Completed,Engineering,30.2h,Low,Sam Chen,56.3%,27,TSK-50627,01/11/2024,PENDING
+85.7,In Progress,Engineering,2.4h,High,Morgan Riley,42.3%,14.3,TSK-50628,11/02/2024,FLAGGED
+13.5%,Blocked,Engineering,10.8h,Critical,Taylor Swift,63.4%,39.8,TSK-50629,11/02/2024,FLAGGED
+16.1,Completed,Finance,28.8h,High,Alex Mercer,24.7%,32.4,TSK-50630,2024-11-03,FLAGGED
+37.6%,In Progress,Finance,35.9h,Medium,Taylor Swift,45.2%,46.6,TSK-50631,11-03-2024,OK
+100.0,Completed,Operations,21.0h,Critical,Jordan Lee,97.2%,12.6,TSK-50632,2024-11-03,PENDING
+100.0,Completed,Marketing,21.8h,High,Taylor Swift,33.2%,23.60,TSK-50633,2024-11-04,FLAGGED
+29.8,Review,Finance,5.2h,Medium,Dana White,69.1%,24.3,TSK-50634,04/11/2024,FLAGGED
+100.0,In Progress,Operations,18.4h,Medium,Dana White,39.3%,11.90,TSK-50635,05/11/2024,FLAGGED
+100.0,Blocked,Marketing,21.8h,High,Jordan Lee,79.6%,28.5,TSK-50636,2024-11-05,OK
+100.0,Completed,Engineering,10.5h,Medium,Morgan Riley,21.8%,21.60,TSK-50637,11/06/2024,OK
+100.0,Completed,Finance,11.5h,High,Taylor Swift,97.3%,21.70,TSK-50638,06/11/2024,VERIFIED
+100.0%,Completed,Sales,15.7h,Medium,Morgan Riley,50.8%,17.70,TSK-50639,11-07-2024,PENDING
+100.0,Completed,Engineering,1.8h,High,Sam Chen,31.2%,1.3,TSK-50640,07/11/2024,VERIFIED
+100.0%,Completed,HR,13.6h,Critical,Taylor Swift,16.6%,25.30,TSK-50641,08/11/2024,PENDING
+32.5,Completed,Marketing,9.2h,Medium,Dana White,25.3%,16.4,TSK-50642,11-08-2024,OK
+100.0,Completed,Sales,13.8h,High,Dana White,56.8%,0.60,TSK-50643,2024-11-09,FLAGGED
+28.8,Completed,Engineering,5.7h,High,Morgan Riley,40.3%,15.10,TSK-50644,11-09-2024,VERIFIED
+100.0%,In Progress,Finance,35.7h,High,Alex Mercer,84.6%,13.7,TSK-50645,2024-11-10,FLAGGED
+100.0%,Review,Sales,24.2h,Medium,Dana White,48.8%,19.2,TSK-50646,2024-11-10,VERIFIED
+100.0,Completed,Operations,27.5h,High,Alex Mercer,32.4%,6.80,TSK-50647,2024-11-11,OK
+100.0%,Completed,Marketing,31.8h,High,Dana White,65.5%,24.6,TSK-50648,11-11-2024,OK
+26.6%,Completed,HR,20.4h,Critical,Dana White,73.6%,33.4,TSK-50649,2024-11-12,OK
+21.1%,Review,Operations,4.4h,High,Sam Chen,25.0%,30.4,TSK-50650,11/12/2024,VERIFIED
+89.4,Completed,Sales,21.9h,High,Alex Mercer,25.1%,38.70,TSK-50651,11-13-2024,PENDING
+22.3,In Progress,Engineering,23.9h,High,Alex Mercer,13.3%,22,TSK-50652,11/13/2024,VERIFIED
+100.0%,In Progress,Marketing,30.1h,Critical,Dana White,76.3%,25.20,TSK-50653,2024-11-14,PENDING
+100.0%,Completed,Finance,17.8h,High,Alex Mercer,69.7%,39.0,TSK-50654,14/11/2024,VERIFIED
+100.0%,Completed,HR,6.0h,Medium,Dana White,52.7%,20.8,TSK-50655,2024-11-15,VERIFIED
+100.0,Review,Engineering,12.1h,Medium,Dana White,86.0%,33.8,TSK-50656,11/15/2024,OK
+100.0,Completed,HR,15.2h,Low,Morgan Riley,82.5%,21.1,TSK-50657,11/16/2024,FLAGGED
+100.0%,In Progress,Finance,26.2h,Critical,Taylor Swift,62.7%,20.3,TSK-50658,11-16-2024,FLAGGED
+100.0%,Review,Marketing,23.3h,Low,Alex Mercer,88.1%,36.60,TSK-50659,17/11/2024,PENDING
+100.0%,Completed,Sales,14.9h,High,Jordan Lee,28.5%,8.8,TSK-50660,11-17-2024,FLAGGED
+100.0,Blocked,HR,39.5h,Low,Morgan Riley,20.1%,16.6,TSK-50661,11/18/2024,VERIFIED
+27.4,Review,Marketing,24.6h,High,Alex Mercer,34.3%,11.1,TSK-50662,2024-11-18,VERIFIED
+100.0%,In Progress,HR,10.3h,High,Alex Mercer,15.1%,17.6,TSK-50663,19/11/2024,OK
+30.9%,Completed,Engineering,5.0h,High,Sam Chen,57.8%,11.4,TSK-50664,2024-11-19,OK
+89.3%,Completed,HR,7.0h,High,Jordan Lee,94.3%,28.0,TSK-50665,2024-11-20,FLAGGED
+100.0,Completed,Engineering,10.6h,Medium,Jordan Lee,13.5%,38.4,TSK-50666,20/11/2024,PENDING
+100.0%,In Progress,Engineering,7.3h,Medium,Sam Chen,21.0%,37.9,TSK-50667,11-21-2024,FLAGGED
+100.0,In Progress,Marketing,8.3h,Low,Sam Chen,50.7%,17.8,TSK-50668,2024-11-21,FLAGGED
+74.2,Completed,Operations,12.1h,Medium,Alex Mercer,94.0%,47.5,TSK-50669,11/22/2024,FLAGGED
+77.1%,Completed,Finance,7.8h,High,Taylor Swift,38.5%,28.70,TSK-50670,2024-11-22,FLAGGED
+100.0%,Completed,HR,36.0h,Critical,Sam Chen,55.7%,19.50,TSK-50671,22/11/2024,VERIFIED
+100.0%,In Progress,Sales,4.1h,Low,Jordan Lee,13.7%,40.20,TSK-50672,23/11/2024,PENDING
+18.9,In Progress,Engineering,21.5h,Medium,Jordan Lee,23.4%,35.20,TSK-50673,23/11/2024,VERIFIED
+100.0,Review,Operations,17.0h,Medium,Alex Mercer,98.8%,36.10,TSK-50674,11-24-2024,PENDING
+81.1,In Progress,Engineering,39.3h,High,Taylor Swift,96.9%,9.80,TSK-50675,2024-11-24,OK
+100.0,In Progress,Operations,5.4h,Medium,Dana White,10.4%,22.70,TSK-50676,11-25-2024,FLAGGED
+100.0%,In Progress,Operations,16.5h,Low,Sam Chen,95.7%,41.40,TSK-50677,11-25-2024,VERIFIED
+44.7,Completed,Sales,38.8h,High,Sam Chen,67.5%,24.4,TSK-50678,26/11/2024,PENDING
+32.3,Completed,Operations,34.8h,High,Alex Mercer,88.1%,33.0,TSK-50679,26/11/2024,OK
+58.9%,Review,Sales,32.9h,High,Morgan Riley,50.9%,28.40,TSK-50680,11-27-2024,OK
+100.0,In Progress,Marketing,11.1h,Medium,Morgan Riley,56.4%,40.5,TSK-50681,2024-11-27,FLAGGED
+100.0,Completed,Engineering,7.7h,Critical,Taylor Swift,54.0%,14,TSK-50682,11/28/2024,PENDING
+79.9,Completed,Sales,27.1h,Critical,Jordan Lee,70.0%,27.8,TSK-50683,11-28-2024,VERIFIED
+100.0,Completed,Finance,37.2h,High,Jordan Lee,22.6%,6.40,TSK-50684,2024-11-29,FLAGGED
+100.0,Completed,Engineering,22.7h,Medium,Dana White,12.7%,33.3,TSK-50685,29/11/2024,VERIFIED
+76.2,Completed,Finance,23.3h,High,Jordan Lee,37.7%,35.3,TSK-50686,30/11/2024,OK
+100.0%,Completed,HR,11.9h,Critical,Morgan Riley,73.4%,2.5,TSK-50687,2024-11-30,VERIFIED
+100.0%,Completed,Finance,31.0h,Low,Morgan Riley,28.2%,32.6,TSK-50688,12/01/2024,VERIFIED
+85.6,Completed,Marketing,8.3h,Low,Sam Chen,70.6%,20.2,TSK-50689,01/12/2024,FLAGGED
+88.9%,In Progress,HR,13.6h,High,Dana White,97.3%,6.40,TSK-50690,02/12/2024,VERIFIED
+100.0%,Completed,HR,17.6h,Medium,Taylor Swift,18.5%,20.4,TSK-50691,02/12/2024,FLAGGED
+100.0,Completed,Operations,20.8h,Medium,Dana White,70.5%,9.70,TSK-50692,2024-12-03,OK
+30.2,Completed,Finance,10.5h,High,Taylor Swift,49.9%,20.2,TSK-50693,12-03-2024,FLAGGED
+46.0,Completed,Operations,5.5h,High,Morgan Riley,88.1%,18.8,TSK-50694,04/12/2024,FLAGGED
+11.2,Completed,Finance,24.8h,High,Jordan Lee,25.9%,35.6,TSK-50695,12-04-2024,PENDING
+100.0%,In Progress,HR,12.3h,High,Alex Mercer,72.3%,37.3,TSK-50696,12/05/2024,VERIFIED
+100.0%,In Progress,Operations,23.7h,High,Dana White,85.4%,29.30,TSK-50697,05/12/2024,OK
+100.0%,Completed,Engineering,7.0h,Medium,Dana White,95.0%,1.60,TSK-50698,06/12/2024,FLAGGED
+84.7,Completed,Finance,19.8h,High,Sam Chen,71.5%,44.70,TSK-50699,12/06/2024,OK
+23.1,Completed,Finance,21.8h,Medium,Sam Chen,54.7%,33.10,TSK-50700,07/12/2024,PENDING
+100.0%,Review,Operations,3.0h,High,Morgan Riley,65.6%,2.1,TSK-50701,12-07-2024,VERIFIED
+100.0,Review,Finance,14.1h,Medium,Taylor Swift,88.2%,39.40,TSK-50702,2024-12-08,FLAGGED
+100.0,Completed,HR,6.2h,High,Alex Mercer,61.4%,10,TSK-50703,12-08-2024,VERIFIED
+83.2,In Progress,Operations,3.5h,Medium,Sam Chen,12.7%,28.0,TSK-50704,2024-12-09,PENDING
+38.0,In Progress,Operations,39.6h,Medium,Sam Chen,93.8%,22.7,TSK-50705,2024-12-09,PENDING
+100.0%,In Progress,Sales,13.6h,Medium,Jordan Lee,72.1%,20.4,TSK-50706,12-10-2024,OK
+100.0,In Progress,Sales,32.6h,High,Jordan Lee,70.9%,42.80,TSK-50707,12-10-2024,FLAGGED
+100.0,Review,HR,10.9h,Medium,Morgan Riley,29.4%,21.30,TSK-50708,12-11-2024,OK
+100.0,Completed,Engineering,27.6h,Low,Morgan Riley,69.3%,4.1,TSK-50709,12-11-2024,PENDING
+41.3,Completed,Finance,30.6h,Medium,Sam Chen,45.4%,45.5,TSK-50710,12/11/2024,VERIFIED
+13.3,In Progress,Marketing,24.2h,Critical,Taylor Swift,68.6%,44.20,TSK-50711,12/12/2024,OK
+100.0,In Progress,Finance,19.4h,Medium,Alex Mercer,19.6%,33.0,TSK-50712,2024-12-12,OK
+100.0%,In Progress,Marketing,17.1h,Critical,Sam Chen,69.2%,22.70,TSK-50713,12-13-2024,VERIFIED
+37.8,Completed,HR,14.6h,Low,Taylor Swift,99.9%,4.90,TSK-50714,12-13-2024,OK
+100.0,Completed,Engineering,37.3h,Medium,Taylor Swift,14.3%,38.1,TSK-50715,12-14-2024,VERIFIED
+100.0,Completed,Engineering,33.4h,High,Sam Chen,97.9%,4.1,TSK-50716,12/14/2024,FLAGGED
+85.5%,Completed,Engineering,38.6h,Critical,Taylor Swift,46.6%,3.8,TSK-50717,12-15-2024,VERIFIED
+12.2%,Completed,Sales,5.8h,High,Dana White,88.4%,26,TSK-50718,12-15-2024,FLAGGED
+44.5%,Review,HR,29.5h,Low,Taylor Swift,80.4%,8.10,TSK-50719,12-16-2024,VERIFIED
+100.0,Completed,Marketing,37.6h,Critical,Sam Chen,61.0%,0.90,TSK-50720,16/12/2024,PENDING
+100.0,In Progress,Engineering,8.1h,High,Taylor Swift,76.5%,20.6,TSK-50721,12/17/2024,PENDING
+100.0%,Completed,HR,3.6h,Low,Sam Chen,89.1%,7.0,TSK-50722,12-17-2024,FLAGGED
+100.0,In Progress,Finance,29.9h,High,Jordan Lee,46.4%,8.1,TSK-50723,2024-12-18,FLAGGED
+12.7,Completed,Marketing,23.4h,High,Sam Chen,39.4%,4.2,TSK-50724,2024-12-18,PENDING
+100.0,In Progress,Sales,33.8h,Medium,Taylor Swift,70.1%,10.2,TSK-50725,2024-12-19,FLAGGED
+41.5,Completed,Operations,6.5h,High,Sam Chen,82.7%,34.5,TSK-50726,12/19/2024,VERIFIED
+100.0,Completed,Marketing,32.0h,High,Alex Mercer,78.6%,38.90,TSK-50727,12/20/2024,VERIFIED
+100.0,Completed,Finance,8.9h,Critical,Sam Chen,81.8%,22.0,TSK-50728,2024-12-20,PENDING
+24.7%,Completed,Marketing,7.4h,Medium,Sam Chen,49.2%,24.60,TSK-50729,12-21-2024,OK
+100.0,Review,Marketing,7.4h,Low,Alex Mercer,83.6%,2.10,TSK-50730,12/21/2024,VERIFIED
+100.0,Blocked,Operations,32.8h,Critical,Alex Mercer,20.8%,3.8,TSK-50731,2024-12-22,FLAGGED
+100.0,Review,Engineering,26.9h,High,Alex Mercer,59.0%,12.7,TSK-50732,2024-12-22,OK
+100.0,In Progress,Finance,21.4h,High,Morgan Riley,10.5%,26.30,TSK-50733,12-23-2024,OK
+100.0,Review,Operations,15.0h,Medium,Dana White,39.2%,35.60,TSK-50734,23/12/2024,VERIFIED
+100.0%,In Progress,Marketing,35.2h,High,Morgan Riley,43.0%,29.2,TSK-50735,12/24/2024,VERIFIED
+31.4,Completed,Finance,16.3h,Low,Sam Chen,45.7%,19.10,TSK-50736,12-24-2024,OK
+84.6%,Completed,Sales,32.8h,Critical,Morgan Riley,72.6%,6.1,TSK-50737,2024-12-25,OK
+100.0%,Completed,Marketing,18.1h,Low,Morgan Riley,45.0%,37.6,TSK-50738,2024-12-25,PENDING
+100.0,Completed,Sales,15.7h,Medium,Alex Mercer,50.4%,17.8,TSK-50739,12-26-2024,FLAGGED
+100.0,Completed,HR,19.0h,Medium,Alex Mercer,31.4%,35.5,TSK-50740,12/26/2024,PENDING
+100.0%,Completed,Sales,12.8h,High,Jordan Lee,43.6%,24.9,TSK-50741,27/12/2024,VERIFIED
+100.0,In Progress,Marketing,30.2h,Medium,Morgan Riley,30.5%,35.60,TSK-50742,27/12/2024,PENDING
+47.1,Completed,Operations,20.6h,High,Dana White,16.6%,43.6,TSK-50743,2024-12-28,PENDING
+100.0%,Completed,Marketing,10.1h,Critical,Sam Chen,64.3%,44.2,TSK-50744,12/28/2024,PENDING
+33.3,In Progress,Marketing,36.1h,High,Taylor Swift,70.1%,25.90,TSK-50745,29/12/2024,PENDING
+60.1,In Progress,HR,16.0h,Low,Dana White,65.8%,24.8,TSK-50746,12/29/2024,FLAGGED
+22.1,Review,Engineering,22.2h,Medium,Dana White,51.7%,13.1,TSK-50747,12/30/2024,FLAGGED
+100.0%,Completed,Marketing,36.4h,Medium,Jordan Lee,44.2%,45.0,TSK-50748,2024-12-30,OK
+100.0%,Completed,HR,25.3h,Medium,Sam Chen,87.7%,22.3,TSK-50749,31/12/2024,VERIFIED

@@ -1,0 +1,157 @@
+"""
+visualization_engine.py
+
+Takes analytics results (plain dicts) and shapes them into chart specs
+the frontend can hand straight to Chart.js. Returns a uniform structure:
+{ "type": "line"|"bar"|"pie"|"scatter", "labels": [...], "datasets": [...] }
+so charts.js on the frontend has one rendering path regardless of source.
+"""
+from __future__ import annotations
+
+
+def trend_to_chart(trend: dict, label: str = None) -> dict:
+    if "error" in trend:
+        return {"error": trend["error"]}
+    ds_label = label or trend["metric"]
+    if not label and trend.get("filter_val"):
+        ds_label = f"{trend['metric']} ({trend['filter_val']})"
+    return {
+        "type": "line",
+        "labels": trend["periods"],
+        "datasets": [{
+            "label": ds_label,
+            "data": trend["values"],
+        }],
+    }
+
+
+def _resolve_to_iso(val: str) -> list[str]:
+    val_clean = str(val).strip().lower()
+    if val_clean == "north":
+        return ["US", "CA", "GL"]
+    elif val_clean == "west":
+        return ["GB", "FR", "DE", "ES", "IT"]
+    elif val_clean == "east":
+        return ["IN", "CN", "JP", "KR"]
+    elif val_clean == "south":
+        return ["ZA", "AU", "BR", "AR"]
+    
+    country_map = {
+        "united states": ["US"], "usa": ["US"], "us": ["US"],
+        "india": ["IN"], "ind": ["IN"], "in": ["IN"],
+        "china": ["CN"], "cn": ["CN"],
+        "united kingdom": ["GB"], "uk": ["GB"], "gb": ["GB"],
+        "germany": ["DE"], "de": ["DE"],
+        "france": ["FR"], "fr": ["FR"],
+        "brazil": ["BR"], "br": ["BR"],
+        "australia": ["AU"], "au": ["AU"],
+        "canada": ["CA"], "ca": ["CA"],
+        "russia": ["RU"], "ru": ["RU"],
+        "japan": ["JP"], "jp": ["JP"],
+        "south africa": ["ZA"], "za": ["ZA"],
+        "italy": ["IT"], "it": ["IT"],
+        "spain": ["ES"], "es": ["ES"],
+    }
+    if val_clean in country_map:
+        return country_map[val_clean]
+    for k, codes in country_map.items():
+        if k in val_clean:
+            return codes
+    return []
+
+
+def comparison_to_chart(comparison: dict, chart_type: str = "bar") -> dict:
+    if "error" in comparison:
+        return {"error": comparison["error"]}
+    ranking = comparison["ranking"]
+    ds_label = comparison["metric"]
+    if comparison.get("filter_val"):
+        ds_label = f"{comparison['metric']} ({comparison['filter_val']})"
+    
+    if chart_type == "map":
+        map_data = {}
+        for r in ranking:
+            val = r[comparison["dimension"]]
+            metric_val = r[comparison["metric"]]
+            codes = _resolve_to_iso(val)
+            for code in codes:
+                map_data[code] = metric_val
+        return {
+            "type": "map",
+            "dimension": comparison["dimension"],
+            "metric": comparison["metric"],
+            "map_data": map_data
+        }
+
+    return {
+        "type": chart_type,
+        "labels": [r[comparison["dimension"]] for r in ranking],
+        "datasets": [{
+            "label": ds_label,
+            "data": [r[comparison["metric"]] for r in ranking],
+        }],
+    }
+
+
+def anomalies_to_chart(series_values: list[float], series_labels: list[str], anomaly_indices: list[int]) -> dict:
+    return {
+        "type": "scatter",
+        "labels": series_labels,
+        "datasets": [
+            {"label": "Values", "data": series_values},
+            {"label": "Anomalies", "data": [
+                series_values[i] if i in anomaly_indices else None for i in range(len(series_values))
+            ]},
+        ],
+    }
+
+
+def forecast_to_chart(
+    historical_periods: list,
+    historical_values: list,
+    forecast_periods: list,
+    forecast_values: list,
+    metric: str,
+    upper_bounds: list = None,
+    lower_bounds: list = None,
+) -> dict:
+    datasets = [
+        {"label": f"{metric} (actual)", "data": historical_values + [None] * len(forecast_periods)},
+        {"label": f"{metric} (forecast)", "data": [None] * len(historical_values) + forecast_values},
+    ]
+    if upper_bounds and lower_bounds:
+        datasets.append({
+            "label": "95% Upper Bound",
+            "data": [None] * len(historical_values) + upper_bounds,
+            "borderDash": [3, 3],
+            "borderColor": "rgba(245, 168, 85, 0.4)",
+        })
+        datasets.append({
+            "label": "95% Lower Bound",
+            "data": [None] * len(historical_values) + lower_bounds,
+            "borderDash": [3, 3],
+            "borderColor": "rgba(245, 168, 85, 0.4)",
+        })
+    return {
+        "type": "line",
+        "labels": historical_periods + forecast_periods,
+        "datasets": datasets,
+    }
+
+
+def kpi_cards(kpis: dict) -> list[dict]:
+    """Formats raw KPI dict into display-ready cards for the dashboard."""
+    label_map = {
+        "total_revenue": ("Total revenue", "currency"),
+        "avg_revenue": ("Avg revenue / row", "currency"),
+        "total_profit": ("Total profit", "currency"),
+        "avg_profit": ("Avg profit / row", "currency"),
+        "total_orders": ("Total orders", "number"),
+        "unique_customers": ("Unique customers", "number"),
+        "row_count": ("Records analyzed", "number"),
+    }
+    cards = []
+    for key, value in kpis.items():
+        title, fmt = label_map.get(key, (key.replace("_", " ").title(), "number"))
+        cards.append({"key": key, "title": title, "value": value, "format": fmt})
+    return cards

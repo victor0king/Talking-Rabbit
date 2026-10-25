@@ -1,0 +1,701 @@
+c10,amt_code_2,c11,fld_09x,c12,ord_cnt,c13,TOT_SPND,c14,c_name,c15
+Low,South,Small Business,"$13,421.63",06/01/2024,25,2,"$9,808.90",CUST-100,Olivia Jones,OK
+Medium,West,Enterprise,"$33,299.64",06/01/2024,4,2,16436.67,CUST-101,Noah Jones,PENDING
+High,East,Small Business,"$25,753.79",2024-06-01,30,0,3868.26,CUST-102,William Williams,OK
+Low,West,Enterprise,"$21,153.72",01/06/2024,30,1,3981.04,CUST-103,Lucas Williams,OK
+High,South,Small Business,"$5,882.64",02/06/2024,13,1,"$8,282.99",CUST-104,Emma Williams,OK
+Medium,East,Mid-Market,"$5,881.81",06-02-2024,42,1,"$18,994.63",CUST-105,William Williams,VERIFIED
+Low,North,Small Business,"$2,503.88",02/06/2024,14,0,"$2,419.50",CUST-106,Mia Brown,FLAGGED
+High,East,Startup,"$30,383.08",2024-06-03,8,2,4170.49,CUST-107,Liam Martinez,PENDING
+Low,West,Startup,"$21,238.47",06/03/2024,24,1,10731.78,CUST-108,Noah Brown,PENDING
+Low,North,Enterprise,"$24,928.50",03/06/2024,18,1,6515.35,CUST-109,Ethan Davis,VERIFIED
+Low,North,Startup,"$1,210.17",06-04-2024,35,0,"$1,161.75",CUST-110,William Miller,FLAGGED
+Low,South,Enterprise,"$33,961.89",04/06/2024,25,1,6822.93,CUST-111,Mia Jones,PENDING
+Medium,North,Startup,"$29,219.27",2024-06-04,17,0,1743.63,CUST-112,Olivia Miller,OK
+Medium,North,Mid-Market,"$7,825.70",06-04-2024,32,2,"$5,039.64",CUST-113,James Garcia,PENDING
+High,South,Mid-Market,"$6,772.96",05/06/2024,24,0,"$5,295.26",CUST-114,Mia Miller,OK
+Low,East,Enterprise,"$6,827.46",06-05-2024,7 units,0,"$13,979.25",CUST-115,Emma Miller,VERIFIED
+Low,West,Enterprise,"$10,996.36",2024-06-05,13 units,0,"$4,435.30",CUST-116,Sophia Jones,OK
+Low,East,Small Business,"$18,604.10",06/06/2024,27 units,0,2530.24,CUST-117,Olivia Smith,PENDING
+Low,North,Startup,"$15,402.10",2024-06-06,5 units,2,2107.03,CUST-118,Emma Miller,PENDING
+High,West,Small Business,"$10,547.41",2024-06-06,36,2,"$13,877.58",CUST-119,Ava Williams,PENDING
+Medium,East,Small Business,"$21,608.92",2024-06-07,26,1,1619.06,CUST-120,Noah Davis,VERIFIED
+Low,West,Small Business,"$5,312.54",2024-06-07,42,2,"$4,006.83",CUST-121,Mia Garcia,VERIFIED
+High,North,Mid-Market,"$10,578.99",06/07/2024,31,2,"$1,747.04",CUST-122,Noah Johnson,FLAGGED
+Medium,East,Enterprise,"$13,139.48",06/08/2024,10,1,"$10,046.95",CUST-123,Ethan Smith,PENDING
+Low,West,Enterprise,"$16,234.41",06-08-2024,26,2,4580.56,CUST-124,William Johnson,OK
+Medium,West,Mid-Market,"$27,588.57",08/06/2024,22,0,3211.54,CUST-125,James Brown,VERIFIED
+Low,East,Enterprise,"$7,388.75",06/08/2024,12,0,"$3,312.04",CUST-126,Olivia Jones,PENDING
+Low,East,Enterprise,"$18,241.09",06/09/2024,32,1,12827.94,CUST-127,Noah Davis,PENDING
+Low,North,Enterprise,"$20,938.30",09/06/2024,27,1,5645.04,CUST-128,William Williams,VERIFIED
+Low,South,Enterprise,"$2,102.54",06/09/2024,33,1,"$8,624.97",CUST-129,Sophia Williams,FLAGGED
+Low,West,Startup,"$21,460.30",2024-06-10,20,0,15177.1,CUST-130,Emma Davis,VERIFIED
+Low,East,Enterprise,"$6,383.08",2024-06-10,39,2,"$15,481.01",CUST-131,James Rodriguez,VERIFIED
+Low,East,Mid-Market,"$2,744.28",10/06/2024,41,0,"$2,988.66",CUST-132,William Miller,OK
+Medium,East,Mid-Market,"$33,236.55",06-11-2024,40,1,20199.0,CUST-133,Isabella Martinez,OK
+High,West,Mid-Market,"$33,814.31",06-11-2024,13 units,2,563.74,CUST-134,Isabella Brown,FLAGGED
+Medium,North,Enterprise,"$28,389.71",11/06/2024,14 units,2,3474.14,CUST-135,Liam Garcia,PENDING
+Low,South,Mid-Market,"$11,009.18",11/06/2024,44,0,"$15,099.31",CUST-136,Ethan Rodriguez,VERIFIED
+Low,West,Enterprise,"$3,869.69",2024-06-12,40 units,1,"$2,487.04",CUST-137,Olivia Martinez,FLAGGED
+Low,North,Mid-Market,"$24,106.04",06-12-2024,22,0,2473.12,CUST-138,Noah Rodriguez,OK
+Low,West,Enterprise,"$15,685.26",06/12/2024,18,2,2742.78,CUST-139,Emma Johnson,VERIFIED
+Medium,West,Mid-Market,"$4,710.32",2024-06-13,29,0,"$6,559.13",CUST-140,Noah Smith,PENDING
+Medium,East,Small Business,"$17,583.60",13/06/2024,43,0,4149.5,CUST-141,Mia Jones,OK
+Medium,North,Mid-Market,"$1,686.40",06-13-2024,16,1,"$8,832.53",CUST-142,Isabella Martinez,OK
+Medium,East,Mid-Market,"$31,871.55",06/14/2024,35,1,15044.14,CUST-143,Emma Rodriguez,OK
+Low,East,Mid-Market,"$9,427.91",06/14/2024,34,2,"$7,689.55",CUST-144,Emma Miller,FLAGGED
+Low,North,Small Business,"$23,357.02",2024-06-14,3,0,1886.83,CUST-145,Mia Garcia,PENDING
+Medium,East,Enterprise,"$11,254.03",06-15-2024,4 units,0,"$17,939.12",CUST-146,William Miller,VERIFIED
+Low,East,Small Business,"$18,442.35",06-15-2024,5,0,2396.77,CUST-147,William Smith,FLAGGED
+Low,South,Small Business,"$19,361.50",15/06/2024,10,2,1455.56,CUST-148,Olivia Miller,FLAGGED
+Low,North,Mid-Market,"$6,877.48",06-15-2024,29,2,"$1,012.79",CUST-149,James Smith,FLAGGED
+Low,North,Mid-Market,"$33,950.67",06-16-2024,32,1,5786.55,CUST-150,William Garcia,OK
+Low,East,Mid-Market,"$27,242.08",2024-06-16,31 units,1,1185.01,CUST-151,Olivia Williams,PENDING
+Medium,East,Enterprise,"$32,912.71",06-16-2024,2,1,1371.1,CUST-152,Isabella Jones,FLAGGED
+High,North,Enterprise,"$31,371.54",06/17/2024,12,0,2718.67,CUST-153,Ethan Martinez,VERIFIED
+Low,North,Enterprise,"$21,127.55",2024-06-17,27,0,2550.22,CUST-154,Ava Martinez,PENDING
+Low,West,Enterprise,"$32,304.66",2024-06-17,5,1,6425.15,CUST-155,Liam Jones,VERIFIED
+Medium,North,Mid-Market,"$3,552.99",18/06/2024,37,0,"$11,429.71",CUST-156,Ava Jones,PENDING
+Low,West,Small Business,"$7,261.41",06-18-2024,27,1,"$9,712.91",CUST-157,Ethan Martinez,VERIFIED
+Low,East,Enterprise,"$2,060.34",18/06/2024,23,2,"$2,379.04",CUST-158,William Brown,OK
+Low,South,Startup,"$11,723.90",06/18/2024,33 units,1,"$2,229.42",CUST-159,James Martinez,FLAGGED
+Low,South,Startup,"$13,909.37",2024-06-19,4,2,"$22,339.33",CUST-160,Noah Smith,VERIFIED
+Medium,West,Startup,"$9,861.54",2024-06-19,21,0,$453.76,CUST-161,Sophia Martinez,PENDING
+Medium,East,Small Business,"$29,091.44",2024-06-19,24 units,1,14166.59,CUST-162,Ava Miller,FLAGGED
+Low,East,Mid-Market,"$12,807.99",06/20/2024,44,0,"$1,848.23",CUST-163,James Martinez,FLAGGED
+Low,East,Enterprise,"$10,192.24",06/20/2024,31,2,"$19,528.48",CUST-164,Olivia Rodriguez,PENDING
+Low,North,Mid-Market,"$19,223.01",20/06/2024,44,2,3123.61,CUST-165,James Rodriguez,VERIFIED
+Low,East,Mid-Market,"$5,361.89",21/06/2024,24,2,"$4,172.90",CUST-166,Mia Jones,OK
+High,North,Small Business,"$28,175.80",21/06/2024,10,0,8381.96,CUST-167,Sophia Miller,OK
+Medium,West,Startup,"$3,072.00",06-21-2024,2,0,"$6,158.54",CUST-168,Olivia Garcia,VERIFIED
+Low,South,Mid-Market,"$34,547.60",2024-06-22,31,0,2887.14,CUST-169,Lucas Garcia,FLAGGED
+Medium,West,Mid-Market,"$27,142.44",2024-06-22,25,0,5645.87,CUST-170,William Garcia,FLAGGED
+Medium,East,Enterprise,"$7,355.69",22/06/2024,4,2,"$8,927.71",CUST-171,Emma Jones,FLAGGED
+Medium,East,Enterprise,$690.51,2024-06-22,11,2,$681.17,CUST-172,Liam Miller,FLAGGED
+Low,West,Mid-Market,"$28,633.42",23/06/2024,17,1,473.21,CUST-173,Olivia Smith,VERIFIED
+Low,North,Mid-Market,"$24,886.58",06-23-2024,44,1,4381.98,CUST-174,Isabella Garcia,FLAGGED
+Medium,North,Small Business,"$25,650.75",06-23-2024,2,0,1318.94,CUST-175,Sophia Miller,PENDING
+Low,North,Mid-Market,"$27,108.83",06/24/2024,6,2,7495.85,CUST-176,William Davis,FLAGGED
+High,South,Startup,"$3,054.54",06-24-2024,9,2,"$1,965.62",CUST-177,Liam Garcia,OK
+Medium,South,Small Business,"$12,867.07",24/06/2024,5,2,"$4,086.37",CUST-178,Ava Johnson,FLAGGED
+High,East,Small Business,"$4,497.48",06-25-2024,20,1,"$1,831.54",CUST-179,Ethan Johnson,VERIFIED
+Low,West,Enterprise,"$30,277.07",06/25/2024,29,1,5568.43,CUST-180,Liam Martinez,OK
+High,West,Startup,"$22,003.79",2024-06-25,21,2,1201.83,CUST-181,Isabella Johnson,VERIFIED
+Low,East,Small Business,"$11,915.98",25/06/2024,9,2,$551.96,CUST-182,Ethan Smith,VERIFIED
+High,North,Enterprise,"$2,692.76",2024-06-26,28,2,$741.15,CUST-183,Noah Smith,OK
+Low,South,Enterprise,"$11,228.89",06/26/2024,8,1,"$20,450.86",CUST-184,Noah Davis,VERIFIED
+Low,West,Startup,"$11,718.82",06/26/2024,31,2,"$1,397.65",CUST-185,Mia Davis,VERIFIED
+Medium,East,Enterprise,"$25,671.41",06/27/2024,20,2,8412.16,CUST-186,Emma Davis,FLAGGED
+Low,North,Mid-Market,"$22,495.73",2024-06-27,27,0,857.23,CUST-187,Isabella Jones,PENDING
+Low,North,Mid-Market,"$31,108.84",2024-06-27,8,0,1144.05,CUST-188,James Miller,VERIFIED
+High,South,Small Business,"$16,791.41",2024-06-28,21,1,5021.88,CUST-189,Sophia Jones,VERIFIED
+Low,South,Small Business,"$4,626.00",2024-06-28,28 units,2,"$4,464.11",CUST-190,James Smith,VERIFIED
+Medium,East,Mid-Market,"$25,106.95",06/28/2024,23,2,20081.02,CUST-191,Sophia Martinez,FLAGGED
+Low,East,Mid-Market,"$26,747.08",06/29/2024,6,0,19233.33,CUST-192,Isabella Miller,PENDING
+Medium,North,Startup,"$19,864.06",29/06/2024,3,1,10230.28,CUST-193,Ava Martinez,OK
+Medium,North,Small Business,"$27,098.37",29/06/2024,5,0,6390.13,CUST-194,James Rodriguez,FLAGGED
+Low,West,Startup,"$17,535.95",2024-06-29,9,0,4344.83,CUST-195,Olivia Jones,FLAGGED
+Low,North,Mid-Market,"$18,534.28",06-30-2024,7,0,3262.17,CUST-196,Emma Martinez,PENDING
+Medium,East,Enterprise,"$15,250.17",06-30-2024,4,0,19504.26,CUST-197,Mia Johnson,PENDING
+Low,South,Mid-Market,"$1,376.96",06/30/2024,39,2,"$6,403.33",CUST-198,Liam Rodriguez,FLAGGED
+Low,East,Small Business,"$4,222.25",07/01/2024,5,2,"$6,024.42",CUST-199,Emma Garcia,OK
+Medium,West,Enterprise,"$1,584.31",07/01/2024,11,0,"$2,114.94",CUST-200,Isabella Brown,FLAGGED
+Low,West,Mid-Market,"$22,456.16",01/07/2024,15,1,710.85,CUST-201,Lucas Garcia,PENDING
+Low,South,Enterprise,"$11,345.28",02/07/2024,34,1,"$19,275.07",CUST-202,Ava Rodriguez,OK
+Medium,East,Mid-Market,"$18,045.69",07/02/2024,13,1,2847.2,CUST-203,Ethan Martinez,PENDING
+Low,West,Small Business,"$31,811.04",07/02/2024,7,1,4198.94,CUST-204,Olivia Smith,OK
+Low,East,Enterprise,"$9,100.58",07/02/2024,40,0,"$1,191.45",CUST-205,Emma Davis,VERIFIED
+Low,West,Small Business,"$14,658.21",07-03-2024,6,2,12188.02,CUST-206,Ava Davis,PENDING
+Medium,South,Startup,"$26,566.51",03/07/2024,39,1,582.14,CUST-207,Emma Brown,PENDING
+Medium,West,Enterprise,"$8,393.54",07-03-2024,30,0,"$12,072.13",CUST-208,James Miller,FLAGGED
+Medium,East,Small Business,"$3,155.81",07-04-2024,22,1,"$1,382.50",CUST-209,Olivia Davis,PENDING
+Low,East,Startup,"$10,496.43",07/04/2024,25,1,"$14,547.36",CUST-210,Ethan Rodriguez,PENDING
+Low,West,Startup,"$6,062.13",07/04/2024,28,0,"$8,905.20",CUST-211,Liam Jones,VERIFIED
+Low,North,Enterprise,"$32,574.57",2024-07-05,20,2,1569.54,CUST-212,Sophia Garcia,PENDING
+Low,South,Enterprise,"$28,380.15",2024-07-05,39 units,2,5822.89,CUST-213,Ava Davis,VERIFIED
+High,South,Enterprise,"$22,352.43",07-05-2024,3,0,2836.99,CUST-214,Sophia Garcia,VERIFIED
+Low,West,Small Business,"$30,565.39",06/07/2024,5,2,1675.94,CUST-215,Olivia Miller,VERIFIED
+Low,West,Small Business,"$28,226.69",07/06/2024,1,0,13141.87,CUST-216,Mia Williams,VERIFIED
+Low,North,Small Business,"$6,936.67",07/06/2024,15,0,"$3,758.64",CUST-217,Lucas Williams,OK
+Medium,South,Mid-Market,"$31,293.29",07-06-2024,26,0,3704.61,CUST-218,Mia Smith,FLAGGED
+Medium,North,Enterprise,"$19,107.31",2024-07-07,3,2,1610.25,CUST-219,James Garcia,OK
+Medium,South,Mid-Market,"$28,356.69",07/07/2024,40,0,3539.45,CUST-220,Ava Rodriguez,PENDING
+High,West,Mid-Market,"$31,415.15",2024-07-07,41,1,13742.78,CUST-221,Isabella Brown,OK
+Low,South,Small Business,"$11,471.12",2024-07-08,42,2,"$3,332.72",CUST-222,Sophia Jones,OK
+Low,South,Mid-Market,"$4,296.79",2024-07-08,34 units,2,"$20,084.14",CUST-223,Isabella Smith,PENDING
+Low,South,Mid-Market,"$8,363.76",2024-07-08,5,2,"$19,409.30",CUST-224,Sophia Rodriguez,PENDING
+Medium,North,Mid-Market,"$15,235.22",07/09/2024,31,2,1417.48,CUST-225,Isabella Williams,PENDING
+Medium,North,Enterprise,"$28,721.51",07/09/2024,13,1,1668.65,CUST-226,William Williams,OK
+Low,South,Mid-Market,"$30,195.21",2024-07-09,43,2,13305.09,CUST-227,Emma Brown,OK
+Medium,East,Enterprise,$739.85,10/07/2024,1,2,"$3,642.41",CUST-228,Ava Williams,PENDING
+Medium,North,Mid-Market,"$18,120.78",07-10-2024,22,0,428.49,CUST-229,Isabella Johnson,FLAGGED
+High,West,Enterprise,"$14,900.68",10/07/2024,15,2,2480.19,CUST-230,James Williams,FLAGGED
+Medium,West,Enterprise,"$8,162.72",10/07/2024,26 units,1,"$6,317.47",CUST-231,Ava Garcia,VERIFIED
+Medium,South,Small Business,"$4,635.36",11/07/2024,18,1,"$10,837.53",CUST-232,Ethan Jones,PENDING
+Low,West,Mid-Market,"$12,147.72",2024-07-11,9,1,"$1,330.57",CUST-233,Liam Jones,VERIFIED
+Medium,North,Small Business,"$33,030.38",07/11/2024,1,1,1161.42,CUST-234,Noah Jones,FLAGGED
+High,East,Small Business,"$11,650.50",12/07/2024,43 units,2,"$16,989.53",CUST-235,Isabella Miller,VERIFIED
+Low,East,Mid-Market,"$18,398.28",2024-07-12,9,2,9440.84,CUST-236,Noah Miller,PENDING
+Medium,East,Startup,"$24,754.15",12/07/2024,23,1,6191.89,CUST-237,Ethan Jones,PENDING
+Medium,West,Enterprise,"$13,045.22",13/07/2024,43,1,"$9,929.95",CUST-238,Emma Jones,PENDING
+Low,South,Small Business,"$34,026.48",2024-07-13,2,2,4040.72,CUST-239,Mia Brown,OK
+Medium,West,Startup,"$33,704.43",07/13/2024,14,1,9634.57,CUST-240,Emma Martinez,VERIFIED
+Low,South,Startup,"$9,186.49",07/13/2024,38,0,"$3,421.86",CUST-241,Liam Rodriguez,FLAGGED
+High,East,Enterprise,"$17,655.07",07-14-2024,40,1,2218.95,CUST-242,Ethan Davis,FLAGGED
+Medium,North,Mid-Market,"$10,880.30",2024-07-14,18,1,"$8,886.96",CUST-243,Mia Davis,FLAGGED
+Low,West,Enterprise,"$10,327.00",07-14-2024,16,0,"$3,937.06",CUST-244,Mia Davis,OK
+Low,North,Small Business,"$1,772.60",07-15-2024,29,0,"$26,291.86",CUST-245,James Garcia,OK
+Medium,East,Small Business,"$21,529.97",07-15-2024,44 units,2,3194.94,CUST-246,Isabella Rodriguez,PENDING
+Low,South,Mid-Market,"$17,842.43",07/15/2024,11,2,16959.13,CUST-247,Mia Williams,FLAGGED
+Low,North,Mid-Market,"$2,276.02",2024-07-16,6,0,"$17,966.27",CUST-248,William Smith,OK
+Low,West,Small Business,"$10,113.30",07-16-2024,3,0,"$2,199.71",CUST-249,Emma Johnson,PENDING
+Low,North,Mid-Market,"$31,835.17",2024-07-16,14,2,10803.79,CUST-250,Lucas Garcia,FLAGGED
+Low,North,Startup,"$8,764.89",2024-07-17,2 units,1,"$4,088.93",CUST-251,William Johnson,VERIFIED
+Medium,West,Small Business,"$5,498.87",07/17/2024,32,0,"$16,619.17",CUST-252,Mia Rodriguez,PENDING
+High,South,Enterprise,"$17,386.12",07-17-2024,31,2,4287.41,CUST-253,Lucas Brown,OK
+Medium,West,Small Business,"$34,504.94",07-17-2024,11,1,9264.47,CUST-254,James Brown,OK
+Medium,East,Enterprise,"$8,850.91",2024-07-18,22,0,"$4,489.62",CUST-255,Olivia Davis,PENDING
+Low,South,Mid-Market,"$23,688.68",18/07/2024,3,1,2080.33,CUST-256,Olivia Brown,PENDING
+Low,North,Startup,"$26,775.88",07/18/2024,31,2,1845.16,CUST-257,Emma Martinez,OK
+Low,West,Startup,"$8,698.50",07/19/2024,33 units,0,"$4,001.88",CUST-258,Lucas Brown,VERIFIED
+Medium,East,Mid-Market,"$25,623.46",07/19/2024,24,1,9555.37,CUST-259,William Garcia,FLAGGED
+High,West,Mid-Market,"$13,188.52",07/19/2024,1,0,"$6,438.83",CUST-260,Liam Miller,VERIFIED
+Medium,South,Enterprise,"$22,314.55",07-20-2024,44,1,7984.01,CUST-261,Sophia Williams,PENDING
+High,East,Mid-Market,"$22,356.78",07-20-2024,15,2,2556.31,CUST-262,Olivia Martinez,VERIFIED
+Medium,North,Enterprise,"$18,984.23",20/07/2024,37,2,4668.49,CUST-263,Noah Rodriguez,OK
+Low,South,Mid-Market,"$3,615.00",07/20/2024,27,0,$695.17,CUST-264,Sophia Brown,PENDING
+Low,East,Enterprise,"$29,317.94",07/21/2024,38 units,1,11457.69,CUST-265,William Miller,FLAGGED
+Low,South,Mid-Market,"$11,566.91",2024-07-21,27,0,"$30,263.89",CUST-266,Emma Brown,OK
+Low,North,Enterprise,"$6,934.89",07-21-2024,44,0,"$3,795.32",CUST-267,Noah Brown,OK
+Medium,East,Startup,"$1,906.74",07/22/2024,12,1,$471.66,CUST-268,Olivia Rodriguez,FLAGGED
+Low,West,Small Business,"$20,885.81",22/07/2024,3,1,1609.52,CUST-269,William Johnson,FLAGGED
+Medium,West,Mid-Market,"$23,875.97",22/07/2024,30,1,7270.94,CUST-270,Sophia Davis,VERIFIED
+Medium,North,Enterprise,"$1,072.28",07-23-2024,32,2,"$6,555.20",CUST-271,Mia Miller,PENDING
+Low,East,Mid-Market,"$18,167.21",23/07/2024,23,0,10478.45,CUST-272,Ava Brown,FLAGGED
+Low,North,Enterprise,"$8,314.10",23/07/2024,2,0,"$2,303.68",CUST-273,Lucas Martinez,FLAGGED
+Low,North,Mid-Market,"$22,758.46",07-24-2024,7 units,2,9775.37,CUST-274,Sophia Garcia,PENDING
+Low,South,Small Business,"$6,515.64",07/24/2024,34 units,1,"$7,970.56",CUST-275,Emma Davis,FLAGGED
+Medium,West,Small Business,"$24,337.35",07/24/2024,32,2,2933.77,CUST-276,Mia Miller,FLAGGED
+Low,North,Small Business,"$13,842.37",24/07/2024,39,2,"$5,525.45",CUST-277,William Rodriguez,VERIFIED
+Medium,South,Mid-Market,"$32,817.18",25/07/2024,32,2,1435.56,CUST-278,Mia Rodriguez,OK
+High,North,Startup,"$5,244.47",07/25/2024,43 units,0,"$4,316.32",CUST-279,Ethan Garcia,OK
+High,North,Startup,"$12,266.79",07-25-2024,43,2,"$14,246.89",CUST-280,Emma Miller,OK
+High,North,Mid-Market,"$4,414.84",26/07/2024,14,0,"$3,954.09",CUST-281,Liam Miller,OK
+Low,West,Mid-Market,"$32,401.93",2024-07-26,3,0,12294.2,CUST-282,Ethan Martinez,FLAGGED
+Low,East,Mid-Market,"$30,768.21",07-26-2024,32,0,6199.41,CUST-283,Ava Johnson,PENDING
+Low,West,Enterprise,"$9,398.99",27/07/2024,43,1,"$1,784.76",CUST-284,Sophia Garcia,PENDING
+Low,South,Small Business,"$23,269.45",27/07/2024,36,0,6055.9,CUST-285,Ethan Rodriguez,VERIFIED
+High,East,Mid-Market,"$28,694.17",2024-07-27,17,0,4983.71,CUST-286,Noah Jones,VERIFIED
+Medium,South,Enterprise,"$19,654.43",2024-07-27,3,1,3705.66,CUST-287,Ethan Davis,FLAGGED
+Low,North,Enterprise,"$18,772.94",07/28/2024,10,0,1228.19,CUST-288,Lucas Davis,PENDING
+Low,East,Mid-Market,"$8,843.90",07-28-2024,40,2,"$3,903.95",CUST-289,Sophia Williams,PENDING
+Low,South,Startup,"$3,712.05",07-28-2024,18,2,$891.05,CUST-290,Lucas Davis,OK
+Medium,North,Mid-Market,"$31,453.94",07/29/2024,3,0,1075.96,CUST-291,Mia Smith,FLAGGED
+Medium,South,Small Business,"$31,564.42",07-29-2024,39,1,3895.12,CUST-292,Lucas Williams,FLAGGED
+High,South,Mid-Market,"$22,342.00",07-29-2024,10,2,2768.55,CUST-293,Emma Johnson,OK
+High,West,Mid-Market,"$12,196.53",07-30-2024,9,1,"$17,284.08",CUST-294,Mia Rodriguez,FLAGGED
+Low,North,Mid-Market,"$12,547.73",07-30-2024,11,1,"$3,462.37",CUST-295,Liam Williams,FLAGGED
+Low,West,Small Business,"$25,545.47",07-30-2024,33 units,2,9618.5,CUST-296,Sophia Martinez,VERIFIED
+Low,East,Enterprise,"$31,450.30",2024-07-31,36 units,1,5311.07,CUST-297,James Garcia,PENDING
+Low,North,Mid-Market,"$31,104.48",07-31-2024,26,2,8314.95,CUST-298,Isabella Williams,FLAGGED
+High,West,Mid-Market,"$27,405.71",2024-07-31,27,1,2358.2,CUST-299,William Brown,VERIFIED
+Medium,West,Mid-Market,"$22,650.09",07-31-2024,38 units,2,18896.89,CUST-300,Ethan Williams,PENDING
+Medium,East,Startup,"$3,402.83",08/01/2024,22,0,"$5,308.87",CUST-301,James Williams,OK
+Low,South,Enterprise,"$6,076.19",01/08/2024,26,2,"$11,968.54",CUST-302,Lucas Miller,VERIFIED
+Low,South,Mid-Market,"$31,500.12",2024-08-01,22,2,3352.31,CUST-303,William Jones,VERIFIED
+Low,South,Mid-Market,"$21,421.80",08-02-2024,5,2,1086.37,CUST-304,James Davis,PENDING
+Low,East,Startup,$817.30,08/02/2024,35,2,"$7,679.83",CUST-305,Ava Davis,OK
+Medium,West,Mid-Market,"$4,000.77",02/08/2024,2,1,$450.63,CUST-306,Ava Martinez,VERIFIED
+Low,North,Small Business,"$23,390.81",2024-08-03,35,0,4591.95,CUST-307,Ava Johnson,FLAGGED
+Medium,East,Startup,$674.62,03/08/2024,9,2,"$1,792.21",CUST-308,Ava Williams,FLAGGED
+Medium,South,Mid-Market,"$6,047.88",08/03/2024,18,1,"$6,816.70",CUST-309,Olivia Smith,FLAGGED
+Low,South,Mid-Market,"$19,431.32",2024-08-03,43 units,0,25642.29,CUST-310,Olivia Jones,OK
+Medium,North,Mid-Market,"$24,370.38",04/08/2024,12,0,4458.43,CUST-311,Liam Martinez,VERIFIED
+Low,East,Small Business,"$22,992.66",08-04-2024,3,0,11456.47,CUST-312,Emma Garcia,FLAGGED
+Medium,South,Enterprise,"$8,237.29",2024-08-04,18,0,"$5,007.45",CUST-313,Mia Miller,OK
+Medium,East,Mid-Market,"$25,070.18",05/08/2024,38,2,4851.6,CUST-314,William Smith,FLAGGED
+High,West,Small Business,"$8,685.09",08/05/2024,7,2,"$17,724.63",CUST-315,Olivia Williams,PENDING
+Low,East,Mid-Market,"$11,726.29",08/05/2024,33,1,"$14,745.27",CUST-316,Sophia Rodriguez,VERIFIED
+Low,West,Mid-Market,"$26,253.95",2024-08-06,6,1,10415.51,CUST-317,Ethan Miller,VERIFIED
+Low,North,Mid-Market,"$22,912.34",06/08/2024,18,1,2683.71,CUST-318,Isabella Rodriguez,OK
+Low,West,Enterprise,"$29,798.21",2024-08-06,22,0,5518.6,CUST-319,Mia Jones,OK
+Medium,West,Mid-Market,"$23,187.64",2024-08-07,39,0,2047.56,CUST-320,Ethan Miller,VERIFIED
+High,North,Mid-Market,"$20,106.65",07/08/2024,9,2,4214.44,CUST-321,Noah Davis,FLAGGED
+Low,South,Startup,"$3,731.78",07/08/2024,35,0,"$4,703.40",CUST-322,Lucas Rodriguez,FLAGGED
+Low,North,Mid-Market,"$13,186.20",08-07-2024,23,0,"$11,980.73",CUST-323,Ava Smith,PENDING
+Low,East,Startup,"$9,649.48",08/08/2024,12,0,"$15,113.64",CUST-324,Ethan Miller,FLAGGED
+Low,North,Small Business,"$8,917.64",08/08/2024,24,1,"$3,880.71",CUST-325,James Smith,OK
+Low,East,Enterprise,"$34,068.86",2024-08-08,40,1,516.11,CUST-326,Noah Davis,OK
+Low,South,Small Business,"$14,061.87",2024-08-09,9,2,"$13,262.62",CUST-327,Ethan Garcia,FLAGGED
+Medium,East,Enterprise,"$31,275.61",08/09/2024,13,0,1644.74,CUST-328,Isabella Martinez,OK
+Low,North,Startup,"$22,274.28",09/08/2024,40,0,6721.57,CUST-329,Isabella Davis,VERIFIED
+Low,North,Startup,"$27,920.99",08/10/2024,42,2,564.37,CUST-330,Sophia Garcia,VERIFIED
+Medium,South,Mid-Market,"$17,840.98",08/10/2024,17,0,3715.02,CUST-331,Olivia Jones,FLAGGED
+Low,North,Mid-Market,"$20,403.18",08-10-2024,7,0,28128.13,CUST-332,Emma Williams,VERIFIED
+Medium,South,Mid-Market,"$17,491.86",08/11/2024,17 units,1,1089.85,CUST-333,Liam Jones,VERIFIED
+Medium,South,Mid-Market,"$7,235.88",2024-08-11,24,2,"$3,982.25",CUST-334,Noah Garcia,PENDING
+Medium,North,Mid-Market,"$25,424.60",08/11/2024,2,2,2785.12,CUST-335,Noah Garcia,PENDING
+Low,West,Mid-Market,"$10,186.65",2024-08-11,35,2,"$15,706.24",CUST-336,Mia Johnson,VERIFIED
+Low,East,Small Business,"$1,338.90",2024-08-12,28,2,"$13,628.52",CUST-337,Olivia Garcia,FLAGGED
+Medium,West,Enterprise,"$22,768.79",2024-08-12,19,1,2164.19,CUST-338,Isabella Jones,PENDING
+Medium,South,Small Business,"$6,610.32",12/08/2024,33,1,$950.38,CUST-339,James Rodriguez,OK
+Low,East,Small Business,"$32,945.82",08-13-2024,21,0,6812.56,CUST-340,Liam Johnson,OK
+Low,West,Mid-Market,"$33,410.54",2024-08-13,10,0,3065.19,CUST-341,Ethan Miller,OK
+Low,North,Startup,"$32,062.82",2024-08-13,9,0,7647.49,CUST-342,Noah Garcia,FLAGGED
+Low,West,Enterprise,"$13,270.48",14/08/2024,38,0,$612.20,CUST-343,Isabella Brown,VERIFIED
+Medium,East,Enterprise,"$1,033.25",2024-08-14,6,1,"$1,330.65",CUST-344,James Brown,OK
+Low,East,Small Business,"$32,526.99",08/14/2024,42,2,7937.06,CUST-345,Ethan Smith,FLAGGED
+Low,East,Mid-Market,"$15,272.35",08/14/2024,35,1,1951.73,CUST-346,Ava Williams,PENDING
+Medium,East,Mid-Market,"$33,849.59",08-15-2024,18 units,0,13068.69,CUST-347,Noah Miller,VERIFIED
+Low,West,Startup,"$33,744.89",2024-08-15,19,1,792.45,CUST-348,Ethan Garcia,PENDING
+Medium,North,Startup,"$29,928.83",15/08/2024,5,2,1977.46,CUST-349,Liam Miller,FLAGGED
+Medium,North,Small Business,"$10,658.49",08/16/2024,25,2,"$42,931.35",CUST-350,Olivia Williams,OK
+Low,East,Small Business,"$13,785.87",16/08/2024,11,1,"$4,088.95",CUST-351,Lucas Miller,OK
+Medium,North,Enterprise,"$29,864.22",16/08/2024,10,1,8290.4,CUST-352,Olivia Miller,FLAGGED
+Medium,West,Enterprise,"$11,433.81",08/17/2024,17 units,1,"$1,711.07",CUST-353,William Johnson,OK
+Low,North,Small Business,"$6,347.50",17/08/2024,36,0,"$6,518.27",CUST-354,James Johnson,VERIFIED
+Low,South,Mid-Market,"$19,709.64",08/17/2024,26,1,8817.59,CUST-355,Olivia Davis,FLAGGED
+Low,North,Mid-Market,"$32,797.34",18/08/2024,31,1,2854.22,CUST-356,Liam Martinez,PENDING
+High,East,Mid-Market,"$24,513.03",08/18/2024,32,1,11875.69,CUST-357,Sophia Garcia,FLAGGED
+Medium,North,Small Business,"$20,167.11",2024-08-18,21,2,6411.66,CUST-358,Ethan Rodriguez,VERIFIED
+Low,North,Enterprise,"$3,852.59",08-18-2024,18,2,"$3,603.59",CUST-359,Olivia Rodriguez,VERIFIED
+Medium,North,Small Business,"$21,717.75",08/19/2024,18,0,5701.64,CUST-360,Sophia Johnson,FLAGGED
+Low,North,Enterprise,"$34,656.86",08/19/2024,1 units,0,5988.82,CUST-361,Ava Garcia,FLAGGED
+Medium,South,Enterprise,"$5,332.90",08-19-2024,14 units,2,"$1,576.27",CUST-362,Emma Davis,OK
+Medium,West,Mid-Market,"$18,382.37",08/20/2024,8,2,3750.03,CUST-363,Olivia Jones,VERIFIED
+Low,East,Enterprise,"$30,769.37",08/20/2024,2,2,3134.72,CUST-364,Mia Davis,FLAGGED
+Medium,East,Startup,"$26,056.52",20/08/2024,15 units,1,3730.15,CUST-365,Isabella Garcia,FLAGGED
+Medium,North,Enterprise,"$24,547.04",08-21-2024,34,1,9706.4,CUST-366,Olivia Smith,VERIFIED
+Medium,West,Enterprise,"$24,735.70",2024-08-21,36,2,4682.33,CUST-367,Isabella Miller,FLAGGED
+Low,North,Mid-Market,"$12,902.44",08/21/2024,1,1,"$18,721.51",CUST-368,Mia Rodriguez,OK
+Medium,South,Mid-Market,"$10,628.92",08-21-2024,21 units,1,"$2,659.93",CUST-369,Emma Smith,VERIFIED
+High,West,Enterprise,"$28,422.96",22/08/2024,42,0,3892.75,CUST-370,Olivia Jones,OK
+Low,West,Enterprise,"$28,448.91",2024-08-22,1,2,10450.69,CUST-371,Ava Smith,OK
+Low,West,Startup,"$30,413.99",08-22-2024,32,2,5533.13,CUST-372,Noah Garcia,OK
+Low,West,Small Business,"$32,006.80",2024-08-23,20,1,5547.51,CUST-373,Liam Miller,OK
+Medium,North,Mid-Market,"$18,141.31",2024-08-23,36,2,756.3,CUST-374,Sophia Brown,VERIFIED
+Medium,South,Mid-Market,"$17,802.31",2024-08-23,39,0,3705.21,CUST-375,Liam Jones,OK
+Low,West,Mid-Market,"$28,041.18",08/24/2024,30,0,2452.16,CUST-376,Liam Martinez,OK
+High,East,Mid-Market,"$22,923.76",08/24/2024,7,0,47953.4,CUST-377,Ethan Rodriguez,FLAGGED
+Low,East,Small Business,"$24,717.86",24/08/2024,22,2,2796.44,CUST-378,Sophia Garcia,VERIFIED
+Medium,South,Startup,"$27,954.85",25/08/2024,10 units,2,14429.96,CUST-379,Isabella Brown,VERIFIED
+Low,East,Enterprise,"$31,205.18",08-25-2024,8,2,7730.27,CUST-380,Olivia Johnson,PENDING
+Low,North,Small Business,"$12,160.83",25/08/2024,27,2,"$3,109.88",CUST-381,Ava Brown,VERIFIED
+Low,North,Enterprise,"$13,457.61",2024-08-25,10,2,"$5,497.57",CUST-382,Mia Martinez,VERIFIED
+Low,South,Enterprise,"$3,742.38",2024-08-26,14,0,"$12,333.59",CUST-383,Emma Rodriguez,PENDING
+Medium,West,Enterprise,"$20,450.66",08/26/2024,11,1,14366.77,CUST-384,James Johnson,VERIFIED
+Medium,East,Enterprise,"$1,740.01",2024-08-26,6,0,"$1,536.35",CUST-385,Emma Garcia,VERIFIED
+Low,East,Startup,"$16,563.13",08-27-2024,21,2,3096.65,CUST-386,Lucas Williams,VERIFIED
+Low,South,Mid-Market,"$19,221.24",2024-08-27,33,0,3053.98,CUST-387,William Rodriguez,VERIFIED
+Low,South,Enterprise,"$10,385.67",2024-08-27,19,2,$679.20,CUST-388,Noah Jones,PENDING
+Medium,East,Startup,"$20,883.75",08-28-2024,39,2,6327.32,CUST-389,William Brown,VERIFIED
+Medium,West,Startup,"$1,552.26",28/08/2024,24,0,"$12,943.58",CUST-390,Ethan Davis,VERIFIED
+Low,South,Small Business,"$1,788.51",28/08/2024,18,2,"$3,523.76",CUST-391,Isabella Brown,PENDING
+Medium,North,Startup,"$28,879.72",08-28-2024,35,1,9156.88,CUST-392,Olivia Johnson,FLAGGED
+Low,East,Enterprise,"$12,926.58",08/29/2024,43,2,"$6,822.37",CUST-393,Ethan Williams,OK
+High,South,Small Business,"$4,883.59",2024-08-29,37,1,"$3,461.77",CUST-394,Olivia Miller,FLAGGED
+High,South,Small Business,"$18,517.39",08-29-2024,19,1,1388.36,CUST-395,Ava Davis,PENDING
+Medium,South,Startup,"$27,064.78",2024-08-30,24,2,8431.05,CUST-396,Mia Brown,OK
+High,East,Small Business,"$7,945.83",08/30/2024,34,0,"$12,932.18",CUST-397,Lucas Martinez,PENDING
+Medium,North,Mid-Market,"$21,989.72",2024-08-30,22,1,7926.34,CUST-398,James Garcia,PENDING
+Medium,North,Small Business,"$3,444.49",08-31-2024,4,0,$517.26,CUST-399,Sophia Garcia,VERIFIED
+Medium,East,Mid-Market,"$2,283.02",2024-08-31,10,1,"$1,983.68",CUST-400,Isabella Johnson,OK
+Low,South,Mid-Market,"$18,831.73",31/08/2024,2,2,868.08,CUST-401,Mia Jones,VERIFIED
+Low,East,Enterprise,"$19,151.91",09/01/2024,8,2,5891.64,CUST-402,Noah Johnson,OK
+Low,East,Startup,"$22,491.33",09/01/2024,33,1,9581.55,CUST-403,Olivia Rodriguez,PENDING
+Medium,South,Mid-Market,"$25,550.15",09/01/2024,38,2,1161.7,CUST-404,Ethan Garcia,PENDING
+Low,East,Mid-Market,"$34,166.90",09-01-2024,43,1,12244.6,CUST-405,William Rodriguez,FLAGGED
+Low,West,Mid-Market,"$18,312.36",09/02/2024,28,2,5670.37,CUST-406,Olivia Smith,OK
+Low,North,Startup,"$11,642.00",02/09/2024,10,0,"$8,012.04",CUST-407,Emma Smith,VERIFIED
+Low,West,Mid-Market,"$27,933.92",09-02-2024,1,2,23503.69,CUST-408,Mia Rodriguez,FLAGGED
+Medium,West,Small Business,"$9,843.71",03/09/2024,34,0,$968.04,CUST-409,Ava Garcia,FLAGGED
+High,West,Startup,"$15,644.51",2024-09-03,3,2,15446.86,CUST-410,Emma Garcia,FLAGGED
+Medium,East,Mid-Market,"$3,206.75",2024-09-03,9,0,"$1,276.15",CUST-411,Ethan Williams,VERIFIED
+Medium,South,Mid-Market,"$1,374.60",2024-09-04,5,2,"$3,644.53",CUST-412,Ethan Johnson,FLAGGED
+Medium,East,Small Business,"$33,711.37",2024-09-04,42,0,12793.92,CUST-413,William Jones,VERIFIED
+Low,North,Startup,"$29,341.31",04/09/2024,10,1,15786.6,CUST-414,William Johnson,FLAGGED
+Low,East,Small Business,"$24,511.11",09-04-2024,12,1,4988.82,CUST-415,Lucas Martinez,VERIFIED
+High,East,Enterprise,"$14,608.88",09-05-2024,18,0,6260.79,CUST-416,Ethan Miller,PENDING
+Low,East,Startup,"$6,478.65",09/05/2024,21,2,"$8,404.79",CUST-417,Isabella Jones,PENDING
+Low,East,Mid-Market,"$5,897.08",05/09/2024,21,0,"$12,024.06",CUST-418,Olivia Brown,PENDING
+Medium,West,Mid-Market,"$9,133.38",2024-09-06,1,2,"$1,242.09",CUST-419,Ava Davis,PENDING
+Low,South,Small Business,"$19,448.32",06/09/2024,3,1,11197.12,CUST-420,Ava Martinez,PENDING
+Low,North,Enterprise,"$25,153.56",09/06/2024,5 units,2,4666.49,CUST-421,Ava Martinez,FLAGGED
+Low,North,Small Business,"$23,276.81",09/07/2024,25,1,4293.31,CUST-422,Ava Smith,FLAGGED
+Low,North,Mid-Market,"$10,157.72",07/09/2024,8,2,"$3,984.58",CUST-423,Noah Johnson,FLAGGED
+Low,East,Startup,"$33,442.85",07/09/2024,17,2,5026.32,CUST-424,William Rodriguez,VERIFIED
+Low,North,Enterprise,"$25,957.44",08/09/2024,9,2,19258.72,CUST-425,Lucas Martinez,VERIFIED
+Medium,West,Mid-Market,"$19,625.21",09-08-2024,32,0,5564.41,CUST-426,Mia Garcia,VERIFIED
+Medium,South,Small Business,"$21,604.37",2024-09-08,6,0,20299.05,CUST-427,Ethan Garcia,VERIFIED
+Low,East,Enterprise,"$14,976.20",08/09/2024,40,1,1692.23,CUST-428,Lucas Miller,PENDING
+High,East,Enterprise,"$9,046.72",09/09/2024,21,1,"$8,771.01",CUST-429,Ethan Davis,PENDING
+Low,West,Startup,"$12,781.06",09/09/2024,7,0,"$11,271.82",CUST-430,James Brown,PENDING
+Low,North,Mid-Market,"$26,645.69",09/09/2024,7,1,7788.65,CUST-431,Lucas Davis,OK
+Low,East,Startup,$996.58,09/10/2024,39,0,"$6,469.36",CUST-432,Lucas Williams,FLAGGED
+Medium,East,Enterprise,"$4,504.51",09-10-2024,27,2,"$5,807.86",CUST-433,Olivia Miller,VERIFIED
+Low,West,Mid-Market,"$2,087.09",2024-09-10,8,1,"$13,223.08",CUST-434,Mia Miller,VERIFIED
+Medium,West,Small Business,"$1,905.14",09-11-2024,9,1,"$11,605.92",CUST-435,Sophia Rodriguez,PENDING
+Medium,North,Small Business,"$30,013.39",2024-09-11,28,0,1247.84,CUST-436,Ethan Miller,VERIFIED
+Low,South,Mid-Market,"$24,776.20",09/11/2024,15,1,12670.36,CUST-437,Mia Garcia,VERIFIED
+Medium,South,Mid-Market,"$16,859.00",09/11/2024,2 units,1,3874.59,CUST-438,James Smith,FLAGGED
+High,North,Small Business,"$3,875.28",09/12/2024,7,2,"$2,302.05",CUST-439,Sophia Johnson,PENDING
+Low,South,Enterprise,"$17,460.75",09-12-2024,18,1,13649.87,CUST-440,Mia Smith,FLAGGED
+Low,West,Mid-Market,"$16,834.78",12/09/2024,22,2,4076.9,CUST-441,Emma Davis,OK
+Medium,West,Enterprise,"$6,475.46",13/09/2024,10,0,"$11,139.05",CUST-442,Isabella Garcia,OK
+Medium,West,Mid-Market,"$15,467.88",09/13/2024,33 units,1,2387.15,CUST-443,Isabella Martinez,OK
+Low,South,Mid-Market,"$14,248.41",13/09/2024,7,2,$425.59,CUST-444,Emma Johnson,PENDING
+Low,South,Mid-Market,"$21,746.83",14/09/2024,3 units,0,4846.69,CUST-445,William Miller,VERIFIED
+Low,East,Mid-Market,"$22,410.73",09-14-2024,14,1,1086.49,CUST-446,Noah Jones,PENDING
+Low,East,Enterprise,"$2,062.99",2024-09-14,44,0,"$9,525.70",CUST-447,Mia Miller,PENDING
+Low,East,Enterprise,"$13,424.14",09/15/2024,36,1,"$2,499.94",CUST-448,Isabella Rodriguez,VERIFIED
+High,South,Small Business,"$22,092.17",09/15/2024,13,0,4211.27,CUST-449,Olivia Martinez,FLAGGED
+Medium,East,Mid-Market,"$17,858.20",09-15-2024,16,0,991.87,CUST-450,Olivia Johnson,OK
+Low,West,Startup,"$30,048.90",09-15-2024,16 units,2,2595.67,CUST-451,Liam Smith,FLAGGED
+Medium,South,Small Business,"$23,224.93",16/09/2024,5,0,10286.01,CUST-452,James Miller,OK
+High,North,Enterprise,"$6,121.24",09/16/2024,25,1,"$1,468.53",CUST-453,Noah Williams,PENDING
+Low,South,Small Business,"$2,934.62",2024-09-16,38,1,"$7,171.31",CUST-454,Lucas Johnson,OK
+Low,East,Enterprise,"$22,663.47",09-17-2024,38,2,16611.38,CUST-455,Liam Smith,PENDING
+Low,South,Small Business,"$1,414.64",2024-09-17,38,1,"$7,803.01",CUST-456,Mia Johnson,FLAGGED
+Medium,East,Startup,"$20,709.26",2024-09-17,39,1,11229.8,CUST-457,Lucas Rodriguez,PENDING
+Low,East,Mid-Market,"$32,937.94",09/18/2024,41,1,1149.96,CUST-458,Sophia Johnson,FLAGGED
+High,North,Small Business,"$20,353.86",09/18/2024,26,0,2276.28,CUST-459,Emma Rodriguez,VERIFIED
+Low,North,Enterprise,"$13,891.86",09-18-2024,13,0,"$15,021.18",CUST-460,Ava Davis,VERIFIED
+Low,West,Mid-Market,"$22,693.44",09/19/2024,44,1,8561.64,CUST-461,Ethan Brown,VERIFIED
+Low,East,Startup,"$16,309.72",09/19/2024,26,2,7032.68,CUST-462,Olivia Johnson,PENDING
+Low,South,Enterprise,"$19,323.78",09/19/2024,1,0,7484.68,CUST-463,Ava Smith,VERIFIED
+Medium,North,Mid-Market,"$32,980.54",2024-09-19,8,2,3876.06,CUST-464,Ava Brown,OK
+High,North,Mid-Market,"$13,820.54",09-20-2024,4 units,1,$696.27,CUST-465,Ava Martinez,FLAGGED
+Low,East,Small Business,"$33,661.07",20/09/2024,21,1,10374.4,CUST-466,William Davis,FLAGGED
+High,South,Mid-Market,"$31,734.60",2024-09-20,22,0,7780.24,CUST-467,Emma Davis,OK
+Medium,North,Startup,"$7,254.79",09/21/2024,37,1,"$4,561.19",CUST-468,James Smith,PENDING
+Low,North,Enterprise,"$2,892.96",2024-09-21,3,0,"$15,351.20",CUST-469,Olivia Miller,PENDING
+Medium,South,Mid-Market,"$3,976.84",09/21/2024,19 units,1,"$3,063.14",CUST-470,Ethan Jones,FLAGGED
+Low,North,Small Business,"$1,128.65",09/22/2024,1,1,"$2,665.87",CUST-471,Emma Miller,VERIFIED
+Medium,South,Enterprise,"$3,758.28",2024-09-22,29,0,"$13,802.78",CUST-472,William Johnson,PENDING
+Low,East,Small Business,"$24,063.73",09-22-2024,23,0,10764.18,CUST-473,Ethan Rodriguez,PENDING
+Medium,North,Enterprise,"$2,956.01",09/22/2024,33,0,"$5,103.17",CUST-474,Liam Davis,OK
+Low,East,Enterprise,"$11,504.66",09-23-2024,41,1,"$1,310.70",CUST-475,William Brown,OK
+Medium,South,Enterprise,"$29,648.20",23/09/2024,23,1,1974.06,CUST-476,Liam Smith,VERIFIED
+Medium,East,Startup,"$1,302.88",09/23/2024,5,2,"$7,340.55",CUST-477,Noah Brown,PENDING
+Low,East,Mid-Market,"$28,599.16",09-24-2024,7,0,3560.3,CUST-478,James Martinez,PENDING
+Low,East,Small Business,"$10,223.99",09-24-2024,6,1,"$12,170.06",CUST-479,Mia Davis,OK
+Low,West,Mid-Market,"$4,576.69",24/09/2024,22 units,1,"$19,866.41",CUST-480,Mia Williams,PENDING
+Medium,South,Mid-Market,"$24,537.43",09-25-2024,13,0,11047.18,CUST-481,Sophia Miller,FLAGGED
+Low,South,Mid-Market,"$22,198.53",09-25-2024,12,2,3481.55,CUST-482,Ethan Jones,OK
+Medium,South,Startup,"$30,772.78",25/09/2024,4,0,10503.68,CUST-483,Ethan Garcia,VERIFIED
+Low,South,Small Business,"$25,859.95",09/26/2024,8,2,3214.52,CUST-484,Ava Martinez,OK
+Low,South,Small Business,"$28,220.09",09-26-2024,37,1,1588.47,CUST-485,Ava Brown,PENDING
+Low,North,Enterprise,"$10,230.19",09-26-2024,31,2,$620.76,CUST-486,James Smith,VERIFIED
+Low,North,Mid-Market,"$6,621.66",09-26-2024,37,1,"$3,567.44",CUST-487,Ava Jones,OK
+Medium,North,Mid-Market,"$26,396.21",2024-09-27,26,0,15602.38,CUST-488,Liam Jones,FLAGGED
+High,East,Startup,"$28,335.80",27/09/2024,43,0,2175.18,CUST-489,Noah Smith,FLAGGED
+Low,East,Mid-Market,"$34,672.43",2024-09-27,8,0,1903.57,CUST-490,Mia Jones,OK
+Low,South,Mid-Market,"$14,735.31",28/09/2024,40,2,23153.91,CUST-491,Noah Rodriguez,FLAGGED
+Low,West,Mid-Market,"$13,334.62",09/28/2024,33,1,$564.59,CUST-492,Mia Smith,FLAGGED
+Medium,South,Enterprise,"$27,286.25",09/28/2024,29,0,10414.95,CUST-493,Liam Miller,FLAGGED
+Low,North,Enterprise,"$12,257.72",09-29-2024,5 units,0,"$2,919.91",CUST-494,James Smith,VERIFIED
+Medium,South,Startup,"$32,611.13",29/09/2024,28,1,648.36,CUST-495,Noah Rodriguez,FLAGGED
+High,East,Mid-Market,"$30,115.24",09/29/2024,40,0,16641.1,CUST-496,Sophia Martinez,FLAGGED
+Low,South,Startup,"$15,300.29",29/09/2024,17 units,1,1377.65,CUST-497,Emma Rodriguez,FLAGGED
+Medium,North,Small Business,"$26,405.05",09/30/2024,23,1,5616.05,CUST-498,Sophia Jones,VERIFIED
+Low,South,Mid-Market,"$26,531.73",2024-09-30,9,1,2481.82,CUST-499,Noah Williams,OK
+Low,East,Mid-Market,"$4,057.77",09/30/2024,2,1,$838.20,CUST-500,Sophia Brown,PENDING
+Low,West,Enterprise,"$31,638.08",2024-10-01,32,1,732.88,CUST-501,Isabella Martinez,FLAGGED
+Low,North,Startup,"$17,931.21",10/01/2024,31,2,1198.18,CUST-502,Emma Williams,OK
+Low,South,Mid-Market,"$29,012.78",10-01-2024,7,0,881.27,CUST-503,Ethan Rodriguez,FLAGGED
+Low,East,Mid-Market,"$11,541.71",2024-10-02,30,2,"$9,691.39",CUST-504,Sophia Martinez,VERIFIED
+Low,North,Mid-Market,"$31,395.55",10/02/2024,3,0,4720.47,CUST-505,Ava Rodriguez,OK
+Low,North,Mid-Market,"$13,927.46",10-02-2024,9,2,"$3,129.40",CUST-506,Olivia Jones,VERIFIED
+Medium,East,Mid-Market,$873.90,2024-10-03,10,1,"$3,922.47",CUST-507,Ava Garcia,FLAGGED
+High,South,Mid-Market,"$31,735.68",10-03-2024,26,0,17588.12,CUST-508,Ethan Jones,FLAGGED
+Low,South,Small Business,"$3,649.39",03/10/2024,1,0,"$16,106.17",CUST-509,Mia Smith,VERIFIED
+Low,South,Small Business,"$11,516.32",03/10/2024,30,2,"$8,574.68",CUST-510,Noah Martinez,PENDING
+Low,North,Mid-Market,"$33,277.14",2024-10-04,38,2,14440.42,CUST-511,James Martinez,VERIFIED
+High,West,Mid-Market,"$33,295.95",10/04/2024,15,0,2903.44,CUST-512,Sophia Miller,FLAGGED
+Medium,North,Startup,"$20,283.61",2024-10-04,25,2,3518.87,CUST-513,Isabella Jones,VERIFIED
+Low,South,Enterprise,"$22,298.38",10-05-2024,6,2,6582.62,CUST-514,James Garcia,PENDING
+Low,North,Startup,"$15,971.37",10/05/2024,18,2,6751.62,CUST-515,Ava Jones,VERIFIED
+Low,West,Enterprise,"$10,615.77",05/10/2024,1,1,"$4,671.80",CUST-516,Sophia Martinez,PENDING
+Low,North,Small Business,"$11,838.93",10/06/2024,3,1,"$3,727.50",CUST-517,Lucas Miller,PENDING
+High,East,Mid-Market,"$23,701.89",06/10/2024,17,2,28230.8,CUST-518,Emma Williams,VERIFIED
+High,South,Mid-Market,"$26,456.92",10/06/2024,8,2,11586.89,CUST-519,Isabella Garcia,VERIFIED
+Low,South,Startup,"$27,809.48",10/06/2024,40,1,4110.81,CUST-520,Liam Johnson,OK
+Low,South,Enterprise,"$27,741.83",10/07/2024,17,1,8845.81,CUST-521,Olivia Jones,FLAGGED
+Low,North,Mid-Market,"$3,646.61",10-07-2024,25,0,"$2,441.72",CUST-522,William Martinez,PENDING
+Low,North,Mid-Market,"$17,557.50",10-07-2024,41,0,1086.07,CUST-523,Ethan Williams,OK
+High,North,Small Business,"$2,485.78",2024-10-08,12,1,"$3,224.44",CUST-524,Liam Garcia,VERIFIED
+Low,South,Enterprise,"$19,458.75",2024-10-08,29,2,3752.65,CUST-525,Noah Garcia,FLAGGED
+Low,North,Small Business,"$15,732.80",08/10/2024,25,2,508.39,CUST-526,Lucas Williams,OK
+Low,South,Mid-Market,"$31,125.79",10-09-2024,36,2,11360.79,CUST-527,Noah Davis,PENDING
+Medium,North,Enterprise,"$12,606.57",09/10/2024,25,2,"$3,292.68",CUST-528,Olivia Martinez,OK
+Medium,South,Small Business,"$4,538.81",2024-10-09,29,0,"$6,045.23",CUST-529,Emma Brown,PENDING
+Low,East,Enterprise,"$5,433.21",10/10/2024,11,1,$899.47,CUST-530,Emma Williams,VERIFIED
+Low,North,Mid-Market,"$26,772.12",2024-10-10,4,2,1650.39,CUST-531,Olivia Brown,FLAGGED
+Low,South,Enterprise,"$21,828.52",10-10-2024,14,0,14729.21,CUST-532,Ava Rodriguez,FLAGGED
+High,East,Mid-Market,"$3,988.73",10/10/2024,38,2,"$6,498.62",CUST-533,Ava Garcia,FLAGGED
+Low,East,Small Business,"$3,401.68",10-11-2024,17,1,"$19,909.29",CUST-534,Ethan Brown,VERIFIED
+Low,West,Mid-Market,"$24,683.44",11/10/2024,2,0,43850.16,CUST-535,Ethan Rodriguez,PENDING
+Low,North,Mid-Market,"$3,010.32",11/10/2024,8,1,"$3,422.45",CUST-536,Sophia Jones,VERIFIED
+Medium,South,Mid-Market,"$28,854.17",10-12-2024,36,1,2707.28,CUST-537,Liam Jones,FLAGGED
+Low,West,Enterprise,"$24,865.36",10-12-2024,10,0,13103.85,CUST-538,Liam Jones,VERIFIED
+Low,North,Mid-Market,"$3,306.53",2024-10-12,7,0,"$43,166.61",CUST-539,Noah Johnson,VERIFIED
+Medium,East,Startup,"$3,426.90",13/10/2024,36,0,"$6,856.34",CUST-540,Ethan Miller,VERIFIED
+Medium,North,Startup,"$34,539.07",13/10/2024,16,0,10705.31,CUST-541,Sophia Jones,PENDING
+Medium,South,Enterprise,"$13,412.34",10-13-2024,14,0,"$10,293.62",CUST-542,Olivia Davis,OK
+High,East,Enterprise,"$13,287.15",10/13/2024,16,0,"$3,253.71",CUST-543,Emma Davis,OK
+Low,West,Startup,"$28,541.59",14/10/2024,25,0,5950.68,CUST-544,James Martinez,VERIFIED
+Low,North,Mid-Market,"$33,180.08",10/14/2024,41,2,12035.67,CUST-545,James Williams,OK
+High,North,Mid-Market,"$34,517.04",10-14-2024,4,1,7973.26,CUST-546,Noah Garcia,OK
+Low,West,Small Business,"$26,491.55",10-15-2024,29,0,539.04,CUST-547,Olivia Miller,VERIFIED
+Medium,North,Mid-Market,"$13,480.96",2024-10-15,6,2,"$3,068.49",CUST-548,Lucas Johnson,VERIFIED
+Medium,North,Mid-Market,"$3,380.77",15/10/2024,1,2,"$1,414.27",CUST-549,Emma Johnson,FLAGGED
+Low,North,Startup,"$27,311.57",10/16/2024,39,2,2124.01,CUST-550,Emma Rodriguez,OK
+Low,East,Small Business,"$19,764.95",2024-10-16,1,1,15733.79,CUST-551,Noah Davis,PENDING
+Medium,East,Enterprise,"$15,135.66",16/10/2024,40 units,0,644.34,CUST-552,Noah Jones,VERIFIED
+Medium,South,Enterprise,"$31,769.23",2024-10-17,3,2,2013.34,CUST-553,James Garcia,FLAGGED
+Medium,North,Enterprise,"$4,336.31",10-17-2024,1,1,"$2,807.86",CUST-554,Olivia Williams,PENDING
+Low,South,Small Business,"$17,495.57",17/10/2024,1,1,6636.21,CUST-555,Sophia Johnson,OK
+Low,East,Mid-Market,$891.70,2024-10-17,39,1,"$5,364.62",CUST-556,Mia Smith,FLAGGED
+Low,North,Enterprise,"$16,668.79",2024-10-18,21,2,2000.59,CUST-557,Isabella Rodriguez,VERIFIED
+Low,South,Startup,"$2,442.46",10/18/2024,30,0,"$1,566.20",CUST-558,Mia Smith,PENDING
+Low,North,Enterprise,"$4,599.22",2024-10-18,32,2,"$2,156.51",CUST-559,Ava Rodriguez,VERIFIED
+High,North,Enterprise,"$4,554.66",19/10/2024,33,2,"$4,938.43",CUST-560,Emma Williams,OK
+Medium,West,Enterprise,"$22,897.76",19/10/2024,22,0,2456.12,CUST-561,Emma Davis,PENDING
+Medium,South,Enterprise,"$26,238.55",10/19/2024,30,0,19567.83,CUST-562,Emma Martinez,OK
+Low,East,Mid-Market,"$20,626.22",20/10/2024,4,0,4451.9,CUST-563,Emma Smith,OK
+Low,South,Startup,"$33,694.95",10-20-2024,23 units,1,793.87,CUST-564,Lucas Johnson,FLAGGED
+High,South,Startup,"$13,433.03",20/10/2024,44 units,0,"$8,893.03",CUST-565,Ava Jones,VERIFIED
+Low,South,Mid-Market,"$10,357.07",21/10/2024,25 units,2,"$2,991.91",CUST-566,Noah Williams,PENDING
+Low,West,Mid-Market,"$30,466.67",2024-10-21,12,0,7288.96,CUST-567,Liam Williams,OK
+Low,North,Mid-Market,"$8,214.06",2024-10-21,17,2,"$2,531.62",CUST-568,Sophia Brown,OK
+High,East,Enterprise,"$33,731.18",21/10/2024,15,1,5897.06,CUST-569,Liam Johnson,PENDING
+High,West,Enterprise,$919.33,10/22/2024,10,2,"$10,014.01",CUST-570,Liam Brown,OK
+Low,East,Startup,"$33,960.82",2024-10-22,35,2,17502.87,CUST-571,Sophia Brown,FLAGGED
+High,West,Enterprise,"$1,989.02",10/22/2024,29,0,"$2,367.09",CUST-572,Mia Williams,FLAGGED
+Low,North,Enterprise,"$31,244.44",23/10/2024,12,0,3050.4,CUST-573,Isabella Williams,FLAGGED
+Low,East,Mid-Market,"$18,705.69",23/10/2024,1,2,4456.77,CUST-574,Liam Davis,FLAGGED
+Medium,South,Mid-Market,"$34,757.29",10-23-2024,1,0,17428.01,CUST-575,Olivia Smith,OK
+High,West,Enterprise,"$3,045.98",2024-10-24,10 units,1,"$15,457.58",CUST-576,Emma Martinez,PENDING
+Medium,East,Enterprise,"$19,607.97",24/10/2024,18,1,1012.15,CUST-577,Emma Williams,PENDING
+Medium,North,Mid-Market,"$33,940.94",10-24-2024,2,0,1319.64,CUST-578,Sophia Davis,PENDING
+Medium,East,Small Business,"$18,546.88",2024-10-24,8,1,4847.34,CUST-579,Isabella Smith,PENDING
+Medium,West,Enterprise,"$22,214.25",25/10/2024,22,0,1132.83,CUST-580,Ethan Smith,VERIFIED
+High,North,Mid-Market,"$24,503.33",25/10/2024,22,2,3156.05,CUST-581,Ava Johnson,PENDING
+Medium,South,Mid-Market,"$16,181.67",2024-10-25,26 units,2,1444.04,CUST-582,Liam Miller,VERIFIED
+High,West,Startup,"$22,150.75",2024-10-26,26,1,6969.63,CUST-583,Ethan Williams,VERIFIED
+High,West,Mid-Market,"$20,658.84",2024-10-26,9,0,19806.99,CUST-584,Mia Rodriguez,FLAGGED
+Low,North,Enterprise,"$31,589.95",26/10/2024,21,0,37606.77,CUST-585,Ava Miller,VERIFIED
+Medium,West,Mid-Market,"$2,067.90",27/10/2024,31,1,"$3,457.53",CUST-586,Olivia Brown,OK
+Low,East,Small Business,"$10,193.23",10-27-2024,43,2,"$6,339.86",CUST-587,Olivia Garcia,VERIFIED
+Low,South,Enterprise,"$33,289.20",10/27/2024,6,1,13008.72,CUST-588,Olivia Jones,FLAGGED
+Medium,East,Mid-Market,"$31,214.10",2024-10-28,14,2,1212.2,CUST-589,Ethan Miller,VERIFIED
+Low,North,Enterprise,"$16,220.16",28/10/2024,33,0,8003.56,CUST-590,Mia Jones,OK
+Low,West,Enterprise,"$21,894.57",28/10/2024,7,2,3816.89,CUST-591,Noah Miller,OK
+High,South,Mid-Market,"$10,069.65",2024-10-28,24,1,"$1,900.56",CUST-592,William Davis,OK
+Low,North,Mid-Market,"$6,990.18",10/29/2024,9,0,"$3,750.27",CUST-593,Ethan Johnson,FLAGGED
+Low,East,Small Business,"$16,497.59",2024-10-29,11,1,913.5,CUST-594,Liam Johnson,FLAGGED
+High,West,Small Business,"$12,690.65",10/29/2024,23,1,"$8,127.07",CUST-595,Ava Miller,PENDING
+Low,West,Mid-Market,"$20,636.14",30/10/2024,2,2,2293.75,CUST-596,Isabella Johnson,FLAGGED
+Low,North,Mid-Market,"$3,181.84",10/30/2024,15,1,"$2,825.17",CUST-597,Isabella Johnson,OK
+Low,East,Mid-Market,"$34,116.62",10-30-2024,35,2,1238.91,CUST-598,Emma Brown,OK
+Low,West,Enterprise,"$34,524.27",31/10/2024,36,0,13399.73,CUST-599,James Johnson,FLAGGED
+Medium,East,Startup,"$24,586.58",10-31-2024,28,2,4820.79,CUST-600,Liam Miller,VERIFIED
+Medium,South,Startup,"$18,995.32",2024-10-31,39 units,0,5918.34,CUST-601,Ava Smith,FLAGGED
+Low,West,Enterprise,"$11,178.70",2024-10-31,44,2,"$5,877.24",CUST-602,Sophia Williams,FLAGGED
+Medium,South,Enterprise,"$28,575.93",2024-11-01,4,1,3835.05,CUST-603,Liam Brown,OK
+Low,West,Enterprise,"$24,123.23",11/01/2024,10 units,2,1790.02,CUST-604,Olivia Miller,PENDING
+Low,North,Small Business,"$6,110.28",01/11/2024,6,2,"$9,285.58",CUST-605,Liam Davis,OK
+Medium,West,Small Business,"$31,926.99",2024-11-02,30,0,1283.25,CUST-606,Mia Miller,PENDING
+Medium,West,Small Business,"$28,877.53",2024-11-02,35,1,1112.88,CUST-607,Emma Jones,OK
+Medium,East,Small Business,"$33,268.10",02/11/2024,43,2,8449.43,CUST-608,Sophia Martinez,FLAGGED
+Low,East,Mid-Market,"$25,537.32",2024-11-03,10,1,1922.63,CUST-609,Olivia Martinez,OK
+Low,South,Small Business,"$21,662.82",11-03-2024,32,2,2781.58,CUST-610,Noah Rodriguez,OK
+Low,South,Small Business,"$14,929.38",03/11/2024,42,2,4591.14,CUST-611,William Miller,OK
+Low,South,Mid-Market,"$32,679.13",04/11/2024,42,1,4278.28,CUST-612,Emma Smith,FLAGGED
+Medium,West,Mid-Market,"$30,379.20",04/11/2024,3,2,8414.41,CUST-613,Emma Williams,FLAGGED
+Low,West,Small Business,"$2,060.04",11-04-2024,26,1,"$6,748.26",CUST-614,William Johnson,FLAGGED
+Medium,South,Mid-Market,"$1,409.66",04/11/2024,15,2,"$7,120.60",CUST-615,William Williams,FLAGGED
+Low,North,Small Business,"$13,487.99",11-05-2024,17,0,"$8,537.70",CUST-616,Ava Rodriguez,PENDING
+Low,North,Small Business,"$28,464.09",05/11/2024,27,1,2650.15,CUST-617,Olivia Rodriguez,PENDING
+Low,West,Small Business,"$34,561.03",11/05/2024,18,2,2929.15,CUST-618,William Williams,VERIFIED
+Low,North,Small Business,"$5,689.38",2024-11-06,19,2,"$4,145.62",CUST-619,Isabella Smith,FLAGGED
+High,North,Mid-Market,"$20,997.51",11/06/2024,12,0,2788.05,CUST-620,William Jones,PENDING
+Low,South,Small Business,"$13,640.73",2024-11-06,24,1,"$27,671.22",CUST-621,Ava Martinez,OK
+Low,North,Mid-Market,"$33,962.05",11-07-2024,5,2,11334.87,CUST-622,Emma Brown,FLAGGED
+Medium,North,Enterprise,"$29,553.10",11/07/2024,24,0,1569.42,CUST-623,Emma Johnson,VERIFIED
+Medium,West,Enterprise,"$29,422.34",07/11/2024,27,2,436.46,CUST-624,Liam Jones,VERIFIED
+Low,West,Mid-Market,"$16,669.91",2024-11-07,30,1,684.22,CUST-625,Olivia Johnson,VERIFIED
+Low,West,Mid-Market,"$14,811.27",2024-11-08,15,2,2218.69,CUST-626,William Martinez,OK
+Medium,North,Startup,"$9,932.54",11/08/2024,38,2,"$1,188.89",CUST-627,Emma Garcia,PENDING
+High,South,Mid-Market,"$2,444.95",11-08-2024,44,2,"$5,353.98",CUST-628,Lucas Martinez,OK
+High,East,Mid-Market,"$30,332.92",11/09/2024,34,2,13087.31,CUST-629,Sophia Miller,FLAGGED
+Low,West,Enterprise,"$28,545.08",11-09-2024,27,0,9075.24,CUST-630,James Garcia,VERIFIED
+High,West,Enterprise,"$34,990.26",11-09-2024,20,0,1978.51,CUST-631,William Williams,OK
+Low,West,Small Business,"$34,883.97",2024-11-10,41,1,3712.78,CUST-632,James Davis,OK
+Low,South,Enterprise,"$19,662.39",11/10/2024,32,0,5008.9,CUST-633,Olivia Martinez,PENDING
+Medium,East,Small Business,"$27,030.07",11/10/2024,4,0,11201.8,CUST-634,Mia Martinez,PENDING
+Low,East,Small Business,"$33,094.42",11-11-2024,5,1,12276.19,CUST-635,William Brown,VERIFIED
+Low,West,Mid-Market,"$29,812.83",11/11/2024,8 units,0,16031.33,CUST-636,Olivia Martinez,OK
+Low,North,Startup,"$9,033.51",11/11/2024,22,0,"$5,026.77",CUST-637,Olivia Garcia,OK
+Low,West,Mid-Market,"$16,043.77",11/11/2024,42 units,1,8102.94,CUST-638,Ethan Jones,PENDING
+Medium,West,Mid-Market,"$4,956.00",11/12/2024,7,1,"$1,170.63",CUST-639,Isabella Martinez,OK
+Medium,North,Startup,"$33,414.76",11/12/2024,22,1,5814.98,CUST-640,Mia Davis,OK
+Low,North,Startup,"$21,413.02",11-12-2024,30 units,2,2258.61,CUST-641,Olivia Martinez,OK
+Low,West,Enterprise,"$8,388.18",13/11/2024,37,2,"$4,073.38",CUST-642,Ethan Rodriguez,PENDING
+High,South,Enterprise,"$23,673.67",13/11/2024,16,1,6934.19,CUST-643,Noah Garcia,VERIFIED
+Medium,South,Enterprise,"$21,825.42",2024-11-13,15 units,1,2330.76,CUST-644,Noah Williams,FLAGGED
+Low,North,Mid-Market,"$12,856.61",11-14-2024,5,1,$748.37,CUST-645,William Davis,VERIFIED
+High,West,Startup,"$4,417.74",2024-11-14,3,2,$466.86,CUST-646,Ethan Brown,FLAGGED
+Medium,South,Mid-Market,"$23,669.28",14/11/2024,23 units,2,545.66,CUST-647,Ethan Rodriguez,OK
+Low,West,Mid-Market,"$18,450.62",11-14-2024,10,0,454.5,CUST-648,Lucas Davis,VERIFIED
+Low,West,Startup,"$27,144.98",11/15/2024,5,0,1160.06,CUST-649,Liam Jones,FLAGGED
+Low,West,Mid-Market,"$18,445.64",11-15-2024,23,1,2179.47,CUST-650,Liam Miller,PENDING
+Medium,South,Mid-Market,"$29,900.26",11/15/2024,15 units,2,2025.19,CUST-651,Sophia Williams,PENDING
+Low,East,Startup,"$19,540.79",11/16/2024,18,2,28527.32,CUST-652,Ethan Smith,VERIFIED
+Low,West,Small Business,"$19,852.36",11-16-2024,25,2,2774.4,CUST-653,Ava Williams,VERIFIED
+Low,South,Small Business,"$30,744.55",11/16/2024,8,1,1285.96,CUST-654,William Martinez,OK
+High,East,Mid-Market,"$14,420.16",2024-11-17,31,0,5526.52,CUST-655,William Miller,VERIFIED
+Low,North,Small Business,"$5,123.53",17/11/2024,21,1,"$13,085.59",CUST-656,Liam Williams,OK
+High,South,Enterprise,"$1,493.00",11/17/2024,2,0,"$7,767.04",CUST-657,Emma Rodriguez,OK
+High,East,Mid-Market,"$26,552.24",2024-11-18,22,0,2682.11,CUST-658,William Brown,PENDING
+Low,South,Startup,"$21,900.68",11/18/2024,8,1,5760.29,CUST-659,Ava Garcia,PENDING
+Low,East,Mid-Market,"$24,790.75",18/11/2024,23,0,8555.95,CUST-660,Emma Rodriguez,FLAGGED
+Low,East,Small Business,"$7,847.26",2024-11-18,32,0,"$8,865.19",CUST-661,Lucas Martinez,PENDING
+High,South,Mid-Market,"$5,204.82",19/11/2024,8,2,"$7,538.48",CUST-662,Noah Miller,PENDING
+Low,North,Enterprise,"$1,001.79",19/11/2024,4,0,"$13,702.08",CUST-663,Olivia Martinez,VERIFIED
+Low,West,Small Business,"$12,595.27",2024-11-19,30,1,"$13,666.71",CUST-664,Lucas Johnson,PENDING
+Low,East,Enterprise,"$20,852.16",2024-11-20,19,1,6022.32,CUST-665,Lucas Brown,FLAGGED
+Low,West,Small Business,"$14,032.42",2024-11-20,23,0,"$4,052.14",CUST-666,Olivia Smith,VERIFIED
+High,North,Enterprise,"$15,592.88",11-20-2024,18,2,7069.15,CUST-667,Isabella Williams,FLAGGED
+Medium,West,Startup,"$31,693.47",2024-11-21,29,2,11481.94,CUST-668,Noah Jones,PENDING
+High,West,Mid-Market,"$12,514.81",2024-11-21,23,0,$436.84,CUST-669,Emma Brown,FLAGGED
+Low,South,Enterprise,"$18,232.64",2024-11-21,33,0,31781.61,CUST-670,James Rodriguez,VERIFIED
+Low,South,Enterprise,"$27,536.03",2024-11-21,18 units,1,1712.91,CUST-671,James Garcia,OK
+High,North,Startup,"$14,180.73",11/22/2024,44,0,"$4,529.76",CUST-672,Lucas Williams,FLAGGED
+Low,South,Small Business,"$21,961.99",11-22-2024,33,2,13763.72,CUST-673,Isabella Smith,FLAGGED
+High,East,Small Business,"$30,251.55",22/11/2024,7,0,2057.14,CUST-674,Lucas Williams,VERIFIED
+Low,North,Mid-Market,"$33,258.46",2024-11-23,28,1,4610.59,CUST-675,Ava Garcia,VERIFIED
+Low,South,Mid-Market,"$5,574.04",11/23/2024,1,1,"$1,324.52",CUST-676,Isabella Garcia,FLAGGED
+Medium,South,Enterprise,"$32,467.27",11/23/2024,39,1,3667.24,CUST-677,Isabella Brown,PENDING
+High,North,Mid-Market,"$17,478.01",11/24/2024,34,1,1667.26,CUST-678,Isabella Garcia,FLAGGED
+High,East,Enterprise,"$9,409.43",24/11/2024,39,1,"$3,337.82",CUST-679,William Martinez,VERIFIED
+Low,North,Startup,"$16,340.18",2024-11-24,19,0,3439.07,CUST-680,Olivia Davis,OK
+Low,South,Small Business,"$34,311.12",11-25-2024,31,0,32812.55,CUST-681,Ethan Johnson,OK
+Medium,South,Mid-Market,"$17,495.32",11-25-2024,13,0,34600.44,CUST-682,Lucas Rodriguez,PENDING
+Medium,North,Enterprise,"$11,841.93",11/25/2024,24,0,"$1,192.52",CUST-683,Ethan Jones,FLAGGED
+Medium,East,Small Business,"$22,352.33",25/11/2024,5,1,8814.34,CUST-684,James Garcia,OK
+Low,East,Enterprise,"$8,785.02",26/11/2024,23,2,$745.36,CUST-685,Mia Smith,FLAGGED
+High,West,Enterprise,"$3,117.28",26/11/2024,19,0,$599.27,CUST-686,Emma Smith,VERIFIED
+Medium,East,Enterprise,"$4,946.35",11-26-2024,1 units,2,"$1,123.48",CUST-687,Noah Johnson,OK
+Medium,North,Mid-Market,"$4,917.58",11/27/2024,33,0,"$22,281.47",CUST-688,Ava Martinez,PENDING
+Low,East,Small Business,"$5,740.64",2024-11-27,33,0,"$18,781.40",CUST-689,Olivia Smith,VERIFIED
+Low,East,Mid-Market,"$5,289.54",11-27-2024,32,2,"$1,801.28",CUST-690,Lucas Davis,PENDING
+High,West,Enterprise,"$22,610.18",11/28/2024,28,1,1546.25,CUST-691,Noah Johnson,VERIFIED
+Medium,East,Mid-Market,"$6,774.86",11/28/2024,37,0,"$2,188.42",CUST-692,Mia Smith,OK
+High,West,Small Business,"$12,425.52",2024-11-28,41,0,"$5,110.78",CUST-693,Lucas Smith,PENDING
+High,West,Enterprise,"$31,439.20",2024-11-29,12,0,5881.34,CUST-694,Isabella Garcia,PENDING
+Medium,East,Enterprise,"$16,851.68",2024-11-29,9,2,2028.29,CUST-695,Sophia Jones,VERIFIED
+Low,South,Startup,"$23,530.74",29/11/2024,11,1,9585.43,CUST-696,Emma Johnson,PENDING
+Low,North,Startup,"$6,445.04",2024-11-29,33,2,"$2,807.71",CUST-697,Ethan Jones,VERIFIED
+Low,North,Startup,"$7,133.97",11/30/2024,19,2,"$16,992.75",CUST-698,Noah Miller,VERIFIED
+Low,East,Small Business,"$1,909.97",2024-11-30,42,1,"$7,349.91",CUST-699,Sophia Johnson,VERIFIED
+Low,North,Enterprise,"$6,328.26",11/30/2024,34,2,"$4,126.61",CUST-700,William Smith,VERIFIED
+Low,North,Enterprise,"$10,111.37",12-01-2024,7,1,"$10,541.49",CUST-701,Noah Brown,OK
+Low,West,Mid-Market,"$6,606.86",01/12/2024,31 units,0,"$11,471.32",CUST-702,Isabella Williams,VERIFIED
+Low,South,Mid-Market,"$3,560.24",12-01-2024,2,1,"$2,630.60",CUST-703,Emma Martinez,FLAGGED
+Low,North,Startup,"$4,661.94",12-02-2024,19,0,"$3,098.04",CUST-704,Emma Brown,PENDING
+Low,South,Small Business,"$16,396.87",12/02/2024,38,2,18263.12,CUST-705,Emma Brown,FLAGGED
+Low,North,Small Business,"$7,618.51",12-02-2024,32,2,"$1,570.09",CUST-706,Liam Rodriguez,OK
+Medium,South,Enterprise,"$13,067.31",12/02/2024,10,0,$679.92,CUST-707,Lucas Williams,FLAGGED
+Low,South,Startup,"$17,867.90",2024-12-03,41,2,4334.04,CUST-708,Mia Rodriguez,PENDING
+Low,North,Small Business,"$24,318.62",2024-12-03,8,1,10900.79,CUST-709,Lucas Garcia,FLAGGED
+Medium,West,Enterprise,"$1,856.27",12/03/2024,26,0,"$10,000.21",CUST-710,Olivia Jones,OK
+Medium,South,Startup,"$28,079.66",2024-12-04,30,2,16779.21,CUST-711,Mia Williams,VERIFIED
+Low,South,Mid-Market,"$22,162.56",04/12/2024,11,0,5352.06,CUST-712,Emma Williams,FLAGGED
+Medium,North,Enterprise,"$3,320.69",12-04-2024,41,1,"$1,085.31",CUST-713,Isabella Miller,OK
+High,South,Small Business,"$30,638.46",05/12/2024,20,1,6174.64,CUST-714,Mia Smith,OK
+Medium,South,Small Business,"$32,270.10",12-05-2024,20,2,10194.6,CUST-715,Lucas Rodriguez,PENDING
+Low,West,Enterprise,"$2,607.19",2024-12-05,9,1,"$1,036.84",CUST-716,Isabella Williams,PENDING
+Medium,South,Mid-Market,"$10,052.28",06/12/2024,8,0,"$1,631.99",CUST-717,Liam Davis,FLAGGED
+Low,West,Startup,"$28,313.94",2024-12-06,15,1,480.38,CUST-718,Olivia Davis,VERIFIED
+Medium,South,Small Business,"$26,314.96",12-06-2024,34,0,6253.55,CUST-719,Noah Williams,OK
+High,South,Small Business,"$6,865.98",12/06/2024,24,0,"$14,557.13",CUST-720,Olivia Brown,FLAGGED
+Low,West,Enterprise,"$7,722.55",12/07/2024,33,1,"$7,619.39",CUST-721,Mia Garcia,OK
+High,West,Enterprise,"$13,281.29",07/12/2024,41,2,"$26,527.49",CUST-722,Lucas Rodriguez,OK
+Low,East,Mid-Market,"$17,216.04",2024-12-07,41,1,823.2,CUST-723,Sophia Williams,VERIFIED
+High,South,Enterprise,"$21,829.79",2024-12-08,40,0,15564.86,CUST-724,Liam Williams,VERIFIED
+Medium,West,Enterprise,"$13,227.52",08/12/2024,27,0,"$11,335.44",CUST-725,Isabella Martinez,FLAGGED
+Low,South,Enterprise,"$16,457.45",12/08/2024,21,1,2851.99,CUST-726,Emma Smith,VERIFIED
+Medium,South,Mid-Market,"$26,287.75",12-09-2024,5,2,24005.48,CUST-727,William Martinez,VERIFIED
+Low,South,Mid-Market,"$1,765.57",09/12/2024,35,2,"$2,607.33",CUST-728,James Brown,FLAGGED
+Low,North,Small Business,"$9,209.07",12-09-2024,21,0,"$14,706.33",CUST-729,Liam Jones,VERIFIED
+Medium,East,Enterprise,"$25,110.56",12/09/2024,4,0,14222.39,CUST-730,Isabella Rodriguez,PENDING
+Low,North,Mid-Market,"$31,384.64",2024-12-10,16,2,9613.12,CUST-731,Isabella Davis,OK
+Medium,East,Enterprise,"$18,152.87",12/10/2024,31,1,5787.85,CUST-732,Isabella Rodriguez,OK
+Low,South,Mid-Market,"$18,857.92",10/12/2024,26,0,1230.94,CUST-733,Noah Davis,OK
+Low,South,Enterprise,"$4,197.43",2024-12-11,35,0,"$5,334.97",CUST-734,Olivia Jones,OK
+High,West,Startup,"$15,935.73",11/12/2024,6,2,3268.41,CUST-735,Isabella Williams,FLAGGED
+Low,East,Small Business,"$18,875.30",11/12/2024,33,1,10613.2,CUST-736,Noah Williams,OK
+Medium,East,Mid-Market,"$8,865.23",12/12/2024,21,2,"$9,625.79",CUST-737,Noah Jones,OK
+Medium,North,Enterprise,"$9,788.89",12/12/2024,16,1,"$16,096.03",CUST-738,Sophia Rodriguez,OK
+Medium,East,Mid-Market,"$13,516.30",12/12/2024,39 units,1,$497.12,CUST-739,James Martinez,OK
+High,South,Small Business,"$1,192.46",2024-12-13,34,1,"$11,164.15",CUST-740,Sophia Smith,PENDING
+Medium,West,Enterprise,"$11,611.73",12/13/2024,42,0,"$18,522.66",CUST-741,Sophia Johnson,OK
+Low,North,Mid-Market,"$7,794.96",2024-12-13,15,2,"$10,522.59",CUST-742,Mia Williams,PENDING
+High,West,Small Business,"$11,798.66",12/13/2024,6,2,"$1,306.66",CUST-743,Ava Garcia,FLAGGED
+Low,East,Small Business,"$4,631.79",12-14-2024,2,1,$951.02,CUST-744,Sophia Brown,VERIFIED
+Low,East,Small Business,"$31,223.19",12-14-2024,24,0,536.93,CUST-745,Noah Johnson,OK
+High,North,Startup,"$20,978.94",14/12/2024,28,0,6840.63,CUST-746,Ava Martinez,VERIFIED
+Medium,East,Startup,"$23,929.03",12/15/2024,1 units,2,6856.89,CUST-747,Mia Martinez,VERIFIED
+Medium,West,Mid-Market,"$27,726.41",12/15/2024,1,0,28585.24,CUST-748,Lucas Martinez,FLAGGED
+Medium,South,Mid-Market,"$17,696.26",2024-12-15,28,0,3699.2,CUST-749,Sophia Miller,VERIFIED
+Medium,North,Small Business,"$3,498.75",16/12/2024,36,1,"$3,021.62",CUST-750,Isabella Smith,PENDING
+High,East,Small Business,"$19,030.18",12/16/2024,20,0,6765.43,CUST-751,Noah Miller,VERIFIED
+Low,West,Startup,"$20,746.02",16/12/2024,8,1,11751.95,CUST-752,James Johnson,VERIFIED
+Low,South,Enterprise,"$26,217.66",12-16-2024,1,2,18346.75,CUST-753,Ethan Williams,VERIFIED
+Low,East,Mid-Market,"$15,392.25",12/17/2024,26,0,10963.68,CUST-754,Sophia Miller,OK
+Medium,North,Mid-Market,"$4,901.52",12/17/2024,43,2,"$4,015.95",CUST-755,Ethan Jones,OK
+Low,East,Mid-Market,"$10,290.27",17/12/2024,25,2,"$6,949.55",CUST-756,Olivia Johnson,PENDING
+Low,East,Enterprise,"$13,026.34",12/18/2024,10,0,"$13,010.15",CUST-757,Liam Jones,PENDING
+Low,East,Small Business,"$22,784.14",18/12/2024,12,0,4784.51,CUST-758,William Johnson,OK
+High,South,Enterprise,"$20,191.85",12/18/2024,41,2,1987.45,CUST-759,Olivia Smith,PENDING
+Medium,South,Small Business,"$12,785.34",2024-12-19,7,0,"$1,608.98",CUST-760,Olivia Miller,OK
+Low,East,Small Business,"$34,534.78",19/12/2024,12 units,1,401.03,CUST-761,Isabella Williams,FLAGGED
+Low,East,Mid-Market,"$21,399.23",12/19/2024,40,1,8633.5,CUST-762,Ava Davis,VERIFIED
+Low,North,Mid-Market,"$8,684.32",12-20-2024,17,0,"$1,165.49",CUST-763,Sophia Garcia,VERIFIED
+Low,East,Small Business,"$4,011.50",12/20/2024,5,2,"$2,216.76",CUST-764,James Jones,PENDING
+Low,West,Small Business,"$5,773.64",12-20-2024,14,0,"$2,698.70",CUST-765,Liam Martinez,OK
+High,West,Startup,"$8,985.54",12-20-2024,34,0,"$5,741.99",CUST-766,James Davis,OK
+High,North,Startup,"$6,043.51",2024-12-21,17,2,"$3,698.27",CUST-767,Lucas Miller,PENDING
+Low,South,Startup,"$6,936.56",21/12/2024,35,2,"$7,699.03",CUST-768,Isabella Martinez,OK
+Low,East,Mid-Market,"$10,335.78",12/21/2024,1,1,$772.10,CUST-769,Ava Martinez,FLAGGED
+Low,North,Startup,"$6,481.39",2024-12-22,36,2,"$1,260.08",CUST-770,Olivia Garcia,VERIFIED
+Low,South,Small Business,"$31,438.41",12/22/2024,15 units,1,4895.21,CUST-771,Ethan Williams,PENDING
+Low,North,Startup,"$3,268.06",12-22-2024,19,2,"$3,071.03",CUST-772,Ethan Brown,PENDING
+Low,South,Enterprise,"$18,595.64",23/12/2024,42,0,2679.63,CUST-773,Noah Miller,OK
+Low,East,Startup,"$14,658.69",12/23/2024,5,1,850.97,CUST-774,Sophia Martinez,PENDING
+Medium,North,Mid-Market,"$34,392.06",12/23/2024,19,1,15094.34,CUST-775,Mia Davis,FLAGGED
+Medium,East,Small Business,"$4,365.34",12-23-2024,43,1,"$8,050.93",CUST-776,Mia Williams,OK
+Medium,North,Enterprise,"$14,226.02",12/24/2024,39,0,"$1,242.88",CUST-777,Ava Garcia,OK
+Low,South,Mid-Market,"$33,946.73",12/24/2024,5,0,837.18,CUST-778,Lucas Rodriguez,OK
+High,North,Mid-Market,"$30,360.00",12-24-2024,12,0,24344.66,CUST-779,Ava Martinez,OK
+High,West,Mid-Market,"$28,688.99",2024-12-25,19,0,7830.18,CUST-780,Isabella Brown,FLAGGED
+Low,West,Enterprise,"$9,397.65",12-25-2024,12 units,0,"$3,912.28",CUST-781,Noah Davis,OK
+Low,North,Small Business,"$6,395.62",2024-12-25,36 units,1,"$8,263.44",CUST-782,James Garcia,PENDING
+Low,West,Enterprise,"$23,568.19",26/12/2024,12,0,9577.66,CUST-783,Olivia Jones,FLAGGED
+Low,East,Mid-Market,"$32,563.47",2024-12-26,18 units,1,10240.71,CUST-784,William Jones,VERIFIED
+Low,West,Enterprise,"$19,708.32",2024-12-26,43,0,4624.04,CUST-785,Emma Davis,VERIFIED
+Medium,West,Mid-Market,"$20,220.64",27/12/2024,34,2,4052.44,CUST-786,Emma Brown,PENDING
+Low,East,Mid-Market,"$10,159.28",2024-12-27,33,1,$472.08,CUST-787,Isabella Jones,PENDING
+Low,East,Mid-Market,"$27,047.51",12-27-2024,18,2,17373.11,CUST-788,James Garcia,FLAGGED
+Low,South,Mid-Market,"$6,953.01",2024-12-27,29 units,1,"$6,409.87",CUST-789,Emma Jones,VERIFIED
+High,East,Small Business,"$11,666.93",28/12/2024,5,2,"$1,876.11",CUST-790,Sophia Davis,VERIFIED
+Low,North,Enterprise,"$15,177.56",12-28-2024,25,0,16785.09,CUST-791,Ethan Garcia,VERIFIED
+Medium,West,Enterprise,"$18,012.56",28/12/2024,24,0,16417.97,CUST-792,Noah Brown,VERIFIED
+Low,South,Enterprise,"$8,863.14",29/12/2024,29,0,"$29,823.84",CUST-793,Emma Johnson,VERIFIED
+Low,East,Startup,"$4,461.87",12/29/2024,38,1,"$13,867.50",CUST-794,Lucas Jones,OK
+Medium,West,Mid-Market,"$21,566.39",12/29/2024,33,2,40129.47,CUST-795,Lucas Smith,PENDING
+Low,North,Mid-Market,"$10,457.75",30/12/2024,10,0,"$2,224.04",CUST-796,James Jones,OK
+Low,North,Enterprise,"$20,552.72",30/12/2024,37,2,12403.82,CUST-797,Emma Davis,VERIFIED
+Low,South,Mid-Market,"$5,825.51",30/12/2024,33,2,"$11,656.48",CUST-798,Liam Smith,FLAGGED
+Medium,North,Enterprise,"$17,099.33",12/31/2024,23,0,2106.81,CUST-799,Emma Martinez,FLAGGED

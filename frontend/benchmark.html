@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benchmark Suite — Talking Rabbitt</title>
+  <meta name="description" content="Empirical Schema Degradation Benchmark Suite for tabular conversational AI evaluation (D0-D4 levels, CBW detection, Wilson score CIs).">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css?v=1.2.0">
+  <link rel="stylesheet" href="/css/benchmark.css?v=1.2.0">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<div class="app-shell">
+  <div id="sidebar-mount"></div>
+
+  <div class="main">
+    <div class="topbar">
+      <div>
+        <div class="topbar-title">Schema Degradation Benchmark Suite</div>
+        <div class="topbar-sub">Empirical evaluation of tabular QA across degradation levels D0–D4 (§IV, §V, §VI)</div>
+      </div>
+      <div class="benchmark-header-actions">
+        <button id="btnRunFullBench" class="btn btn-primary" style="font-size:12.5px; height:34px;">
+          <i class="ti ti-refresh"></i> Re-Run Benchmark Suite (750 Trials)
+        </button>
+        <div class="dataset-pill" data-dataset-pill></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <!-- Research Context Callout -->
+      <div class="research-callout">
+        <strong>Research Benchmark Protocol (§V-A):</strong> Evaluates conversational business intelligence on 5 SME datasets (sales, inventory, finance, customer, operations) across 5 schema degradation levels (D0 clean baseline to D4 compound degradation) over 5 independent runs (750 total trials). Tracks <strong>Confident-But-Wrong (CBW)</strong> divergence where systems maintain high unhedged confidence despite semantic distortion.
+      </div>
+
+      <!-- Filter Bar -->
+      <div class="bench-filters-bar">
+        <div class="filter-group">
+          <span class="filter-label"><i class="ti ti-filter"></i> Dataset:</span>
+          <select id="datasetFilter" class="filter-select">
+            <option value="all">All 5 SME Datasets (750 Trials)</option>
+            <option value="sales">Sales Dataset (1,000 rows)</option>
+            <option value="inventory">Inventory Dataset (600 rows)</option>
+            <option value="finance">Finance Dataset (800 rows)</option>
+            <option value="customer">Customer Dataset (700 rows)</option>
+            <option value="operations">Operations Dataset (750 rows)</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <span class="filter-label">Degradation Level:</span>
+          <select id="levelFilter" class="filter-select">
+            <option value="all">All Levels (D0 to D4)</option>
+            <option value="D0">D0 — Clean Baseline</option>
+            <option value="D1">D1 — Syntactic Noise (Abbreviations)</option>
+            <option value="D2">D2 — Type & Format Inconsistency</option>
+            <option value="D3">D3 — Decoy Columns & Ambiguity</option>
+            <option value="D4">D4 — Compound Degradation</option>
+          </select>
+        </div>
+
+        <div style="font-size:12px; color:var(--text-muted); font-family:var(--font-mono);">
+          Tolerance: ±1.5% · 95% Wilson CIs
+        </div>
+      </div>
+
+      <!-- Top Metric Cards -->
+      <div class="grid grid-4" style="margin-bottom:24px;">
+        <div class="card kpi-card">
+          <div class="card-title"><i class="ti ti-list-check"></i> Total Evaluated Trials</div>
+          <div class="kpi-value" id="kpiTotalTrials">750</div>
+          <div class="stat-tag">30 Questions × 5 Levels × 5 Runs</div>
+        </div>
+
+        <div class="card kpi-card">
+          <div class="card-title"><i class="ti ti-shield-check"></i> Baseline Accuracy (D0)</div>
+          <div class="kpi-value" id="kpiD0Accuracy" style="color:var(--signal);">88.7%</div>
+          <div class="stat-tag" id="kpiD0Ci">95% CI [82.5% – 92.9%]</div>
+        </div>
+
+        <div class="card kpi-card">
+          <div class="card-title"><i class="ti ti-alert-triangle"></i> Severe Degradation (D4)</div>
+          <div class="kpi-value" id="kpiD4Accuracy" style="color:var(--danger);">42.0%</div>
+          <div class="stat-tag" id="kpiD4Ci">95% CI [34.4% – 50.0%]</div>
+        </div>
+
+        <div class="card kpi-card">
+          <div class="card-title"><i class="ti ti-flame"></i> CBW Inflation Rate</div>
+          <div class="kpi-value" id="kpiCbwInflation" style="color:#FF5A5F; font-size:22px;">11.1% → 61.9%</div>
+          <div class="stat-tag" id="kpiCbwTrend">Cochran-Armitage p < 0.001</div>
+        </div>
+      </div>
+
+      <!-- Main Visualizations: Fig. 2 and Fig. 3 -->
+      <div class="grid grid-2" style="margin-bottom:24px;">
+        <div class="card">
+          <div class="card-title"><i class="ti ti-chart-bar"></i> Figure 2: Outcome Composition by Degradation Level</div>
+          <div style="font-size:12px; color:var(--text-muted); margin-bottom:12px;">
+            Correct vs. Explicit Failure vs. Confident-But-Wrong (CBW) vs. Hedged Incorrect (150 trials/level)
+          </div>
+          <div style="height:280px; position:relative;">
+            <canvas id="fig2Chart"></canvas>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-title"><i class="ti ti-chart-line"></i> Figure 3: Accuracy vs. CBW Divergence Curve</div>
+          <div style="font-size:12px; color:var(--text-muted); margin-bottom:12px;">
+            Dual-axis trajectory illustrating catastrophic rise in unhedged error rate as schema deteriorates
+          </div>
+          <div style="height:280px; position:relative;">
+            <canvas id="fig3Chart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table II Replication -->
+      <div class="card" style="margin-bottom:24px;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;">
+          <div>
+            <div class="card-title" style="font-size:15px; font-weight:600;"><i class="ti ti-table"></i> Table II: Overall Benchmark Outcomes Across Degradation Levels</div>
+            <div style="font-size:12px; color:var(--text-muted);">Empirical results with Wilson score 95% confidence intervals across all 750 trials</div>
+          </div>
+          <div class="stat-tag" id="kpiKappa">Inter-Run Stability: κ = 0.884</div>
+        </div>
+
+        <div class="bench-table-wrap">
+          <table class="bench-table">
+            <thead>
+              <tr>
+                <th>Degradation Level</th>
+                <th>Trials</th>
+                <th>Accuracy % [95% CI]</th>
+                <th>Failure Rate %</th>
+                <th>Total Incorrect</th>
+                <th>CBW Rate % (of incorrect)</th>
+              </tr>
+            </thead>
+            <tbody id="tableIIBody">
+              <!-- Rendered via benchmark.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Table III & Probe Summary Grid -->
+      <div class="grid grid-2" style="margin-bottom:24px;">
+        <!-- Table III -->
+        <div class="card">
+          <div class="card-title"><i class="ti ti-category"></i> Table III: Accuracy by Question Type Across D0–D4</div>
+          <div style="font-size:12px; color:var(--text-muted); margin-bottom:12px;">
+            Performance breakdown across descriptive, diagnostic, and comparative questions
+          </div>
+          <div class="bench-table-wrap">
+            <table class="bench-table">
+              <thead>
+                <tr>
+                  <th>Question Type</th>
+                  <th>D0</th>
+                  <th>D1</th>
+                  <th>D2</th>
+                  <th>D3</th>
+                  <th>D4</th>
+                </tr>
+              </thead>
+              <tbody id="tableIIIBody">
+                <!-- Rendered via benchmark.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Single Probe Live Workbench -->
+        <div class="card">
+          <div class="card-title"><i class="ti ti-player-play"></i> Single Question Live Probe Playground</div>
+          <div style="font-size:12px; color:var(--text-muted); margin-bottom:14px;">
+            Inspect how any question resolves on the fly across different schema corruption levels
+          </div>
+
+          <div class="probe-controls">
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px;">
+              <div class="probe-form-group">
+                <label class="probe-label">Select Dataset</label>
+                <select id="probeDataset" class="probe-select">
+                  <option value="sales">Sales Data</option>
+                  <option value="inventory">Inventory Data</option>
+                  <option value="finance">Finance Data</option>
+                  <option value="customer">Customer Data</option>
+                  <option value="operations">Operations Data</option>
+                </select>
+              </div>
+
+              <div class="probe-form-group">
+                <label class="probe-label">Degradation Level</label>
+                <select id="probeLevel" class="probe-select">
+                  <option value="D0">D0 (Clean Baseline)</option>
+                  <option value="D1">D1 (Abbreviations)</option>
+                  <option value="D2">D2 (Type Noise)</option>
+                  <option value="D3" selected>D3 (Decoy Trap)</option>
+                  <option value="D4">D4 (Cryptic Codes)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="probe-form-group">
+              <label class="probe-label">Question to Probe</label>
+              <select id="probeQuestion" class="probe-select"></select>
+            </div>
+
+            <button id="btnRunProbe" class="btn btn-primary" style="justify-content:center;">
+              <i class="ti ti-play"></i> Run Single Trial Probe
+            </button>
+          </div>
+
+          <div id="probeResultContainer" class="probe-result-card" style="margin-top:16px;">
+            <div style="color:var(--text-muted); font-size:13px; text-align:center; margin:auto;">
+              Select a question and click <strong>Run Single Trial Probe</strong> to see real-time pipeline resolution & CBW detection.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Table IV: Ambiguous Question Probe -->
+      <div class="card" style="margin-bottom:24px;">
+        <div class="card-title" style="font-size:15px; font-weight:600;"><i class="ti ti-help"></i> Table IV: Ambiguous Question Probe — D0 Baseline vs. D3 Semantic Shadowing</div>
+        <div style="font-size:12px; color:var(--text-muted); margin-bottom:14px;">
+          Examines vulnerability of language model reasoning when presented with underspecified queries alongside decoy columns
+        </div>
+
+        <div class="bench-table-wrap">
+          <table class="bench-table">
+            <thead>
+              <tr>
+                <th>Probe ID</th>
+                <th>Dataset</th>
+                <th>Query & Ambiguity Type</th>
+                <th>D0 Behavior (Clean Schema)</th>
+                <th>D3 Behavior (Decoy Shadowing Traps)</th>
+              </tr>
+            </thead>
+            <tbody id="tableIVBody">
+              <!-- Rendered via benchmark.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Sample Trials Log Table -->
+      <div class="card">
+        <div class="card-title" style="font-size:15px; font-weight:600;"><i class="ti ti-history"></i> Individual Trial Execution Log (Sample)</div>
+        <div style="font-size:12px; color:var(--text-muted); margin-bottom:14px;">
+          Granular verification trace for experimental reproducibility
+        </div>
+
+        <div class="bench-table-wrap">
+          <table class="bench-table">
+            <thead>
+              <tr>
+                <th>Trial ID</th>
+                <th>Level</th>
+                <th>Dataset</th>
+                <th>Question</th>
+                <th>Answer Excerpt</th>
+                <th>Classification</th>
+                <th>Latency</th>
+              </tr>
+            </thead>
+            <tbody id="trialsTableBody">
+              <!-- Rendered via benchmark.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/js/app.js"></script>
+<script src="/js/benchmark.js?v=1.2.0"></script>
+</body>
+</html>

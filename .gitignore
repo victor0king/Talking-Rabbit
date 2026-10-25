@@ -1,0 +1,14 @@
+.venv/
+.vscode/
+.env
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+*/.DS_Store
+storage/*.db
+storage/cache/*
+!storage/cache/.gitkeep
+storage/uploads/*
+!storage/uploads/.gitkeep
+How_To_Start_Application

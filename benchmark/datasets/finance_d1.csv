@@ -1,0 +1,801 @@
+txn_id,dt,Acct_Nm,TXN_TYP,AMT,DEPT,vndr,stat_cd
+TXN-30000,2024-01-01,Merchant Clearing,Accounts Payable,6384.73,Sales,Stripe Processing,Pending
+TXN-30001,2024-01-01,Capital Fund,Expense,10874.92,Engineering,AWS Cloud,Completed
+TXN-30002,2024-01-01,Merchant Clearing,Revenue,13794.7,Sales,Salesforce,Completed
+TXN-30003,2024-01-02,Capital Fund,Revenue,6268.6,Engineering,Stripe Processing,Completed
+TXN-30004,2024-01-02,Payroll Reserve,Expense,3071.34,Engineering,AWS Cloud,Completed
+TXN-30005,2024-01-03,Merchant Clearing,Expense,7877.49,HR,AWS Cloud,Completed
+TXN-30006,2024-01-03,Merchant Clearing,Payroll,42242.51,Engineering,WeWork Office,Approved
+TXN-30007,2024-01-04,Merchant Clearing,Revenue,12114.52,Engineering,Salesforce,Completed
+TXN-30008,2024-01-04,Operating Account,Revenue,1220.99,Sales,Salesforce,Completed
+TXN-30009,2024-01-05,Merchant Clearing,Revenue,10465.45,Engineering,Stripe Processing,Completed
+TXN-30010,2024-01-05,Operating Account,Expense,8685.49,Operations,Slack Tech,Completed
+TXN-30011,2024-01-06,Operating Account,Revenue,13635.08,Sales,WeWork Office,Completed
+TXN-30012,2024-01-06,Capital Fund,Revenue,2056.6,Marketing,Salesforce,Completed
+TXN-30013,2024-01-06,Operating Account,Revenue,8127.03,Sales,AWS Cloud,Completed
+TXN-30014,2024-01-07,Operating Account,Expense,13222.07,Engineering,Salesforce,Completed
+TXN-30015,2024-01-07,Payroll Reserve,Expense,6297.85,Operations,Slack Tech,Pending
+TXN-30016,2024-01-08,Merchant Clearing,Expense,7359.43,Sales,Google Ads,Completed
+TXN-30017,2024-01-08,Operating Account,Payroll,17113.82,Operations,Google Ads,Completed
+TXN-30018,2024-01-09,Merchant Clearing,Expense,4352.62,Marketing,Salesforce,Completed
+TXN-30019,2024-01-09,Operating Account,Revenue,5036.47,Finance,Salesforce,Approved
+TXN-30020,2024-01-10,Capital Fund,Expense,14190.56,Marketing,WeWork Office,Completed
+TXN-30021,2024-01-10,Payroll Reserve,Expense,4419.34,Finance,Salesforce,Pending
+TXN-30022,2024-01-11,Operating Account,Revenue,7047.81,HR,Slack Tech,Completed
+TXN-30023,2024-01-11,Merchant Clearing,Revenue,10151.74,Finance,Salesforce,Approved
+TXN-30024,2024-01-11,Capital Fund,Revenue,2642.2,HR,Stripe Processing,Completed
+TXN-30025,2024-01-12,Merchant Clearing,Expense,7425.03,Sales,Slack Tech,Completed
+TXN-30026,2024-01-12,Capital Fund,Revenue,11143.45,HR,WeWork Office,Completed
+TXN-30027,2024-01-13,Payroll Reserve,Expense,13036.11,Operations,Stripe Processing,Completed
+TXN-30028,2024-01-13,Capital Fund,Expense,9487.32,HR,Stripe Processing,Audited
+TXN-30029,2024-01-14,Merchant Clearing,Revenue,10118.54,Operations,Google Ads,Completed
+TXN-30030,2024-01-14,Merchant Clearing,Expense,2112.68,Finance,Slack Tech,Audited
+TXN-30031,2024-01-15,Operating Account,Expense,14200.2,Finance,Stripe Processing,Completed
+TXN-30032,2024-01-15,Capital Fund,Revenue,2205.47,Finance,WeWork Office,Completed
+TXN-30033,2024-01-16,Merchant Clearing,Revenue,11676.43,HR,Google Ads,Completed
+TXN-30034,2024-01-16,Operating Account,Accounts Payable,4156.04,Finance,Stripe Processing,Completed
+TXN-30035,2024-01-16,Payroll Reserve,Expense,14020.5,HR,Slack Tech,Approved
+TXN-30036,2024-01-17,Merchant Clearing,Expense,10869.4,HR,Google Ads,Completed
+TXN-30037,2024-01-17,Operating Account,Expense,11368.75,Engineering,Slack Tech,Completed
+TXN-30038,2024-01-18,Merchant Clearing,Payroll,21571.78,Engineering,Slack Tech,Audited
+TXN-30039,2024-01-18,Capital Fund,Revenue,6784.84,HR,Slack Tech,Completed
+TXN-30040,2024-01-19,Operating Account,Revenue,9362.74,Operations,Google Ads,Completed
+TXN-30041,2024-01-19,Capital Fund,Expense,11607.11,Sales,Stripe Processing,Completed
+TXN-30042,2024-01-20,Payroll Reserve,Revenue,1783.4,Marketing,Salesforce,Completed
+TXN-30043,2024-01-20,Capital Fund,Expense,14444.89,Engineering,AWS Cloud,Completed
+TXN-30044,2024-01-21,Operating Account,Revenue,13380.75,HR,Stripe Processing,Completed
+TXN-30045,2024-01-21,Merchant Clearing,Payroll,23110.46,Marketing,Google Ads,Completed
+TXN-30046,2024-01-22,Operating Account,Payroll,39682.81,Engineering,AWS Cloud,Pending
+TXN-30047,2024-01-22,Capital Fund,Revenue,7895.28,Sales,AWS Cloud,Completed
+TXN-30048,2024-01-22,Capital Fund,Revenue,7061.65,Operations,AWS Cloud,Audited
+TXN-30049,2024-01-23,Merchant Clearing,Payroll,24433.02,HR,Salesforce,Completed
+TXN-30050,2024-01-23,Payroll Reserve,Revenue,8819.29,Sales,WeWork Office,Completed
+TXN-30051,2024-01-24,Operating Account,Expense,11015.86,Engineering,Google Ads,Completed
+TXN-30052,2024-01-24,Merchant Clearing,Revenue,6311.26,HR,Salesforce,Completed
+TXN-30053,2024-01-25,Merchant Clearing,Expense,9530.98,Marketing,Salesforce,Completed
+TXN-30054,2024-01-25,Merchant Clearing,Revenue,10564.87,Finance,WeWork Office,Pending
+TXN-30055,2024-01-26,Operating Account,Revenue,10739.05,Operations,AWS Cloud,Approved
+TXN-30056,2024-01-26,Operating Account,Revenue,1016.5,Engineering,WeWork Office,Completed
+TXN-30057,2024-01-27,Operating Account,Expense,12931.28,Operations,WeWork Office,Completed
+TXN-30058,2024-01-27,Payroll Reserve,Expense,7009.24,HR,Salesforce,Completed
+TXN-30059,2024-01-27,Merchant Clearing,Revenue,4120.64,Finance,Google Ads,Completed
+TXN-30060,2024-01-28,Capital Fund,Accounts Payable,3816.03,Sales,Slack Tech,Completed
+TXN-30061,2024-01-28,Capital Fund,Revenue,7374.46,Operations,WeWork Office,Approved
+TXN-30062,2024-01-29,Merchant Clearing,Expense,13330.77,Marketing,WeWork Office,Completed
+TXN-30063,2024-01-29,Capital Fund,Payroll,26350.43,Engineering,AWS Cloud,Audited
+TXN-30064,2024-01-30,Payroll Reserve,Payroll,37491.77,Marketing,AWS Cloud,Completed
+TXN-30065,2024-01-30,Payroll Reserve,Expense,1678.08,Operations,Salesforce,Completed
+TXN-30066,2024-01-31,Operating Account,Expense,7271.84,Finance,AWS Cloud,Completed
+TXN-30067,2024-01-31,Operating Account,Revenue,14877.37,Sales,Stripe Processing,Completed
+TXN-30068,2024-02-01,Operating Account,Accounts Payable,11613.96,Sales,WeWork Office,Completed
+TXN-30069,2024-02-01,Operating Account,Payroll,21315.85,Marketing,AWS Cloud,Completed
+TXN-30070,2024-02-01,Operating Account,Accounts Payable,7646.26,HR,Google Ads,Pending
+TXN-30071,2024-02-02,Capital Fund,Revenue,3695.97,HR,Stripe Processing,Pending
+TXN-30072,2024-02-02,Capital Fund,Revenue,6291.02,Finance,Salesforce,Completed
+TXN-30073,2024-02-03,Operating Account,Expense,11756.24,Sales,Slack Tech,Approved
+TXN-30074,2024-02-03,Payroll Reserve,Expense,11625.57,Marketing,WeWork Office,Completed
+TXN-30075,2024-02-04,Capital Fund,Revenue,3614.48,Marketing,WeWork Office,Pending
+TXN-30076,2024-02-04,Payroll Reserve,Revenue,13852.79,Marketing,Google Ads,Completed
+TXN-30077,2024-02-05,Payroll Reserve,Revenue,8990.38,Operations,Slack Tech,Completed
+TXN-30078,2024-02-05,Merchant Clearing,Revenue,5853.88,Finance,Slack Tech,Completed
+TXN-30079,2024-02-06,Merchant Clearing,Expense,7653.55,HR,Salesforce,Completed
+TXN-30080,2024-02-06,Operating Account,Revenue,9174.8,HR,Salesforce,Completed
+TXN-30081,2024-02-07,Payroll Reserve,Expense,8508.39,Operations,Stripe Processing,Completed
+TXN-30082,2024-02-07,Capital Fund,Expense,7424.47,Engineering,WeWork Office,Completed
+TXN-30083,2024-02-07,Merchant Clearing,Accounts Payable,7697.76,Operations,AWS Cloud,Completed
+TXN-30084,2024-02-08,Merchant Clearing,Revenue,2852.08,Finance,Salesforce,Completed
+TXN-30085,2024-02-08,Payroll Reserve,Payroll,39381.99,Marketing,Google Ads,Completed
+TXN-30086,2024-02-09,Merchant Clearing,Expense,8240.96,Operations,Google Ads,Completed
+TXN-30087,2024-02-09,Merchant Clearing,Revenue,2183.43,Marketing,Google Ads,Completed
+TXN-30088,2024-02-10,Capital Fund,Expense,11550.82,Finance,Salesforce,Pending
+TXN-30089,2024-02-10,Payroll Reserve,Expense,14003.55,Finance,Salesforce,Completed
+TXN-30090,2024-02-11,Merchant Clearing,Accounts Payable,14222.78,Sales,Google Ads,Completed
+TXN-30091,2024-02-11,Payroll Reserve,Revenue,5693.01,Marketing,Salesforce,Completed
+TXN-30092,2024-02-12,Merchant Clearing,Accounts Payable,2248.87,HR,AWS Cloud,Completed
+TXN-30093,2024-02-12,Capital Fund,Expense,7896.39,Operations,AWS Cloud,Completed
+TXN-30094,2024-02-12,Payroll Reserve,Accounts Payable,1910.99,Finance,Stripe Processing,Completed
+TXN-30095,2024-02-13,Merchant Clearing,Expense,14026.31,Marketing,WeWork Office,Completed
+TXN-30096,2024-02-13,Capital Fund,Accounts Payable,2957.8,Engineering,AWS Cloud,Pending
+TXN-30097,2024-02-14,Merchant Clearing,Expense,3978.3,Sales,Stripe Processing,Completed
+TXN-30098,2024-02-14,Payroll Reserve,Expense,6247.89,Engineering,Slack Tech,Approved
+TXN-30099,2024-02-15,Merchant Clearing,Revenue,5901.68,Finance,WeWork Office,Completed
+TXN-30100,2024-02-15,Payroll Reserve,Payroll,38839.89,Engineering,AWS Cloud,Completed
+TXN-30101,2024-02-16,Payroll Reserve,Expense,6980.67,Engineering,Slack Tech,Completed
+TXN-30102,2024-02-16,Merchant Clearing,Expense,2768.83,Sales,Stripe Processing,Completed
+TXN-30103,2024-02-17,Capital Fund,Accounts Payable,4191.35,Sales,AWS Cloud,Completed
+TXN-30104,2024-02-17,Operating Account,Expense,7759.42,Sales,AWS Cloud,Completed
+TXN-30105,2024-02-17,Capital Fund,Expense,2424.95,Sales,Salesforce,Completed
+TXN-30106,2024-02-18,Capital Fund,Expense,9271.92,Engineering,Slack Tech,Audited
+TXN-30107,2024-02-18,Merchant Clearing,Expense,8594.77,HR,AWS Cloud,Audited
+TXN-30108,2024-02-19,Capital Fund,Payroll,36441.07,HR,Google Ads,Completed
+TXN-30109,2024-02-19,Capital Fund,Accounts Payable,14081.14,Sales,Salesforce,Audited
+TXN-30110,2024-02-20,Operating Account,Revenue,13705.75,Operations,Salesforce,Completed
+TXN-30111,2024-02-20,Capital Fund,Payroll,43382.27,Marketing,AWS Cloud,Completed
+TXN-30112,2024-02-21,Operating Account,Revenue,3859.56,Finance,Salesforce,Completed
+TXN-30113,2024-02-21,Merchant Clearing,Expense,2190.59,Operations,WeWork Office,Completed
+TXN-30114,2024-02-22,Operating Account,Expense,4708.58,Finance,Slack Tech,Completed
+TXN-30115,2024-02-22,Payroll Reserve,Expense,13452.51,Operations,WeWork Office,Audited
+TXN-30116,2024-02-22,Payroll Reserve,Expense,14587.79,Operations,Stripe Processing,Completed
+TXN-30117,2024-02-23,Operating Account,Payroll,40779.75,HR,WeWork Office,Completed
+TXN-30118,2024-02-23,Payroll Reserve,Accounts Payable,1872.76,Marketing,Google Ads,Approved
+TXN-30119,2024-02-24,Merchant Clearing,Expense,14224.56,Operations,Salesforce,Completed
+TXN-30120,2024-02-24,Payroll Reserve,Revenue,6494.53,Sales,Salesforce,Completed
+TXN-30121,2024-02-25,Operating Account,Revenue,387.33,Finance,Google Ads,Completed
+TXN-30122,2024-02-25,Merchant Clearing,Payroll,28271.81,HR,Salesforce,Completed
+TXN-30123,2024-02-26,Payroll Reserve,Accounts Payable,929.52,Finance,WeWork Office,Completed
+TXN-30124,2024-02-26,Merchant Clearing,Revenue,8272.2,Sales,Stripe Processing,Completed
+TXN-30125,2024-02-27,Operating Account,Accounts Payable,5243.67,Sales,AWS Cloud,Completed
+TXN-30126,2024-02-27,Payroll Reserve,Revenue,7233.17,Operations,Google Ads,Audited
+TXN-30127,2024-02-28,Merchant Clearing,Revenue,9294.26,Sales,WeWork Office,Approved
+TXN-30128,2024-02-28,Merchant Clearing,Expense,13064.82,Marketing,WeWork Office,Completed
+TXN-30129,2024-02-28,Payroll Reserve,Expense,10013.05,Sales,WeWork Office,Completed
+TXN-30130,2024-02-29,Merchant Clearing,Revenue,6652.22,Operations,AWS Cloud,Completed
+TXN-30131,2024-02-29,Merchant Clearing,Expense,12336.56,Finance,Slack Tech,Audited
+TXN-30132,2024-03-01,Operating Account,Expense,13607.34,Sales,Salesforce,Completed
+TXN-30133,2024-03-01,Operating Account,Revenue,2016.46,HR,Salesforce,Completed
+TXN-30134,2024-03-02,Operating Account,Expense,8096.01,HR,Stripe Processing,Pending
+TXN-30135,2024-03-02,Operating Account,Revenue,4446.55,HR,Slack Tech,Audited
+TXN-30136,2024-03-03,Operating Account,Revenue,944.15,Finance,Salesforce,Completed
+TXN-30137,2024-03-03,Operating Account,Payroll,35056.4,Engineering,Stripe Processing,Completed
+TXN-30138,2024-03-04,Payroll Reserve,Revenue,12975.87,HR,Stripe Processing,Completed
+TXN-30139,2024-03-04,Operating Account,Expense,2652.81,HR,WeWork Office,Completed
+TXN-30140,2024-03-04,Merchant Clearing,Revenue,12233.1,Engineering,Google Ads,Completed
+TXN-30141,2024-03-05,Payroll Reserve,Accounts Payable,12837.59,Finance,WeWork Office,Completed
+TXN-30142,2024-03-05,Merchant Clearing,Payroll,42430.21,HR,AWS Cloud,Completed
+TXN-30143,2024-03-06,Operating Account,Expense,4162.96,Operations,Salesforce,Completed
+TXN-30144,2024-03-06,Operating Account,Expense,13583.31,Finance,Stripe Processing,Completed
+TXN-30145,2024-03-07,Merchant Clearing,Payroll,24619.88,HR,Google Ads,Completed
+TXN-30146,2024-03-07,Merchant Clearing,Expense,8396.99,HR,Salesforce,Completed
+TXN-30147,2024-03-08,Merchant Clearing,Revenue,994.99,Engineering,Stripe Processing,Pending
+TXN-30148,2024-03-08,Capital Fund,Expense,897.25,Operations,Stripe Processing,Completed
+TXN-30149,2024-03-09,Capital Fund,Expense,10875.5,Finance,WeWork Office,Completed
+TXN-30150,2024-03-09,Capital Fund,Expense,6806.08,Sales,Google Ads,Completed
+TXN-30151,2024-03-09,Capital Fund,Expense,4030.31,Marketing,Google Ads,Completed
+TXN-30152,2024-03-10,Payroll Reserve,Revenue,3058.6,Operations,Salesforce,Completed
+TXN-30153,2024-03-10,Operating Account,Payroll,35098.6,Sales,Stripe Processing,Approved
+TXN-30154,2024-03-11,Merchant Clearing,Expense,255.92,Operations,Google Ads,Completed
+TXN-30155,2024-03-11,Operating Account,Accounts Payable,12136.89,Sales,Google Ads,Pending
+TXN-30156,2024-03-12,Merchant Clearing,Expense,1418.93,Sales,Salesforce,Completed
+TXN-30157,2024-03-12,Operating Account,Revenue,3074.47,Operations,WeWork Office,Completed
+TXN-30158,2024-03-13,Payroll Reserve,Expense,5946.99,Engineering,Slack Tech,Approved
+TXN-30159,2024-03-13,Capital Fund,Payroll,29545.76,Operations,AWS Cloud,Completed
+TXN-30160,2024-03-14,Operating Account,Accounts Payable,5486.18,Operations,Slack Tech,Completed
+TXN-30161,2024-03-14,Merchant Clearing,Revenue,4980.5,Sales,Google Ads,Completed
+TXN-30162,2024-03-15,Operating Account,Accounts Payable,14467.76,Marketing,Stripe Processing,Completed
+TXN-30163,2024-03-15,Payroll Reserve,Revenue,9713.3,Sales,AWS Cloud,Pending
+TXN-30164,2024-03-15,Payroll Reserve,Payroll,15702.99,HR,AWS Cloud,Approved
+TXN-30165,2024-03-16,Operating Account,Revenue,6595.09,Operations,Stripe Processing,Approved
+TXN-30166,2024-03-16,Capital Fund,Payroll,41250.26,Finance,AWS Cloud,Completed
+TXN-30167,2024-03-17,Merchant Clearing,Revenue,4696.48,Operations,Stripe Processing,Completed
+TXN-30168,2024-03-17,Payroll Reserve,Expense,1644.71,Engineering,AWS Cloud,Completed
+TXN-30169,2024-03-18,Payroll Reserve,Revenue,11436.18,Finance,Salesforce,Pending
+TXN-30170,2024-03-18,Operating Account,Expense,9188.7,Sales,Salesforce,Completed
+TXN-30171,2024-03-19,Payroll Reserve,Revenue,8662.11,Engineering,Slack Tech,Completed
+TXN-30172,2024-03-19,Payroll Reserve,Revenue,1040.25,Operations,AWS Cloud,Approved
+TXN-30173,2024-03-20,Merchant Clearing,Revenue,2322.36,Sales,WeWork Office,Completed
+TXN-30174,2024-03-20,Capital Fund,Expense,9432.6,Sales,Stripe Processing,Completed
+TXN-30175,2024-03-20,Merchant Clearing,Expense,3315.4,HR,AWS Cloud,Approved
+TXN-30176,2024-03-21,Capital Fund,Revenue,7685.03,HR,Salesforce,Completed
+TXN-30177,2024-03-21,Merchant Clearing,Payroll,31346.45,Marketing,Salesforce,Completed
+TXN-30178,2024-03-22,Operating Account,Expense,4431.73,HR,Stripe Processing,Completed
+TXN-30179,2024-03-22,Payroll Reserve,Expense,14239.27,Finance,WeWork Office,Completed
+TXN-30180,2024-03-23,Capital Fund,Revenue,12676.35,Sales,AWS Cloud,Pending
+TXN-30181,2024-03-23,Operating Account,Revenue,10905.01,HR,AWS Cloud,Completed
+TXN-30182,2024-03-24,Payroll Reserve,Expense,1400.41,Marketing,WeWork Office,Completed
+TXN-30183,2024-03-24,Payroll Reserve,Expense,1815.42,Operations,WeWork Office,Completed
+TXN-30184,2024-03-25,Payroll Reserve,Expense,7518.52,Finance,WeWork Office,Audited
+TXN-30185,2024-03-25,Merchant Clearing,Payroll,19821.4,HR,Salesforce,Completed
+TXN-30186,2024-03-25,Operating Account,Expense,14679.42,Sales,Stripe Processing,Completed
+TXN-30187,2024-03-26,Operating Account,Expense,2588.17,Operations,WeWork Office,Completed
+TXN-30188,2024-03-26,Payroll Reserve,Expense,7440.15,Sales,Stripe Processing,Completed
+TXN-30189,2024-03-27,Capital Fund,Expense,5620.79,Operations,Slack Tech,Completed
+TXN-30190,2024-03-27,Operating Account,Accounts Payable,9680.95,Finance,AWS Cloud,Completed
+TXN-30191,2024-03-28,Merchant Clearing,Expense,2153.29,Sales,AWS Cloud,Completed
+TXN-30192,2024-03-28,Capital Fund,Expense,6597.17,HR,Google Ads,Completed
+TXN-30193,2024-03-29,Capital Fund,Revenue,4301.9,HR,Slack Tech,Pending
+TXN-30194,2024-03-29,Capital Fund,Expense,13344.33,Marketing,WeWork Office,Completed
+TXN-30195,2024-03-30,Capital Fund,Expense,848.64,Operations,WeWork Office,Completed
+TXN-30196,2024-03-30,Operating Account,Accounts Payable,13727.48,Marketing,Salesforce,Completed
+TXN-30197,2024-03-30,Payroll Reserve,Accounts Payable,12536.66,Engineering,Slack Tech,Pending
+TXN-30198,2024-03-31,Capital Fund,Payroll,23927.12,HR,WeWork Office,Pending
+TXN-30199,2024-03-31,Merchant Clearing,Accounts Payable,11892.04,Operations,Google Ads,Completed
+TXN-30200,2024-04-01,Merchant Clearing,Revenue,710.4,Finance,Stripe Processing,Approved
+TXN-30201,2024-04-01,Payroll Reserve,Expense,14511.27,Marketing,AWS Cloud,Completed
+TXN-30202,2024-04-02,Operating Account,Accounts Payable,8017.28,Finance,Slack Tech,Completed
+TXN-30203,2024-04-02,Payroll Reserve,Accounts Payable,4723.4,Finance,AWS Cloud,Completed
+TXN-30204,2024-04-03,Capital Fund,Accounts Payable,5598.1,Finance,Stripe Processing,Approved
+TXN-30205,2024-04-03,Operating Account,Revenue,1229.48,Marketing,Slack Tech,Completed
+TXN-30206,2024-04-04,Operating Account,Expense,14842.91,Engineering,Stripe Processing,Pending
+TXN-30207,2024-04-04,Capital Fund,Accounts Payable,829.56,Marketing,WeWork Office,Completed
+TXN-30208,2024-04-05,Merchant Clearing,Revenue,9909.88,Sales,WeWork Office,Completed
+TXN-30209,2024-04-05,Capital Fund,Payroll,28282.08,HR,WeWork Office,Completed
+TXN-30210,2024-04-05,Payroll Reserve,Expense,14246.51,Marketing,Stripe Processing,Approved
+TXN-30211,2024-04-06,Capital Fund,Expense,3878.5,Marketing,Stripe Processing,Completed
+TXN-30212,2024-04-06,Merchant Clearing,Expense,8098.28,Engineering,Stripe Processing,Completed
+TXN-30213,2024-04-07,Capital Fund,Accounts Payable,7364.75,Sales,AWS Cloud,Completed
+TXN-30214,2024-04-07,Payroll Reserve,Expense,10617.28,Marketing,Stripe Processing,Approved
+TXN-30215,2024-04-08,Payroll Reserve,Expense,1253.15,HR,WeWork Office,Completed
+TXN-30216,2024-04-08,Merchant Clearing,Payroll,20813.67,HR,Google Ads,Completed
+TXN-30217,2024-04-09,Payroll Reserve,Expense,3414.83,Marketing,Stripe Processing,Completed
+TXN-30218,2024-04-09,Payroll Reserve,Accounts Payable,11137.72,Finance,Google Ads,Audited
+TXN-30219,2024-04-10,Capital Fund,Expense,3039.8,Finance,WeWork Office,Approved
+TXN-30220,2024-04-10,Operating Account,Accounts Payable,8709.0,Sales,Stripe Processing,Pending
+TXN-30221,2024-04-10,Payroll Reserve,Revenue,3424.85,HR,AWS Cloud,Completed
+TXN-30222,2024-04-11,Payroll Reserve,Payroll,40848.75,Finance,AWS Cloud,Completed
+TXN-30223,2024-04-11,Merchant Clearing,Payroll,43265.56,HR,Google Ads,Approved
+TXN-30224,2024-04-12,Merchant Clearing,Expense,7897.77,Sales,Salesforce,Completed
+TXN-30225,2024-04-12,Capital Fund,Expense,5446.56,Sales,AWS Cloud,Completed
+TXN-30226,2024-04-13,Capital Fund,Expense,3702.35,Finance,AWS Cloud,Completed
+TXN-30227,2024-04-13,Payroll Reserve,Revenue,984.27,Marketing,AWS Cloud,Approved
+TXN-30228,2024-04-14,Operating Account,Accounts Payable,4210.38,Operations,WeWork Office,Completed
+TXN-30229,2024-04-14,Operating Account,Revenue,9899.98,Engineering,AWS Cloud,Completed
+TXN-30230,2024-04-15,Capital Fund,Revenue,8120.85,Operations,Slack Tech,Approved
+TXN-30231,2024-04-15,Merchant Clearing,Expense,14174.61,Operations,Stripe Processing,Completed
+TXN-30232,2024-04-15,Payroll Reserve,Accounts Payable,6095.09,HR,AWS Cloud,Completed
+TXN-30233,2024-04-16,Payroll Reserve,Payroll,35815.9,Sales,Salesforce,Audited
+TXN-30234,2024-04-16,Operating Account,Expense,7467.51,HR,Salesforce,Audited
+TXN-30235,2024-04-17,Capital Fund,Revenue,7810.5,Finance,AWS Cloud,Approved
+TXN-30236,2024-04-17,Operating Account,Expense,4199.67,Engineering,AWS Cloud,Completed
+TXN-30237,2024-04-18,Operating Account,Revenue,6960.52,Finance,Slack Tech,Completed
+TXN-30238,2024-04-18,Capital Fund,Revenue,7194.08,Marketing,AWS Cloud,Approved
+TXN-30239,2024-04-19,Merchant Clearing,Expense,10672.98,Engineering,AWS Cloud,Completed
+TXN-30240,2024-04-19,Payroll Reserve,Expense,14124.44,HR,Stripe Processing,Approved
+TXN-30241,2024-04-20,Merchant Clearing,Expense,5107.49,HR,Salesforce,Approved
+TXN-30242,2024-04-20,Capital Fund,Revenue,872.46,Finance,Slack Tech,Completed
+TXN-30243,2024-04-21,Capital Fund,Revenue,7570.35,HR,Salesforce,Approved
+TXN-30244,2024-04-21,Payroll Reserve,Expense,8280.8,HR,Slack Tech,Pending
+TXN-30245,2024-04-21,Merchant Clearing,Accounts Payable,2734.5,Operations,Salesforce,Completed
+TXN-30246,2024-04-22,Payroll Reserve,Revenue,11466.85,Marketing,AWS Cloud,Completed
+TXN-30247,2024-04-22,Operating Account,Expense,14777.7,Operations,Salesforce,Completed
+TXN-30248,2024-04-23,Operating Account,Expense,14200.18,HR,Salesforce,Completed
+TXN-30249,2024-04-23,Operating Account,Accounts Payable,3157.31,Sales,Slack Tech,Completed
+TXN-30250,2024-04-24,Merchant Clearing,Payroll,41260.9,Operations,Google Ads,Completed
+TXN-30251,2024-04-24,Operating Account,Expense,10641.28,HR,Slack Tech,Approved
+TXN-30252,2024-04-25,Payroll Reserve,Expense,6944.24,HR,Slack Tech,Audited
+TXN-30253,2024-04-25,Merchant Clearing,Expense,8224.01,Marketing,Slack Tech,Completed
+TXN-30254,2024-04-26,Payroll Reserve,Revenue,12781.6,Finance,WeWork Office,Completed
+TXN-30255,2024-04-26,Capital Fund,Expense,7331.99,Engineering,WeWork Office,Completed
+TXN-30256,2024-04-26,Merchant Clearing,Expense,5754.81,Operations,WeWork Office,Audited
+TXN-30257,2024-04-27,Payroll Reserve,Revenue,7525.4,Operations,Slack Tech,Completed
+TXN-30258,2024-04-27,Payroll Reserve,Revenue,8792.16,Operations,Google Ads,Completed
+TXN-30259,2024-04-28,Merchant Clearing,Expense,3038.9,HR,Slack Tech,Approved
+TXN-30260,2024-04-28,Capital Fund,Expense,13538.39,Marketing,AWS Cloud,Completed
+TXN-30261,2024-04-29,Merchant Clearing,Revenue,10194.26,HR,Google Ads,Approved
+TXN-30262,2024-04-29,Operating Account,Expense,9590.72,HR,WeWork Office,Approved
+TXN-30263,2024-04-30,Operating Account,Expense,1717.57,Finance,Salesforce,Approved
+TXN-30264,2024-04-30,Capital Fund,Accounts Payable,9161.57,Sales,Salesforce,Completed
+TXN-30265,2024-05-01,Payroll Reserve,Expense,2034.17,Marketing,Stripe Processing,Completed
+TXN-30266,2024-05-01,Payroll Reserve,Revenue,1410.79,Operations,Google Ads,Approved
+TXN-30267,2024-05-01,Payroll Reserve,Payroll,30819.33,Engineering,WeWork Office,Completed
+TXN-30268,2024-05-02,Merchant Clearing,Expense,6191.09,Operations,Google Ads,Completed
+TXN-30269,2024-05-02,Merchant Clearing,Expense,8934.95,HR,Google Ads,Completed
+TXN-30270,2024-05-03,Capital Fund,Revenue,1566.03,Marketing,Salesforce,Completed
+TXN-30271,2024-05-03,Operating Account,Accounts Payable,6607.0,Marketing,Slack Tech,Completed
+TXN-30272,2024-05-04,Payroll Reserve,Payroll,20243.6,Marketing,AWS Cloud,Completed
+TXN-30273,2024-05-04,Operating Account,Revenue,14809.73,Sales,Stripe Processing,Completed
+TXN-30274,2024-05-05,Merchant Clearing,Expense,8526.97,Operations,WeWork Office,Completed
+TXN-30275,2024-05-05,Merchant Clearing,Revenue,10389.69,Sales,Google Ads,Completed
+TXN-30276,2024-05-06,Merchant Clearing,Expense,5049.92,Finance,Stripe Processing,Completed
+TXN-30277,2024-05-06,Operating Account,Revenue,1647.4,Engineering,Google Ads,Completed
+TXN-30278,2024-05-06,Capital Fund,Expense,14644.1,Finance,Salesforce,Completed
+TXN-30279,2024-05-07,Capital Fund,Expense,4472.32,HR,AWS Cloud,Completed
+TXN-30280,2024-05-07,Merchant Clearing,Accounts Payable,6501.17,Sales,Salesforce,Completed
+TXN-30281,2024-05-08,Payroll Reserve,Revenue,9835.49,Sales,Stripe Processing,Completed
+TXN-30282,2024-05-08,Operating Account,Expense,614.29,Finance,WeWork Office,Completed
+TXN-30283,2024-05-09,Merchant Clearing,Expense,12201.32,HR,Google Ads,Completed
+TXN-30284,2024-05-09,Operating Account,Accounts Payable,8164.53,Marketing,AWS Cloud,Completed
+TXN-30285,2024-05-10,Operating Account,Revenue,4353.7,HR,Salesforce,Pending
+TXN-30286,2024-05-10,Capital Fund,Expense,1158.72,Operations,Stripe Processing,Completed
+TXN-30287,2024-05-11,Merchant Clearing,Expense,2646.85,Finance,Salesforce,Approved
+TXN-30288,2024-05-11,Capital Fund,Expense,13451.75,HR,Google Ads,Completed
+TXN-30289,2024-05-12,Merchant Clearing,Payroll,35580.73,Marketing,Google Ads,Audited
+TXN-30290,2024-05-12,Operating Account,Revenue,3936.05,HR,WeWork Office,Completed
+TXN-30291,2024-05-12,Capital Fund,Revenue,1217.61,Sales,AWS Cloud,Completed
+TXN-30292,2024-05-13,Operating Account,Revenue,10436.58,Engineering,Slack Tech,Completed
+TXN-30293,2024-05-13,Merchant Clearing,Expense,8693.01,Sales,Salesforce,Completed
+TXN-30294,2024-05-14,Payroll Reserve,Accounts Payable,6216.66,Engineering,Google Ads,Completed
+TXN-30295,2024-05-14,Capital Fund,Revenue,5613.27,HR,Stripe Processing,Completed
+TXN-30296,2024-05-15,Capital Fund,Expense,3448.01,Operations,Salesforce,Completed
+TXN-30297,2024-05-15,Operating Account,Expense,10126.77,HR,WeWork Office,Completed
+TXN-30298,2024-05-16,Operating Account,Revenue,14567.35,Marketing,WeWork Office,Pending
+TXN-30299,2024-05-16,Payroll Reserve,Payroll,20271.46,HR,Google Ads,Completed
+TXN-30300,2024-05-17,Capital Fund,Expense,9057.47,Engineering,Google Ads,Approved
+TXN-30301,2024-05-17,Merchant Clearing,Accounts Payable,6506.73,Sales,Google Ads,Completed
+TXN-30302,2024-05-17,Merchant Clearing,Accounts Payable,6838.66,Operations,Slack Tech,Completed
+TXN-30303,2024-05-18,Capital Fund,Expense,3998.67,HR,Google Ads,Completed
+TXN-30304,2024-05-18,Capital Fund,Expense,12420.74,HR,Salesforce,Completed
+TXN-30305,2024-05-19,Capital Fund,Expense,7407.52,Sales,Salesforce,Completed
+TXN-30306,2024-05-19,Payroll Reserve,Revenue,8265.24,Operations,AWS Cloud,Completed
+TXN-30307,2024-05-20,Merchant Clearing,Expense,4745.22,Finance,Stripe Processing,Completed
+TXN-30308,2024-05-20,Merchant Clearing,Expense,2931.67,HR,Google Ads,Approved
+TXN-30309,2024-05-21,Operating Account,Revenue,1517.18,HR,Salesforce,Completed
+TXN-30310,2024-05-21,Operating Account,Revenue,10783.26,Finance,Salesforce,Audited
+TXN-30311,2024-05-22,Capital Fund,Expense,3144.46,Engineering,Salesforce,Approved
+TXN-30312,2024-05-22,Operating Account,Expense,10428.61,Engineering,Slack Tech,Approved
+TXN-30313,2024-05-22,Payroll Reserve,Revenue,6008.05,Marketing,Stripe Processing,Completed
+TXN-30314,2024-05-23,Merchant Clearing,Revenue,6382.68,Sales,WeWork Office,Completed
+TXN-30315,2024-05-23,Merchant Clearing,Accounts Payable,7170.37,Operations,Salesforce,Completed
+TXN-30316,2024-05-24,Operating Account,Expense,5673.7,HR,Google Ads,Completed
+TXN-30317,2024-05-24,Capital Fund,Accounts Payable,1734.14,HR,Salesforce,Completed
+TXN-30318,2024-05-25,Operating Account,Revenue,4817.07,Marketing,Stripe Processing,Completed
+TXN-30319,2024-05-25,Capital Fund,Revenue,10040.08,HR,WeWork Office,Completed
+TXN-30320,2024-05-26,Payroll Reserve,Revenue,10070.32,Sales,Slack Tech,Completed
+TXN-30321,2024-05-26,Merchant Clearing,Expense,4471.81,Marketing,AWS Cloud,Pending
+TXN-30322,2024-05-27,Payroll Reserve,Expense,7036.51,Sales,Google Ads,Completed
+TXN-30323,2024-05-27,Merchant Clearing,Revenue,3103.35,Marketing,AWS Cloud,Completed
+TXN-30324,2024-05-28,Payroll Reserve,Revenue,3352.99,HR,Slack Tech,Pending
+TXN-30325,2024-05-28,Operating Account,Revenue,589.94,Marketing,Stripe Processing,Completed
+TXN-30326,2024-05-28,Payroll Reserve,Expense,13477.01,Engineering,Stripe Processing,Completed
+TXN-30327,2024-05-29,Payroll Reserve,Payroll,21321.2,Operations,Slack Tech,Pending
+TXN-30328,2024-05-29,Operating Account,Revenue,3606.12,HR,Salesforce,Completed
+TXN-30329,2024-05-30,Merchant Clearing,Expense,4374.12,Finance,Slack Tech,Completed
+TXN-30330,2024-05-30,Merchant Clearing,Expense,2129.27,Operations,Google Ads,Completed
+TXN-30331,2024-05-31,Operating Account,Accounts Payable,9679.13,HR,WeWork Office,Completed
+TXN-30332,2024-05-31,Payroll Reserve,Accounts Payable,1358.36,Operations,AWS Cloud,Completed
+TXN-30333,2024-06-01,Payroll Reserve,Revenue,2229.49,Engineering,AWS Cloud,Completed
+TXN-30334,2024-06-01,Payroll Reserve,Accounts Payable,9760.16,Operations,Stripe Processing,Completed
+TXN-30335,2024-06-02,Capital Fund,Expense,5259.99,Marketing,Salesforce,Completed
+TXN-30336,2024-06-02,Merchant Clearing,Expense,10692.23,Operations,Stripe Processing,Approved
+TXN-30337,2024-06-02,Payroll Reserve,Accounts Payable,8472.01,HR,Google Ads,Completed
+TXN-30338,2024-06-03,Merchant Clearing,Accounts Payable,4026.31,Finance,Slack Tech,Approved
+TXN-30339,2024-06-03,Payroll Reserve,Revenue,9849.71,Finance,AWS Cloud,Completed
+TXN-30340,2024-06-04,Operating Account,Accounts Payable,1965.04,Sales,Google Ads,Pending
+TXN-30341,2024-06-04,Operating Account,Expense,8162.05,Operations,Stripe Processing,Completed
+TXN-30342,2024-06-05,Merchant Clearing,Accounts Payable,6697.93,Finance,Stripe Processing,Completed
+TXN-30343,2024-06-05,Merchant Clearing,Expense,4201.14,Operations,AWS Cloud,Completed
+TXN-30344,2024-06-06,Operating Account,Expense,9159.07,Finance,Stripe Processing,Pending
+TXN-30345,2024-06-06,Capital Fund,Expense,13102.17,Operations,Salesforce,Completed
+TXN-30346,2024-06-07,Operating Account,Expense,14983.84,HR,Stripe Processing,Completed
+TXN-30347,2024-06-07,Payroll Reserve,Expense,9214.5,Operations,WeWork Office,Completed
+TXN-30348,2024-06-07,Capital Fund,Expense,6219.41,HR,Slack Tech,Approved
+TXN-30349,2024-06-08,Operating Account,Expense,3571.8,HR,Stripe Processing,Completed
+TXN-30350,2024-06-08,Capital Fund,Expense,4042.17,Sales,WeWork Office,Completed
+TXN-30351,2024-06-09,Capital Fund,Revenue,7321.96,Finance,Google Ads,Completed
+TXN-30352,2024-06-09,Capital Fund,Expense,5667.35,Marketing,Stripe Processing,Completed
+TXN-30353,2024-06-10,Merchant Clearing,Expense,13728.76,HR,Salesforce,Approved
+TXN-30354,2024-06-10,Operating Account,Revenue,5682.36,Finance,Google Ads,Approved
+TXN-30355,2024-06-11,Merchant Clearing,Accounts Payable,5758.31,Engineering,Stripe Processing,Completed
+TXN-30356,2024-06-11,Merchant Clearing,Accounts Payable,5907.13,Operations,AWS Cloud,Completed
+TXN-30357,2024-06-12,Payroll Reserve,Expense,12590.15,Engineering,WeWork Office,Pending
+TXN-30358,2024-06-12,Payroll Reserve,Revenue,9849.13,Operations,WeWork Office,Completed
+TXN-30359,2024-06-12,Capital Fund,Expense,9308.99,Sales,AWS Cloud,Audited
+TXN-30360,2024-06-13,Capital Fund,Expense,5178.61,HR,Slack Tech,Completed
+TXN-30361,2024-06-13,Payroll Reserve,Expense,12314.09,Marketing,Salesforce,Completed
+TXN-30362,2024-06-14,Payroll Reserve,Accounts Payable,815.87,HR,WeWork Office,Completed
+TXN-30363,2024-06-14,Operating Account,Expense,13094.26,Operations,Google Ads,Completed
+TXN-30364,2024-06-15,Capital Fund,Expense,7813.06,Marketing,Salesforce,Approved
+TXN-30365,2024-06-15,Capital Fund,Expense,6124.19,HR,WeWork Office,Completed
+TXN-30366,2024-06-16,Payroll Reserve,Accounts Payable,7583.22,Marketing,Slack Tech,Pending
+TXN-30367,2024-06-16,Operating Account,Revenue,10094.38,Operations,Google Ads,Completed
+TXN-30368,2024-06-17,Payroll Reserve,Expense,438.29,Sales,Salesforce,Pending
+TXN-30369,2024-06-17,Payroll Reserve,Revenue,13105.39,Sales,Google Ads,Completed
+TXN-30370,2024-06-18,Merchant Clearing,Revenue,6839.41,HR,AWS Cloud,Approved
+TXN-30371,2024-06-18,Capital Fund,Revenue,5308.76,Engineering,Stripe Processing,Completed
+TXN-30372,2024-06-18,Operating Account,Expense,2289.12,Operations,AWS Cloud,Pending
+TXN-30373,2024-06-19,Merchant Clearing,Accounts Payable,6732.11,HR,Salesforce,Completed
+TXN-30374,2024-06-19,Capital Fund,Expense,7570.76,HR,Stripe Processing,Completed
+TXN-30375,2024-06-20,Payroll Reserve,Revenue,6203.79,Sales,AWS Cloud,Approved
+TXN-30376,2024-06-20,Operating Account,Expense,10260.24,Marketing,Stripe Processing,Completed
+TXN-30377,2024-06-21,Capital Fund,Expense,6458.22,Operations,WeWork Office,Completed
+TXN-30378,2024-06-21,Payroll Reserve,Expense,14430.91,Marketing,Google Ads,Completed
+TXN-30379,2024-06-22,Merchant Clearing,Revenue,9089.34,Finance,Stripe Processing,Completed
+TXN-30380,2024-06-22,Operating Account,Expense,12160.3,Finance,WeWork Office,Completed
+TXN-30381,2024-06-23,Capital Fund,Accounts Payable,1863.0,Operations,Slack Tech,Completed
+TXN-30382,2024-06-23,Merchant Clearing,Expense,6110.05,Engineering,AWS Cloud,Completed
+TXN-30383,2024-06-23,Payroll Reserve,Revenue,5218.5,Finance,Slack Tech,Completed
+TXN-30384,2024-06-24,Payroll Reserve,Accounts Payable,8649.87,Sales,Salesforce,Completed
+TXN-30385,2024-06-24,Capital Fund,Revenue,12951.42,Engineering,WeWork Office,Approved
+TXN-30386,2024-06-25,Payroll Reserve,Revenue,1405.49,HR,Slack Tech,Completed
+TXN-30387,2024-06-25,Operating Account,Revenue,1320.48,Finance,Slack Tech,Completed
+TXN-30388,2024-06-26,Capital Fund,Expense,12792.19,Sales,WeWork Office,Completed
+TXN-30389,2024-06-26,Merchant Clearing,Accounts Payable,3389.54,HR,Google Ads,Completed
+TXN-30390,2024-06-27,Capital Fund,Expense,10114.11,Engineering,Stripe Processing,Completed
+TXN-30391,2024-06-27,Capital Fund,Revenue,8257.45,Operations,Salesforce,Completed
+TXN-30392,2024-06-28,Merchant Clearing,Revenue,12535.18,HR,Salesforce,Completed
+TXN-30393,2024-06-28,Payroll Reserve,Expense,2095.06,Marketing,AWS Cloud,Completed
+TXN-30394,2024-06-28,Merchant Clearing,Expense,2164.3,Operations,Stripe Processing,Completed
+TXN-30395,2024-06-29,Operating Account,Revenue,8463.07,Operations,AWS Cloud,Pending
+TXN-30396,2024-06-29,Payroll Reserve,Accounts Payable,14209.09,Engineering,Salesforce,Completed
+TXN-30397,2024-06-30,Capital Fund,Payroll,27449.93,Engineering,Stripe Processing,Completed
+TXN-30398,2024-06-30,Payroll Reserve,Revenue,5072.4,Sales,Slack Tech,Completed
+TXN-30399,2024-07-01,Payroll Reserve,Revenue,9198.67,Sales,Google Ads,Pending
+TXN-30400,2024-07-01,Operating Account,Payroll,42913.46,Marketing,Slack Tech,Approved
+TXN-30401,2024-07-02,Payroll Reserve,Expense,12594.69,Operations,Google Ads,Approved
+TXN-30402,2024-07-02,Payroll Reserve,Expense,14933.38,Marketing,WeWork Office,Completed
+TXN-30403,2024-07-03,Payroll Reserve,Revenue,582.89,Marketing,AWS Cloud,Completed
+TXN-30404,2024-07-03,Capital Fund,Accounts Payable,1914.66,Engineering,AWS Cloud,Completed
+TXN-30405,2024-07-04,Payroll Reserve,Accounts Payable,9239.65,Marketing,WeWork Office,Pending
+TXN-30406,2024-07-04,Merchant Clearing,Expense,12353.5,Marketing,Stripe Processing,Audited
+TXN-30407,2024-07-04,Payroll Reserve,Expense,4457.35,HR,WeWork Office,Completed
+TXN-30408,2024-07-05,Operating Account,Expense,3778.36,Sales,Salesforce,Completed
+TXN-30409,2024-07-05,Payroll Reserve,Expense,11857.89,Sales,WeWork Office,Completed
+TXN-30410,2024-07-06,Payroll Reserve,Expense,1081.63,Operations,Google Ads,Completed
+TXN-30411,2024-07-06,Capital Fund,Accounts Payable,5698.39,Sales,Salesforce,Completed
+TXN-30412,2024-07-07,Merchant Clearing,Expense,7710.69,Finance,WeWork Office,Completed
+TXN-30413,2024-07-07,Payroll Reserve,Accounts Payable,8515.14,Operations,AWS Cloud,Completed
+TXN-30414,2024-07-08,Merchant Clearing,Expense,10997.07,HR,Slack Tech,Completed
+TXN-30415,2024-07-08,Operating Account,Revenue,5483.97,Sales,Google Ads,Completed
+TXN-30416,2024-07-09,Capital Fund,Expense,9287.09,HR,Google Ads,Completed
+TXN-30417,2024-07-09,Merchant Clearing,Expense,8884.29,Sales,Stripe Processing,Completed
+TXN-30418,2024-07-09,Capital Fund,Expense,8327.34,Sales,Slack Tech,Completed
+TXN-30419,2024-07-10,Payroll Reserve,Payroll,34214.5,HR,Google Ads,Approved
+TXN-30420,2024-07-10,Operating Account,Accounts Payable,4076.88,Marketing,WeWork Office,Pending
+TXN-30421,2024-07-11,Capital Fund,Revenue,1498.57,Marketing,Google Ads,Completed
+TXN-30422,2024-07-11,Payroll Reserve,Expense,2009.26,Marketing,Google Ads,Completed
+TXN-30423,2024-07-12,Merchant Clearing,Payroll,21737.47,Finance,Google Ads,Completed
+TXN-30424,2024-07-12,Operating Account,Expense,7627.92,Marketing,Stripe Processing,Completed
+TXN-30425,2024-07-13,Operating Account,Expense,12646.53,Sales,Google Ads,Pending
+TXN-30426,2024-07-13,Merchant Clearing,Revenue,10594.08,Engineering,Google Ads,Approved
+TXN-30427,2024-07-14,Merchant Clearing,Payroll,38671.22,HR,Stripe Processing,Completed
+TXN-30428,2024-07-14,Operating Account,Expense,5426.89,Engineering,Salesforce,Audited
+TXN-30429,2024-07-14,Capital Fund,Expense,6218.64,Finance,Slack Tech,Audited
+TXN-30430,2024-07-15,Operating Account,Payroll,26810.46,Engineering,Salesforce,Approved
+TXN-30431,2024-07-15,Merchant Clearing,Expense,3080.13,Operations,AWS Cloud,Completed
+TXN-30432,2024-07-16,Capital Fund,Expense,1152.95,Marketing,Stripe Processing,Completed
+TXN-30433,2024-07-16,Payroll Reserve,Revenue,8966.01,Finance,Stripe Processing,Completed
+TXN-30434,2024-07-17,Operating Account,Accounts Payable,14840.95,Sales,Google Ads,Completed
+TXN-30435,2024-07-17,Merchant Clearing,Revenue,2710.74,Marketing,Google Ads,Completed
+TXN-30436,2024-07-18,Payroll Reserve,Payroll,16400.54,Marketing,AWS Cloud,Pending
+TXN-30437,2024-07-18,Operating Account,Revenue,11748.09,Engineering,Google Ads,Completed
+TXN-30438,2024-07-19,Operating Account,Expense,3975.64,Operations,WeWork Office,Approved
+TXN-30439,2024-07-19,Capital Fund,Payroll,39889.31,Marketing,Google Ads,Completed
+TXN-30440,2024-07-20,Merchant Clearing,Expense,10633.07,HR,Google Ads,Completed
+TXN-30441,2024-07-20,Payroll Reserve,Expense,14198.68,HR,WeWork Office,Pending
+TXN-30442,2024-07-20,Operating Account,Revenue,6281.68,Marketing,AWS Cloud,Completed
+TXN-30443,2024-07-21,Capital Fund,Expense,10014.06,Engineering,WeWork Office,Completed
+TXN-30444,2024-07-21,Payroll Reserve,Expense,7106.61,Engineering,Stripe Processing,Audited
+TXN-30445,2024-07-22,Payroll Reserve,Expense,9551.18,Sales,WeWork Office,Pending
+TXN-30446,2024-07-22,Operating Account,Expense,6881.58,Finance,Slack Tech,Completed
+TXN-30447,2024-07-23,Payroll Reserve,Accounts Payable,3032.33,Finance,Stripe Processing,Approved
+TXN-30448,2024-07-23,Operating Account,Revenue,7741.49,Finance,Google Ads,Completed
+TXN-30449,2024-07-24,Capital Fund,Payroll,30857.53,Operations,Stripe Processing,Pending
+TXN-30450,2024-07-24,Capital Fund,Expense,12206.41,Engineering,AWS Cloud,Approved
+TXN-30451,2024-07-25,Payroll Reserve,Expense,11098.93,Sales,AWS Cloud,Completed
+TXN-30452,2024-07-25,Operating Account,Expense,10040.93,HR,WeWork Office,Completed
+TXN-30453,2024-07-25,Merchant Clearing,Expense,1922.46,Finance,Stripe Processing,Completed
+TXN-30454,2024-07-26,Capital Fund,Expense,10879.09,HR,Google Ads,Completed
+TXN-30455,2024-07-26,Operating Account,Accounts Payable,7629.5,HR,AWS Cloud,Approved
+TXN-30456,2024-07-27,Operating Account,Payroll,41822.99,Marketing,Salesforce,Completed
+TXN-30457,2024-07-27,Operating Account,Payroll,42596.13,Operations,Google Ads,Pending
+TXN-30458,2024-07-28,Payroll Reserve,Expense,1063.56,Sales,Salesforce,Approved
+TXN-30459,2024-07-28,Merchant Clearing,Accounts Payable,12354.46,Operations,Slack Tech,Approved
+TXN-30460,2024-07-29,Payroll Reserve,Expense,806.04,Marketing,Salesforce,Approved
+TXN-30461,2024-07-29,Capital Fund,Expense,5665.75,Sales,AWS Cloud,Completed
+TXN-30462,2024-07-30,Payroll Reserve,Accounts Payable,8248.92,Sales,WeWork Office,Completed
+TXN-30463,2024-07-30,Operating Account,Revenue,2434.49,Engineering,Slack Tech,Completed
+TXN-30464,2024-07-30,Payroll Reserve,Expense,11258.13,Operations,Stripe Processing,Completed
+TXN-30465,2024-07-31,Operating Account,Expense,373.23,Operations,Google Ads,Completed
+TXN-30466,2024-07-31,Merchant Clearing,Expense,2736.84,Engineering,AWS Cloud,Completed
+TXN-30467,2024-08-01,Payroll Reserve,Revenue,8816.75,HR,Slack Tech,Completed
+TXN-30468,2024-08-01,Payroll Reserve,Revenue,10787.22,Marketing,Slack Tech,Audited
+TXN-30469,2024-08-02,Payroll Reserve,Payroll,42499.29,Operations,AWS Cloud,Pending
+TXN-30470,2024-08-02,Operating Account,Expense,10656.08,Engineering,Stripe Processing,Completed
+TXN-30471,2024-08-03,Operating Account,Expense,10158.74,Sales,Stripe Processing,Completed
+TXN-30472,2024-08-03,Payroll Reserve,Revenue,6066.53,Finance,WeWork Office,Completed
+TXN-30473,2024-08-04,Payroll Reserve,Revenue,268.95,Engineering,Salesforce,Completed
+TXN-30474,2024-08-04,Merchant Clearing,Expense,2022.35,Finance,Stripe Processing,Pending
+TXN-30475,2024-08-04,Merchant Clearing,Revenue,8134.68,HR,WeWork Office,Completed
+TXN-30476,2024-08-05,Capital Fund,Accounts Payable,10208.17,Marketing,Salesforce,Pending
+TXN-30477,2024-08-05,Merchant Clearing,Payroll,27523.45,Finance,Slack Tech,Completed
+TXN-30478,2024-08-06,Merchant Clearing,Accounts Payable,11027.52,HR,AWS Cloud,Completed
+TXN-30479,2024-08-06,Merchant Clearing,Accounts Payable,7947.47,Finance,Stripe Processing,Completed
+TXN-30480,2024-08-07,Operating Account,Revenue,1344.1,Sales,WeWork Office,Completed
+TXN-30481,2024-08-07,Merchant Clearing,Accounts Payable,3082.24,Sales,Slack Tech,Completed
+TXN-30482,2024-08-08,Merchant Clearing,Expense,12639.97,Sales,Stripe Processing,Pending
+TXN-30483,2024-08-08,Payroll Reserve,Expense,10942.46,Sales,Google Ads,Pending
+TXN-30484,2024-08-09,Operating Account,Expense,13447.74,Engineering,Slack Tech,Completed
+TXN-30485,2024-08-09,Capital Fund,Revenue,1983.97,Sales,Stripe Processing,Approved
+TXN-30486,2024-08-10,Capital Fund,Expense,14855.78,Sales,Slack Tech,Completed
+TXN-30487,2024-08-10,Merchant Clearing,Payroll,21282.2,Engineering,AWS Cloud,Audited
+TXN-30488,2024-08-10,Capital Fund,Expense,423.75,Sales,AWS Cloud,Completed
+TXN-30489,2024-08-11,Capital Fund,Expense,14961.99,HR,AWS Cloud,Pending
+TXN-30490,2024-08-11,Capital Fund,Revenue,4395.84,HR,Salesforce,Completed
+TXN-30491,2024-08-12,Merchant Clearing,Expense,10103.29,Operations,Google Ads,Completed
+TXN-30492,2024-08-12,Capital Fund,Expense,2856.06,HR,AWS Cloud,Completed
+TXN-30493,2024-08-13,Merchant Clearing,Expense,8808.37,Marketing,Google Ads,Completed
+TXN-30494,2024-08-13,Payroll Reserve,Revenue,13584.52,Marketing,AWS Cloud,Completed
+TXN-30495,2024-08-14,Payroll Reserve,Expense,4972.67,Marketing,Salesforce,Completed
+TXN-30496,2024-08-14,Capital Fund,Accounts Payable,10136.25,Engineering,Slack Tech,Audited
+TXN-30497,2024-08-15,Payroll Reserve,Revenue,3021.58,HR,Stripe Processing,Approved
+TXN-30498,2024-08-15,Merchant Clearing,Expense,9465.73,Marketing,Stripe Processing,Pending
+TXN-30499,2024-08-15,Payroll Reserve,Expense,5212.64,Operations,AWS Cloud,Pending
+TXN-30500,2024-08-16,Capital Fund,Expense,3365.32,Engineering,Stripe Processing,Audited
+TXN-30501,2024-08-16,Merchant Clearing,Accounts Payable,4869.44,Operations,AWS Cloud,Completed
+TXN-30502,2024-08-17,Operating Account,Expense,2887.91,HR,AWS Cloud,Completed
+TXN-30503,2024-08-17,Merchant Clearing,Expense,13553.26,Sales,WeWork Office,Approved
+TXN-30504,2024-08-18,Payroll Reserve,Accounts Payable,6108.51,Operations,WeWork Office,Pending
+TXN-30505,2024-08-18,Operating Account,Revenue,3867.87,Sales,WeWork Office,Completed
+TXN-30506,2024-08-19,Merchant Clearing,Expense,6864.02,Engineering,Google Ads,Completed
+TXN-30507,2024-08-19,Operating Account,Expense,4977.91,Operations,WeWork Office,Completed
+TXN-30508,2024-08-20,Operating Account,Payroll,37332.58,Operations,AWS Cloud,Approved
+TXN-30509,2024-08-20,Operating Account,Accounts Payable,14575.49,Finance,Salesforce,Completed
+TXN-30510,2024-08-20,Merchant Clearing,Revenue,6711.0,Engineering,Salesforce,Audited
+TXN-30511,2024-08-21,Payroll Reserve,Revenue,12950.24,Engineering,Slack Tech,Approved
+TXN-30512,2024-08-21,Merchant Clearing,Revenue,8596.48,Marketing,WeWork Office,Completed
+TXN-30513,2024-08-22,Payroll Reserve,Payroll,19717.07,HR,Salesforce,Completed
+TXN-30514,2024-08-22,Merchant Clearing,Payroll,35718.68,Operations,WeWork Office,Completed
+TXN-30515,2024-08-23,Merchant Clearing,Expense,7823.16,Operations,Slack Tech,Completed
+TXN-30516,2024-08-23,Merchant Clearing,Accounts Payable,9846.45,Engineering,Salesforce,Completed
+TXN-30517,2024-08-24,Payroll Reserve,Expense,13372.89,Engineering,AWS Cloud,Pending
+TXN-30518,2024-08-24,Merchant Clearing,Expense,6746.41,HR,Google Ads,Completed
+TXN-30519,2024-08-25,Operating Account,Revenue,13542.37,Engineering,WeWork Office,Completed
+TXN-30520,2024-08-25,Merchant Clearing,Expense,11322.37,Sales,Salesforce,Completed
+TXN-30521,2024-08-26,Operating Account,Payroll,29658.15,Sales,Salesforce,Approved
+TXN-30522,2024-08-26,Capital Fund,Expense,9147.53,Finance,Slack Tech,Completed
+TXN-30523,2024-08-26,Capital Fund,Revenue,5052.32,Sales,AWS Cloud,Approved
+TXN-30524,2024-08-27,Payroll Reserve,Payroll,44507.92,Sales,Stripe Processing,Completed
+TXN-30525,2024-08-27,Payroll Reserve,Payroll,35020.53,HR,Salesforce,Completed
+TXN-30526,2024-08-28,Capital Fund,Expense,896.74,Operations,Google Ads,Completed
+TXN-30527,2024-08-28,Merchant Clearing,Expense,5067.67,Sales,Slack Tech,Completed
+TXN-30528,2024-08-29,Merchant Clearing,Revenue,9443.89,Finance,Salesforce,Completed
+TXN-30529,2024-08-29,Merchant Clearing,Expense,1080.92,Engineering,Salesforce,Completed
+TXN-30530,2024-08-30,Capital Fund,Payroll,15716.53,Sales,Slack Tech,Completed
+TXN-30531,2024-08-30,Operating Account,Payroll,28500.73,Finance,Slack Tech,Completed
+TXN-30532,2024-08-31,Payroll Reserve,Expense,5157.18,HR,WeWork Office,Completed
+TXN-30533,2024-08-31,Operating Account,Expense,6714.9,Engineering,Salesforce,Pending
+TXN-30534,2024-08-31,Capital Fund,Expense,4124.73,Finance,Stripe Processing,Completed
+TXN-30535,2024-09-01,Operating Account,Payroll,19941.53,Sales,Google Ads,Completed
+TXN-30536,2024-09-01,Merchant Clearing,Expense,10414.86,Operations,AWS Cloud,Audited
+TXN-30537,2024-09-02,Merchant Clearing,Expense,7839.92,Engineering,AWS Cloud,Approved
+TXN-30538,2024-09-02,Operating Account,Expense,3202.27,Engineering,Stripe Processing,Audited
+TXN-30539,2024-09-03,Capital Fund,Revenue,4963.94,Operations,Slack Tech,Completed
+TXN-30540,2024-09-03,Operating Account,Expense,8979.17,Engineering,Slack Tech,Pending
+TXN-30541,2024-09-04,Merchant Clearing,Expense,1315.38,Sales,Slack Tech,Completed
+TXN-30542,2024-09-04,Merchant Clearing,Payroll,19423.59,Engineering,Salesforce,Completed
+TXN-30543,2024-09-05,Capital Fund,Payroll,17197.37,Sales,Slack Tech,Approved
+TXN-30544,2024-09-05,Operating Account,Accounts Payable,12231.68,Operations,Slack Tech,Completed
+TXN-30545,2024-09-05,Merchant Clearing,Expense,11348.04,Marketing,Salesforce,Completed
+TXN-30546,2024-09-06,Merchant Clearing,Expense,11361.37,Operations,Salesforce,Completed
+TXN-30547,2024-09-06,Operating Account,Revenue,10815.8,Sales,Stripe Processing,Approved
+TXN-30548,2024-09-07,Operating Account,Expense,10123.43,HR,WeWork Office,Completed
+TXN-30549,2024-09-07,Payroll Reserve,Payroll,29309.76,Operations,Salesforce,Completed
+TXN-30550,2024-09-08,Capital Fund,Revenue,9723.6,HR,Google Ads,Completed
+TXN-30551,2024-09-08,Capital Fund,Expense,815.83,HR,Slack Tech,Completed
+TXN-30552,2024-09-09,Operating Account,Payroll,33643.93,Sales,WeWork Office,Approved
+TXN-30553,2024-09-09,Capital Fund,Payroll,38336.33,Sales,AWS Cloud,Completed
+TXN-30554,2024-09-10,Merchant Clearing,Expense,7630.29,Marketing,Stripe Processing,Completed
+TXN-30555,2024-09-10,Operating Account,Revenue,5523.32,Finance,WeWork Office,Approved
+TXN-30556,2024-09-10,Operating Account,Expense,4342.04,Engineering,Salesforce,Completed
+TXN-30557,2024-09-11,Operating Account,Expense,9731.33,Operations,Slack Tech,Completed
+TXN-30558,2024-09-11,Payroll Reserve,Expense,10468.82,Sales,Slack Tech,Pending
+TXN-30559,2024-09-12,Capital Fund,Revenue,13096.77,Operations,Slack Tech,Completed
+TXN-30560,2024-09-12,Payroll Reserve,Payroll,25270.02,Finance,WeWork Office,Completed
+TXN-30561,2024-09-13,Merchant Clearing,Revenue,11604.14,Finance,Slack Tech,Pending
+TXN-30562,2024-09-13,Capital Fund,Expense,8530.0,HR,Salesforce,Approved
+TXN-30563,2024-09-14,Payroll Reserve,Revenue,13271.84,Engineering,WeWork Office,Pending
+TXN-30564,2024-09-14,Operating Account,Expense,8035.23,Marketing,Slack Tech,Audited
+TXN-30565,2024-09-15,Payroll Reserve,Accounts Payable,7885.04,Operations,AWS Cloud,Pending
+TXN-30566,2024-09-15,Operating Account,Expense,8773.69,Engineering,AWS Cloud,Pending
+TXN-30567,2024-09-16,Payroll Reserve,Expense,11302.4,Marketing,Google Ads,Approved
+TXN-30568,2024-09-16,Payroll Reserve,Expense,14479.18,Operations,Slack Tech,Completed
+TXN-30569,2024-09-16,Payroll Reserve,Accounts Payable,1335.06,Engineering,Slack Tech,Completed
+TXN-30570,2024-09-17,Operating Account,Expense,1038.16,Sales,WeWork Office,Pending
+TXN-30571,2024-09-17,Payroll Reserve,Accounts Payable,14078.87,Operations,WeWork Office,Completed
+TXN-30572,2024-09-18,Capital Fund,Expense,8065.67,Engineering,Slack Tech,Completed
+TXN-30573,2024-09-18,Capital Fund,Expense,9319.82,Finance,Google Ads,Completed
+TXN-30574,2024-09-19,Capital Fund,Revenue,7365.75,Marketing,Slack Tech,Completed
+TXN-30575,2024-09-19,Operating Account,Payroll,17809.72,Engineering,Salesforce,Completed
+TXN-30576,2024-09-20,Operating Account,Payroll,38042.68,Sales,WeWork Office,Approved
+TXN-30577,2024-09-20,Capital Fund,Expense,11271.56,Operations,Slack Tech,Approved
+TXN-30578,2024-09-21,Capital Fund,Expense,4847.62,Operations,WeWork Office,Pending
+TXN-30579,2024-09-21,Capital Fund,Expense,4767.03,Operations,Slack Tech,Approved
+TXN-30580,2024-09-21,Merchant Clearing,Revenue,12608.16,Sales,Stripe Processing,Completed
+TXN-30581,2024-09-22,Capital Fund,Revenue,1317.27,Marketing,WeWork Office,Completed
+TXN-30582,2024-09-22,Payroll Reserve,Payroll,41433.15,Operations,Google Ads,Completed
+TXN-30583,2024-09-23,Merchant Clearing,Payroll,22699.85,Marketing,Stripe Processing,Completed
+TXN-30584,2024-09-23,Merchant Clearing,Expense,8996.53,Engineering,Salesforce,Completed
+TXN-30585,2024-09-24,Operating Account,Revenue,14055.91,Finance,Slack Tech,Completed
+TXN-30586,2024-09-24,Payroll Reserve,Accounts Payable,10252.31,Finance,Salesforce,Completed
+TXN-30587,2024-09-25,Operating Account,Accounts Payable,6362.84,Marketing,WeWork Office,Completed
+TXN-30588,2024-09-25,Operating Account,Expense,10420.63,Marketing,Stripe Processing,Audited
+TXN-30589,2024-09-26,Payroll Reserve,Expense,5323.7,Finance,Salesforce,Completed
+TXN-30590,2024-09-26,Operating Account,Expense,4339.56,Operations,Google Ads,Completed
+TXN-30591,2024-09-26,Payroll Reserve,Expense,14951.08,HR,WeWork Office,Completed
+TXN-30592,2024-09-27,Payroll Reserve,Expense,11324.16,HR,Stripe Processing,Completed
+TXN-30593,2024-09-27,Operating Account,Expense,9759.62,Sales,Salesforce,Completed
+TXN-30594,2024-09-28,Capital Fund,Revenue,5490.52,Finance,Stripe Processing,Completed
+TXN-30595,2024-09-28,Operating Account,Expense,975.12,Finance,Stripe Processing,Completed
+TXN-30596,2024-09-29,Merchant Clearing,Expense,708.09,Sales,Salesforce,Approved
+TXN-30597,2024-09-29,Operating Account,Expense,8424.17,HR,AWS Cloud,Completed
+TXN-30598,2024-09-30,Payroll Reserve,Accounts Payable,11489.98,Engineering,Slack Tech,Approved
+TXN-30599,2024-09-30,Merchant Clearing,Accounts Payable,8176.34,Operations,WeWork Office,Approved
+TXN-30600,2024-10-01,Payroll Reserve,Revenue,12651.58,Operations,WeWork Office,Completed
+TXN-30601,2024-10-01,Capital Fund,Expense,743.04,Engineering,WeWork Office,Pending
+TXN-30602,2024-10-02,Capital Fund,Payroll,26002.56,Engineering,Stripe Processing,Completed
+TXN-30603,2024-10-02,Merchant Clearing,Expense,3746.79,HR,Salesforce,Completed
+TXN-30604,2024-10-02,Capital Fund,Expense,6847.28,Sales,Slack Tech,Completed
+TXN-30605,2024-10-03,Capital Fund,Expense,1317.55,Engineering,Google Ads,Pending
+TXN-30606,2024-10-03,Operating Account,Expense,14323.44,Sales,WeWork Office,Completed
+TXN-30607,2024-10-04,Operating Account,Expense,3543.02,Marketing,Salesforce,Approved
+TXN-30608,2024-10-04,Capital Fund,Payroll,42669.23,Operations,Slack Tech,Pending
+TXN-30609,2024-10-05,Capital Fund,Revenue,6531.92,HR,Slack Tech,Approved
+TXN-30610,2024-10-05,Operating Account,Expense,14786.48,Operations,AWS Cloud,Completed
+TXN-30611,2024-10-06,Capital Fund,Payroll,31621.75,HR,Salesforce,Approved
+TXN-30612,2024-10-06,Capital Fund,Expense,13979.78,Marketing,WeWork Office,Completed
+TXN-30613,2024-10-07,Payroll Reserve,Expense,328.9,Operations,Stripe Processing,Completed
+TXN-30614,2024-10-07,Capital Fund,Revenue,11286.52,Marketing,Slack Tech,Pending
+TXN-30615,2024-10-07,Merchant Clearing,Revenue,13570.0,HR,Slack Tech,Pending
+TXN-30616,2024-10-08,Payroll Reserve,Expense,2310.88,Engineering,Google Ads,Completed
+TXN-30617,2024-10-08,Merchant Clearing,Expense,1667.86,Operations,AWS Cloud,Completed
+TXN-30618,2024-10-09,Capital Fund,Revenue,6512.45,Marketing,Slack Tech,Completed
+TXN-30619,2024-10-09,Operating Account,Revenue,14021.76,Finance,Slack Tech,Completed
+TXN-30620,2024-10-10,Payroll Reserve,Revenue,8250.2,Operations,Stripe Processing,Completed
+TXN-30621,2024-10-10,Operating Account,Expense,8029.98,Operations,Stripe Processing,Completed
+TXN-30622,2024-10-11,Payroll Reserve,Expense,2331.61,Operations,Google Ads,Completed
+TXN-30623,2024-10-11,Operating Account,Expense,261.65,Sales,Salesforce,Audited
+TXN-30624,2024-10-12,Payroll Reserve,Expense,12199.57,Marketing,Google Ads,Completed
+TXN-30625,2024-10-12,Payroll Reserve,Payroll,17627.24,Marketing,Google Ads,Pending
+TXN-30626,2024-10-12,Merchant Clearing,Revenue,9599.28,Operations,Stripe Processing,Approved
+TXN-30627,2024-10-13,Operating Account,Expense,13740.59,Engineering,Salesforce,Completed
+TXN-30628,2024-10-13,Merchant Clearing,Accounts Payable,3327.62,Operations,Stripe Processing,Completed
+TXN-30629,2024-10-14,Merchant Clearing,Revenue,10062.77,Sales,AWS Cloud,Completed
+TXN-30630,2024-10-14,Operating Account,Expense,1410.8,HR,WeWork Office,Pending
+TXN-30631,2024-10-15,Payroll Reserve,Accounts Payable,9155.39,Sales,WeWork Office,Completed
+TXN-30632,2024-10-15,Merchant Clearing,Accounts Payable,2667.99,Engineering,AWS Cloud,Completed
+TXN-30633,2024-10-16,Operating Account,Revenue,11105.32,Operations,WeWork Office,Completed
+TXN-30634,2024-10-16,Payroll Reserve,Expense,4693.16,Marketing,Salesforce,Completed
+TXN-30635,2024-10-17,Merchant Clearing,Revenue,7085.02,Finance,Stripe Processing,Completed
+TXN-30636,2024-10-17,Merchant Clearing,Accounts Payable,9091.6,Operations,WeWork Office,Audited
+TXN-30637,2024-10-17,Merchant Clearing,Expense,2776.28,Engineering,Salesforce,Completed
+TXN-30638,2024-10-18,Payroll Reserve,Expense,11189.16,Marketing,Stripe Processing,Approved
+TXN-30639,2024-10-18,Merchant Clearing,Accounts Payable,4713.95,Sales,Salesforce,Audited
+TXN-30640,2024-10-19,Payroll Reserve,Expense,10019.98,HR,AWS Cloud,Completed
+TXN-30641,2024-10-19,Capital Fund,Accounts Payable,2584.67,HR,Google Ads,Completed
+TXN-30642,2024-10-20,Merchant Clearing,Revenue,10399.74,Operations,AWS Cloud,Pending
+TXN-30643,2024-10-20,Capital Fund,Expense,2140.77,Sales,WeWork Office,Approved
+TXN-30644,2024-10-21,Operating Account,Expense,6524.01,Finance,Stripe Processing,Completed
+TXN-30645,2024-10-21,Merchant Clearing,Accounts Payable,3896.29,Finance,Salesforce,Audited
+TXN-30646,2024-10-22,Operating Account,Expense,11288.53,Engineering,WeWork Office,Completed
+TXN-30647,2024-10-22,Operating Account,Revenue,4115.02,HR,WeWork Office,Completed
+TXN-30648,2024-10-23,Operating Account,Revenue,13255.33,Sales,Google Ads,Completed
+TXN-30649,2024-10-23,Capital Fund,Revenue,13404.35,Operations,WeWork Office,Completed
+TXN-30650,2024-10-23,Payroll Reserve,Payroll,20893.24,Marketing,Google Ads,Completed
+TXN-30651,2024-10-24,Capital Fund,Revenue,9304.23,Operations,Stripe Processing,Completed
+TXN-30652,2024-10-24,Capital Fund,Expense,1543.84,Operations,Stripe Processing,Completed
+TXN-30653,2024-10-25,Operating Account,Payroll,26746.11,Sales,Salesforce,Completed
+TXN-30654,2024-10-25,Merchant Clearing,Revenue,10771.5,HR,Google Ads,Approved
+TXN-30655,2024-10-26,Payroll Reserve,Expense,9976.49,Sales,AWS Cloud,Approved
+TXN-30656,2024-10-26,Operating Account,Expense,9464.33,Marketing,Stripe Processing,Completed
+TXN-30657,2024-10-27,Payroll Reserve,Accounts Payable,4417.48,Sales,Salesforce,Completed
+TXN-30658,2024-10-27,Capital Fund,Expense,5825.87,Engineering,AWS Cloud,Completed
+TXN-30659,2024-10-28,Payroll Reserve,Revenue,1768.46,Operations,Stripe Processing,Completed
+TXN-30660,2024-10-28,Payroll Reserve,Revenue,10855.59,HR,Stripe Processing,Completed
+TXN-30661,2024-10-28,Merchant Clearing,Expense,7682.36,Finance,Salesforce,Completed
+TXN-30662,2024-10-29,Operating Account,Revenue,10704.29,Marketing,Salesforce,Approved
+TXN-30663,2024-10-29,Payroll Reserve,Expense,3921.92,Finance,Slack Tech,Approved
+TXN-30664,2024-10-30,Payroll Reserve,Expense,5035.46,Operations,WeWork Office,Completed
+TXN-30665,2024-10-30,Capital Fund,Revenue,5179.68,Sales,WeWork Office,Pending
+TXN-30666,2024-10-31,Capital Fund,Expense,629.7,Finance,AWS Cloud,Completed
+TXN-30667,2024-10-31,Payroll Reserve,Revenue,5280.46,Engineering,WeWork Office,Completed
+TXN-30668,2024-11-01,Operating Account,Accounts Payable,12098.74,Sales,AWS Cloud,Pending
+TXN-30669,2024-11-01,Payroll Reserve,Accounts Payable,13485.15,Operations,Stripe Processing,Completed
+TXN-30670,2024-11-02,Payroll Reserve,Expense,7893.72,Finance,Slack Tech,Completed
+TXN-30671,2024-11-02,Merchant Clearing,Expense,6968.65,Marketing,Slack Tech,Approved
+TXN-30672,2024-11-02,Operating Account,Revenue,704.66,Finance,Stripe Processing,Pending
+TXN-30673,2024-11-03,Merchant Clearing,Payroll,41376.13,Finance,Salesforce,Approved
+TXN-30674,2024-11-03,Operating Account,Accounts Payable,441.9,HR,Google Ads,Approved
+TXN-30675,2024-11-04,Operating Account,Accounts Payable,14185.06,Finance,Google Ads,Audited
+TXN-30676,2024-11-04,Operating Account,Expense,7465.94,Operations,WeWork Office,Completed
+TXN-30677,2024-11-05,Merchant Clearing,Expense,5293.53,Marketing,Salesforce,Completed
+TXN-30678,2024-11-05,Merchant Clearing,Revenue,13882.22,Operations,AWS Cloud,Completed
+TXN-30679,2024-11-06,Merchant Clearing,Expense,609.77,Engineering,Slack Tech,Completed
+TXN-30680,2024-11-06,Capital Fund,Expense,8826.02,Sales,WeWork Office,Completed
+TXN-30681,2024-11-07,Merchant Clearing,Payroll,31467.98,Finance,Stripe Processing,Completed
+TXN-30682,2024-11-07,Capital Fund,Expense,3484.98,HR,Salesforce,Completed
+TXN-30683,2024-11-08,Capital Fund,Expense,6576.09,Marketing,Slack Tech,Completed
+TXN-30684,2024-11-08,Capital Fund,Expense,9870.89,HR,AWS Cloud,Approved
+TXN-30685,2024-11-08,Payroll Reserve,Payroll,36813.94,HR,AWS Cloud,Completed
+TXN-30686,2024-11-09,Payroll Reserve,Revenue,260.57,HR,Google Ads,Completed
+TXN-30687,2024-11-09,Payroll Reserve,Revenue,14068.59,Finance,WeWork Office,Pending
+TXN-30688,2024-11-10,Capital Fund,Payroll,19935.76,Marketing,Stripe Processing,Pending
+TXN-30689,2024-11-10,Capital Fund,Expense,3695.31,Marketing,Slack Tech,Completed
+TXN-30690,2024-11-11,Operating Account,Revenue,4136.23,HR,AWS Cloud,Completed
+TXN-30691,2024-11-11,Capital Fund,Expense,807.85,Sales,Slack Tech,Completed
+TXN-30692,2024-11-12,Payroll Reserve,Expense,2065.02,Finance,Stripe Processing,Completed
+TXN-30693,2024-11-12,Capital Fund,Accounts Payable,14798.66,Finance,Slack Tech,Completed
+TXN-30694,2024-11-13,Capital Fund,Accounts Payable,4899.45,Operations,WeWork Office,Completed
+TXN-30695,2024-11-13,Operating Account,Expense,1950.69,Finance,Google Ads,Completed
+TXN-30696,2024-11-13,Capital Fund,Expense,1828.12,HR,Slack Tech,Completed
+TXN-30697,2024-11-14,Merchant Clearing,Revenue,10862.03,Engineering,Salesforce,Completed
+TXN-30698,2024-11-14,Operating Account,Expense,12854.89,HR,Google Ads,Audited
+TXN-30699,2024-11-15,Capital Fund,Expense,4040.05,Marketing,Stripe Processing,Audited
+TXN-30700,2024-11-15,Capital Fund,Expense,558.42,Finance,Google Ads,Completed
+TXN-30701,2024-11-16,Operating Account,Expense,3540.58,Finance,Slack Tech,Completed
+TXN-30702,2024-11-16,Capital Fund,Accounts Payable,1083.61,Operations,Slack Tech,Completed
+TXN-30703,2024-11-17,Payroll Reserve,Expense,1775.08,Engineering,Salesforce,Completed
+TXN-30704,2024-11-17,Merchant Clearing,Expense,6614.74,Finance,AWS Cloud,Completed
+TXN-30705,2024-11-18,Merchant Clearing,Revenue,3641.3,Operations,Salesforce,Completed
+TXN-30706,2024-11-18,Payroll Reserve,Accounts Payable,7860.2,Operations,Slack Tech,Completed
+TXN-30707,2024-11-18,Capital Fund,Expense,3989.03,Engineering,Google Ads,Completed
+TXN-30708,2024-11-19,Capital Fund,Expense,14122.93,HR,Salesforce,Completed
+TXN-30709,2024-11-19,Merchant Clearing,Expense,13612.67,HR,Salesforce,Completed
+TXN-30710,2024-11-20,Capital Fund,Revenue,8610.39,HR,AWS Cloud,Completed
+TXN-30711,2024-11-20,Merchant Clearing,Revenue,5477.75,Sales,Slack Tech,Completed
+TXN-30712,2024-11-21,Merchant Clearing,Accounts Payable,5871.92,HR,Slack Tech,Completed
+TXN-30713,2024-11-21,Payroll Reserve,Payroll,27355.57,Engineering,Stripe Processing,Completed
+TXN-30714,2024-11-22,Merchant Clearing,Accounts Payable,10981.8,Sales,AWS Cloud,Completed
+TXN-30715,2024-11-22,Capital Fund,Revenue,6911.68,HR,Stripe Processing,Completed
+TXN-30716,2024-11-23,Capital Fund,Revenue,12886.77,Sales,Stripe Processing,Completed
+TXN-30717,2024-11-23,Operating Account,Expense,14175.4,Engineering,Stripe Processing,Completed
+TXN-30718,2024-11-23,Capital Fund,Payroll,25078.38,HR,WeWork Office,Completed
+TXN-30719,2024-11-24,Operating Account,Expense,8520.24,Marketing,Stripe Processing,Completed
+TXN-30720,2024-11-24,Merchant Clearing,Expense,1652.08,Finance,Salesforce,Completed
+TXN-30721,2024-11-25,Capital Fund,Revenue,3206.92,Engineering,Google Ads,Pending
+TXN-30722,2024-11-25,Payroll Reserve,Expense,6348.62,Operations,Salesforce,Approved
+TXN-30723,2024-11-26,Payroll Reserve,Revenue,3291.49,Operations,Salesforce,Audited
+TXN-30724,2024-11-26,Payroll Reserve,Revenue,13179.27,Engineering,Slack Tech,Completed
+TXN-30725,2024-11-27,Merchant Clearing,Expense,2584.72,Operations,WeWork Office,Audited
+TXN-30726,2024-11-27,Merchant Clearing,Accounts Payable,6971.0,Engineering,Stripe Processing,Completed
+TXN-30727,2024-11-28,Operating Account,Expense,9184.06,Marketing,Slack Tech,Completed
+TXN-30728,2024-11-28,Payroll Reserve,Expense,10454.99,Engineering,AWS Cloud,Completed
+TXN-30729,2024-11-29,Operating Account,Revenue,5900.27,HR,AWS Cloud,Approved
+TXN-30730,2024-11-29,Operating Account,Revenue,13069.21,HR,Slack Tech,Completed
+TXN-30731,2024-11-29,Capital Fund,Accounts Payable,8632.71,Sales,Google Ads,Approved
+TXN-30732,2024-11-30,Capital Fund,Expense,6732.74,Operations,Slack Tech,Completed
+TXN-30733,2024-11-30,Payroll Reserve,Revenue,1241.8,Finance,Slack Tech,Completed
+TXN-30734,2024-12-01,Merchant Clearing,Expense,7104.17,Operations,WeWork Office,Completed
+TXN-30735,2024-12-01,Capital Fund,Payroll,39622.08,Engineering,AWS Cloud,Completed
+TXN-30736,2024-12-02,Merchant Clearing,Expense,9314.48,Finance,AWS Cloud,Completed
+TXN-30737,2024-12-02,Operating Account,Revenue,12524.4,Finance,Stripe Processing,Completed
+TXN-30738,2024-12-03,Operating Account,Expense,7536.67,Operations,Salesforce,Completed
+TXN-30739,2024-12-03,Operating Account,Expense,1997.31,Finance,Slack Tech,Completed
+TXN-30740,2024-12-04,Operating Account,Revenue,451.19,Finance,Slack Tech,Completed
+TXN-30741,2024-12-04,Payroll Reserve,Accounts Payable,4722.49,HR,Google Ads,Approved
+TXN-30742,2024-12-04,Operating Account,Revenue,10545.36,Marketing,AWS Cloud,Completed
+TXN-30743,2024-12-05,Capital Fund,Payroll,38707.8,Engineering,Google Ads,Completed
+TXN-30744,2024-12-05,Operating Account,Revenue,4612.35,Operations,WeWork Office,Completed
+TXN-30745,2024-12-06,Merchant Clearing,Revenue,7560.9,HR,Stripe Processing,Completed
+TXN-30746,2024-12-06,Capital Fund,Expense,6461.5,Sales,Google Ads,Approved
+TXN-30747,2024-12-07,Merchant Clearing,Accounts Payable,6305.21,Finance,AWS Cloud,Approved
+TXN-30748,2024-12-07,Merchant Clearing,Expense,3662.39,Finance,WeWork Office,Completed
+TXN-30749,2024-12-08,Payroll Reserve,Accounts Payable,2261.47,Operations,Slack Tech,Completed
+TXN-30750,2024-12-08,Payroll Reserve,Payroll,20900.66,Marketing,WeWork Office,Approved
+TXN-30751,2024-12-09,Merchant Clearing,Payroll,16659.97,Marketing,Salesforce,Approved
+TXN-30752,2024-12-09,Merchant Clearing,Revenue,3172.43,Operations,Google Ads,Approved
+TXN-30753,2024-12-09,Operating Account,Revenue,385.71,Operations,AWS Cloud,Approved
+TXN-30754,2024-12-10,Capital Fund,Accounts Payable,9502.06,HR,Google Ads,Completed
+TXN-30755,2024-12-10,Operating Account,Expense,4916.54,Operations,Slack Tech,Completed
+TXN-30756,2024-12-11,Payroll Reserve,Revenue,14603.88,Sales,Slack Tech,Completed
+TXN-30757,2024-12-11,Payroll Reserve,Expense,3107.33,HR,AWS Cloud,Completed
+TXN-30758,2024-12-12,Operating Account,Revenue,5350.97,Finance,Salesforce,Completed
+TXN-30759,2024-12-12,Capital Fund,Expense,5528.16,Finance,Stripe Processing,Completed
+TXN-30760,2024-12-13,Merchant Clearing,Expense,374.66,Finance,WeWork Office,Completed
+TXN-30761,2024-12-13,Operating Account,Expense,12628.32,Finance,WeWork Office,Completed
+TXN-30762,2024-12-14,Payroll Reserve,Expense,721.92,Engineering,Slack Tech,Completed
+TXN-30763,2024-12-14,Capital Fund,Revenue,14117.65,Sales,Google Ads,Completed
+TXN-30764,2024-12-15,Payroll Reserve,Expense,13408.1,HR,Google Ads,Completed
+TXN-30765,2024-12-15,Capital Fund,Revenue,8148.95,HR,Salesforce,Approved
+TXN-30766,2024-12-15,Capital Fund,Expense,8268.03,Finance,Stripe Processing,Approved
+TXN-30767,2024-12-16,Capital Fund,Revenue,9893.22,Marketing,Google Ads,Completed
+TXN-30768,2024-12-16,Operating Account,Revenue,5958.99,HR,WeWork Office,Completed
+TXN-30769,2024-12-17,Operating Account,Revenue,9796.53,Sales,Google Ads,Completed
+TXN-30770,2024-12-17,Operating Account,Revenue,910.33,Operations,Stripe Processing,Completed
+TXN-30771,2024-12-18,Capital Fund,Expense,1047.2,Sales,WeWork Office,Completed
+TXN-30772,2024-12-18,Capital Fund,Accounts Payable,6994.15,Finance,Google Ads,Completed
+TXN-30773,2024-12-19,Payroll Reserve,Expense,8356.93,Finance,WeWork Office,Approved
+TXN-30774,2024-12-19,Merchant Clearing,Revenue,13345.31,Engineering,Slack Tech,Completed
+TXN-30775,2024-12-20,Operating Account,Revenue,1793.74,HR,Slack Tech,Completed
+TXN-30776,2024-12-20,Capital Fund,Expense,12384.06,HR,Salesforce,Completed
+TXN-30777,2024-12-20,Payroll Reserve,Revenue,3348.2,HR,Slack Tech,Completed
+TXN-30778,2024-12-21,Payroll Reserve,Revenue,6062.73,Finance,Google Ads,Completed
+TXN-30779,2024-12-21,Payroll Reserve,Expense,4919.89,HR,Stripe Processing,Approved
+TXN-30780,2024-12-22,Operating Account,Expense,6152.29,Marketing,WeWork Office,Completed
+TXN-30781,2024-12-22,Operating Account,Expense,2469.81,Marketing,AWS Cloud,Completed
+TXN-30782,2024-12-23,Merchant Clearing,Payroll,30107.1,Operations,Slack Tech,Completed
+TXN-30783,2024-12-23,Payroll Reserve,Revenue,12074.23,HR,Slack Tech,Completed
+TXN-30784,2024-12-24,Operating Account,Expense,6762.63,Engineering,AWS Cloud,Completed
+TXN-30785,2024-12-24,Payroll Reserve,Expense,7486.55,Operations,AWS Cloud,Completed
+TXN-30786,2024-12-25,Capital Fund,Revenue,12769.32,Finance,Google Ads,Completed
+TXN-30787,2024-12-25,Payroll Reserve,Accounts Payable,10664.36,HR,WeWork Office,Completed
+TXN-30788,2024-12-25,Merchant Clearing,Expense,7484.2,Marketing,Slack Tech,Approved
+TXN-30789,2024-12-26,Operating Account,Expense,4051.01,Engineering,Stripe Processing,Completed
+TXN-30790,2024-12-26,Capital Fund,Accounts Payable,13302.67,Operations,Google Ads,Completed
+TXN-30791,2024-12-27,Operating Account,Expense,8761.05,Engineering,Google Ads,Completed
+TXN-30792,2024-12-27,Capital Fund,Expense,3511.93,HR,Stripe Processing,Completed
+TXN-30793,2024-12-28,Payroll Reserve,Payroll,23073.59,Sales,Stripe Processing,Completed
+TXN-30794,2024-12-28,Payroll Reserve,Revenue,12096.21,Engineering,Salesforce,Completed
+TXN-30795,2024-12-29,Merchant Clearing,Expense,901.15,Engineering,Stripe Processing,Completed
+TXN-30796,2024-12-29,Merchant Clearing,Expense,14883.36,Finance,AWS Cloud,Completed
+TXN-30797,2024-12-30,Capital Fund,Expense,2172.69,Marketing,Slack Tech,Completed
+TXN-30798,2024-12-30,Merchant Clearing,Expense,11992.01,HR,Salesforce,Completed
+TXN-30799,2024-12-31,Merchant Clearing,Accounts Payable,6072.94,Engineering,AWS Cloud,Completed

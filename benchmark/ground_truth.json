@@ -1,0 +1,182 @@
+{
+  "SALES-01": {
+    "value": 3538149.24,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "Sum of Revenue column is 3538149.24"
+  },
+  "SALES-02": {
+    "value": 436713.28,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "Sum of Profit where Region == 'North' is 436713.28"
+  },
+  "SALES-03": {
+    "value": 7.16,
+    "value_type": "numeric",
+    "unit": "units",
+    "explanation": "Mean of Quantity for Electronics category is 7.16"
+  },
+  "SALES-04": {
+    "value": "Apparel",
+    "value_type": "string",
+    "unit": null,
+    "explanation": "Category with maximum total revenue is Apparel"
+  },
+  "SALES-05": {
+    "value": 1000,
+    "value_type": "integer",
+    "unit": "orders",
+    "explanation": "Total row count is 1000"
+  },
+  "SALES-06": {
+    "value": 16411.82,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "South revenue (778238.08) minus West revenue (761826.26) = 16411.82"
+  },
+  "INV-01": {
+    "value": 149559,
+    "value_type": "integer",
+    "unit": "units",
+    "explanation": "Sum of Stock_Level is 149559"
+  },
+  "INV-02": {
+    "value": 66,
+    "value_type": "integer",
+    "unit": "items",
+    "explanation": "Count of rows where Stock_Level < Reorder_Point is 66"
+  },
+  "INV-03": {
+    "value": 280.66,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "Mean of Unit_Cost is 280.66"
+  },
+  "INV-04": {
+    "value": "WH-East",
+    "value_type": "string",
+    "unit": null,
+    "explanation": "Warehouse with highest sum of Stock_Level is WH-East"
+  },
+  "INV-05": {
+    "value": 41670372.96,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "Total inventory valuation is 41670372.96"
+  },
+  "INV-06": {
+    "value": 155,
+    "value_type": "integer",
+    "unit": "SKUs",
+    "explanation": "SKUs in WH-East is 155"
+  },
+  "FIN-01": {
+    "value": 2722949.97,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "Sum of Amount where Type == 'Expense' is 2722949.97"
+  },
+  "FIN-02": {
+    "value": 1237279.63,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "Sum of Amount for Marketing department is 1237279.63"
+  },
+  "FIN-03": {
+    "value": 2638339.17,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "Sum of Payroll amounts is 2638339.17"
+  },
+  "FIN-04": {
+    "value": "HR",
+    "value_type": "string",
+    "unit": null,
+    "explanation": "Department with max total Amount is HR"
+  },
+  "FIN-05": {
+    "value": 76,
+    "value_type": "integer",
+    "unit": "transactions",
+    "explanation": "Count of Status == 'Pending' is 76"
+  },
+  "FIN-06": {
+    "value": "AWS Cloud",
+    "value_type": "string",
+    "unit": null,
+    "explanation": "Vendor with highest total sum is AWS Cloud"
+  },
+  "CUST-01": {
+    "value": 4955705.29,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "Sum of Total_Spend is 4955705.29"
+  },
+  "CUST-02": {
+    "value": 102,
+    "value_type": "integer",
+    "unit": "customers",
+    "explanation": "Count of Churn_Risk == 'High' is 102"
+  },
+  "CUST-03": {
+    "value": 6919.95,
+    "value_type": "numeric",
+    "unit": "USD",
+    "explanation": "Mean Total_Spend for Enterprise is 6919.95"
+  },
+  "CUST-04": {
+    "value": "Mid-Market",
+    "value_type": "string",
+    "unit": null,
+    "explanation": "Segment with highest spend is Mid-Market"
+  },
+  "CUST-05": {
+    "value": 21.3,
+    "value_type": "numeric",
+    "unit": "orders",
+    "explanation": "Mean of Orders_Count is 21.3"
+  },
+  "CUST-06": {
+    "value": 280,
+    "value_type": "integer",
+    "unit": "customers",
+    "explanation": "Count of Orders_Count > 25 is 280"
+  },
+  "OPS-01": {
+    "value": 24.61,
+    "value_type": "numeric",
+    "unit": "hours",
+    "explanation": "Mean Duration is 24.61"
+  },
+  "OPS-02": {
+    "value": 35,
+    "value_type": "integer",
+    "unit": "tasks",
+    "explanation": "Count where Status == 'Blocked' is 35"
+  },
+  "OPS-03": {
+    "value": 110,
+    "value_type": "integer",
+    "unit": "tasks",
+    "explanation": "Count where Priority == 'Critical' is 110"
+  },
+  "OPS-04": {
+    "value": "Marketing",
+    "value_type": "string",
+    "unit": null,
+    "explanation": "Department with highest average duration is Marketing"
+  },
+  "OPS-05": {
+    "value": 81.81,
+    "value_type": "numeric",
+    "unit": "%",
+    "explanation": "Mean Completion_Rate is 81.81%"
+  },
+  "OPS-06": {
+    "value": "Dana White",
+    "value_type": "string",
+    "unit": null,
+    "explanation": "Assignee with most task rows is Dana White"
+  }
+}

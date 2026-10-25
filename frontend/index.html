@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Talking Rabbitt — Conversational BI &amp; Schema Resilience</title>
+<meta name="description" content="Research platform for conversational business intelligence and schema degradation benchmarking.">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css?v=1.2.0">
+<link rel="stylesheet" href="/css/dashboard.css">
+<style>
+  .hero-container {
+    background: linear-gradient(135deg, rgba(22, 28, 39, 0.95) 0%, rgba(10, 14, 20, 0.98) 100%);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius-lg);
+    padding: 38px 36px;
+    margin-bottom: 28px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 12px 40px -10px rgba(0, 0, 0, 0.5);
+  }
+  .hero-container::before {
+    content: '';
+    position: absolute;
+    top: -80px; right: -80px;
+    width: 320px; height: 320px;
+    background: radial-gradient(circle, rgba(43, 217, 168, 0.15) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .paper-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: rgba(43, 217, 168, 0.1);
+    border: 1px solid rgba(43, 217, 168, 0.3);
+    color: var(--signal);
+    font-size: 11.5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    padding: 4px 12px;
+    border-radius: 100px;
+    margin-bottom: 14px;
+  }
+  .hero-title {
+    font-size: 32px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--text-primary);
+    line-height: 1.25;
+    margin-bottom: 14px;
+    max-width: 820px;
+  }
+  .hero-sub {
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    max-width: 760px;
+    margin-bottom: 24px;
+  }
+  .hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+  }
+  .arch-pipeline {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 14px;
+  }
+  .arch-layer {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px 20px;
+    display: grid;
+    grid-template-columns: 220px 1fr auto;
+    align-items: center;
+    gap: 16px;
+    transition: all 0.2s ease;
+  }
+  .arch-layer:hover {
+    border-color: var(--signal);
+    transform: translateX(4px);
+    box-shadow: 0 4px 18px -4px rgba(43, 217, 168, 0.15);
+  }
+  .layer-tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--signal);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .layer-name {
+    font-size: 14.5px;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-top: 2px;
+  }
+  .layer-desc {
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.45;
+  }
+  .sample-datasets-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .sample-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sample-card:hover {
+    border-color: var(--signal);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.4);
+  }
+</style>
+</head>
+<body>
+<div class="app-shell">
+  <div id="sidebar-mount"></div>
+
+  <div class="main">
+    <div class="topbar">
+      <div>
+        <div class="topbar-title">Talking Rabbitt</div>
+        <div class="topbar-sub">Conversational Business Intelligence &amp; Schema Resilience Research Platform</div>
+      </div>
+      <div class="dataset-pill" data-dataset-pill></div>
+    </div>
+
+    <div class="content">
+      <!-- Research Hero -->
+      <div class="hero-container">
+        <div class="paper-pill">
+          <i class="ti ti-certificate"></i> Research Paper &amp; Benchmark Demonstration
+        </div>
+        <div class="hero-title">
+          Resilient Conversational Analytics under Real-World Schema Degradation
+        </div>
+        <div class="hero-sub">
+          Evaluating language model agent grounding when confronted with syntactically noisy, inconsistently typed, and semantically ambiguous tabular schemas. Features real-time <strong>Confident-But-Wrong (CBW)</strong> mitigation, DBSCAN clustering, Isolation Forest anomaly scoring, and Prophet forecasting.
+        </div>
+        <div class="hero-actions">
+          <a href="/benchmark" class="btn btn-primary"><i class="ti ti-scale"></i> Open Benchmark Suite (§VI Table II)</a>
+          <a href="/research" class="btn btn-ghost"><i class="ti ti-atom"></i> Research Paper Walkthrough</a>
+          <a href="/chat" class="btn btn-ghost"><i class="ti ti-message-chatbot"></i> Ask Rabbitt Conversational Chat</a>
+          <a href="/upload" class="btn btn-ghost"><i class="ti ti-cloud-upload"></i> Upload Custom CSV</a>
+        </div>
+      </div>
+
+      <!-- Quick-Load Pre-built SME Datasets -->
+      <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:14px;">
+        <div>
+          <div class="section-title" style="margin-bottom:2px;"><i class="ti ti-database"></i> 1-Click SME Benchmark Datasets (§V-A)</div>
+          <div style="font-size:12px; color:var(--text-muted);">Select any curated domain dataset to immediately activate dashboard analytics, chat, and clustering</div>
+        </div>
+      </div>
+
+      <div class="sample-datasets-grid">
+        <div class="sample-card" onclick="loadSmeDataset('sales')">
+          <div>
+            <div style="font-size:22px; color:var(--signal); margin-bottom:8px;"><i class="ti ti-shopping-cart"></i></div>
+            <div style="font-weight:600; font-size:14px; margin-bottom:4px;">Sales Data</div>
+            <div style="font-size:12px; color:var(--text-muted); line-height:1.4;">1,000 orders across 4 categories, profit, revenue, regions, and dates.</div>
+          </div>
+          <div style="margin-top:14px; font-size:11.5px; font-family:var(--font-mono); color:var(--signal);">Load Dataset →</div>
+        </div>
+
+        <div class="sample-card" onclick="loadSmeDataset('inventory')">
+          <div>
+            <div style="font-size:22px; color:var(--signal); margin-bottom:8px;"><i class="ti ti-packages"></i></div>
+            <div style="font-weight:600; font-size:14px; margin-bottom:4px;">Inventory Data</div>
+            <div style="font-size:12px; color:var(--text-muted); line-height:1.4;">600 SKUs, stock levels, warehouse locations, and reorder thresholds.</div>
+          </div>
+          <div style="margin-top:14px; font-size:11.5px; font-family:var(--font-mono); color:var(--signal);">Load Dataset →</div>
+        </div>
+
+        <div class="sample-card" onclick="loadSmeDataset('finance')">
+          <div>
+            <div style="font-size:22px; color:var(--signal); margin-bottom:8px;"><i class="ti ti-receipt-2"></i></div>
+            <div style="font-weight:600; font-size:14px; margin-bottom:4px;">Finance Data</div>
+            <div style="font-size:12px; color:var(--text-muted); line-height:1.4;">800 general ledger transactions, vendors, payroll, and departmental spend.</div>
+          </div>
+          <div style="margin-top:14px; font-size:11.5px; font-family:var(--font-mono); color:var(--signal);">Load Dataset →</div>
+        </div>
+
+        <div class="sample-card" onclick="loadSmeDataset('customer')">
+          <div>
+            <div style="font-size:22px; color:var(--signal); margin-bottom:8px;"><i class="ti ti-users"></i></div>
+            <div style="font-weight:600; font-size:14px; margin-bottom:4px;">Customer Data</div>
+            <div style="font-size:12px; color:var(--text-muted); line-height:1.4;">700 customer accounts, lifetime spend, order frequency, and churn risk.</div>
+          </div>
+          <div style="margin-top:14px; font-size:11.5px; font-family:var(--font-mono); color:var(--signal);">Load Dataset →</div>
+        </div>
+
+        <div class="sample-card" onclick="loadSmeDataset('operations')">
+          <div>
+            <div style="font-size:22px; color:var(--signal); margin-bottom:8px;"><i class="ti ti-settings"></i></div>
+            <div style="font-weight:600; font-size:14px; margin-bottom:4px;">Operations Data</div>
+            <div style="font-size:12px; color:var(--text-muted); line-height:1.4;">750 tasks, priorities, task durations, assignees, and completion rates.</div>
+          </div>
+          <div style="margin-top:14px; font-size:11.5px; font-family:var(--font-mono); color:var(--signal);">Load Dataset →</div>
+        </div>
+      </div>
+
+      <!-- Five-Layer Architecture Diagram (Figure 1 in Paper) -->
+      <div class="card" style="margin-bottom:28px;">
+        <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom:12px;">
+          <div>
+            <div class="card-title" style="font-size:16px; font-weight:600;"><i class="ti ti-layers-linked"></i> Figure 1: Five Functional Layers of Talking Rabbitt Architecture</div>
+            <div style="font-size:12.5px; color:var(--text-muted);">Decoupled agentic pipeline providing schema degradation defense and verifiable numerical outputs</div>
+          </div>
+          <span class="paper-pill" style="margin:0;">§III System Design</span>
+        </div>
+
+        <div class="arch-pipeline">
+          <div class="arch-layer">
+            <div>
+              <div class="layer-tag">Layer 1</div>
+              <div class="layer-name">Schema Resilience &amp; Ingestion</div>
+            </div>
+            <div class="layer-desc">
+              Handles raw CSV/XLSX uploads. Auto-cleans null values, parses dates across diverse formats, imputes missing records, and normalizes abbreviated or corrupted headers (D0–D4 transformations).
+            </div>
+            <a href="/upload" class="btn btn-ghost" style="padding:6px 12px; font-size:12px;">View Layer</a>
+          </div>
+
+          <div class="arch-layer">
+            <div>
+              <div class="layer-tag">Layer 2</div>
+              <div class="layer-name">Conversational Semantic Parser</div>
+            </div>
+            <div class="layer-desc">
+              Translates ambiguous user queries (text or voice) into structured analytics tool calls. Intercepts intent, detects underspecified requests, and validates parameters against detected schema metadata.
+            </div>
+            <a href="/chat" class="btn btn-ghost" style="padding:6px 12px; font-size:12px;">View Layer</a>
+          </div>
+
+          <div class="arch-layer">
+            <div>
+              <div class="layer-tag">Layer 3</div>
+              <div class="layer-name">Deterministic Analytics Engine</div>
+            </div>
+            <div class="layer-desc">
+              Vectorized local Python computation via Pandas, Scipy, and Scikit-Learn. Executes DBSCAN clustering, Isolation Forest anomaly scoring, Pearson correlation matrices, and time-series forecasting without LLM math hallucinations.
+            </div>
+            <a href="/clustering" class="btn btn-ghost" style="padding:6px 12px; font-size:12px;">View Layer</a>
+          </div>
+
+          <div class="arch-layer">
+            <div>
+              <div class="layer-tag">Layer 4</div>
+              <div class="layer-name">CBW Guardrail &amp; Calibrator</div>
+            </div>
+            <div class="layer-desc">
+              Flags Confident-But-Wrong (CBW) scenarios when LLMs latch onto decoy columns (e.g. rev_adj vs tot_rev). Enforces uncertainty hedging markers and validates outputs within a ±1.5% ground truth tolerance band.
+            </div>
+            <a href="/benchmark" class="btn btn-ghost" style="padding:6px 12px; font-size:12px;">View Layer</a>
+          </div>
+
+          <div class="arch-layer">
+            <div>
+              <div class="layer-tag">Layer 5</div>
+              <div class="layer-name">Interactive Synthesis &amp; Viz</div>
+            </div>
+            <div class="layer-desc">
+              Auto-renders responsive Chart.js visual models, dynamic correlation heatmaps, 2D PCA cluster scatters, KPI cards, and executive SWOT intelligence summaries.
+            </div>
+            <a href="/dashboard" class="btn btn-ghost" style="padding:6px 12px; font-size:12px;">View Layer</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="/js/app.js"></script>
+<script>
+async function loadSmeDataset(name) {
+  try {
+    const res = await fetch(`/api/benchmark/questions`);
+    const qData = await res.json();
+    
+    // Simulate loading the dataset into AppState
+    const datasetObj = {
+      id: name === "sales" ? 1 : name === "inventory" ? 2 : name === "finance" ? 3 : name === "customer" ? 4 : 5,
+      filename: `${name}_data.csv`,
+      original_name: `${name.toUpperCase()} SME Dataset (Clean D0)`,
+      row_count: name === "sales" ? 1000 : name === "inventory" ? 600 : name === "finance" ? 800 : name === "customer" ? 700 : 750,
+      column_count: name === "sales" ? 9 : 7,
+      uploaded_at: new Date().toISOString()
+    };
+    AppState.setDataset(datasetObj);
+    
+    // Toast notification
+    const banner = document.createElement("div");
+    banner.style.cssText = "position:fixed; bottom:24px; right:24px; background:var(--signal); color:#05140F; font-weight:600; padding:12px 20px; border-radius:8px; box-shadow:0 8px 24px rgba(0,0,0,0.5); z-index:999; display:flex; align-items:center; gap:8px;";
+    banner.innerHTML = `<i class="ti ti-check"></i> Activated ${datasetObj.original_name}. Redirecting to Dashboard...`;
+    document.body.appendChild(banner);
+    
+    setTimeout(() => {
+      window.location.href = "/dashboard";
+    }, 900);
+  } catch (e) {
+    console.error("Error setting SME dataset:", e);
+  }
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ask Rabbitt — Talking Rabbitt</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css?v=1.1.0">
+<link rel="stylesheet" href="/css/dashboard.css?v=1.1.0">
+<link rel="stylesheet" href="/css/chat.css?v=1.1.0">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jsvectormap/dist/css/jsvectormap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap"></script>
+<script src="https://cdn.jsdelivr.net/npm/jsvectormap/dist/maps/world.js"></script>
+</head>
+<body>
+<div class="app-shell">
+  <div id="sidebar-mount"></div>
+
+  <div class="main">
+    <div class="topbar">
+      <div>
+        <div class="topbar-title">Ask Rabbitt</div>
+        <div class="topbar-sub">Conversational analytics — text or voice</div>
+      </div>
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <button id="toggle-history-btn" class="btn btn-ghost" style="padding: 6px 12px; font-size: 12.5px; height: 32px;"><i class="ti ti-history"></i> Chat History</button>
+        <div class="dataset-pill" data-dataset-pill></div>
+      </div>
+    </div>
+
+    <div class="content" data-requires-dataset>
+      <div class="chat-layout">
+        <!-- Chat History Side Panel -->
+        <aside class="chat-history-sidebar">
+          <button id="new-chat-btn" class="btn btn-ghost new-chat-btn" style="width: 100%; justify-content: center; margin-bottom: 16px;">
+            <i class="ti ti-plus"></i> New Chat
+          </button>
+          <div class="chat-sessions-group">
+            <div class="chat-sessions-label">Recent Conversations</div>
+            <div class="chat-sessions-list" id="chat-sessions-list">
+              <!-- Loaded dynamically via js -->
+            </div>
+          </div>
+        </aside>
+
+        <!-- Main Chat Area -->
+        <div class="chat-main-area">
+          <div class="suggestion-chips">
+            <button class="chip" data-suggest="Why did revenue change recently?">Why did revenue change recently?</button>
+            <button class="chip" data-suggest="Which category performed best?">Which category performed best?</button>
+            <button class="chip" data-suggest="Which region is underperforming?">Which region is underperforming?</button>
+            <button class="chip" data-suggest="Forecast revenue for the next 6 months.">Forecast next 6 months</button>
+          </div>
+
+          <div class="card chat-shell" style="padding:16px 18px">
+            <div class="chat-thread" id="chat-thread"></div>
+
+            <form id="chat-form" class="chat-input-bar">
+              <button type="button" id="mic-btn" class="icon-btn" title="Ask by voice"><i class="ti ti-microphone"></i></button>
+              <input type="text" id="chat-input" placeholder="Ask about your data..." autocomplete="off">
+              <label class="speak-toggle-label">
+                <input type="checkbox" id="speak-toggle"> Speak answers
+              </label>
+              <button type="submit" class="btn btn-primary"><i class="ti ti-send"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="/js/app.js?v=1.0.2"></script>
+<script src="/js/charts.js?v=1.0.2"></script>
+<script src="/js/voice.js?v=1.0.2"></script>
+<script src="/js/chat.js?v=1.0.2"></script>
+</body>
+</html>

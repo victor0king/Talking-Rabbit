@@ -1,0 +1,701 @@
+cust_id,c_name,Seg,REG,TOT_SPND,LST_ORD_DT,ord_cnt,chn_rsk
+CUST-100,Olivia Jones,Small Business,South,"$9,808.90",06/01/2024,25,Low
+CUST-101,Noah Jones,Enterprise,West,16436.67,06/01/2024,4,Medium
+CUST-102,William Williams,Small Business,East,3868.26,2024-06-01,30,High
+CUST-103,Lucas Williams,Enterprise,West,3981.04,01/06/2024,30,Low
+CUST-104,Emma Williams,Small Business,South,"$8,282.99",02/06/2024,13,High
+CUST-105,William Williams,Mid-Market,East,"$18,994.63",06-02-2024,42,Medium
+CUST-106,Mia Brown,Small Business,North,"$2,419.50",02/06/2024,14,Low
+CUST-107,Liam Martinez,Startup,East,4170.49,2024-06-03,8,High
+CUST-108,Noah Brown,Startup,West,10731.78,06/03/2024,24,Low
+CUST-109,Ethan Davis,Enterprise,North,6515.35,03/06/2024,18,Low
+CUST-110,William Miller,Startup,North,"$1,161.75",06-04-2024,35,Low
+CUST-111,Mia Jones,Enterprise,South,6822.93,04/06/2024,25,Low
+CUST-112,Olivia Miller,Startup,North,1743.63,2024-06-04,17,Medium
+CUST-113,James Garcia,Mid-Market,North,"$5,039.64",06-04-2024,32,Medium
+CUST-114,Mia Miller,Mid-Market,South,"$5,295.26",05/06/2024,24,High
+CUST-115,Emma Miller,Enterprise,East,"$13,979.25",06-05-2024,7 units,Low
+CUST-116,Sophia Jones,Enterprise,West,"$4,435.30",2024-06-05,13 units,Low
+CUST-117,Olivia Smith,Small Business,East,2530.24,06/06/2024,27 units,Low
+CUST-118,Emma Miller,Startup,North,2107.03,2024-06-06,5 units,Low
+CUST-119,Ava Williams,Small Business,West,"$13,877.58",2024-06-06,36,High
+CUST-120,Noah Davis,Small Business,East,1619.06,2024-06-07,26,Medium
+CUST-121,Mia Garcia,Small Business,West,"$4,006.83",2024-06-07,42,Low
+CUST-122,Noah Johnson,Mid-Market,North,"$1,747.04",06/07/2024,31,High
+CUST-123,Ethan Smith,Enterprise,East,"$10,046.95",06/08/2024,10,Medium
+CUST-124,William Johnson,Enterprise,West,4580.56,06-08-2024,26,Low
+CUST-125,James Brown,Mid-Market,West,3211.54,08/06/2024,22,Medium
+CUST-126,Olivia Jones,Enterprise,East,"$3,312.04",06/08/2024,12,Low
+CUST-127,Noah Davis,Enterprise,East,12827.94,06/09/2024,32,Low
+CUST-128,William Williams,Enterprise,North,5645.04,09/06/2024,27,Low
+CUST-129,Sophia Williams,Enterprise,South,"$8,624.97",06/09/2024,33,Low
+CUST-130,Emma Davis,Startup,West,15177.1,2024-06-10,20,Low
+CUST-131,James Rodriguez,Enterprise,East,"$15,481.01",2024-06-10,39,Low
+CUST-132,William Miller,Mid-Market,East,"$2,988.66",10/06/2024,41,Low
+CUST-133,Isabella Martinez,Mid-Market,East,20199.0,06-11-2024,40,Medium
+CUST-134,Isabella Brown,Mid-Market,West,563.74,06-11-2024,13 units,High
+CUST-135,Liam Garcia,Enterprise,North,3474.14,11/06/2024,14 units,Medium
+CUST-136,Ethan Rodriguez,Mid-Market,South,"$15,099.31",11/06/2024,44,Low
+CUST-137,Olivia Martinez,Enterprise,West,"$2,487.04",2024-06-12,40 units,Low
+CUST-138,Noah Rodriguez,Mid-Market,North,2473.12,06-12-2024,22,Low
+CUST-139,Emma Johnson,Enterprise,West,2742.78,06/12/2024,18,Low
+CUST-140,Noah Smith,Mid-Market,West,"$6,559.13",2024-06-13,29,Medium
+CUST-141,Mia Jones,Small Business,East,4149.5,13/06/2024,43,Medium
+CUST-142,Isabella Martinez,Mid-Market,North,"$8,832.53",06-13-2024,16,Medium
+CUST-143,Emma Rodriguez,Mid-Market,East,15044.14,06/14/2024,35,Medium
+CUST-144,Emma Miller,Mid-Market,East,"$7,689.55",06/14/2024,34,Low
+CUST-145,Mia Garcia,Small Business,North,1886.83,2024-06-14,3,Low
+CUST-146,William Miller,Enterprise,East,"$17,939.12",06-15-2024,4 units,Medium
+CUST-147,William Smith,Small Business,East,2396.77,06-15-2024,5,Low
+CUST-148,Olivia Miller,Small Business,South,1455.56,15/06/2024,10,Low
+CUST-149,James Smith,Mid-Market,North,"$1,012.79",06-15-2024,29,Low
+CUST-150,William Garcia,Mid-Market,North,5786.55,06-16-2024,32,Low
+CUST-151,Olivia Williams,Mid-Market,East,1185.01,2024-06-16,31 units,Low
+CUST-152,Isabella Jones,Enterprise,East,1371.1,06-16-2024,2,Medium
+CUST-153,Ethan Martinez,Enterprise,North,2718.67,06/17/2024,12,High
+CUST-154,Ava Martinez,Enterprise,North,2550.22,2024-06-17,27,Low
+CUST-155,Liam Jones,Enterprise,West,6425.15,2024-06-17,5,Low
+CUST-156,Ava Jones,Mid-Market,North,"$11,429.71",18/06/2024,37,Medium
+CUST-157,Ethan Martinez,Small Business,West,"$9,712.91",06-18-2024,27,Low
+CUST-158,William Brown,Enterprise,East,"$2,379.04",18/06/2024,23,Low
+CUST-159,James Martinez,Startup,South,"$2,229.42",06/18/2024,33 units,Low
+CUST-160,Noah Smith,Startup,South,"$22,339.33",2024-06-19,4,Low
+CUST-161,Sophia Martinez,Startup,West,$453.76,2024-06-19,21,Medium
+CUST-162,Ava Miller,Small Business,East,14166.59,2024-06-19,24 units,Medium
+CUST-163,James Martinez,Mid-Market,East,"$1,848.23",06/20/2024,44,Low
+CUST-164,Olivia Rodriguez,Enterprise,East,"$19,528.48",06/20/2024,31,Low
+CUST-165,James Rodriguez,Mid-Market,North,3123.61,20/06/2024,44,Low
+CUST-166,Mia Jones,Mid-Market,East,"$4,172.90",21/06/2024,24,Low
+CUST-167,Sophia Miller,Small Business,North,8381.96,21/06/2024,10,High
+CUST-168,Olivia Garcia,Startup,West,"$6,158.54",06-21-2024,2,Medium
+CUST-169,Lucas Garcia,Mid-Market,South,2887.14,2024-06-22,31,Low
+CUST-170,William Garcia,Mid-Market,West,5645.87,2024-06-22,25,Medium
+CUST-171,Emma Jones,Enterprise,East,"$8,927.71",22/06/2024,4,Medium
+CUST-172,Liam Miller,Enterprise,East,$681.17,2024-06-22,11,Medium
+CUST-173,Olivia Smith,Mid-Market,West,473.21,23/06/2024,17,Low
+CUST-174,Isabella Garcia,Mid-Market,North,4381.98,06-23-2024,44,Low
+CUST-175,Sophia Miller,Small Business,North,1318.94,06-23-2024,2,Medium
+CUST-176,William Davis,Mid-Market,North,7495.85,06/24/2024,6,Low
+CUST-177,Liam Garcia,Startup,South,"$1,965.62",06-24-2024,9,High
+CUST-178,Ava Johnson,Small Business,South,"$4,086.37",24/06/2024,5,Medium
+CUST-179,Ethan Johnson,Small Business,East,"$1,831.54",06-25-2024,20,High
+CUST-180,Liam Martinez,Enterprise,West,5568.43,06/25/2024,29,Low
+CUST-181,Isabella Johnson,Startup,West,1201.83,2024-06-25,21,High
+CUST-182,Ethan Smith,Small Business,East,$551.96,25/06/2024,9,Low
+CUST-183,Noah Smith,Enterprise,North,$741.15,2024-06-26,28,High
+CUST-184,Noah Davis,Enterprise,South,"$20,450.86",06/26/2024,8,Low
+CUST-185,Mia Davis,Startup,West,"$1,397.65",06/26/2024,31,Low
+CUST-186,Emma Davis,Enterprise,East,8412.16,06/27/2024,20,Medium
+CUST-187,Isabella Jones,Mid-Market,North,857.23,2024-06-27,27,Low
+CUST-188,James Miller,Mid-Market,North,1144.05,2024-06-27,8,Low
+CUST-189,Sophia Jones,Small Business,South,5021.88,2024-06-28,21,High
+CUST-190,James Smith,Small Business,South,"$4,464.11",2024-06-28,28 units,Low
+CUST-191,Sophia Martinez,Mid-Market,East,20081.02,06/28/2024,23,Medium
+CUST-192,Isabella Miller,Mid-Market,East,19233.33,06/29/2024,6,Low
+CUST-193,Ava Martinez,Startup,North,10230.28,29/06/2024,3,Medium
+CUST-194,James Rodriguez,Small Business,North,6390.13,29/06/2024,5,Medium
+CUST-195,Olivia Jones,Startup,West,4344.83,2024-06-29,9,Low
+CUST-196,Emma Martinez,Mid-Market,North,3262.17,06-30-2024,7,Low
+CUST-197,Mia Johnson,Enterprise,East,19504.26,06-30-2024,4,Medium
+CUST-198,Liam Rodriguez,Mid-Market,South,"$6,403.33",06/30/2024,39,Low
+CUST-199,Emma Garcia,Small Business,East,"$6,024.42",07/01/2024,5,Low
+CUST-200,Isabella Brown,Enterprise,West,"$2,114.94",07/01/2024,11,Medium
+CUST-201,Lucas Garcia,Mid-Market,West,710.85,01/07/2024,15,Low
+CUST-202,Ava Rodriguez,Enterprise,South,"$19,275.07",02/07/2024,34,Low
+CUST-203,Ethan Martinez,Mid-Market,East,2847.2,07/02/2024,13,Medium
+CUST-204,Olivia Smith,Small Business,West,4198.94,07/02/2024,7,Low
+CUST-205,Emma Davis,Enterprise,East,"$1,191.45",07/02/2024,40,Low
+CUST-206,Ava Davis,Small Business,West,12188.02,07-03-2024,6,Low
+CUST-207,Emma Brown,Startup,South,582.14,03/07/2024,39,Medium
+CUST-208,James Miller,Enterprise,West,"$12,072.13",07-03-2024,30,Medium
+CUST-209,Olivia Davis,Small Business,East,"$1,382.50",07-04-2024,22,Medium
+CUST-210,Ethan Rodriguez,Startup,East,"$14,547.36",07/04/2024,25,Low
+CUST-211,Liam Jones,Startup,West,"$8,905.20",07/04/2024,28,Low
+CUST-212,Sophia Garcia,Enterprise,North,1569.54,2024-07-05,20,Low
+CUST-213,Ava Davis,Enterprise,South,5822.89,2024-07-05,39 units,Low
+CUST-214,Sophia Garcia,Enterprise,South,2836.99,07-05-2024,3,High
+CUST-215,Olivia Miller,Small Business,West,1675.94,06/07/2024,5,Low
+CUST-216,Mia Williams,Small Business,West,13141.87,07/06/2024,1,Low
+CUST-217,Lucas Williams,Small Business,North,"$3,758.64",07/06/2024,15,Low
+CUST-218,Mia Smith,Mid-Market,South,3704.61,07-06-2024,26,Medium
+CUST-219,James Garcia,Enterprise,North,1610.25,2024-07-07,3,Medium
+CUST-220,Ava Rodriguez,Mid-Market,South,3539.45,07/07/2024,40,Medium
+CUST-221,Isabella Brown,Mid-Market,West,13742.78,2024-07-07,41,High
+CUST-222,Sophia Jones,Small Business,South,"$3,332.72",2024-07-08,42,Low
+CUST-223,Isabella Smith,Mid-Market,South,"$20,084.14",2024-07-08,34 units,Low
+CUST-224,Sophia Rodriguez,Mid-Market,South,"$19,409.30",2024-07-08,5,Low
+CUST-225,Isabella Williams,Mid-Market,North,1417.48,07/09/2024,31,Medium
+CUST-226,William Williams,Enterprise,North,1668.65,07/09/2024,13,Medium
+CUST-227,Emma Brown,Mid-Market,South,13305.09,2024-07-09,43,Low
+CUST-228,Ava Williams,Enterprise,East,"$3,642.41",10/07/2024,1,Medium
+CUST-229,Isabella Johnson,Mid-Market,North,428.49,07-10-2024,22,Medium
+CUST-230,James Williams,Enterprise,West,2480.19,10/07/2024,15,High
+CUST-231,Ava Garcia,Enterprise,West,"$6,317.47",10/07/2024,26 units,Medium
+CUST-232,Ethan Jones,Small Business,South,"$10,837.53",11/07/2024,18,Medium
+CUST-233,Liam Jones,Mid-Market,West,"$1,330.57",2024-07-11,9,Low
+CUST-234,Noah Jones,Small Business,North,1161.42,07/11/2024,1,Medium
+CUST-235,Isabella Miller,Small Business,East,"$16,989.53",12/07/2024,43 units,High
+CUST-236,Noah Miller,Mid-Market,East,9440.84,2024-07-12,9,Low
+CUST-237,Ethan Jones,Startup,East,6191.89,12/07/2024,23,Medium
+CUST-238,Emma Jones,Enterprise,West,"$9,929.95",13/07/2024,43,Medium
+CUST-239,Mia Brown,Small Business,South,4040.72,2024-07-13,2,Low
+CUST-240,Emma Martinez,Startup,West,9634.57,07/13/2024,14,Medium
+CUST-241,Liam Rodriguez,Startup,South,"$3,421.86",07/13/2024,38,Low
+CUST-242,Ethan Davis,Enterprise,East,2218.95,07-14-2024,40,High
+CUST-243,Mia Davis,Mid-Market,North,"$8,886.96",2024-07-14,18,Medium
+CUST-244,Mia Davis,Enterprise,West,"$3,937.06",07-14-2024,16,Low
+CUST-245,James Garcia,Small Business,North,"$26,291.86",07-15-2024,29,Low
+CUST-246,Isabella Rodriguez,Small Business,East,3194.94,07-15-2024,44 units,Medium
+CUST-247,Mia Williams,Mid-Market,South,16959.13,07/15/2024,11,Low
+CUST-248,William Smith,Mid-Market,North,"$17,966.27",2024-07-16,6,Low
+CUST-249,Emma Johnson,Small Business,West,"$2,199.71",07-16-2024,3,Low
+CUST-250,Lucas Garcia,Mid-Market,North,10803.79,2024-07-16,14,Low
+CUST-251,William Johnson,Startup,North,"$4,088.93",2024-07-17,2 units,Low
+CUST-252,Mia Rodriguez,Small Business,West,"$16,619.17",07/17/2024,32,Medium
+CUST-253,Lucas Brown,Enterprise,South,4287.41,07-17-2024,31,High
+CUST-254,James Brown,Small Business,West,9264.47,07-17-2024,11,Medium
+CUST-255,Olivia Davis,Enterprise,East,"$4,489.62",2024-07-18,22,Medium
+CUST-256,Olivia Brown,Mid-Market,South,2080.33,18/07/2024,3,Low
+CUST-257,Emma Martinez,Startup,North,1845.16,07/18/2024,31,Low
+CUST-258,Lucas Brown,Startup,West,"$4,001.88",07/19/2024,33 units,Low
+CUST-259,William Garcia,Mid-Market,East,9555.37,07/19/2024,24,Medium
+CUST-260,Liam Miller,Mid-Market,West,"$6,438.83",07/19/2024,1,High
+CUST-261,Sophia Williams,Enterprise,South,7984.01,07-20-2024,44,Medium
+CUST-262,Olivia Martinez,Mid-Market,East,2556.31,07-20-2024,15,High
+CUST-263,Noah Rodriguez,Enterprise,North,4668.49,20/07/2024,37,Medium
+CUST-264,Sophia Brown,Mid-Market,South,$695.17,07/20/2024,27,Low
+CUST-265,William Miller,Enterprise,East,11457.69,07/21/2024,38 units,Low
+CUST-266,Emma Brown,Mid-Market,South,"$30,263.89",2024-07-21,27,Low
+CUST-267,Noah Brown,Enterprise,North,"$3,795.32",07-21-2024,44,Low
+CUST-268,Olivia Rodriguez,Startup,East,$471.66,07/22/2024,12,Medium
+CUST-269,William Johnson,Small Business,West,1609.52,22/07/2024,3,Low
+CUST-270,Sophia Davis,Mid-Market,West,7270.94,22/07/2024,30,Medium
+CUST-271,Mia Miller,Enterprise,North,"$6,555.20",07-23-2024,32,Medium
+CUST-272,Ava Brown,Mid-Market,East,10478.45,23/07/2024,23,Low
+CUST-273,Lucas Martinez,Enterprise,North,"$2,303.68",23/07/2024,2,Low
+CUST-274,Sophia Garcia,Mid-Market,North,9775.37,07-24-2024,7 units,Low
+CUST-275,Emma Davis,Small Business,South,"$7,970.56",07/24/2024,34 units,Low
+CUST-276,Mia Miller,Small Business,West,2933.77,07/24/2024,32,Medium
+CUST-277,William Rodriguez,Small Business,North,"$5,525.45",24/07/2024,39,Low
+CUST-278,Mia Rodriguez,Mid-Market,South,1435.56,25/07/2024,32,Medium
+CUST-279,Ethan Garcia,Startup,North,"$4,316.32",07/25/2024,43 units,High
+CUST-280,Emma Miller,Startup,North,"$14,246.89",07-25-2024,43,High
+CUST-281,Liam Miller,Mid-Market,North,"$3,954.09",26/07/2024,14,High
+CUST-282,Ethan Martinez,Mid-Market,West,12294.2,2024-07-26,3,Low
+CUST-283,Ava Johnson,Mid-Market,East,6199.41,07-26-2024,32,Low
+CUST-284,Sophia Garcia,Enterprise,West,"$1,784.76",27/07/2024,43,Low
+CUST-285,Ethan Rodriguez,Small Business,South,6055.9,27/07/2024,36,Low
+CUST-286,Noah Jones,Mid-Market,East,4983.71,2024-07-27,17,High
+CUST-287,Ethan Davis,Enterprise,South,3705.66,2024-07-27,3,Medium
+CUST-288,Lucas Davis,Enterprise,North,1228.19,07/28/2024,10,Low
+CUST-289,Sophia Williams,Mid-Market,East,"$3,903.95",07-28-2024,40,Low
+CUST-290,Lucas Davis,Startup,South,$891.05,07-28-2024,18,Low
+CUST-291,Mia Smith,Mid-Market,North,1075.96,07/29/2024,3,Medium
+CUST-292,Lucas Williams,Small Business,South,3895.12,07-29-2024,39,Medium
+CUST-293,Emma Johnson,Mid-Market,South,2768.55,07-29-2024,10,High
+CUST-294,Mia Rodriguez,Mid-Market,West,"$17,284.08",07-30-2024,9,High
+CUST-295,Liam Williams,Mid-Market,North,"$3,462.37",07-30-2024,11,Low
+CUST-296,Sophia Martinez,Small Business,West,9618.5,07-30-2024,33 units,Low
+CUST-297,James Garcia,Enterprise,East,5311.07,2024-07-31,36 units,Low
+CUST-298,Isabella Williams,Mid-Market,North,8314.95,07-31-2024,26,Low
+CUST-299,William Brown,Mid-Market,West,2358.2,2024-07-31,27,High
+CUST-300,Ethan Williams,Mid-Market,West,18896.89,07-31-2024,38 units,Medium
+CUST-301,James Williams,Startup,East,"$5,308.87",08/01/2024,22,Medium
+CUST-302,Lucas Miller,Enterprise,South,"$11,968.54",01/08/2024,26,Low
+CUST-303,William Jones,Mid-Market,South,3352.31,2024-08-01,22,Low
+CUST-304,James Davis,Mid-Market,South,1086.37,08-02-2024,5,Low
+CUST-305,Ava Davis,Startup,East,"$7,679.83",08/02/2024,35,Low
+CUST-306,Ava Martinez,Mid-Market,West,$450.63,02/08/2024,2,Medium
+CUST-307,Ava Johnson,Small Business,North,4591.95,2024-08-03,35,Low
+CUST-308,Ava Williams,Startup,East,"$1,792.21",03/08/2024,9,Medium
+CUST-309,Olivia Smith,Mid-Market,South,"$6,816.70",08/03/2024,18,Medium
+CUST-310,Olivia Jones,Mid-Market,South,25642.29,2024-08-03,43 units,Low
+CUST-311,Liam Martinez,Mid-Market,North,4458.43,04/08/2024,12,Medium
+CUST-312,Emma Garcia,Small Business,East,11456.47,08-04-2024,3,Low
+CUST-313,Mia Miller,Enterprise,South,"$5,007.45",2024-08-04,18,Medium
+CUST-314,William Smith,Mid-Market,East,4851.6,05/08/2024,38,Medium
+CUST-315,Olivia Williams,Small Business,West,"$17,724.63",08/05/2024,7,High
+CUST-316,Sophia Rodriguez,Mid-Market,East,"$14,745.27",08/05/2024,33,Low
+CUST-317,Ethan Miller,Mid-Market,West,10415.51,2024-08-06,6,Low
+CUST-318,Isabella Rodriguez,Mid-Market,North,2683.71,06/08/2024,18,Low
+CUST-319,Mia Jones,Enterprise,West,5518.6,2024-08-06,22,Low
+CUST-320,Ethan Miller,Mid-Market,West,2047.56,2024-08-07,39,Medium
+CUST-321,Noah Davis,Mid-Market,North,4214.44,07/08/2024,9,High
+CUST-322,Lucas Rodriguez,Startup,South,"$4,703.40",07/08/2024,35,Low
+CUST-323,Ava Smith,Mid-Market,North,"$11,980.73",08-07-2024,23,Low
+CUST-324,Ethan Miller,Startup,East,"$15,113.64",08/08/2024,12,Low
+CUST-325,James Smith,Small Business,North,"$3,880.71",08/08/2024,24,Low
+CUST-326,Noah Davis,Enterprise,East,516.11,2024-08-08,40,Low
+CUST-327,Ethan Garcia,Small Business,South,"$13,262.62",2024-08-09,9,Low
+CUST-328,Isabella Martinez,Enterprise,East,1644.74,08/09/2024,13,Medium
+CUST-329,Isabella Davis,Startup,North,6721.57,09/08/2024,40,Low
+CUST-330,Sophia Garcia,Startup,North,564.37,08/10/2024,42,Low
+CUST-331,Olivia Jones,Mid-Market,South,3715.02,08/10/2024,17,Medium
+CUST-332,Emma Williams,Mid-Market,North,28128.13,08-10-2024,7,Low
+CUST-333,Liam Jones,Mid-Market,South,1089.85,08/11/2024,17 units,Medium
+CUST-334,Noah Garcia,Mid-Market,South,"$3,982.25",2024-08-11,24,Medium
+CUST-335,Noah Garcia,Mid-Market,North,2785.12,08/11/2024,2,Medium
+CUST-336,Mia Johnson,Mid-Market,West,"$15,706.24",2024-08-11,35,Low
+CUST-337,Olivia Garcia,Small Business,East,"$13,628.52",2024-08-12,28,Low
+CUST-338,Isabella Jones,Enterprise,West,2164.19,2024-08-12,19,Medium
+CUST-339,James Rodriguez,Small Business,South,$950.38,12/08/2024,33,Medium
+CUST-340,Liam Johnson,Small Business,East,6812.56,08-13-2024,21,Low
+CUST-341,Ethan Miller,Mid-Market,West,3065.19,2024-08-13,10,Low
+CUST-342,Noah Garcia,Startup,North,7647.49,2024-08-13,9,Low
+CUST-343,Isabella Brown,Enterprise,West,$612.20,14/08/2024,38,Low
+CUST-344,James Brown,Enterprise,East,"$1,330.65",2024-08-14,6,Medium
+CUST-345,Ethan Smith,Small Business,East,7937.06,08/14/2024,42,Low
+CUST-346,Ava Williams,Mid-Market,East,1951.73,08/14/2024,35,Low
+CUST-347,Noah Miller,Mid-Market,East,13068.69,08-15-2024,18 units,Medium
+CUST-348,Ethan Garcia,Startup,West,792.45,2024-08-15,19,Low
+CUST-349,Liam Miller,Startup,North,1977.46,15/08/2024,5,Medium
+CUST-350,Olivia Williams,Small Business,North,"$42,931.35",08/16/2024,25,Medium
+CUST-351,Lucas Miller,Small Business,East,"$4,088.95",16/08/2024,11,Low
+CUST-352,Olivia Miller,Enterprise,North,8290.4,16/08/2024,10,Medium
+CUST-353,William Johnson,Enterprise,West,"$1,711.07",08/17/2024,17 units,Medium
+CUST-354,James Johnson,Small Business,North,"$6,518.27",17/08/2024,36,Low
+CUST-355,Olivia Davis,Mid-Market,South,8817.59,08/17/2024,26,Low
+CUST-356,Liam Martinez,Mid-Market,North,2854.22,18/08/2024,31,Low
+CUST-357,Sophia Garcia,Mid-Market,East,11875.69,08/18/2024,32,High
+CUST-358,Ethan Rodriguez,Small Business,North,6411.66,2024-08-18,21,Medium
+CUST-359,Olivia Rodriguez,Enterprise,North,"$3,603.59",08-18-2024,18,Low
+CUST-360,Sophia Johnson,Small Business,North,5701.64,08/19/2024,18,Medium
+CUST-361,Ava Garcia,Enterprise,North,5988.82,08/19/2024,1 units,Low
+CUST-362,Emma Davis,Enterprise,South,"$1,576.27",08-19-2024,14 units,Medium
+CUST-363,Olivia Jones,Mid-Market,West,3750.03,08/20/2024,8,Medium
+CUST-364,Mia Davis,Enterprise,East,3134.72,08/20/2024,2,Low
+CUST-365,Isabella Garcia,Startup,East,3730.15,20/08/2024,15 units,Medium
+CUST-366,Olivia Smith,Enterprise,North,9706.4,08-21-2024,34,Medium
+CUST-367,Isabella Miller,Enterprise,West,4682.33,2024-08-21,36,Medium
+CUST-368,Mia Rodriguez,Mid-Market,North,"$18,721.51",08/21/2024,1,Low
+CUST-369,Emma Smith,Mid-Market,South,"$2,659.93",08-21-2024,21 units,Medium
+CUST-370,Olivia Jones,Enterprise,West,3892.75,22/08/2024,42,High
+CUST-371,Ava Smith,Enterprise,West,10450.69,2024-08-22,1,Low
+CUST-372,Noah Garcia,Startup,West,5533.13,08-22-2024,32,Low
+CUST-373,Liam Miller,Small Business,West,5547.51,2024-08-23,20,Low
+CUST-374,Sophia Brown,Mid-Market,North,756.3,2024-08-23,36,Medium
+CUST-375,Liam Jones,Mid-Market,South,3705.21,2024-08-23,39,Medium
+CUST-376,Liam Martinez,Mid-Market,West,2452.16,08/24/2024,30,Low
+CUST-377,Ethan Rodriguez,Mid-Market,East,47953.4,08/24/2024,7,High
+CUST-378,Sophia Garcia,Small Business,East,2796.44,24/08/2024,22,Low
+CUST-379,Isabella Brown,Startup,South,14429.96,25/08/2024,10 units,Medium
+CUST-380,Olivia Johnson,Enterprise,East,7730.27,08-25-2024,8,Low
+CUST-381,Ava Brown,Small Business,North,"$3,109.88",25/08/2024,27,Low
+CUST-382,Mia Martinez,Enterprise,North,"$5,497.57",2024-08-25,10,Low
+CUST-383,Emma Rodriguez,Enterprise,South,"$12,333.59",2024-08-26,14,Low
+CUST-384,James Johnson,Enterprise,West,14366.77,08/26/2024,11,Medium
+CUST-385,Emma Garcia,Enterprise,East,"$1,536.35",2024-08-26,6,Medium
+CUST-386,Lucas Williams,Startup,East,3096.65,08-27-2024,21,Low
+CUST-387,William Rodriguez,Mid-Market,South,3053.98,2024-08-27,33,Low
+CUST-388,Noah Jones,Enterprise,South,$679.20,2024-08-27,19,Low
+CUST-389,William Brown,Startup,East,6327.32,08-28-2024,39,Medium
+CUST-390,Ethan Davis,Startup,West,"$12,943.58",28/08/2024,24,Medium
+CUST-391,Isabella Brown,Small Business,South,"$3,523.76",28/08/2024,18,Low
+CUST-392,Olivia Johnson,Startup,North,9156.88,08-28-2024,35,Medium
+CUST-393,Ethan Williams,Enterprise,East,"$6,822.37",08/29/2024,43,Low
+CUST-394,Olivia Miller,Small Business,South,"$3,461.77",2024-08-29,37,High
+CUST-395,Ava Davis,Small Business,South,1388.36,08-29-2024,19,High
+CUST-396,Mia Brown,Startup,South,8431.05,2024-08-30,24,Medium
+CUST-397,Lucas Martinez,Small Business,East,"$12,932.18",08/30/2024,34,High
+CUST-398,James Garcia,Mid-Market,North,7926.34,2024-08-30,22,Medium
+CUST-399,Sophia Garcia,Small Business,North,$517.26,08-31-2024,4,Medium
+CUST-400,Isabella Johnson,Mid-Market,East,"$1,983.68",2024-08-31,10,Medium
+CUST-401,Mia Jones,Mid-Market,South,868.08,31/08/2024,2,Low
+CUST-402,Noah Johnson,Enterprise,East,5891.64,09/01/2024,8,Low
+CUST-403,Olivia Rodriguez,Startup,East,9581.55,09/01/2024,33,Low
+CUST-404,Ethan Garcia,Mid-Market,South,1161.7,09/01/2024,38,Medium
+CUST-405,William Rodriguez,Mid-Market,East,12244.6,09-01-2024,43,Low
+CUST-406,Olivia Smith,Mid-Market,West,5670.37,09/02/2024,28,Low
+CUST-407,Emma Smith,Startup,North,"$8,012.04",02/09/2024,10,Low
+CUST-408,Mia Rodriguez,Mid-Market,West,23503.69,09-02-2024,1,Low
+CUST-409,Ava Garcia,Small Business,West,$968.04,03/09/2024,34,Medium
+CUST-410,Emma Garcia,Startup,West,15446.86,2024-09-03,3,High
+CUST-411,Ethan Williams,Mid-Market,East,"$1,276.15",2024-09-03,9,Medium
+CUST-412,Ethan Johnson,Mid-Market,South,"$3,644.53",2024-09-04,5,Medium
+CUST-413,William Jones,Small Business,East,12793.92,2024-09-04,42,Medium
+CUST-414,William Johnson,Startup,North,15786.6,04/09/2024,10,Low
+CUST-415,Lucas Martinez,Small Business,East,4988.82,09-04-2024,12,Low
+CUST-416,Ethan Miller,Enterprise,East,6260.79,09-05-2024,18,High
+CUST-417,Isabella Jones,Startup,East,"$8,404.79",09/05/2024,21,Low
+CUST-418,Olivia Brown,Mid-Market,East,"$12,024.06",05/09/2024,21,Low
+CUST-419,Ava Davis,Mid-Market,West,"$1,242.09",2024-09-06,1,Medium
+CUST-420,Ava Martinez,Small Business,South,11197.12,06/09/2024,3,Low
+CUST-421,Ava Martinez,Enterprise,North,4666.49,09/06/2024,5 units,Low
+CUST-422,Ava Smith,Small Business,North,4293.31,09/07/2024,25,Low
+CUST-423,Noah Johnson,Mid-Market,North,"$3,984.58",07/09/2024,8,Low
+CUST-424,William Rodriguez,Startup,East,5026.32,07/09/2024,17,Low
+CUST-425,Lucas Martinez,Enterprise,North,19258.72,08/09/2024,9,Low
+CUST-426,Mia Garcia,Mid-Market,West,5564.41,09-08-2024,32,Medium
+CUST-427,Ethan Garcia,Small Business,South,20299.05,2024-09-08,6,Medium
+CUST-428,Lucas Miller,Enterprise,East,1692.23,08/09/2024,40,Low
+CUST-429,Ethan Davis,Enterprise,East,"$8,771.01",09/09/2024,21,High
+CUST-430,James Brown,Startup,West,"$11,271.82",09/09/2024,7,Low
+CUST-431,Lucas Davis,Mid-Market,North,7788.65,09/09/2024,7,Low
+CUST-432,Lucas Williams,Startup,East,"$6,469.36",09/10/2024,39,Low
+CUST-433,Olivia Miller,Enterprise,East,"$5,807.86",09-10-2024,27,Medium
+CUST-434,Mia Miller,Mid-Market,West,"$13,223.08",2024-09-10,8,Low
+CUST-435,Sophia Rodriguez,Small Business,West,"$11,605.92",09-11-2024,9,Medium
+CUST-436,Ethan Miller,Small Business,North,1247.84,2024-09-11,28,Medium
+CUST-437,Mia Garcia,Mid-Market,South,12670.36,09/11/2024,15,Low
+CUST-438,James Smith,Mid-Market,South,3874.59,09/11/2024,2 units,Medium
+CUST-439,Sophia Johnson,Small Business,North,"$2,302.05",09/12/2024,7,High
+CUST-440,Mia Smith,Enterprise,South,13649.87,09-12-2024,18,Low
+CUST-441,Emma Davis,Mid-Market,West,4076.9,12/09/2024,22,Low
+CUST-442,Isabella Garcia,Enterprise,West,"$11,139.05",13/09/2024,10,Medium
+CUST-443,Isabella Martinez,Mid-Market,West,2387.15,09/13/2024,33 units,Medium
+CUST-444,Emma Johnson,Mid-Market,South,$425.59,13/09/2024,7,Low
+CUST-445,William Miller,Mid-Market,South,4846.69,14/09/2024,3 units,Low
+CUST-446,Noah Jones,Mid-Market,East,1086.49,09-14-2024,14,Low
+CUST-447,Mia Miller,Enterprise,East,"$9,525.70",2024-09-14,44,Low
+CUST-448,Isabella Rodriguez,Enterprise,East,"$2,499.94",09/15/2024,36,Low
+CUST-449,Olivia Martinez,Small Business,South,4211.27,09/15/2024,13,High
+CUST-450,Olivia Johnson,Mid-Market,East,991.87,09-15-2024,16,Medium
+CUST-451,Liam Smith,Startup,West,2595.67,09-15-2024,16 units,Low
+CUST-452,James Miller,Small Business,South,10286.01,16/09/2024,5,Medium
+CUST-453,Noah Williams,Enterprise,North,"$1,468.53",09/16/2024,25,High
+CUST-454,Lucas Johnson,Small Business,South,"$7,171.31",2024-09-16,38,Low
+CUST-455,Liam Smith,Enterprise,East,16611.38,09-17-2024,38,Low
+CUST-456,Mia Johnson,Small Business,South,"$7,803.01",2024-09-17,38,Low
+CUST-457,Lucas Rodriguez,Startup,East,11229.8,2024-09-17,39,Medium
+CUST-458,Sophia Johnson,Mid-Market,East,1149.96,09/18/2024,41,Low
+CUST-459,Emma Rodriguez,Small Business,North,2276.28,09/18/2024,26,High
+CUST-460,Ava Davis,Enterprise,North,"$15,021.18",09-18-2024,13,Low
+CUST-461,Ethan Brown,Mid-Market,West,8561.64,09/19/2024,44,Low
+CUST-462,Olivia Johnson,Startup,East,7032.68,09/19/2024,26,Low
+CUST-463,Ava Smith,Enterprise,South,7484.68,09/19/2024,1,Low
+CUST-464,Ava Brown,Mid-Market,North,3876.06,2024-09-19,8,Medium
+CUST-465,Ava Martinez,Mid-Market,North,$696.27,09-20-2024,4 units,High
+CUST-466,William Davis,Small Business,East,10374.4,20/09/2024,21,Low
+CUST-467,Emma Davis,Mid-Market,South,7780.24,2024-09-20,22,High
+CUST-468,James Smith,Startup,North,"$4,561.19",09/21/2024,37,Medium
+CUST-469,Olivia Miller,Enterprise,North,"$15,351.20",2024-09-21,3,Low
+CUST-470,Ethan Jones,Mid-Market,South,"$3,063.14",09/21/2024,19 units,Medium
+CUST-471,Emma Miller,Small Business,North,"$2,665.87",09/22/2024,1,Low
+CUST-472,William Johnson,Enterprise,South,"$13,802.78",2024-09-22,29,Medium
+CUST-473,Ethan Rodriguez,Small Business,East,10764.18,09-22-2024,23,Low
+CUST-474,Liam Davis,Enterprise,North,"$5,103.17",09/22/2024,33,Medium
+CUST-475,William Brown,Enterprise,East,"$1,310.70",09-23-2024,41,Low
+CUST-476,Liam Smith,Enterprise,South,1974.06,23/09/2024,23,Medium
+CUST-477,Noah Brown,Startup,East,"$7,340.55",09/23/2024,5,Medium
+CUST-478,James Martinez,Mid-Market,East,3560.3,09-24-2024,7,Low
+CUST-479,Mia Davis,Small Business,East,"$12,170.06",09-24-2024,6,Low
+CUST-480,Mia Williams,Mid-Market,West,"$19,866.41",24/09/2024,22 units,Low
+CUST-481,Sophia Miller,Mid-Market,South,11047.18,09-25-2024,13,Medium
+CUST-482,Ethan Jones,Mid-Market,South,3481.55,09-25-2024,12,Low
+CUST-483,Ethan Garcia,Startup,South,10503.68,25/09/2024,4,Medium
+CUST-484,Ava Martinez,Small Business,South,3214.52,09/26/2024,8,Low
+CUST-485,Ava Brown,Small Business,South,1588.47,09-26-2024,37,Low
+CUST-486,James Smith,Enterprise,North,$620.76,09-26-2024,31,Low
+CUST-487,Ava Jones,Mid-Market,North,"$3,567.44",09-26-2024,37,Low
+CUST-488,Liam Jones,Mid-Market,North,15602.38,2024-09-27,26,Medium
+CUST-489,Noah Smith,Startup,East,2175.18,27/09/2024,43,High
+CUST-490,Mia Jones,Mid-Market,East,1903.57,2024-09-27,8,Low
+CUST-491,Noah Rodriguez,Mid-Market,South,23153.91,28/09/2024,40,Low
+CUST-492,Mia Smith,Mid-Market,West,$564.59,09/28/2024,33,Low
+CUST-493,Liam Miller,Enterprise,South,10414.95,09/28/2024,29,Medium
+CUST-494,James Smith,Enterprise,North,"$2,919.91",09-29-2024,5 units,Low
+CUST-495,Noah Rodriguez,Startup,South,648.36,29/09/2024,28,Medium
+CUST-496,Sophia Martinez,Mid-Market,East,16641.1,09/29/2024,40,High
+CUST-497,Emma Rodriguez,Startup,South,1377.65,29/09/2024,17 units,Low
+CUST-498,Sophia Jones,Small Business,North,5616.05,09/30/2024,23,Medium
+CUST-499,Noah Williams,Mid-Market,South,2481.82,2024-09-30,9,Low
+CUST-500,Sophia Brown,Mid-Market,East,$838.20,09/30/2024,2,Low
+CUST-501,Isabella Martinez,Enterprise,West,732.88,2024-10-01,32,Low
+CUST-502,Emma Williams,Startup,North,1198.18,10/01/2024,31,Low
+CUST-503,Ethan Rodriguez,Mid-Market,South,881.27,10-01-2024,7,Low
+CUST-504,Sophia Martinez,Mid-Market,East,"$9,691.39",2024-10-02,30,Low
+CUST-505,Ava Rodriguez,Mid-Market,North,4720.47,10/02/2024,3,Low
+CUST-506,Olivia Jones,Mid-Market,North,"$3,129.40",10-02-2024,9,Low
+CUST-507,Ava Garcia,Mid-Market,East,"$3,922.47",2024-10-03,10,Medium
+CUST-508,Ethan Jones,Mid-Market,South,17588.12,10-03-2024,26,High
+CUST-509,Mia Smith,Small Business,South,"$16,106.17",03/10/2024,1,Low
+CUST-510,Noah Martinez,Small Business,South,"$8,574.68",03/10/2024,30,Low
+CUST-511,James Martinez,Mid-Market,North,14440.42,2024-10-04,38,Low
+CUST-512,Sophia Miller,Mid-Market,West,2903.44,10/04/2024,15,High
+CUST-513,Isabella Jones,Startup,North,3518.87,2024-10-04,25,Medium
+CUST-514,James Garcia,Enterprise,South,6582.62,10-05-2024,6,Low
+CUST-515,Ava Jones,Startup,North,6751.62,10/05/2024,18,Low
+CUST-516,Sophia Martinez,Enterprise,West,"$4,671.80",05/10/2024,1,Low
+CUST-517,Lucas Miller,Small Business,North,"$3,727.50",10/06/2024,3,Low
+CUST-518,Emma Williams,Mid-Market,East,28230.8,06/10/2024,17,High
+CUST-519,Isabella Garcia,Mid-Market,South,11586.89,10/06/2024,8,High
+CUST-520,Liam Johnson,Startup,South,4110.81,10/06/2024,40,Low
+CUST-521,Olivia Jones,Enterprise,South,8845.81,10/07/2024,17,Low
+CUST-522,William Martinez,Mid-Market,North,"$2,441.72",10-07-2024,25,Low
+CUST-523,Ethan Williams,Mid-Market,North,1086.07,10-07-2024,41,Low
+CUST-524,Liam Garcia,Small Business,North,"$3,224.44",2024-10-08,12,High
+CUST-525,Noah Garcia,Enterprise,South,3752.65,2024-10-08,29,Low
+CUST-526,Lucas Williams,Small Business,North,508.39,08/10/2024,25,Low
+CUST-527,Noah Davis,Mid-Market,South,11360.79,10-09-2024,36,Low
+CUST-528,Olivia Martinez,Enterprise,North,"$3,292.68",09/10/2024,25,Medium
+CUST-529,Emma Brown,Small Business,South,"$6,045.23",2024-10-09,29,Medium
+CUST-530,Emma Williams,Enterprise,East,$899.47,10/10/2024,11,Low
+CUST-531,Olivia Brown,Mid-Market,North,1650.39,2024-10-10,4,Low
+CUST-532,Ava Rodriguez,Enterprise,South,14729.21,10-10-2024,14,Low
+CUST-533,Ava Garcia,Mid-Market,East,"$6,498.62",10/10/2024,38,High
+CUST-534,Ethan Brown,Small Business,East,"$19,909.29",10-11-2024,17,Low
+CUST-535,Ethan Rodriguez,Mid-Market,West,43850.16,11/10/2024,2,Low
+CUST-536,Sophia Jones,Mid-Market,North,"$3,422.45",11/10/2024,8,Low
+CUST-537,Liam Jones,Mid-Market,South,2707.28,10-12-2024,36,Medium
+CUST-538,Liam Jones,Enterprise,West,13103.85,10-12-2024,10,Low
+CUST-539,Noah Johnson,Mid-Market,North,"$43,166.61",2024-10-12,7,Low
+CUST-540,Ethan Miller,Startup,East,"$6,856.34",13/10/2024,36,Medium
+CUST-541,Sophia Jones,Startup,North,10705.31,13/10/2024,16,Medium
+CUST-542,Olivia Davis,Enterprise,South,"$10,293.62",10-13-2024,14,Medium
+CUST-543,Emma Davis,Enterprise,East,"$3,253.71",10/13/2024,16,High
+CUST-544,James Martinez,Startup,West,5950.68,14/10/2024,25,Low
+CUST-545,James Williams,Mid-Market,North,12035.67,10/14/2024,41,Low
+CUST-546,Noah Garcia,Mid-Market,North,7973.26,10-14-2024,4,High
+CUST-547,Olivia Miller,Small Business,West,539.04,10-15-2024,29,Low
+CUST-548,Lucas Johnson,Mid-Market,North,"$3,068.49",2024-10-15,6,Medium
+CUST-549,Emma Johnson,Mid-Market,North,"$1,414.27",15/10/2024,1,Medium
+CUST-550,Emma Rodriguez,Startup,North,2124.01,10/16/2024,39,Low
+CUST-551,Noah Davis,Small Business,East,15733.79,2024-10-16,1,Low
+CUST-552,Noah Jones,Enterprise,East,644.34,16/10/2024,40 units,Medium
+CUST-553,James Garcia,Enterprise,South,2013.34,2024-10-17,3,Medium
+CUST-554,Olivia Williams,Enterprise,North,"$2,807.86",10-17-2024,1,Medium
+CUST-555,Sophia Johnson,Small Business,South,6636.21,17/10/2024,1,Low
+CUST-556,Mia Smith,Mid-Market,East,"$5,364.62",2024-10-17,39,Low
+CUST-557,Isabella Rodriguez,Enterprise,North,2000.59,2024-10-18,21,Low
+CUST-558,Mia Smith,Startup,South,"$1,566.20",10/18/2024,30,Low
+CUST-559,Ava Rodriguez,Enterprise,North,"$2,156.51",2024-10-18,32,Low
+CUST-560,Emma Williams,Enterprise,North,"$4,938.43",19/10/2024,33,High
+CUST-561,Emma Davis,Enterprise,West,2456.12,19/10/2024,22,Medium
+CUST-562,Emma Martinez,Enterprise,South,19567.83,10/19/2024,30,Medium
+CUST-563,Emma Smith,Mid-Market,East,4451.9,20/10/2024,4,Low
+CUST-564,Lucas Johnson,Startup,South,793.87,10-20-2024,23 units,Low
+CUST-565,Ava Jones,Startup,South,"$8,893.03",20/10/2024,44 units,High
+CUST-566,Noah Williams,Mid-Market,South,"$2,991.91",21/10/2024,25 units,Low
+CUST-567,Liam Williams,Mid-Market,West,7288.96,2024-10-21,12,Low
+CUST-568,Sophia Brown,Mid-Market,North,"$2,531.62",2024-10-21,17,Low
+CUST-569,Liam Johnson,Enterprise,East,5897.06,21/10/2024,15,High
+CUST-570,Liam Brown,Enterprise,West,"$10,014.01",10/22/2024,10,High
+CUST-571,Sophia Brown,Startup,East,17502.87,2024-10-22,35,Low
+CUST-572,Mia Williams,Enterprise,West,"$2,367.09",10/22/2024,29,High
+CUST-573,Isabella Williams,Enterprise,North,3050.4,23/10/2024,12,Low
+CUST-574,Liam Davis,Mid-Market,East,4456.77,23/10/2024,1,Low
+CUST-575,Olivia Smith,Mid-Market,South,17428.01,10-23-2024,1,Medium
+CUST-576,Emma Martinez,Enterprise,West,"$15,457.58",2024-10-24,10 units,High
+CUST-577,Emma Williams,Enterprise,East,1012.15,24/10/2024,18,Medium
+CUST-578,Sophia Davis,Mid-Market,North,1319.64,10-24-2024,2,Medium
+CUST-579,Isabella Smith,Small Business,East,4847.34,2024-10-24,8,Medium
+CUST-580,Ethan Smith,Enterprise,West,1132.83,25/10/2024,22,Medium
+CUST-581,Ava Johnson,Mid-Market,North,3156.05,25/10/2024,22,High
+CUST-582,Liam Miller,Mid-Market,South,1444.04,2024-10-25,26 units,Medium
+CUST-583,Ethan Williams,Startup,West,6969.63,2024-10-26,26,High
+CUST-584,Mia Rodriguez,Mid-Market,West,19806.99,2024-10-26,9,High
+CUST-585,Ava Miller,Enterprise,North,37606.77,26/10/2024,21,Low
+CUST-586,Olivia Brown,Mid-Market,West,"$3,457.53",27/10/2024,31,Medium
+CUST-587,Olivia Garcia,Small Business,East,"$6,339.86",10-27-2024,43,Low
+CUST-588,Olivia Jones,Enterprise,South,13008.72,10/27/2024,6,Low
+CUST-589,Ethan Miller,Mid-Market,East,1212.2,2024-10-28,14,Medium
+CUST-590,Mia Jones,Enterprise,North,8003.56,28/10/2024,33,Low
+CUST-591,Noah Miller,Enterprise,West,3816.89,28/10/2024,7,Low
+CUST-592,William Davis,Mid-Market,South,"$1,900.56",2024-10-28,24,High
+CUST-593,Ethan Johnson,Mid-Market,North,"$3,750.27",10/29/2024,9,Low
+CUST-594,Liam Johnson,Small Business,East,913.5,2024-10-29,11,Low
+CUST-595,Ava Miller,Small Business,West,"$8,127.07",10/29/2024,23,High
+CUST-596,Isabella Johnson,Mid-Market,West,2293.75,30/10/2024,2,Low
+CUST-597,Isabella Johnson,Mid-Market,North,"$2,825.17",10/30/2024,15,Low
+CUST-598,Emma Brown,Mid-Market,East,1238.91,10-30-2024,35,Low
+CUST-599,James Johnson,Enterprise,West,13399.73,31/10/2024,36,Low
+CUST-600,Liam Miller,Startup,East,4820.79,10-31-2024,28,Medium
+CUST-601,Ava Smith,Startup,South,5918.34,2024-10-31,39 units,Medium
+CUST-602,Sophia Williams,Enterprise,West,"$5,877.24",2024-10-31,44,Low
+CUST-603,Liam Brown,Enterprise,South,3835.05,2024-11-01,4,Medium
+CUST-604,Olivia Miller,Enterprise,West,1790.02,11/01/2024,10 units,Low
+CUST-605,Liam Davis,Small Business,North,"$9,285.58",01/11/2024,6,Low
+CUST-606,Mia Miller,Small Business,West,1283.25,2024-11-02,30,Medium
+CUST-607,Emma Jones,Small Business,West,1112.88,2024-11-02,35,Medium
+CUST-608,Sophia Martinez,Small Business,East,8449.43,02/11/2024,43,Medium
+CUST-609,Olivia Martinez,Mid-Market,East,1922.63,2024-11-03,10,Low
+CUST-610,Noah Rodriguez,Small Business,South,2781.58,11-03-2024,32,Low
+CUST-611,William Miller,Small Business,South,4591.14,03/11/2024,42,Low
+CUST-612,Emma Smith,Mid-Market,South,4278.28,04/11/2024,42,Low
+CUST-613,Emma Williams,Mid-Market,West,8414.41,04/11/2024,3,Medium
+CUST-614,William Johnson,Small Business,West,"$6,748.26",11-04-2024,26,Low
+CUST-615,William Williams,Mid-Market,South,"$7,120.60",04/11/2024,15,Medium
+CUST-616,Ava Rodriguez,Small Business,North,"$8,537.70",11-05-2024,17,Low
+CUST-617,Olivia Rodriguez,Small Business,North,2650.15,05/11/2024,27,Low
+CUST-618,William Williams,Small Business,West,2929.15,11/05/2024,18,Low
+CUST-619,Isabella Smith,Small Business,North,"$4,145.62",2024-11-06,19,Low
+CUST-620,William Jones,Mid-Market,North,2788.05,11/06/2024,12,High
+CUST-621,Ava Martinez,Small Business,South,"$27,671.22",2024-11-06,24,Low
+CUST-622,Emma Brown,Mid-Market,North,11334.87,11-07-2024,5,Low
+CUST-623,Emma Johnson,Enterprise,North,1569.42,11/07/2024,24,Medium
+CUST-624,Liam Jones,Enterprise,West,436.46,07/11/2024,27,Medium
+CUST-625,Olivia Johnson,Mid-Market,West,684.22,2024-11-07,30,Low
+CUST-626,William Martinez,Mid-Market,West,2218.69,2024-11-08,15,Low
+CUST-627,Emma Garcia,Startup,North,"$1,188.89",11/08/2024,38,Medium
+CUST-628,Lucas Martinez,Mid-Market,South,"$5,353.98",11-08-2024,44,High
+CUST-629,Sophia Miller,Mid-Market,East,13087.31,11/09/2024,34,High
+CUST-630,James Garcia,Enterprise,West,9075.24,11-09-2024,27,Low
+CUST-631,William Williams,Enterprise,West,1978.51,11-09-2024,20,High
+CUST-632,James Davis,Small Business,West,3712.78,2024-11-10,41,Low
+CUST-633,Olivia Martinez,Enterprise,South,5008.9,11/10/2024,32,Low
+CUST-634,Mia Martinez,Small Business,East,11201.8,11/10/2024,4,Medium
+CUST-635,William Brown,Small Business,East,12276.19,11-11-2024,5,Low
+CUST-636,Olivia Martinez,Mid-Market,West,16031.33,11/11/2024,8 units,Low
+CUST-637,Olivia Garcia,Startup,North,"$5,026.77",11/11/2024,22,Low
+CUST-638,Ethan Jones,Mid-Market,West,8102.94,11/11/2024,42 units,Low
+CUST-639,Isabella Martinez,Mid-Market,West,"$1,170.63",11/12/2024,7,Medium
+CUST-640,Mia Davis,Startup,North,5814.98,11/12/2024,22,Medium
+CUST-641,Olivia Martinez,Startup,North,2258.61,11-12-2024,30 units,Low
+CUST-642,Ethan Rodriguez,Enterprise,West,"$4,073.38",13/11/2024,37,Low
+CUST-643,Noah Garcia,Enterprise,South,6934.19,13/11/2024,16,High
+CUST-644,Noah Williams,Enterprise,South,2330.76,2024-11-13,15 units,Medium
+CUST-645,William Davis,Mid-Market,North,$748.37,11-14-2024,5,Low
+CUST-646,Ethan Brown,Startup,West,$466.86,2024-11-14,3,High
+CUST-647,Ethan Rodriguez,Mid-Market,South,545.66,14/11/2024,23 units,Medium
+CUST-648,Lucas Davis,Mid-Market,West,454.5,11-14-2024,10,Low
+CUST-649,Liam Jones,Startup,West,1160.06,11/15/2024,5,Low
+CUST-650,Liam Miller,Mid-Market,West,2179.47,11-15-2024,23,Low
+CUST-651,Sophia Williams,Mid-Market,South,2025.19,11/15/2024,15 units,Medium
+CUST-652,Ethan Smith,Startup,East,28527.32,11/16/2024,18,Low
+CUST-653,Ava Williams,Small Business,West,2774.4,11-16-2024,25,Low
+CUST-654,William Martinez,Small Business,South,1285.96,11/16/2024,8,Low
+CUST-655,William Miller,Mid-Market,East,5526.52,2024-11-17,31,High
+CUST-656,Liam Williams,Small Business,North,"$13,085.59",17/11/2024,21,Low
+CUST-657,Emma Rodriguez,Enterprise,South,"$7,767.04",11/17/2024,2,High
+CUST-658,William Brown,Mid-Market,East,2682.11,2024-11-18,22,High
+CUST-659,Ava Garcia,Startup,South,5760.29,11/18/2024,8,Low
+CUST-660,Emma Rodriguez,Mid-Market,East,8555.95,18/11/2024,23,Low
+CUST-661,Lucas Martinez,Small Business,East,"$8,865.19",2024-11-18,32,Low
+CUST-662,Noah Miller,Mid-Market,South,"$7,538.48",19/11/2024,8,High
+CUST-663,Olivia Martinez,Enterprise,North,"$13,702.08",19/11/2024,4,Low
+CUST-664,Lucas Johnson,Small Business,West,"$13,666.71",2024-11-19,30,Low
+CUST-665,Lucas Brown,Enterprise,East,6022.32,2024-11-20,19,Low
+CUST-666,Olivia Smith,Small Business,West,"$4,052.14",2024-11-20,23,Low
+CUST-667,Isabella Williams,Enterprise,North,7069.15,11-20-2024,18,High
+CUST-668,Noah Jones,Startup,West,11481.94,2024-11-21,29,Medium
+CUST-669,Emma Brown,Mid-Market,West,$436.84,2024-11-21,23,High
+CUST-670,James Rodriguez,Enterprise,South,31781.61,2024-11-21,33,Low
+CUST-671,James Garcia,Enterprise,South,1712.91,2024-11-21,18 units,Low
+CUST-672,Lucas Williams,Startup,North,"$4,529.76",11/22/2024,44,High
+CUST-673,Isabella Smith,Small Business,South,13763.72,11-22-2024,33,Low
+CUST-674,Lucas Williams,Small Business,East,2057.14,22/11/2024,7,High
+CUST-675,Ava Garcia,Mid-Market,North,4610.59,2024-11-23,28,Low
+CUST-676,Isabella Garcia,Mid-Market,South,"$1,324.52",11/23/2024,1,Low
+CUST-677,Isabella Brown,Enterprise,South,3667.24,11/23/2024,39,Medium
+CUST-678,Isabella Garcia,Mid-Market,North,1667.26,11/24/2024,34,High
+CUST-679,William Martinez,Enterprise,East,"$3,337.82",24/11/2024,39,High
+CUST-680,Olivia Davis,Startup,North,3439.07,2024-11-24,19,Low
+CUST-681,Ethan Johnson,Small Business,South,32812.55,11-25-2024,31,Low
+CUST-682,Lucas Rodriguez,Mid-Market,South,34600.44,11-25-2024,13,Medium
+CUST-683,Ethan Jones,Enterprise,North,"$1,192.52",11/25/2024,24,Medium
+CUST-684,James Garcia,Small Business,East,8814.34,25/11/2024,5,Medium
+CUST-685,Mia Smith,Enterprise,East,$745.36,26/11/2024,23,Low
+CUST-686,Emma Smith,Enterprise,West,$599.27,26/11/2024,19,High
+CUST-687,Noah Johnson,Enterprise,East,"$1,123.48",11-26-2024,1 units,Medium
+CUST-688,Ava Martinez,Mid-Market,North,"$22,281.47",11/27/2024,33,Medium
+CUST-689,Olivia Smith,Small Business,East,"$18,781.40",2024-11-27,33,Low
+CUST-690,Lucas Davis,Mid-Market,East,"$1,801.28",11-27-2024,32,Low
+CUST-691,Noah Johnson,Enterprise,West,1546.25,11/28/2024,28,High
+CUST-692,Mia Smith,Mid-Market,East,"$2,188.42",11/28/2024,37,Medium
+CUST-693,Lucas Smith,Small Business,West,"$5,110.78",2024-11-28,41,High
+CUST-694,Isabella Garcia,Enterprise,West,5881.34,2024-11-29,12,High
+CUST-695,Sophia Jones,Enterprise,East,2028.29,2024-11-29,9,Medium
+CUST-696,Emma Johnson,Startup,South,9585.43,29/11/2024,11,Low
+CUST-697,Ethan Jones,Startup,North,"$2,807.71",2024-11-29,33,Low
+CUST-698,Noah Miller,Startup,North,"$16,992.75",11/30/2024,19,Low
+CUST-699,Sophia Johnson,Small Business,East,"$7,349.91",2024-11-30,42,Low
+CUST-700,William Smith,Enterprise,North,"$4,126.61",11/30/2024,34,Low
+CUST-701,Noah Brown,Enterprise,North,"$10,541.49",12-01-2024,7,Low
+CUST-702,Isabella Williams,Mid-Market,West,"$11,471.32",01/12/2024,31 units,Low
+CUST-703,Emma Martinez,Mid-Market,South,"$2,630.60",12-01-2024,2,Low
+CUST-704,Emma Brown,Startup,North,"$3,098.04",12-02-2024,19,Low
+CUST-705,Emma Brown,Small Business,South,18263.12,12/02/2024,38,Low
+CUST-706,Liam Rodriguez,Small Business,North,"$1,570.09",12-02-2024,32,Low
+CUST-707,Lucas Williams,Enterprise,South,$679.92,12/02/2024,10,Medium
+CUST-708,Mia Rodriguez,Startup,South,4334.04,2024-12-03,41,Low
+CUST-709,Lucas Garcia,Small Business,North,10900.79,2024-12-03,8,Low
+CUST-710,Olivia Jones,Enterprise,West,"$10,000.21",12/03/2024,26,Medium
+CUST-711,Mia Williams,Startup,South,16779.21,2024-12-04,30,Medium
+CUST-712,Emma Williams,Mid-Market,South,5352.06,04/12/2024,11,Low
+CUST-713,Isabella Miller,Enterprise,North,"$1,085.31",12-04-2024,41,Medium
+CUST-714,Mia Smith,Small Business,South,6174.64,05/12/2024,20,High
+CUST-715,Lucas Rodriguez,Small Business,South,10194.6,12-05-2024,20,Medium
+CUST-716,Isabella Williams,Enterprise,West,"$1,036.84",2024-12-05,9,Low
+CUST-717,Liam Davis,Mid-Market,South,"$1,631.99",06/12/2024,8,Medium
+CUST-718,Olivia Davis,Startup,West,480.38,2024-12-06,15,Low
+CUST-719,Noah Williams,Small Business,South,6253.55,12-06-2024,34,Medium
+CUST-720,Olivia Brown,Small Business,South,"$14,557.13",12/06/2024,24,High
+CUST-721,Mia Garcia,Enterprise,West,"$7,619.39",12/07/2024,33,Low
+CUST-722,Lucas Rodriguez,Enterprise,West,"$26,527.49",07/12/2024,41,High
+CUST-723,Sophia Williams,Mid-Market,East,823.2,2024-12-07,41,Low
+CUST-724,Liam Williams,Enterprise,South,15564.86,2024-12-08,40,High
+CUST-725,Isabella Martinez,Enterprise,West,"$11,335.44",08/12/2024,27,Medium
+CUST-726,Emma Smith,Enterprise,South,2851.99,12/08/2024,21,Low
+CUST-727,William Martinez,Mid-Market,South,24005.48,12-09-2024,5,Medium
+CUST-728,James Brown,Mid-Market,South,"$2,607.33",09/12/2024,35,Low
+CUST-729,Liam Jones,Small Business,North,"$14,706.33",12-09-2024,21,Low
+CUST-730,Isabella Rodriguez,Enterprise,East,14222.39,12/09/2024,4,Medium
+CUST-731,Isabella Davis,Mid-Market,North,9613.12,2024-12-10,16,Low
+CUST-732,Isabella Rodriguez,Enterprise,East,5787.85,12/10/2024,31,Medium
+CUST-733,Noah Davis,Mid-Market,South,1230.94,10/12/2024,26,Low
+CUST-734,Olivia Jones,Enterprise,South,"$5,334.97",2024-12-11,35,Low
+CUST-735,Isabella Williams,Startup,West,3268.41,11/12/2024,6,High
+CUST-736,Noah Williams,Small Business,East,10613.2,11/12/2024,33,Low
+CUST-737,Noah Jones,Mid-Market,East,"$9,625.79",12/12/2024,21,Medium
+CUST-738,Sophia Rodriguez,Enterprise,North,"$16,096.03",12/12/2024,16,Medium
+CUST-739,James Martinez,Mid-Market,East,$497.12,12/12/2024,39 units,Medium
+CUST-740,Sophia Smith,Small Business,South,"$11,164.15",2024-12-13,34,High
+CUST-741,Sophia Johnson,Enterprise,West,"$18,522.66",12/13/2024,42,Medium
+CUST-742,Mia Williams,Mid-Market,North,"$10,522.59",2024-12-13,15,Low
+CUST-743,Ava Garcia,Small Business,West,"$1,306.66",12/13/2024,6,High
+CUST-744,Sophia Brown,Small Business,East,$951.02,12-14-2024,2,Low
+CUST-745,Noah Johnson,Small Business,East,536.93,12-14-2024,24,Low
+CUST-746,Ava Martinez,Startup,North,6840.63,14/12/2024,28,High
+CUST-747,Mia Martinez,Startup,East,6856.89,12/15/2024,1 units,Medium
+CUST-748,Lucas Martinez,Mid-Market,West,28585.24,12/15/2024,1,Medium
+CUST-749,Sophia Miller,Mid-Market,South,3699.2,2024-12-15,28,Medium
+CUST-750,Isabella Smith,Small Business,North,"$3,021.62",16/12/2024,36,Medium
+CUST-751,Noah Miller,Small Business,East,6765.43,12/16/2024,20,High
+CUST-752,James Johnson,Startup,West,11751.95,16/12/2024,8,Low
+CUST-753,Ethan Williams,Enterprise,South,18346.75,12-16-2024,1,Low
+CUST-754,Sophia Miller,Mid-Market,East,10963.68,12/17/2024,26,Low
+CUST-755,Ethan Jones,Mid-Market,North,"$4,015.95",12/17/2024,43,Medium
+CUST-756,Olivia Johnson,Mid-Market,East,"$6,949.55",17/12/2024,25,Low
+CUST-757,Liam Jones,Enterprise,East,"$13,010.15",12/18/2024,10,Low
+CUST-758,William Johnson,Small Business,East,4784.51,18/12/2024,12,Low
+CUST-759,Olivia Smith,Enterprise,South,1987.45,12/18/2024,41,High
+CUST-760,Olivia Miller,Small Business,South,"$1,608.98",2024-12-19,7,Medium
+CUST-761,Isabella Williams,Small Business,East,401.03,19/12/2024,12 units,Low
+CUST-762,Ava Davis,Mid-Market,East,8633.5,12/19/2024,40,Low
+CUST-763,Sophia Garcia,Mid-Market,North,"$1,165.49",12-20-2024,17,Low
+CUST-764,James Jones,Small Business,East,"$2,216.76",12/20/2024,5,Low
+CUST-765,Liam Martinez,Small Business,West,"$2,698.70",12-20-2024,14,Low
+CUST-766,James Davis,Startup,West,"$5,741.99",12-20-2024,34,High
+CUST-767,Lucas Miller,Startup,North,"$3,698.27",2024-12-21,17,High
+CUST-768,Isabella Martinez,Startup,South,"$7,699.03",21/12/2024,35,Low
+CUST-769,Ava Martinez,Mid-Market,East,$772.10,12/21/2024,1,Low
+CUST-770,Olivia Garcia,Startup,North,"$1,260.08",2024-12-22,36,Low
+CUST-771,Ethan Williams,Small Business,South,4895.21,12/22/2024,15 units,Low
+CUST-772,Ethan Brown,Startup,North,"$3,071.03",12-22-2024,19,Low
+CUST-773,Noah Miller,Enterprise,South,2679.63,23/12/2024,42,Low
+CUST-774,Sophia Martinez,Startup,East,850.97,12/23/2024,5,Low
+CUST-775,Mia Davis,Mid-Market,North,15094.34,12/23/2024,19,Medium
+CUST-776,Mia Williams,Small Business,East,"$8,050.93",12-23-2024,43,Medium
+CUST-777,Ava Garcia,Enterprise,North,"$1,242.88",12/24/2024,39,Medium
+CUST-778,Lucas Rodriguez,Mid-Market,South,837.18,12/24/2024,5,Low
+CUST-779,Ava Martinez,Mid-Market,North,24344.66,12-24-2024,12,High
+CUST-780,Isabella Brown,Mid-Market,West,7830.18,2024-12-25,19,High
+CUST-781,Noah Davis,Enterprise,West,"$3,912.28",12-25-2024,12 units,Low
+CUST-782,James Garcia,Small Business,North,"$8,263.44",2024-12-25,36 units,Low
+CUST-783,Olivia Jones,Enterprise,West,9577.66,26/12/2024,12,Low
+CUST-784,William Jones,Mid-Market,East,10240.71,2024-12-26,18 units,Low
+CUST-785,Emma Davis,Enterprise,West,4624.04,2024-12-26,43,Low
+CUST-786,Emma Brown,Mid-Market,West,4052.44,27/12/2024,34,Medium
+CUST-787,Isabella Jones,Mid-Market,East,$472.08,2024-12-27,33,Low
+CUST-788,James Garcia,Mid-Market,East,17373.11,12-27-2024,18,Low
+CUST-789,Emma Jones,Mid-Market,South,"$6,409.87",2024-12-27,29 units,Low
+CUST-790,Sophia Davis,Small Business,East,"$1,876.11",28/12/2024,5,High
+CUST-791,Ethan Garcia,Enterprise,North,16785.09,12-28-2024,25,Low
+CUST-792,Noah Brown,Enterprise,West,16417.97,28/12/2024,24,Medium
+CUST-793,Emma Johnson,Enterprise,South,"$29,823.84",29/12/2024,29,Low
+CUST-794,Lucas Jones,Startup,East,"$13,867.50",12/29/2024,38,Low
+CUST-795,Lucas Smith,Mid-Market,West,40129.47,12/29/2024,33,Medium
+CUST-796,James Jones,Mid-Market,North,"$2,224.04",30/12/2024,10,Low
+CUST-797,Emma Davis,Enterprise,North,12403.82,30/12/2024,37,Low
+CUST-798,Liam Smith,Mid-Market,South,"$11,656.48",30/12/2024,33,Low
+CUST-799,Emma Martinez,Enterprise,North,2106.81,12/31/2024,23,Medium
